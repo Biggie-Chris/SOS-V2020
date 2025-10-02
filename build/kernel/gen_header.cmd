@@ -1,0 +1,1 @@
+regen /home/chris/Desktop/AOS_project/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h /home/chris/Desktop/AOS_project/SOS-V2020/build/kernel/kernel.dtb;/home/chris/Desktop/AOS_project/SOS-V2020/kernel/tools/hardware.yml;/home/chris/Desktop/AOS_project/SOS-V2020/kernel/tools/hardware_schema.yml;/home/chris/Desktop/AOS_project/SOS-V2020/kernel/tools/hardware_gen.py

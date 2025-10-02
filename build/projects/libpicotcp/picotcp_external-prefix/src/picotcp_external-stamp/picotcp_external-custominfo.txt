@@ -1,0 +1,9 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=custom
+command=rsync;-qur;--exclude='.git';/home/chris/Desktop/AOS_project/SOS-V2020/projects/picotcp;<SOURCE_DIR>
+source_dir=/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external
+work_dir=/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src
+
