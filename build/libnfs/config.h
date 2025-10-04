@@ -46,7 +46,7 @@
 #define HAVE_SOCKADDR_STORAGE
 
 /* Whether our sockets support SO_BINDTODEVICE */
-#define HAVE_SO_BINDTODEVICE
+/* #undef HAVE_SO_BINDTODEVICE */
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H
@@ -108,7 +108,7 @@
 
 /* Define to 1 if `major', `minor', and `makedev' are declared in
    <sysmacros.h>. */
-#define MAJOR_IN_SYSMACROS
+/* #undef MAJOR_IN_SYSMACROS */
 
 /* Enable large inode numbers on Mac OS X 10.5.  */
 #ifndef _DARWIN_USE_64_BIT_INODE

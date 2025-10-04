@@ -112,7 +112,7 @@ add_executable(
     # GRP01: the rest
     src/mallocts.c
 )
-target_include_directories(sos PRIVATE "include" "../libsosapi/include")
+target_include_directories(sos PRIVATE "include" "../libsosapi/include" "${CMAKE_BINARY_DIR}/kernel/autoconf")
 target_link_libraries(
     sos
     sel4_autoconf

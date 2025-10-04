@@ -1,13 +1,13 @@
 # Target labels
  picotcp_external
 # Source files and their labels
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external-complete.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-build.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-configure.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-download.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-install.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-mkdir.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-patch.rule
-/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-update.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external-complete.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-build.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-configure.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-download.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-install.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-mkdir.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-patch.rule
+/home/ric/projects/learnmicroos/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-update.rule

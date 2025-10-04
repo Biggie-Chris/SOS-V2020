@@ -1,7 +1,7 @@
 set(CMAKE_C_COMPILER "/usr/bin/aarch64-linux-gnu-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "9.5.0")
+set(CMAKE_C_COMPILER_VERSION "11.4.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "17")
@@ -22,9 +22,9 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "/usr/bin/aarch64-linux-gnu-ar")
-set(CMAKE_C_COMPILER_AR "/usr/bin/aarch64-linux-gnu-gcc-ar-9")
+set(CMAKE_C_COMPILER_AR "/usr/bin/aarch64-linux-gnu-gcc-ar-11")
 set(CMAKE_RANLIB "/usr/bin/aarch64-linux-gnu-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/usr/bin/aarch64-linux-gnu-gcc-ranlib-9")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11")
 set(CMAKE_LINKER "/usr/bin/aarch64-linux-gnu-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
@@ -66,7 +66,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc-cross/aarch64-linux-gnu/9/include;/usr/aarch64-linux-gnu/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/aarch64-linux-gnu/11/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

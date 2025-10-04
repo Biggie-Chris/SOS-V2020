@@ -1,1 +1,0 @@
-#define IMAGE_START_ADDR 0x1a0d000

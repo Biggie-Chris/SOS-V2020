@@ -1,10 +1,10 @@
 Determining if the include file sys/filio.h exists failed with the following output:
-Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_89449 && [1/2] Building C object CMakeFiles/cmTC_89449.dir/CheckIncludeFile.c.obj
-FAILED: CMakeFiles/cmTC_89449.dir/CheckIncludeFile.c.obj 
-/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp   -DCONFIG_ARM_TLS_REG_TPIDRU=1 -fPIC -fvisibility=hidden  -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_89449.dir/CheckIncludeFile.c.obj -c /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/filio.h: No such file or directory
+Run Build Command(s):/usr/bin/ninja cmTC_7a9b9 && [1/2] Building C object CMakeFiles/cmTC_7a9b9.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_7a9b9.dir/CheckIncludeFile.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp   -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_7a9b9.dir/CheckIncludeFile.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/filio.h: No such file or directory
     1 | #include <sys/filio.h>
       |          ^~~~~~~~~~~~~
 compilation terminated.
@@ -13,15 +13,15 @@ ninja: build stopped: subcommand failed.
 
 
 Performing C SOURCE FILE Test HAVE_SOCKADDR_LEN failed with the following output:
-Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_9fb77 && [1/2] Building C object CMakeFiles/cmTC_9fb77.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_9fb77.dir/src.c.obj 
-/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -DHAVE_SOCKADDR_LEN  -DCONFIG_ARM_TLS_REG_TPIDRU=1 -fPIC -fvisibility=hidden  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_9fb77.dir/src.c.obj -c /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
-/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:6:38: error: ‘struct sockaddr’ has no member named ‘sa_len’
-    6 |   (void)sizeof(((struct sockaddr *)0)->sa_len);
-      |                                      ^~
+Run Build Command(s):/usr/bin/ninja cmTC_ea77b && [1/2] Building C object CMakeFiles/cmTC_ea77b.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_ea77b.dir/src.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp -DHAVE_SOCKADDR_LEN  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_ea77b.dir/src.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: sys/socket.h: No such file or directory
+    2 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
 ninja: build stopped: subcommand failed.
 
 
@@ -35,22 +35,133 @@ int main()
   return 0;
 }
 
-Determining if the makedev exist failed with the following output:
-Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test HAVE_SO_BINDTODEVICE failed with the following output:
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_da71c && [1/2] Building C object CMakeFiles/cmTC_da71c.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_da71c.dir/CheckSymbolExists.c.obj 
-/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp   -DCONFIG_ARM_TLS_REG_TPIDRU=1 -fPIC -fvisibility=hidden  -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_da71c.dir/CheckSymbolExists.c.obj -c /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/mkdev.h: No such file or directory
+Run Build Command(s):/usr/bin/ninja cmTC_1c011 && [1/2] Building C object CMakeFiles/cmTC_1c011.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_1c011.dir/src.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp -DHAVE_SO_BINDTODEVICE  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_1c011.dir/src.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: net/if.h: No such file or directory
+    1 | #include <net/if.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <net/if.h>
+                         int main(void)
+                         {
+                           int i = SO_BINDTODEVICE;
+                         }
+Performing C SOURCE FILE Test NO_LFS_REQUIRED failed with the following output:
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_01b96 && [1/2] Building C object CMakeFiles/cmTC_01b96.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_01b96.dir/src.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp -DNO_LFS_REQUIRED  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_01b96.dir/src.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: sys/types.h: No such file or directory
+    1 | #include <sys/types.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <sys/types.h>
+                         #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                         int main()
+                         {
+                           return 0;
+                         }
+Performing C SOURCE FILE Test _FILE_OFFSET_BITS failed with the following output:
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9faaf && [1/2] Building C object CMakeFiles/cmTC_9faaf.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_9faaf.dir/src.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp -D_FILE_OFFSET_BITS  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_9faaf.dir/src.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: sys/types.h: No such file or directory
+    1 | #include <sys/types.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <sys/types.h>
+                           #define _FILE_OFFSET_BITS 64
+                           #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                           int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                           int main()
+                           {
+                             return 0;
+                           }
+Performing C SOURCE FILE Test _LARGE_FILES failed with the following output:
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6152c && [1/2] Building C object CMakeFiles/cmTC_6152c.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_6152c.dir/src.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp -D_LARGE_FILES  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_6152c.dir/src.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: sys/types.h: No such file or directory
+    1 | #include <sys/types.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <sys/types.h>
+                           #define _LARGE_FILES 1
+                           #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                           int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                           int main()
+                           {
+                             return 0;
+                           }
+Determining if the makedev exist failed with the following output:
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d65d2 && [1/2] Building C object CMakeFiles/cmTC_d65d2.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_d65d2.dir/CheckSymbolExists.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp   -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_d65d2.dir/CheckSymbolExists.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/mkdev.h: No such file or directory
     2 | #include <sys/mkdev.h>
       |          ^~~~~~~~~~~~~
 compilation terminated.
 ninja: build stopped: subcommand failed.
 
 
-File /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/mkdev.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef makedev
+  return ((int*)(&makedev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the makedev exist failed with the following output:
+Change Dir: /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_93de9 && [1/2] Building C object CMakeFiles/cmTC_93de9.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_93de9.dir/CheckSymbolExists.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp   -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_93de9.dir/CheckSymbolExists.c.obj -c /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/sysmacros.h: No such file or directory
+    2 | #include <sys/sysmacros.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/ric/projects/learnmicroos/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysmacros.h>
 
 int main(int argc, char** argv)
 {

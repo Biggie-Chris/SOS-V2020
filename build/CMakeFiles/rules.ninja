@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__kernel_all_pp_prune_wrapper_temp_lib_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -35,7 +35,7 @@ rule C_COMPILER__kernel_all_pp_prune_wrapper_temp_lib_RelWithDebInfo
 rule C_COMPILER__kernel_bf_gen_target_1_pbf_temp_lib_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -45,7 +45,7 @@ rule C_COMPILER__kernel_bf_gen_target_1_pbf_temp_lib_RelWithDebInfo
 rule C_COMPILER__kernel_bf_gen_target_11_pbf_temp_lib_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -55,7 +55,7 @@ rule C_COMPILER__kernel_bf_gen_target_11_pbf_temp_lib_RelWithDebInfo
 rule C_COMPILER__kernel_i_wrapper_temp_lib_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -65,7 +65,7 @@ rule C_COMPILER__kernel_i_wrapper_temp_lib_RelWithDebInfo
 rule C_COMPILER__linker_ld_wrapper_temp_lib_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -75,7 +75,7 @@ rule C_COMPILER__linker_ld_wrapper_temp_lib_RelWithDebInfo
 rule ASM_COMPILER__kernel.2eelf_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -85,7 +85,7 @@ rule ASM_COMPILER__kernel.2eelf_RelWithDebInfo
 rule C_COMPILER__kernel.2eelf_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -93,7 +93,7 @@ rule C_COMPILER__kernel.2eelf_RelWithDebInfo
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__kernel.2eelf_RelWithDebInfo
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -104,7 +104,7 @@ rule C_EXECUTABLE_LINKER__kernel.2eelf_RelWithDebInfo
 rule ASM_COMPILER__elfloader_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -114,7 +114,7 @@ rule ASM_COMPILER__elfloader_Debug
 rule C_COMPILER__elfloader_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -122,7 +122,7 @@ rule C_COMPILER__elfloader_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__elfloader_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -133,7 +133,7 @@ rule C_EXECUTABLE_LINKER__elfloader_Debug
 rule C_COMPILER__libsel4_shared_types_gen_pbf_temp_lib_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -143,7 +143,7 @@ rule C_COMPILER__libsel4_shared_types_gen_pbf_temp_lib_Debug
 rule C_COMPILER__libsel4_sel4_arch_types_gen_pbf_temp_lib_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -153,7 +153,7 @@ rule C_COMPILER__libsel4_sel4_arch_types_gen_pbf_temp_lib_Debug
 rule C_COMPILER__sel4_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -172,7 +172,7 @@ rule C_STATIC_LIBRARY_LINKER__sel4_Debug
 rule C_COMPILER__tty_test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -180,7 +180,7 @@ rule C_COMPILER__tty_test_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__tty_test_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/chris/Desktop/SOS-V2020/build/lib/crt0.o /home/chris/Desktop/SOS-V2020/build/lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtend.o /home/chris/Desktop/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crt0.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -191,7 +191,7 @@ rule C_EXECUTABLE_LINKER__tty_test_Debug
 rule C_COMPILER__sosh_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -199,7 +199,7 @@ rule C_COMPILER__sosh_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sosh_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/chris/Desktop/SOS-V2020/build/lib/crt0.o /home/chris/Desktop/SOS-V2020/build/lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtend.o /home/chris/Desktop/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crt0.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -210,7 +210,7 @@ rule C_EXECUTABLE_LINKER__sosh_Debug
 rule C_COMPILER__hello_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -218,7 +218,7 @@ rule C_COMPILER__hello_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__hello_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/chris/Desktop/SOS-V2020/build/lib/crt0.o /home/chris/Desktop/SOS-V2020/build/lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtend.o /home/chris/Desktop/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crt0.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -229,7 +229,7 @@ rule C_EXECUTABLE_LINKER__hello_Debug
 rule C_COMPILER__cuckoo_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -237,7 +237,7 @@ rule C_COMPILER__cuckoo_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__cuckoo_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/chris/Desktop/SOS-V2020/build/lib/crt0.o /home/chris/Desktop/SOS-V2020/build/lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtend.o /home/chris/Desktop/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crt0.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -248,7 +248,7 @@ rule C_EXECUTABLE_LINKER__cuckoo_Debug
 rule C_COMPILER__sos_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -256,7 +256,7 @@ rule C_COMPILER__sos_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sos_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/chris/Desktop/SOS-V2020/build/lib/crt0.o /home/chris/Desktop/SOS-V2020/build/lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc-cross/aarch64-linux-gnu/9/crtend.o /home/chris/Desktop/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build  $FLAGS $LINK_FLAGS /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crt0.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o $in -Wl,--start-group         -lgcc -lgcc_eh $LINK_PATH $LINK_LIBRARIES -Wl,--end-group /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /home/ric/projects/learnmicroos/SOS-V2020/build/lib/crtn.o -o $TARGET_FILE && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -267,7 +267,7 @@ rule C_EXECUTABLE_LINKER__sos_Debug
 rule C_COMPILER__aos_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -286,7 +286,7 @@ rule C_STATIC_LIBRARY_LINKER__aos_Debug
 rule C_COMPILER__clock_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -305,7 +305,7 @@ rule C_STATIC_LIBRARY_LINKER__clock_Debug
 rule C_COMPILER__ethernet_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -324,7 +324,7 @@ rule C_STATIC_LIBRARY_LINKER__ethernet_Debug
 rule C_COMPILER__sel4cspace_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -343,7 +343,7 @@ rule C_STATIC_LIBRARY_LINKER__sel4cspace_Debug
 rule C_COMPILER__serial_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -362,7 +362,7 @@ rule C_STATIC_LIBRARY_LINKER__serial_Debug
 rule C_COMPILER__sosapi_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -381,7 +381,7 @@ rule C_STATIC_LIBRARY_LINKER__sosapi_Debug
 rule C_COMPILER__cpio_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -400,7 +400,7 @@ rule C_STATIC_LIBRARY_LINKER__cpio_Debug
 rule C_COMPILER__elf_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -419,7 +419,7 @@ rule C_STATIC_LIBRARY_LINKER__elf_Debug
 rule C_COMPILER__grp01util_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -438,7 +438,7 @@ rule C_STATIC_LIBRARY_LINKER__grp01util_Debug
 rule C_COMPILER__core_mount_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -457,7 +457,7 @@ rule C_STATIC_LIBRARY_LINKER__core_mount_Debug
 rule C_COMPILER__core_nfs_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -476,7 +476,7 @@ rule C_STATIC_LIBRARY_LINKER__core_nfs_Debug
 rule C_COMPILER__core_nfs4_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -495,7 +495,7 @@ rule C_STATIC_LIBRARY_LINKER__core_nfs4_Debug
 rule C_COMPILER__core_nlm_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -514,7 +514,7 @@ rule C_STATIC_LIBRARY_LINKER__core_nlm_Debug
 rule C_COMPILER__core_nsm_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -533,7 +533,7 @@ rule C_STATIC_LIBRARY_LINKER__core_nsm_Debug
 rule C_COMPILER__core_portmap_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -552,7 +552,7 @@ rule C_STATIC_LIBRARY_LINKER__core_portmap_Debug
 rule C_COMPILER__core_rquota_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -571,7 +571,7 @@ rule C_STATIC_LIBRARY_LINKER__core_rquota_Debug
 rule C_COMPILER__nfs_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -590,7 +590,7 @@ rule C_STATIC_LIBRARY_LINKER__nfs_Debug
 rule C_COMPILER__picotcp_bsd_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -609,7 +609,7 @@ rule C_STATIC_LIBRARY_LINKER__picotcp_bsd_Debug
 rule C_COMPILER__sel4sync_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -628,7 +628,7 @@ rule C_STATIC_LIBRARY_LINKER__sel4sync_Debug
 rule C_COMPILER__utils_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -647,7 +647,7 @@ rule C_STATIC_LIBRARY_LINKER__utils_Debug
 rule ASM_COMPILER__sel4runtime_crt_obj_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -657,7 +657,7 @@ rule ASM_COMPILER__sel4runtime_crt_obj_Debug
 rule ASM_COMPILER__sel4runtime_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -667,7 +667,7 @@ rule ASM_COMPILER__sel4runtime_Debug
 rule C_COMPILER__sel4runtime_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/ric/projects/learnmicroos/SOS-V2020/build $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -684,7 +684,7 @@ rule C_STATIC_LIBRARY_LINKER__sel4runtime_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/chris/Desktop/SOS-V2020 -B/home/chris/Desktop/SOS-V2020/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/ric/projects/learnmicroos/SOS-V2020 -B/home/ric/projects/learnmicroos/SOS-V2020/build
   description = Re-running CMake...
   generator = 1
 

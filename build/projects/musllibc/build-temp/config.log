@@ -39,7 +39,7 @@ checking whether compiler accepts -Wno-unused-but-set-variable... yes
 checking whether compiler accepts -Wno-unknown-pragmas... yes
 checking whether compiler accepts -Wno-pointer-to-int-cast... yes
 checking whether global visibility preinclude works... yes
-checking preprocessor condition __PIC__... true
+checking preprocessor condition __PIC__... false
 checking whether linker accepts -Wl,--sort-section,alignment... yes
 checking whether linker accepts -Wl,--sort-common... yes
 checking whether linker accepts -Wl,--gc-sections... yes

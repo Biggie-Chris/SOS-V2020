@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/Desktop/SOS-V2020/libnfs
+# Install script for directory: /home/ric/projects/learnmicroos/SOS-V2020/libnfs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/SOS-V2020/build/staging")
+  set(CMAKE_INSTALL_PREFIX "/home/ric/projects/learnmicroos/SOS-V2020/build/staging")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/chris/Desktop/SOS-V2020/libnfs/include/nfsc")
+  file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/include/nfsc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,12 +59,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/usr/local/include/nfsc" TYPE FILE FILES
-    "/home/chris/Desktop/SOS-V2020/libnfs/mount/libnfs-raw-mount.h"
-    "/home/chris/Desktop/SOS-V2020/libnfs/nfs/libnfs-raw-nfs.h"
-    "/home/chris/Desktop/SOS-V2020/libnfs/nlm/libnfs-raw-nlm.h"
-    "/home/chris/Desktop/SOS-V2020/libnfs/nsm/libnfs-raw-nsm.h"
-    "/home/chris/Desktop/SOS-V2020/libnfs/portmap/libnfs-raw-portmap.h"
-    "/home/chris/Desktop/SOS-V2020/libnfs/rquota/libnfs-raw-rquota.h"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/mount/libnfs-raw-mount.h"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/nfs/libnfs-raw-nfs.h"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/nlm/libnfs-raw-nlm.h"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/nsm/libnfs-raw-nsm.h"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/portmap/libnfs-raw-portmap.h"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/rquota/libnfs-raw-rquota.h"
     )
 endif()
 
@@ -78,8 +78,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/usr/local/lib/cmake/libnfs" TYPE FILE FILES
-    "/home/chris/Desktop/SOS-V2020/libnfs/cmake/FindNFS.cmake"
-    "/home/chris/Desktop/SOS-V2020/build/libnfs/libnfs-config-version.cmake"
+    "/home/ric/projects/learnmicroos/SOS-V2020/libnfs/cmake/FindNFS.cmake"
+    "/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/libnfs-config-version.cmake"
     )
 endif()
 
@@ -92,19 +92,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/chris/Desktop/SOS-V2020/build/libnfs/libnfs.pc")
+  file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/libnfs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/mount/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/nfs/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/nfs4/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/nlm/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/nsm/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/portmap/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/rquota/cmake_install.cmake")
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/lib/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/mount/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/nfs/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/nfs4/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/nlm/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/nsm/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/portmap/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/rquota/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/lib/cmake_install.cmake")
 
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/Desktop/SOS-V2020/projects/libnfs
+# Install script for directory: /home/ric/projects/learnmicroos/SOS-V2020/projects/libnfs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/SOS-V2020/build/staging")
+  set(CMAKE_INSTALL_PREFIX "/home/ric/projects/learnmicroos/SOS-V2020/build/staging")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Desktop/SOS-V2020/build/libnfs/cmake_install.cmake")
+  include("/home/ric/projects/learnmicroos/SOS-V2020/build/libnfs/cmake_install.cmake")
 
 endif()
 
