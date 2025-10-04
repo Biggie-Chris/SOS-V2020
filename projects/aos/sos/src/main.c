@@ -251,7 +251,7 @@ finish:
     // reply object
     return handler_ret;
 }
-
+/*此函数就是负责接收和处理这些故障消息的*/
 void handle_fault(seL4_Word badge, seL4_MessageInfo_t message, seL4_CPtr reply)
 {
     seL4_Fault_tag_t fault = seL4_MessageInfo_get_label(message);
@@ -315,7 +315,7 @@ void handle_fault(seL4_Word badge, seL4_MessageInfo_t message, seL4_CPtr reply)
         }
     }
 }
-
+//一旦 main_continued 函数调用它，整个系统就进入了这个无限循环。它的唯一工作就是等待事件，然后分发事件
 NORETURN void syscall_loop(seL4_CPtr ep)
 {
     // cons == prod     : empty
@@ -377,7 +377,7 @@ NORETURN void syscall_loop(seL4_CPtr ep)
         }
     }
 }
-
+//此函数就是将这个用完的 reply 句柄重新放回池中。
 void sos_reuse_reply(seL4_CPtr reply)
 {
     assert_main_thread();
@@ -390,6 +390,10 @@ void sos_reuse_reply(seL4_CPtr reply)
  * Note that these objects will never be freed, so we do not
  * track the allocated ut objects anywhere
  */
+/*
+此函数负责创建 SOS 操作系统赖以生存的两个核心通信渠道。同步进程间通信
+异步硬件中断
+*/
 static void sos_ipc_init(seL4_CPtr *ipc_ep, seL4_CPtr *ntfn)
 {
     /* Create an notification object for interrupts */
@@ -405,13 +409,18 @@ static void sos_ipc_init(seL4_CPtr *ipc_ep, seL4_CPtr *ntfn)
     ZF_LOGF_IF(!ut, "No memory for endpoint");
 }
 
-/* called by crt */
+/* called by crt
+用于返回一个极其重要的初始能力
+*/
 seL4_CPtr get_seL4_CapInitThreadTCB(void)
 {
     return seL4_CapInitThreadTCB;
 }
 
-/* tell muslc about our "syscalls", which will bve called by muslc on invocations to the c library */
+/* tell muslc about our "syscalls", which will bve called by muslc on invocations to the c library
+musl C库与系统调用桥接
+注册机制: init_muslc 的作用就是将这个函数指针表，指向我们自己在 sys/ 目录下实现的 sys_writev, sys_openat 等函数。
+*/
 void init_muslc(void)
 {
     muslcsys_install_syscall(__NR_set_tid_address, sys_set_tid_address);
@@ -449,6 +458,8 @@ void init_muslc(void)
     muslcsys_install_syscall(__NR_madvise, sys_madvise);
 }
 
+/*内核在执行某些任务（如加载 ELF 文件、从用户空间复制字符串）时，需要一个临时的、干净的虚拟内存区域来进行映射和数据处理，
+以避免污染内核自身的、结构严谨的地址空间。*/
 void scratchas_init(void)
 {
     // preallocate scratchas
@@ -458,11 +469,17 @@ void scratchas_init(void)
 
 void start_first_process(void* param)
 {
+    //核心职责 (是什么): 这是一个回调函数 (Callback)，它的唯一任务是调用真正的进程加载和启动函数 start_process_load_elf。
     seL4_Word pid = (proctable_t*)param - proctable;
     if(!start_process_load_elf(pid)) 
         ZF_LOGF("Failed to start initial process.");
 }
 
+/*
+分阶段、按依赖初始化: 严格遵循从底层（IPC、内存）到高层（文件系统、网络）的顺序，确保每个模块在初始化时，其所依赖的其他模块都已准备就绪。
+抽象与封装: 大量使用 ..._init() 函数，将每个模块的复杂初始化逻辑封装在其自己的源文件中，使得 main_continued 本身像一个清晰的“启动清单”。
+异步化: 将耗时的任务（启动第一个进程）异步化，让系统可以更快地进入服务状态。
+*/
 NORETURN void *main_continued(UNUSED void *arg)
 {
     main_ipc_buff = seL4_GetIPCBuffer();
@@ -556,7 +573,7 @@ int main(void)
 
     /* register the location of the unwind_tables -- this is required for
      * backtrace() to work */
-    __register_frame(&__eh_frame_start);
+    __register_frame(&__eh_frame_start); //为 C++ 的异常处理机制（栈回溯）注册信息。
 
     seL4_BootInfo *boot_info = sel4runtime_bootinfo();
 

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "sel4runtime.h": "c"
+        "sel4runtime.h": "c",
+        "assert.h": "c"
     }
 }
