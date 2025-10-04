@@ -53,6 +53,18 @@
 #include "utils.h"
 #include "threads.h"
 
+#ifndef CONFIG_SOS_STATIC_IP
+#define CONFIG_SOS_STATIC_IP "0.0.0.0"
+#endif
+
+#ifndef CONFIG_SOS_STATIC_NETMASK
+#define CONFIG_SOS_STATIC_NETMASK "255.255.255.0"
+#endif
+
+#ifndef CONFIG_SOS_STATIC_GATEWAY
+#define CONFIG_SOS_STATIC_GATEWAY "0.0.0.0"
+#endif
+
 
 #ifndef SOS_NFS_DIR
 #  ifdef CONFIG_SOS_NFS_DIR
@@ -243,6 +255,50 @@ void dhcp_callback(void *cli, int code)
     dhcp_status = DHCP_STATUS_FINISHED;
 }
 
+static void configure_static_ipv4(struct pico_device *dev)
+{
+    struct pico_ip4 ip = {0};
+    struct pico_ip4 netmask = {0};
+    struct pico_ip4 gateway = {0};
+    const char *netmask_str = CONFIG_SOS_STATIC_NETMASK;
+    bool custom_gateway = strcmp(CONFIG_SOS_STATIC_GATEWAY, "0.0.0.0") != 0;
+    const char *gateway_str = custom_gateway ? CONFIG_SOS_STATIC_GATEWAY : CONFIG_SOS_GATEWAY;
+    struct pico_ip4 any = {0};
+
+    ZF_LOGF_IF(strcmp(CONFIG_SOS_STATIC_IP, "0.0.0.0") == 0,
+        "Static IPv4 requested but CONFIG_SOS_STATIC_IP is 0.0.0.0");
+
+    ZF_LOGF_IF(pico_string_to_ipv4(CONFIG_SOS_STATIC_IP, &ip.addr) < 0,
+        "Invalid static IP address: %s", CONFIG_SOS_STATIC_IP);
+    ZF_LOGF_IF(pico_string_to_ipv4(netmask_str, &netmask.addr) < 0,
+        "Invalid static netmask: %s", netmask_str);
+
+    int err = pico_ipv4_link_add(dev, ip, netmask);
+    ZF_LOGF_IF(err != 0, "Failed to add static IPv4 link (err=%d)", err);
+
+    if (gateway_str && gateway_str[0]) {
+        ZF_LOGF_IF(pico_string_to_ipv4(gateway_str, &gateway.addr) < 0,
+            "Invalid static gateway: %s", gateway_str);
+        err = pico_ipv4_route_add(any, any, gateway, 1, NULL);
+        ZF_LOGF_IF(err != 0, "Failed to add static default route (err=%d)", err);
+    }
+
+    ip_octet = ((uint8_t *)&ip.addr)[3];
+    dhcp_status = DHCP_STATUS_FINISHED;
+
+    char ipstr[30];
+    pico_ipv4_to_string(ipstr, ip.addr);
+    int prefix_len = pico_ipv4_valid_netmask(netmask.addr);
+    if (prefix_len < 0) {
+        prefix_len = 0;
+    }
+    printf("Static IPv4 address %s/%d configured\n", ipstr, prefix_len);
+    if (gateway_str && gateway_str[0]) {
+        pico_ipv4_to_string(ipstr, gateway.addr);
+        printf("Static gateway %s\n", ipstr);
+    }
+}
+
 bool init_irq(seL4_Word irq, bool edge_triggered, seL4_IRQHandler* irqhdl, seL4_Word irq_id)
 {
     int err;
@@ -346,25 +402,34 @@ void network_init(cspace_t *cspace, void *timer_vaddr, seL4_CPtr irq_ntfn)
     error = pico_device_init(&pico_dev, "sos picotcp", mac_addr);
     ZF_LOGF_IF(error, "Failed to init picotcp");
 
-    /* Start DHCP negotiation */
-    uint32_t dhcp_xid;
-    error = pico_dhcp_initiate_negotiation(&pico_dev, dhcp_callback, &dhcp_xid);
-    ZF_LOGF_IF(error != 0, "Failed to initialise DHCP negotiation");
+    bool use_static_ip = false;
+#ifdef CONFIG_SOS_USE_STATIC_IP
+    use_static_ip = true;
+#endif
 
-    /* handle all interrupts until dhcp negotiation finished
-     * this is needed so we can receive and handle dhcp response */
-    puts("Handling IRQ for DHCP");
-    do {
-        seL4_Word badge;
-        seL4_Wait(netthrd.ntfn, &badge);
-        if(badge & IRQ_IDENT_BIT)
-            network_handle_irq(badge);
-        if (dhcp_status == DHCP_STATUS_ERR) {
-            ZF_LOGD("restarting dhcp negotiation");
-            error = pico_dhcp_initiate_negotiation(&pico_dev, dhcp_callback, &dhcp_xid);
-            ZF_LOGF_IF(error != 0, "Failed to initialise DHCP negotiation");
-        }
-    } while (dhcp_status != DHCP_STATUS_FINISHED);
+    if (use_static_ip) {
+        configure_static_ipv4(&pico_dev);
+    } else {
+        /* Start DHCP negotiation */
+        uint32_t dhcp_xid;
+        error = pico_dhcp_initiate_negotiation(&pico_dev, dhcp_callback, &dhcp_xid);
+        ZF_LOGF_IF(error != 0, "Failed to initialise DHCP negotiation");
+
+        /* handle all interrupts until dhcp negotiation finished
+         * this is needed so we can receive and handle dhcp response */
+        puts("Handling IRQ for DHCP");
+        do {
+            seL4_Word badge;
+            seL4_Wait(netthrd.ntfn, &badge);
+            if(badge & IRQ_IDENT_BIT)
+                network_handle_irq(badge);
+            if (dhcp_status == DHCP_STATUS_ERR) {
+                ZF_LOGD("restarting dhcp negotiation");
+                error = pico_dhcp_initiate_negotiation(&pico_dev, dhcp_callback, &dhcp_xid);
+                ZF_LOGF_IF(error != 0, "Failed to initialise DHCP negotiation");
+            }
+        } while (dhcp_status != DHCP_STATUS_FINISHED);
+    }
 
     /* Configure a watchdog IRQ for 1 millisecond from now. Whenever the watchdog is reset
      * using watchdog_reset(), we will get another IRQ 1ms later */

@@ -421,12 +421,6 @@ static int pico_ipv4_process_in(struct pico_protocol *self, struct pico_frame *f
     if (ret < 1)
         return ret;
 
-    /* Validate source IP address. Discard quietly if invalid */
-    if (!pico_ipv4_is_valid_src(hdr->src.addr, f->dev)) {
-        pico_frame_discard(f);
-        return 0;
-    }
-
 #if defined(PICO_SUPPORT_IPV4FRAG) || defined(PICO_SUPPORT_IPV6FRAG)
     if (f->frag & PICO_IPV4_EVIL) {
         (void)pico_icmp4_param_problem(f, 0);
@@ -457,6 +451,14 @@ static int pico_ipv4_process_in(struct pico_protocol *self, struct pico_frame *f
 
     if (pico_ipv4_process_bcast_in(f) > 0)
         return 0;
+
+    /* Validate source IP address. Discard quietly if invalid
+     * (run after broadcast handling so DHCP replies with broadcast
+     * source reach the UDP stack). */
+    if (!pico_ipv4_is_valid_src(hdr->src.addr, f->dev)) {
+        pico_frame_discard(f);
+        return 0;
+    }
 
     if (pico_ipv4_process_mcast_in(f) > 0)
         return 0;

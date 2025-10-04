@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external-complete.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/CMakeFiles/picotcp_external-complete.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-build.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-build.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-configure.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-configure.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-download.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-download.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-install.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-install.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-mkdir.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-mkdir.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-patch.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-patch.rule"
 		},
 		{
-			"file" : "/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-update.rule"
+			"file" : "/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/picotcp_external-prefix/src/picotcp_external-stamp/picotcp_external-update.rule"
 		}
 	],
 	"target" : 

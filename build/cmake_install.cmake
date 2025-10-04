@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/Desktop/AOS_project/SOS-V2020
+# Install script for directory: /home/chris/Desktop/SOS-V2020
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/AOS_project/SOS-V2020/build/staging")
+  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/SOS-V2020/build/staging")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,19 +39,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/kernel/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/elfloader-tool/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/libsel4/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libcpio/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libelf/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libgrp01util/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libnfs/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libpicotcp/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libsel4sync/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/libutils/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/musllibc/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/sel4runtime/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/kernel/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/elfloader-tool/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/libsel4/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libcpio/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libelf/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libgrp01util/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libnfs/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libpicotcp/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libsel4sync/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/libutils/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/musllibc/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/sel4runtime/cmake_install.cmake")
 
 endif()
 
@@ -63,5 +63,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chris/Desktop/AOS_project/SOS-V2020/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chris/Desktop/SOS-V2020/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

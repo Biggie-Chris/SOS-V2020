@@ -40,6 +40,7 @@ fi
 cmake \
 	-DAARCH64=TRUE \
 	-DCMAKE_TOOLCHAIN_FILE=${SCRIPT_PATH}/kernel/gcc.cmake \
+    -DSosGateway=192.168.1.50 \
 	-G Ninja \
 	$@ \
 	${SCRIPT_PATH}

@@ -15,7 +15,15 @@ set(configure_string "")
 
 config_string(SosNFSDir SOS_NFS_DIR "NFS directory" DEFAULT "/export/odroid")
 
-config_string(SosGateway SOS_GATEWAY "Gateway IP address" DEFAULT "192.168.168.1")
+config_string(SosGateway SOS_GATEWAY "Gateway IP address" DEFAULT "192.168.1.50")
+
+config_option(SosUseStaticIp SOS_USE_STATIC_IP "Use static IPv4 configuration" DEFAULT ON)
+
+config_string(SosStaticIp SOS_STATIC_IP "Static IPv4 address" DEFAULT "192.168.1.51")
+
+config_string(SosStaticNetmask SOS_STATIC_NETMASK "Static IPv4 netmask" DEFAULT "255.255.255.0")
+
+config_string(SosStaticGateway SOS_STATIC_GATEWAY "Static IPv4 gateway" DEFAULT "192.168.1.50")
 
 config_string(SosFrameLimit SOS_FRAME_LIMIT "Frame table frame limit" UNQUOTE DEFAULT "0ul")
 

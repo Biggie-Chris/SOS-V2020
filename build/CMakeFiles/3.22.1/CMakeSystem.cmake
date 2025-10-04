@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.14.0-29-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.8.0-40-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.14.0-29-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-40-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/chris/Desktop/AOS_project/SOS-V2020/kernel/gcc.cmake")
+include("/home/chris/Desktop/SOS-V2020/kernel/gcc.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/Desktop/AOS_project/SOS-V2020/projects/aos
+# Install script for directory: /home/chris/Desktop/SOS-V2020/projects/aos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/AOS_project/SOS-V2020/build/staging")
+  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/SOS-V2020/build/staging")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/apps/tty_test/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/apps/sosh/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/apps/hello/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/apps/cuckoo/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/sos/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/libaos/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/libclock/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/libethernet/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/libsel4cspace/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/libserial/cmake_install.cmake")
-  include("/home/chris/Desktop/AOS_project/SOS-V2020/build/projects/aos/libsosapi/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/tty_test/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/sosh/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/hello/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/cuckoo/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/sos/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/libaos/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/libclock/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/libethernet/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/libsel4cspace/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/libserial/cmake_install.cmake")
+  include("/home/chris/Desktop/SOS-V2020/build/projects/aos/libsosapi/cmake_install.cmake")
 
 endif()
 

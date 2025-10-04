@@ -1,0 +1,64 @@
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_89449 && [1/2] Building C object CMakeFiles/cmTC_89449.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_89449.dir/CheckIncludeFile.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp   -DCONFIG_ARM_TLS_REG_TPIDRU=1 -fPIC -fvisibility=hidden  -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_89449.dir/CheckIncludeFile.c.obj -c /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/filio.h: No such file or directory
+    1 | #include <sys/filio.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_LEN failed with the following output:
+Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9fb77 && [1/2] Building C object CMakeFiles/cmTC_9fb77.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_9fb77.dir/src.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -DHAVE_SOCKADDR_LEN  -DCONFIG_ARM_TLS_REG_TPIDRU=1 -fPIC -fvisibility=hidden  -march=armv8-a+crc   -D__KERNEL_64__  -std=gnu11 -o CMakeFiles/cmTC_9fb77.dir/src.c.obj -c /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c
+/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/src.c:6:38: error: ‘struct sockaddr’ has no member named ‘sa_len’
+    6 |   (void)sizeof(((struct sockaddr *)0)->sa_len);
+      |                                      ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr *)0)->sa_len);
+  return 0;
+}
+
+Determining if the makedev exist failed with the following output:
+Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_da71c && [1/2] Building C object CMakeFiles/cmTC_da71c.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_da71c.dir/CheckSymbolExists.c.obj 
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp   -DCONFIG_ARM_TLS_REG_TPIDRU=1 -fPIC -fvisibility=hidden  -march=armv8-a+crc   -D__KERNEL_64__ -o CMakeFiles/cmTC_da71c.dir/CheckSymbolExists.c.obj -c /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/mkdev.h: No such file or directory
+    2 | #include <sys/mkdev.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mkdev.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef makedev
+  return ((int*)(&makedev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

@@ -1,1 +1,1 @@
-/home/chris/Desktop/AOS_project/SOS-V2020/projects/musllibc/Makefile
+/home/chris/Desktop/SOS-V2020/projects/musllibc/Makefile
