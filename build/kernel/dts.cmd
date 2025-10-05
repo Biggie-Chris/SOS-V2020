@@ -1,0 +1,1 @@
+regen /home/ric/projects/learnmicroos/SOS-V2020/build/kernel/kernel.dtb /home/ric/projects/learnmicroos/SOS-V2020/kernel/tools/dts/odroidc2.dts;/home/ric/projects/learnmicroos/SOS-V2020/kernel/src/plat/odroidc2/overlay-odroidc2.dts

@@ -1,0 +1,1 @@
+regen /home/ric/projects/learnmicroos/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h /home/ric/projects/learnmicroos/SOS-V2020/build/kernel/kernel.dtb;/home/ric/projects/learnmicroos/SOS-V2020/kernel/tools/hardware.yml;/home/ric/projects/learnmicroos/SOS-V2020/kernel/tools/hardware_schema.yml;/home/ric/projects/learnmicroos/SOS-V2020/kernel/tools/hardware_gen.py

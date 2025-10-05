@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${REALGCC:-/usr/bin/aarch64-linux-gnu-gcc}" "$@" -specs "/home/ric/projects/learnmicroos/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/musl-gcc.specs"

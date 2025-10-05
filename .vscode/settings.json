@@ -4,6 +4,8 @@
         "serial.h": "c",
         "vsyscall.h": "c",
         "optional": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "sel4runtime.h": "c",
+        "assert.h": "c"
     }
 }
