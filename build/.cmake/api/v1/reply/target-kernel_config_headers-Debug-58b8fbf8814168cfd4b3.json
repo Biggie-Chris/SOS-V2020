@@ -1,0 +1,117 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"add_config_library",
+			"include",
+			"generate_autoconf"
+		],
+		"files" : 
+		[
+			"kernel/CMakeLists.txt",
+			"kernel/tools/helpers.cmake",
+			"kernel/config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 463,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 532,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 576,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "kernel_Gen::@d34574df80ad0dbead4c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "kernel_autoconf_Gen::@d34574df80ad0dbead4c"
+		}
+	],
+	"id" : "kernel_config_headers::@d34574df80ad0dbead4c",
+	"name" : "kernel_config_headers",
+	"paths" : 
+	{
+		"build" : "kernel",
+		"source" : "kernel"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/kernel/CMakeFiles/kernel_config_headers",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/kernel/CMakeFiles/kernel_config_headers.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

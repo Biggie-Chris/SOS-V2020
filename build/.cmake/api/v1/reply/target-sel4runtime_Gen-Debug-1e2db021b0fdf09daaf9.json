@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_config_library"
+		],
+		"files" : 
+		[
+			"kernel/tools/helpers.cmake",
+			"projects/sel4runtime/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 529,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "sel4runtime_Gen::@cee7ce8e50f7d854610a",
+	"name" : "sel4runtime_Gen",
+	"paths" : 
+	{
+		"build" : "projects/sel4runtime",
+		"source" : "projects/sel4runtime"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/projects/sel4runtime/CMakeFiles/sel4runtime_Gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/projects/sel4runtime/CMakeFiles/sel4runtime_Gen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_config_library"
+		],
+		"files" : 
+		[
+			"kernel/tools/helpers.cmake",
+			"projects/libpicotcp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 529,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "picotcp_Gen::@bdffc147df375a5e03fc",
+	"name" : "picotcp_Gen",
+	"paths" : 
+	{
+		"build" : "projects/libpicotcp",
+		"source" : "projects/libpicotcp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/projects/libpicotcp/CMakeFiles/picotcp_Gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/projects/libpicotcp/CMakeFiles/picotcp_Gen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

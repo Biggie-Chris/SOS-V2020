@@ -78,7 +78,7 @@ void configure_timeout(volatile meson_timer_reg_t *regs, timeout_id_t timer, boo
     COMPILER_MEMORY_FENCE();
 
     if (!enable) {
-        /* If not enabling the timer, just diable and exit */
+        /* If not enabling the timer, just disable and exit */
         return;
     }
 

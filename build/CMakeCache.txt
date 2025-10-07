@@ -251,8 +251,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/usr/bin/aarch64-linux-gnu-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/chris/Desktop/SOS-V2020/kernel/gcc.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=../kernel/gcc.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -1467,7 +1467,7 @@ config_KernelDTSList:INTERNAL=tools/dts/odroidc2.dts;src/plat/odroidc2/overlay-o
 config_asm_sources:INTERNAL=
 config_bf_declarations:INTERNAL=
 config_c_sources:INTERNAL=src/arch/arm/machine/gic_v2.c;src/arch/arm/machine/l2c_nop.c
-config_configure_string:INTERNAL='#define CONFIG_ARM_HIKEY_OUTSTANDING_PREFETCHERS @KernelArmHikeyOutstandingPrefetchers@;#define CONFIG_ARM_HIKEY_PREFETCHER_STRIDE @KernelArmHikeyPrefetcherStride@;#define CONFIG_ARM_HIKEY_PREFETCHER_NPFSTRM @KernelArmHikeyPrefetcherNPFSTRM@;#define CONFIG_ARCH_AARCH64 1;#define CONFIG_SEL4_ARCH @KernelSel4Arch@;#define CONFIG_ARCH @KernelArch@;#define CONFIG_ARCH_ARM 1;#define CONFIG_ARM_SEL4_ARCH aarch64;#define CONFIG_WORD_SIZE 64;#define CONFIG_ARM_PLAT odroidc2;#define CONFIG_PLAT_ODROIDC2 1;#define CONFIG_PLAT @KernelPlatform@;#define CONFIG_ARM_CORTEX_A53 1;#define CONFIG_ARCH_ARM_V8A 1;#define CONFIG_ARM_MACH '
+config_configure_string:INTERNAL='#define CONFIG_ARM_HIKEY_OUTSTANDING_PREFETCHERS @KernelArmHikeyOutstandingPrefetchers@;#define CONFIG_ARM_HIKEY_PREFETCHER_STRIDE @KernelArmHikeyPrefetcherStride@;#define CONFIG_ARM_HIKEY_PREFETCHER_NPFSTRM @KernelArmHikeyPrefetcherNPFSTRM@;#define CONFIG_ARCH_AARCH64 1;#define CONFIG_SEL4_ARCH @KernelSel4Arch@;#define CONFIG_ARCH_ARM 1;#define CONFIG_ARCH @KernelArch@;#define CONFIG_ARM_SEL4_ARCH aarch64;#define CONFIG_WORD_SIZE 64;#define CONFIG_ARM_PLAT odroidc2;#define CONFIG_PLAT_ODROIDC2 1;#define CONFIG_PLAT @KernelPlatform@;#define CONFIG_ARM_CORTEX_A53 1;#define CONFIG_ARCH_ARM_V8A 1;#define CONFIG_ARM_MACH '
 correct_platform_strings_no_print:INTERNAL=ON
 correct_platform_strings_platform_aliases:INTERNAL=sabre;wandq;kzm;rpi3;exynos5250;exynos5410;exynos5422;am335x-boneblack;am335x-boneblue;x86_64;ia32
 cpio_reproducible_flag:INTERNAL=--reproducible

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "projects/aos/libsel4cspace",
+		"source" : "projects/aos/libsel4cspace"
+	}
+}

@@ -16,15 +16,15 @@ The C compiler identification is GNU, found in "/home/chris/Desktop/SOS-V2020/bu
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_79b62 && [1/2] Building C object CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):/usr/bin/ninja cmTC_c1efb && [1/2] Building C object CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-mutex
 Thread model: posix
 gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D CONFIG_ARM_TLS_REG_TPIDRU=1 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj -version -fPIC -fvisibility=hidden -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc0OlEMP.s
+COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D CONFIG_ARM_TLS_REG_TPIDRU=1 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj -version -fPIC -fvisibility=hidden -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccP9HeXo.s
 GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (aarch64-linux-gnu)
 	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -43,13 +43,13 @@ GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: a66524f63be072f83fcacc04f7b8caa5
-COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj /tmp/cc0OlEMP.s
+COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj /tmp/ccP9HeXo.s
 GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/
-COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64'
-[2/2] Linking C static library libcmTC_79b62.a
+COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64'
+[2/2] Linking C static library libcmTC_c1efb.a
 
 
 
@@ -68,15 +68,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_79b62 && [1/2] Building C object CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_c1efb && [1/2] Building C object CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-mutex]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D CONFIG_ARM_TLS_REG_TPIDRU=1 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj -version -fPIC -fvisibility=hidden -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc0OlEMP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D CONFIG_ARM_TLS_REG_TPIDRU=1 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj -version -fPIC -fvisibility=hidden -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccP9HeXo.s]
   ignore line: [GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -95,13 +95,13 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: a66524f63be072f83fcacc04f7b8caa5]
-  ignore line: [COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj /tmp/cc0OlEMP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj /tmp/ccP9HeXo.s]
   ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_79b62.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [[2/2] Linking C static library libcmTC_79b62.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'CONFIG_ARM_TLS_REG_TPIDRU=1' '-fPIC' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_c1efb.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [[2/2] Linking C static library libcmTC_c1efb.a]
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -126,15 +126,15 @@ The CXX compiler identification is GNU, found in "/home/chris/Desktop/SOS-V2020/
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_f7280 && [1/2] Building CXX object CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):/usr/bin/ninja cmTC_27911 && [1/2] Building CXX object CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-mutex
 Thread model: posix
 gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccOyqOvL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc9yTQCG.s
 GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (aarch64-linux-gnu)
 	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -156,13 +156,13 @@ GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: caf4d48f54c88f82c84f5f939f5380e4
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccOyqOvL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc9yTQCG.s
 GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-[2/2] Linking CXX static library libcmTC_f7280.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+[2/2] Linking CXX static library libcmTC_27911.a
 
 
 
@@ -187,15 +187,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_f7280 && [1/2] Building CXX object CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_27911 && [1/2] Building CXX object CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-mutex]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccOyqOvL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc9yTQCG.s]
   ignore line: [GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -217,13 +217,13 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: caf4d48f54c88f82c84f5f939f5380e4]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccOyqOvL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc9yTQCG.s]
   ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7280.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [[2/2] Linking CXX static library libcmTC_f7280.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27911.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [[2/2] Linking CXX static library libcmTC_27911.a]
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -241,8 +241,8 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Performing C SOURCE FILE Test compiler_arch_test succeeded with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_ce1fb && [1/2] Building C object CMakeFiles/cmTC_ce1fb.dir/src.c.obj
-[2/2] Linking C static library libcmTC_ce1fb.a
+Run Build Command(s):/usr/bin/ninja cmTC_a185c && [1/2] Building C object CMakeFiles/cmTC_a185c.dir/src.c.obj
+[2/2] Linking C static library libcmTC_a185c.a
 
 
 Source file was:
@@ -256,8 +256,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_SO_BINDTODEVICE succeeded with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_04bd7 && [1/2] Building C object CMakeFiles/cmTC_04bd7.dir/src.c.obj
-[2/2] Linking C static library libcmTC_04bd7.a
+Run Build Command(s):/usr/bin/ninja cmTC_acfc8 && [1/2] Building C object CMakeFiles/cmTC_acfc8.dir/src.c.obj
+[2/2] Linking C static library libcmTC_acfc8.a
 
 
 Source file was:
@@ -269,8 +269,8 @@ Source file was:
 Performing C SOURCE FILE Test NO_LFS_REQUIRED succeeded with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_bbed2 && [1/2] Building C object CMakeFiles/cmTC_bbed2.dir/src.c.obj
-[2/2] Linking C static library libcmTC_bbed2.a
+Run Build Command(s):/usr/bin/ninja cmTC_57987 && [1/2] Building C object CMakeFiles/cmTC_57987.dir/src.c.obj
+[2/2] Linking C static library libcmTC_57987.a
 
 
 Source file was:
@@ -284,8 +284,8 @@ Source file was:
 Determining if the makedev exist passed with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0de06 && [1/2] Building C object CMakeFiles/cmTC_0de06.dir/CheckSymbolExists.c.obj
-[2/2] Linking C static library libcmTC_0de06.a
+Run Build Command(s):/usr/bin/ninja cmTC_b7ad0 && [1/2] Building C object CMakeFiles/cmTC_b7ad0.dir/CheckSymbolExists.c.obj
+[2/2] Linking C static library libcmTC_b7ad0.a
 
 
 File /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -305,8 +305,8 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test C_ACCEPTS_WALL succeeded with the following output:
 Change Dir: /home/chris/Desktop/SOS-V2020/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_2e8b2 && [1/2] Building C object CMakeFiles/cmTC_2e8b2.dir/src.c.obj
-[2/2] Linking C static library libcmTC_2e8b2.a
+Run Build Command(s):/usr/bin/ninja cmTC_b59a1 && [1/2] Building C object CMakeFiles/cmTC_b59a1.dir/src.c.obj
+[2/2] Linking C static library libcmTC_b59a1.a
 
 
 Source file was:

@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"generate_autoconf"
+		],
+		"files" : 
+		[
+			"kernel/tools/helpers.cmake",
+			"kernel/libsel4/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 572,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "sel4_autoconf_Gen::@88df4775d21a5f2efeb0",
+	"name" : "sel4_autoconf_Gen",
+	"paths" : 
+	{
+		"build" : "libsel4",
+		"source" : "kernel/libsel4"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/libsel4/CMakeFiles/sel4_autoconf_Gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/libsel4/CMakeFiles/sel4_autoconf_Gen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

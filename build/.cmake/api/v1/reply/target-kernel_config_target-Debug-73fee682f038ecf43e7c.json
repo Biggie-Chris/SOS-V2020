@@ -1,0 +1,47 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"kernel/config.cmake",
+			"kernel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "kernel_config_target::@d34574df80ad0dbead4c",
+	"name" : "kernel_config_target",
+	"paths" : 
+	{
+		"build" : "kernel",
+		"source" : "kernel"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

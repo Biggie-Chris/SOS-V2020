@@ -1,0 +1,96 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "/usr/bin/aarch64-linux-gnu-gcc",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/lib/gcc-cross/aarch64-linux-gnu/9/include",
+						"/usr/aarch64-linux-gnu/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "/usr/bin/aarch64-linux-gnu-gcc",
+				"version" : "9.5.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/aarch64-linux-gnu/include/c++/9",
+						"/usr/aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu",
+						"/usr/aarch64-linux-gnu/include/c++/9/backward",
+						"/usr/lib/gcc-cross/aarch64-linux-gnu/9/include",
+						"/usr/aarch64-linux-gnu/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "/usr/bin/aarch64-linux-gnu-g++",
+				"version" : "9.5.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {}
+			},
+			"language" : "NONE"
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

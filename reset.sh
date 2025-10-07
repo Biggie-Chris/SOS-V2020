@@ -7,7 +7,6 @@
 
 # run this script from the build directory !!!
 # Author: Chris
-
 set -euo pipefail
 
 PATH="${0%/*}:$PATH"

@@ -1,0 +1,90 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"DeclareRootserver"
+		],
+		"files" : 
+		[
+			"tools/seL4/cmake-tool/helpers/rootserver.cmake",
+			"projects/aos/sos/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 144,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "elfloader::@9ef6eb9ec44da3f521a2"
+		},
+		{
+			"id" : "sos::@c69778ed8d2dbca043fb"
+		}
+	],
+	"id" : "rootserver_image::@c69778ed8d2dbca043fb",
+	"name" : "rootserver_image",
+	"paths" : 
+	{
+		"build" : "projects/aos/sos",
+		"source" : "projects/aos/sos"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/projects/aos/sos/CMakeFiles/rootserver_image",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/projects/aos/sos/CMakeFiles/rootserver_image.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/images/sos-image-arm-odroidc2.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

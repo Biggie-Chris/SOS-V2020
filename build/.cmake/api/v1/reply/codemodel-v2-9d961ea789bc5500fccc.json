@@ -1,0 +1,1601 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						16,
+						17,
+						18,
+						19,
+						29,
+						30,
+						31,
+						32,
+						33
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "kernel",
+					"jsonFile" : "directory-kernel-Debug-63291c6cc366f65a85d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "kernel",
+					"targetIndexes" : 
+					[
+						1,
+						12,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						56,
+						57,
+						58,
+						84
+					]
+				},
+				{
+					"build" : "elfloader-tool",
+					"jsonFile" : "directory-elfloader-tool-Debug-805fdab64ab78fd8e228.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "tools/seL4/elfloader-tool",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "libsel4",
+					"jsonFile" : "directory-libsel4-Debug-1a1d0306af17feb0fef3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "kernel/libsel4",
+					"targetIndexes" : 
+					[
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						66,
+						67,
+						68,
+						69
+					]
+				},
+				{
+					"build" : "projects/aos",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-projects.aos-Debug-db9329fe6e4befc40134.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "projects/aos"
+				},
+				{
+					"build" : "projects/aos/apps/tty_test",
+					"jsonFile" : "directory-projects.aos.apps.tty_test-Debug-4e94be76fac59de8a875.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "projects/aos/apps/tty_test",
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"build" : "projects/aos/apps/sosh",
+					"jsonFile" : "directory-projects.aos.apps.sosh-Debug-653b681d2e8aa48f1f9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "projects/aos/apps/sosh",
+					"targetIndexes" : 
+					[
+						80
+					]
+				},
+				{
+					"build" : "projects/aos/apps/hello",
+					"jsonFile" : "directory-projects.aos.apps.hello-Debug-dab96d5482961f36829d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 6,
+					"source" : "projects/aos/apps/hello",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "projects/aos/apps/cuckoo",
+					"jsonFile" : "directory-projects.aos.apps.cuckoo-Debug-3e256b3f9b951a5351de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 7,
+					"source" : "projects/aos/apps/cuckoo",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "projects/aos/sos",
+					"jsonFile" : "directory-projects.aos.sos-Debug-6971b98e01b457194ff1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 8,
+					"source" : "projects/aos/sos",
+					"targetIndexes" : 
+					[
+						65,
+						77,
+						78
+					]
+				},
+				{
+					"build" : "projects/aos/libaos",
+					"jsonFile" : "directory-projects.aos.libaos-Debug-acc0ef59a9e883d6f6f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 9,
+					"source" : "projects/aos/libaos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "projects/aos/libclock",
+					"jsonFile" : "directory-projects.aos.libclock-Debug-f7c4cb2f3bdb836ba350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 10,
+					"source" : "projects/aos/libclock",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "projects/aos/libethernet",
+					"jsonFile" : "directory-projects.aos.libethernet-Debug-e4cb5d8a375eb8a146c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 11,
+					"source" : "projects/aos/libethernet",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "projects/aos/libsel4cspace",
+					"jsonFile" : "directory-projects.aos.libsel4cspace-Debug-25d60adcd94f97456333.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 12,
+					"source" : "projects/aos/libsel4cspace",
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"build" : "projects/aos/libserial",
+					"jsonFile" : "directory-projects.aos.libserial-Debug-021c85458303de8bad72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 13,
+					"source" : "projects/aos/libserial",
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"build" : "projects/aos/libsosapi",
+					"jsonFile" : "directory-projects.aos.libsosapi-Debug-7f329ede10c452735d1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 14,
+					"source" : "projects/aos/libsosapi",
+					"targetIndexes" : 
+					[
+						79
+					]
+				},
+				{
+					"build" : "projects/libcpio",
+					"jsonFile" : "directory-projects.libcpio-Debug-98e8f0886d98f28e43dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "projects/libcpio",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "projects/libelf",
+					"jsonFile" : "directory-projects.libelf-Debug-ed98ef0b37a26c1eb0a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "projects/libelf",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "projects/libgrp01util",
+					"jsonFile" : "directory-projects.libgrp01util-Debug-95e04b66f1521c97ed06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "projects/libgrp01util",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "projects/libnfs",
+					"childIndexes" : 
+					[
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-projects.libnfs-Debug-0fd735d5b344650fd20c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "projects/libnfs"
+				},
+				{
+					"build" : "libnfs",
+					"childIndexes" : 
+					[
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libnfs-Debug-1b6d7a917bba8ead5948.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 18,
+					"source" : "libnfs"
+				},
+				{
+					"build" : "libnfs/mount",
+					"jsonFile" : "directory-libnfs.mount-Debug-7787f06b3992fd2b52b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/mount",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libnfs/nfs",
+					"jsonFile" : "directory-libnfs.nfs-Debug-f6a288e324c7caf5a68b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/nfs",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libnfs/nfs4",
+					"jsonFile" : "directory-libnfs.nfs4-Debug-f478094c1ba7a953693f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/nfs4",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "libnfs/nlm",
+					"jsonFile" : "directory-libnfs.nlm-Debug-dd896bf0ac409702758a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/nlm",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "libnfs/nsm",
+					"jsonFile" : "directory-libnfs.nsm-Debug-d7cdfad54d86a0e46c25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/nsm",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "libnfs/portmap",
+					"jsonFile" : "directory-libnfs.portmap-Debug-ec7d77ca8ce39f3b5095.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/portmap",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "libnfs/rquota",
+					"jsonFile" : "directory-libnfs.rquota-Debug-ba4ac7f45ee9d987df44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/rquota",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "libnfs/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libnfs.lib-Debug-3b4a55ed0edb48775f9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "libnfs/lib",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "projects/libpicotcp",
+					"jsonFile" : "directory-projects.libpicotcp-Debug-cabff27546d49c249a66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "projects/libpicotcp",
+					"targetIndexes" : 
+					[
+						18,
+						61,
+						62,
+						63,
+						64
+					]
+				},
+				{
+					"build" : "projects/libsel4sync",
+					"jsonFile" : "directory-projects.libsel4sync-Debug-08fc9cf3d418800acd99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "projects/libsel4sync",
+					"targetIndexes" : 
+					[
+						75
+					]
+				},
+				{
+					"build" : "projects/libutils",
+					"jsonFile" : "directory-projects.libutils-Debug-c41c015b4aa28a18b574.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "projects/libutils",
+					"targetIndexes" : 
+					[
+						82,
+						83
+					]
+				},
+				{
+					"build" : "projects/musllibc",
+					"jsonFile" : "directory-projects.musllibc-Debug-c3a028bfe2ba2343955f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "projects/musllibc",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "projects/sel4runtime",
+					"jsonFile" : "directory-projects.sel4runtime-Debug-c9e089bc2ada6e39e16b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "projects/sel4runtime",
+					"targetIndexes" : 
+					[
+						71,
+						72,
+						73,
+						74
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						19
+					],
+					"name" : "sel4-application"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "seL4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						12,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						56,
+						57,
+						58,
+						84
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "elfloader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libsel4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						66,
+						67,
+						68,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "tty_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "sosh",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						80
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "hello",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "cuckoo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "sos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						65,
+						77,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "libaos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "libclock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "libethernet",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "libsel4cspace",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "libserial",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "libsosapi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						79
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "libcpio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "libelf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "libgrp01util",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					],
+					"name" : "libnfs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "libpicotcp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18,
+						61,
+						62,
+						63,
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "libsel4ync",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						75
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "libutils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						82,
+						83
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "libmuslc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "sel4runtime",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						71,
+						72,
+						73,
+						74
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "aos::@e98ae1bfe9ecb9e5b8f2",
+					"jsonFile" : "target-aos-Debug-f8eac538ddf99c4e4624.json",
+					"name" : "aos",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "circular_includes::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-circular_includes-Debug-9d71fd3b721ffa5e8f4a.json",
+					"name" : "circular_includes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "clock::@51526fc72b5a2f737a7b",
+					"jsonFile" : "target-clock-Debug-c7ddcb05a07341b0878d.json",
+					"name" : "clock",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "core_mount::@1c3cb17b03957dca5fe3",
+					"jsonFile" : "target-core_mount-Debug-dd954f1d2bdfbd7224ff.json",
+					"name" : "core_mount",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "core_nfs::@42316c8be4d2bcdd1ad9",
+					"jsonFile" : "target-core_nfs-Debug-8ba36f6616b7b1656813.json",
+					"name" : "core_nfs",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "core_nfs4::@5f6beb51ef07519b4981",
+					"jsonFile" : "target-core_nfs4-Debug-5cee4a7fe8a0f1f214e3.json",
+					"name" : "core_nfs4",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "core_nlm::@bd1c1313b3cb8bf6110c",
+					"jsonFile" : "target-core_nlm-Debug-0b28210744b34e78b657.json",
+					"name" : "core_nlm",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "core_nsm::@9f4708c4ba3fc0263312",
+					"jsonFile" : "target-core_nsm-Debug-cebabe5bc9b4506ffb58.json",
+					"name" : "core_nsm",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "core_portmap::@98faeaccc579cc1e95f4",
+					"jsonFile" : "target-core_portmap-Debug-74e8f2b28afeeb37f2db.json",
+					"name" : "core_portmap",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "core_rquota::@0f93d700a14fa27be785",
+					"jsonFile" : "target-core_rquota-Debug-465e18ef56c0969b0dc3.json",
+					"name" : "core_rquota",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "cpio::@26fe15cddeeb1216b9b1",
+					"jsonFile" : "target-cpio-Debug-aef655a4628678d47251.json",
+					"name" : "cpio",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cuckoo::@b34edeff574f479ff0a4",
+					"jsonFile" : "target-cuckoo-Debug-fb53d748336c09bcaab2.json",
+					"name" : "cuckoo",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dummy_header_wrapper::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-dummy_header_wrapper-Debug-65f9aa2621e9b6ae9f9f.json",
+					"name" : "dummy_header_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "elf::@4f3a377148888f881d29",
+					"jsonFile" : "target-elf-Debug-5265a789a5b9ed817a31.json",
+					"name" : "elf",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elfloader::@9ef6eb9ec44da3f521a2",
+					"jsonFile" : "target-elfloader-Debug-bcbdd0d4a91268575275.json",
+					"name" : "elfloader",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elfloader_Gen::@9ef6eb9ec44da3f521a2",
+					"jsonFile" : "target-elfloader_Gen-Debug-660bb10ee2fa76e3b0f5.json",
+					"name" : "elfloader_Gen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "elfloader_linker::@9ef6eb9ec44da3f521a2",
+					"jsonFile" : "target-elfloader_linker-Debug-56dd889c43c1ebc0aa4c.json",
+					"name" : "elfloader_linker",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ethernet::@ac3a8c9dfa433589d59b",
+					"jsonFile" : "target-ethernet-Debug-5f21a74ad9420be94ee7.json",
+					"name" : "ethernet",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "get_muslc::@bdffc147df375a5e03fc",
+					"jsonFile" : "target-get_muslc-Debug-2a3f1f96fa6bd943a7b2.json",
+					"name" : "get_muslc",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "grp01util::@964d6f5b35f98abc6b5f",
+					"jsonFile" : "target-grp01util-Debug-ffb2ddac8d96749aaba6.json",
+					"name" : "grp01util",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "hello::@3d2512cc6a62e9f66111",
+					"jsonFile" : "target-hello-Debug-b0cbbe0ec9ef6e016e1d.json",
+					"name" : "hello",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel.elf::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel.elf-Debug-1c8bc2b92ace0f141d9d.json",
+					"name" : "kernel.elf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_Gen::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_Gen-Debug-86c793eee8af61c87592.json",
+					"name" : "kernel_Gen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_all_c_wrapper::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_all_c_wrapper-Debug-23d77f63c3815cb8c34e.json",
+					"name" : "kernel_all_c_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_all_pp_prune_wrapper::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_all_pp_prune_wrapper-Debug-43aa2ed364416b9310fe.json",
+					"name" : "kernel_all_pp_prune_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_all_pp_prune_wrapper_copy_in::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_all_pp_prune_wrapper_copy_in-Debug-f5323f2e709425139f77.json",
+					"name" : "kernel_all_pp_prune_wrapper_copy_in",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_all_pp_prune_wrapper_temp_lib::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_all_pp_prune_wrapper_temp_lib-Debug-0fd6f6a7cf6c21c5f05c.json",
+					"name" : "kernel_all_pp_prune_wrapper_temp_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_all_pp_wrapper::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_all_pp_wrapper-Debug-ff5b383ef7d73010b74d.json",
+					"name" : "kernel_all_pp_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_autoconf_Gen::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_autoconf_Gen-Debug-59a73010112f1b140650.json",
+					"name" : "kernel_autoconf_Gen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_1::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_1-Debug-321e0cdbdc6099db3609.json",
+					"name" : "kernel_bf_gen_target_1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_11::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_11-Debug-b76e22b15a649b090572.json",
+					"name" : "kernel_bf_gen_target_11",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_11_def::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_11_def-Debug-78ab77d680a610b82169.json",
+					"name" : "kernel_bf_gen_target_11_def",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_11_pbf::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_11_pbf-Debug-665712fc944d784954e5.json",
+					"name" : "kernel_bf_gen_target_11_pbf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_11_pbf_copy_in::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_11_pbf_copy_in-Debug-446b8c1350857df2b958.json",
+					"name" : "kernel_bf_gen_target_11_pbf_copy_in",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_11_pbf_temp_lib::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_11_pbf_temp_lib-Debug-8b948beb3cb77a238a40.json",
+					"name" : "kernel_bf_gen_target_11_pbf_temp_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_11_proof::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_11_proof-Debug-3018a1b274408d6121c7.json",
+					"name" : "kernel_bf_gen_target_11_proof",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_1_def::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_1_def-Debug-3b9983afd0b3174c912d.json",
+					"name" : "kernel_bf_gen_target_1_def",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_1_pbf::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_1_pbf-Debug-094e6ff1b879f29bf30d.json",
+					"name" : "kernel_bf_gen_target_1_pbf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_1_pbf_copy_in::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_1_pbf_copy_in-Debug-71e4dd3f348e5e07e8e8.json",
+					"name" : "kernel_bf_gen_target_1_pbf_copy_in",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_1_pbf_temp_lib::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_1_pbf_temp_lib-Debug-89b63b92ae6e73a9c5bc.json",
+					"name" : "kernel_bf_gen_target_1_pbf_temp_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_bf_gen_target_1_proof::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_bf_gen_target_1_proof-Debug-7e82098380f4552a0029.json",
+					"name" : "kernel_bf_gen_target_1_proof",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_config_headers::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_config_headers-Debug-58b8fbf8814168cfd4b3.json",
+					"name" : "kernel_config_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_config_target::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_config_target-Debug-73fee682f038ecf43e7c.json",
+					"name" : "kernel_config_target",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_headers::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_headers-Debug-c9466ee7b540db2d3607.json",
+					"name" : "kernel_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_i_wrapper::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_i_wrapper-Debug-3250b68d7b4ba7f62491.json",
+					"name" : "kernel_i_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_i_wrapper_copy_in::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_i_wrapper_copy_in-Debug-161caaa708431b91e878.json",
+					"name" : "kernel_i_wrapper_copy_in",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_i_wrapper_temp_lib::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_i_wrapper_temp_lib-Debug-cbbd0b99f868b814bbc8.json",
+					"name" : "kernel_i_wrapper_temp_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kernel_theories::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-kernel_theories-Debug-9f42b135d1bd00ae2716.json",
+					"name" : "kernel_theories",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_sel4_arch_types_gen_h::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_sel4_arch_types_gen_h-Debug-5be816f38a29042c1020.json",
+					"name" : "libsel4_sel4_arch_types_gen_h",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_sel4_arch_types_gen_pbf::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_sel4_arch_types_gen_pbf-Debug-037e055a59efec53778f.json",
+					"name" : "libsel4_sel4_arch_types_gen_pbf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_sel4_arch_types_gen_pbf_copy_in::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_sel4_arch_types_gen_pbf_copy_in-Debug-940ddc154a9bf5c676f5.json",
+					"name" : "libsel4_sel4_arch_types_gen_pbf_copy_in",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_sel4_arch_types_gen_pbf_temp_lib::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_sel4_arch_types_gen_pbf_temp_lib-Debug-ebf126dc6b3aea807a56.json",
+					"name" : "libsel4_sel4_arch_types_gen_pbf_temp_lib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_shared_types_gen_h::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_shared_types_gen_h-Debug-fa3e17cb97736cfc49d8.json",
+					"name" : "libsel4_shared_types_gen_h",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_shared_types_gen_pbf::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_shared_types_gen_pbf-Debug-61b7cc3beace0fa02156.json",
+					"name" : "libsel4_shared_types_gen_pbf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_shared_types_gen_pbf_copy_in::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_shared_types_gen_pbf_copy_in-Debug-57eebe7d69142645f153.json",
+					"name" : "libsel4_shared_types_gen_pbf_copy_in",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libsel4_shared_types_gen_pbf_temp_lib::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-libsel4_shared_types_gen_pbf_temp_lib-Debug-70ffcab423468e17536a.json",
+					"name" : "libsel4_shared_types_gen_pbf_temp_lib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "linker_ld_wrapper::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-linker_ld_wrapper-Debug-f8019ed288e786a9e27b.json",
+					"name" : "linker_ld_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "linker_ld_wrapper_copy_in::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-linker_ld_wrapper_copy_in-Debug-36fa00e8bed5c3cfc1aa.json",
+					"name" : "linker_ld_wrapper_copy_in",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "linker_ld_wrapper_temp_lib::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-linker_ld_wrapper_temp_lib-Debug-2a37461fc0497be71ed8.json",
+					"name" : "linker_ld_wrapper_temp_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "muslc_gen::@aeea9a2269492f556b17",
+					"jsonFile" : "target-muslc_gen-Debug-706fcbdac458bb9d26ad.json",
+					"name" : "muslc_gen",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "nfs::@b3471e1376807a6955fd",
+					"jsonFile" : "target-nfs-Debug-13132982f797bc8d41de.json",
+					"name" : "nfs",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "picotcp_Gen::@bdffc147df375a5e03fc",
+					"jsonFile" : "target-picotcp_Gen-Debug-58a9f382cafc87e4c106.json",
+					"name" : "picotcp_Gen",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "picotcp_bsd::@bdffc147df375a5e03fc",
+					"jsonFile" : "target-picotcp_bsd-Debug-d7d7a4ceb2dd86418bf0.json",
+					"name" : "picotcp_bsd",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "picotcp_external::@bdffc147df375a5e03fc",
+					"jsonFile" : "target-picotcp_external-Debug-fe466c040ae536c8d72e.json",
+					"name" : "picotcp_external",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "picotcp_external-install::@bdffc147df375a5e03fc",
+					"jsonFile" : "target-picotcp_external-install-Debug-e6e933f4d842b6c10bc9.json",
+					"name" : "picotcp_external-install",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "rootserver_image::@c69778ed8d2dbca043fb",
+					"jsonFile" : "target-rootserver_image-Debug-53d2f5967e0bdefc275f.json",
+					"name" : "rootserver_image",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sel4::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-sel4-Debug-54de6f93fcd301fc828d.json",
+					"name" : "sel4",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sel4_Gen::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-sel4_Gen-Debug-90a5316150c3da019e60.json",
+					"name" : "sel4_Gen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sel4_autoconf_Gen::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-sel4_autoconf_Gen-Debug-78fbe4bad6c5c41becc7.json",
+					"name" : "sel4_autoconf_Gen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sel4_generated::@88df4775d21a5f2efeb0",
+					"jsonFile" : "target-sel4_generated-Debug-9ac083c6b239e70f2a55.json",
+					"name" : "sel4_generated",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "sel4cspace::@273fc5e528b0c86d5912",
+					"jsonFile" : "target-sel4cspace-Debug-b9b7b45000ac522d6261.json",
+					"name" : "sel4cspace",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "sel4runtime::@cee7ce8e50f7d854610a",
+					"jsonFile" : "target-sel4runtime-Debug-a6629a326c7e58116e0f.json",
+					"name" : "sel4runtime",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "sel4runtime_Gen::@cee7ce8e50f7d854610a",
+					"jsonFile" : "target-sel4runtime_Gen-Debug-1e2db021b0fdf09daaf9.json",
+					"name" : "sel4runtime_Gen",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "sel4runtime_crt::@cee7ce8e50f7d854610a",
+					"jsonFile" : "target-sel4runtime_crt-Debug-a9a8a7298bdf75b66327.json",
+					"name" : "sel4runtime_crt",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "sel4runtime_crt_obj::@cee7ce8e50f7d854610a",
+					"jsonFile" : "target-sel4runtime_crt_obj-Debug-28b56781fb1bbf5d73b9.json",
+					"name" : "sel4runtime_crt_obj",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "sel4sync::@4ae541c194984352a7bc",
+					"jsonFile" : "target-sel4sync-Debug-7f78592b6354d67657c4.json",
+					"name" : "sel4sync",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "serial::@b9a23b9e258a8926193a",
+					"jsonFile" : "target-serial-Debug-6267c08407d757b9737c.json",
+					"name" : "serial",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sos::@c69778ed8d2dbca043fb",
+					"jsonFile" : "target-sos-Debug-d3b58efd94896ee5657b.json",
+					"name" : "sos",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sos_Gen::@c69778ed8d2dbca043fb",
+					"jsonFile" : "target-sos_Gen-Debug-c8a2bfba8289168d20ce.json",
+					"name" : "sos_Gen",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "sosapi::@603337ff8861521b2635",
+					"jsonFile" : "target-sosapi-Debug-995ec1de92b85d19b67c.json",
+					"name" : "sosapi",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sosh::@e2102ead59ce97d1b60a",
+					"jsonFile" : "target-sosh-Debug-ebe7eb38055d9b5597bb.json",
+					"name" : "sosh",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tty_test::@99480dd0cd9ecaa6fd2a",
+					"jsonFile" : "target-tty_test-Debug-bbbcae3e451a6f88ec2a.json",
+					"name" : "tty_test",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "utils::@e75452a7d74c6dea6a01",
+					"jsonFile" : "target-utils-Debug-aaddb9955279f0c8d9ad.json",
+					"name" : "utils",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "utils_Gen::@e75452a7d74c6dea6a01",
+					"jsonFile" : "target-utils_Gen-Debug-deea4b0e75c08199c1c4.json",
+					"name" : "utils_Gen",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xml_headers_target::@d34574df80ad0dbead4c",
+					"jsonFile" : "target-xml_headers_target-Debug-f86ba910aea9bfb77052.json",
+					"name" : "xml_headers_target",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chris/Desktop/SOS-V2020/build",
+		"source" : "/home/chris/Desktop/SOS-V2020"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

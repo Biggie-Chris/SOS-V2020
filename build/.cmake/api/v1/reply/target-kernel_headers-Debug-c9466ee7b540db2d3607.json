@@ -1,0 +1,103 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"kernel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 342,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 495,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 495,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "kernel_config_headers::@d34574df80ad0dbead4c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "xml_headers_target::@d34574df80ad0dbead4c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kernel_bf_gen_target_1::@d34574df80ad0dbead4c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kernel_bf_gen_target_11::@d34574df80ad0dbead4c"
+		}
+	],
+	"id" : "kernel_headers::@d34574df80ad0dbead4c",
+	"name" : "kernel_headers",
+	"paths" : 
+	{
+		"build" : "kernel",
+		"source" : "kernel"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/kernel/CMakeFiles/kernel_headers",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/kernel/CMakeFiles/kernel_headers.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

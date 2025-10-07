@@ -74,7 +74,6 @@ static struct {
  * Update the timer A IRQ to fire at the first element in queue (or the maximum 65.535 sec).
  */
 void update_timer(void);
-
 /**
  * Call configure_timeout from meson timer driver, but with compilation-time DTS check.
  */
@@ -348,6 +347,7 @@ int stop_timer(void)
     
     return CLOCK_R_OK;
 }
+
 
 void update_timer(void)
 {

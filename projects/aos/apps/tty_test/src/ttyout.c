@@ -27,11 +27,13 @@
 #include <unistd.h>
 #include <fcntl.h>
 
+#include <sos.h>
+
 #include "ttyout.h"
 
 #include <sel4/sel4.h>
 
-int fh;
+int fh; /* file handle*/
 
 void ttyout_init(void)
 {
@@ -55,9 +57,37 @@ size_t sos_debug_print(const void *vData, size_t count)
 
 size_t sos_write(void *vData, size_t count)
 {
-    //implement this to use your syscall
-    //return sos_debug_print(vData, count);
-    return write(fh, vData, count);
+    // Lazy init, if fail at first, try open a console to get 'fh'.
+    if (fh < 0) {
+        ttyout_init();
+        if (fh < 0) {
+            sos_debug_printf("sos_write: console not available\n");
+            return 0;
+        }
+    }
+
+    const char *buf = vData;
+    size_t total = 0;
+    while (total < count) {
+        size_t chunk = count - total;
+        if (chunk > MAX_IO_BUF) {
+            chunk = MAX_IO_BUF;
+        }
+
+        int written = sos_sys_write(fh, buf + total, chunk);
+        if (written < 0) {
+            sos_debug_printf("sos_write: write failed (%d)\n", -written);
+            break;
+        }
+
+        total += written;
+        if ((size_t)written < chunk) {
+            // Partial write means the file handler can't accept more now.
+            break;
+        }
+    }
+
+    return total;
 }
 
 size_t sos_read(void *vData, size_t count)
@@ -65,4 +95,3 @@ size_t sos_read(void *vData, size_t count)
     //implement this to use your syscall
     return 0;
 }
-
