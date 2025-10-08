@@ -118,7 +118,7 @@ int start_timer(unsigned char *timer_vaddr)
         clock.started = true;
         return CLOCK_R_OK;
     } else {
-        return stop_timer();
+        return CLOCK_R_OK;
     }
 }
 
@@ -251,6 +251,7 @@ int remove_timer(uint32_t id)
     memset(target, 0, sizeof(struct clientinfo));
 
     --clock.clientscount;
+    
     return CLOCK_R_OK;
 }
 
@@ -334,6 +335,8 @@ int timer_irq(
     return CLOCK_R_OK;
 }
 
+static void reset_state_after_stop(void);
+
 int stop_timer(void)
 {
     ZF_LOGI_IF(!clock.started, "Stopping an already stopped libclock.");
@@ -345,9 +348,26 @@ int stop_timer(void)
         clock.started = false;
     }
     
+    reset_state_after_stop();
     return CLOCK_R_OK;
 }
 
+static void reset_state_after_stop(void) {
+    // release queue nodes
+    struct llnode *node = clock.queue;
+    while(node) {
+        struct llnode *next = node->next;
+        memset(node->cli, 0, sizeof *node->cli);
+        free(node);
+        node = next;
+    }
+
+    clock.queue = NULL;
+    clock.clientscount = 0;
+    clock.clockhand = 1;
+    clock.timer_active = false;
+    clock.ts_target = 0;
+}
 
 void update_timer(void)
 {

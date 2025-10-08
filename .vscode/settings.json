@@ -3,6 +3,7 @@
         "*.proto": "proto3",
         "clock.h": "c",
         "device.h": "c",
-        "fcntl.h": "c"
+        "fcntl.h": "c",
+        "soslinkage.h": "c"
     }
 }

@@ -104,6 +104,13 @@
 /home/chris/Desktop/SOS-V2020/build/projects/aos/apps/cuckoo/CMakeFiles/install.dir
 /home/chris/Desktop/SOS-V2020/build/projects/aos/apps/cuckoo/CMakeFiles/install/local.dir
 /home/chris/Desktop/SOS-V2020/build/projects/aos/apps/cuckoo/CMakeFiles/install/strip.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/clock_test.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/edit_cache.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/rebuild_cache.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/list_install_components.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/install.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/install/local.dir
+/home/chris/Desktop/SOS-V2020/build/projects/aos/apps/clock_test/CMakeFiles/install/strip.dir
 /home/chris/Desktop/SOS-V2020/build/projects/aos/sos/CMakeFiles/sos_Gen.dir
 /home/chris/Desktop/SOS-V2020/build/projects/aos/sos/CMakeFiles/sos.dir
 /home/chris/Desktop/SOS-V2020/build/projects/aos/sos/CMakeFiles/rootserver_image.dir

@@ -17,6 +17,7 @@ add_subdirectory(apps/sosh)
 # add any additional apps here
 add_subdirectory(apps/hello)
 add_subdirectory(apps/cuckoo)
+add_subdirectory(apps/clock_test)
 
 # add sos itself, this is your OS
 # and root task
