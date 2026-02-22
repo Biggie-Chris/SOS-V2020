@@ -1,5 +1,4 @@
 #!/bin/bash
-#
 # reset and deploy helper for SOS on Odroid-C2
 #
 # This script now syncs freshly built user applications into the NFS export
