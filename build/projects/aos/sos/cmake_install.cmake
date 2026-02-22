@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/Desktop/SOS-V2020/projects/aos/sos
+# Install script for directory: /home/dev/projects/SOS-V2020/projects/aos/sos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/Desktop/SOS-V2020/build/staging")
+  set(CMAKE_INSTALL_PREFIX "/home/dev/projects/SOS-V2020/build/staging")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

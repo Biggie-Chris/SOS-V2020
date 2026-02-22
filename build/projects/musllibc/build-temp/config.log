@@ -1,4 +1,4 @@
-checking for C compiler... /usr/bin/aarch64-linux-gnu-gcc
+checking for C compiler... /usr/bin/aarch64-linux-gnu-gcc-9
 checking whether C compiler works... yes
 checking whether compiler accepts -Werror=unknown-warning-option... no
 checking whether compiler accepts -Werror=unused-command-line-argument... no

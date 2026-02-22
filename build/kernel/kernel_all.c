@@ -1,4 +1,4 @@
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -259,7 +259,7 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
                                  seL4_Fault_get_seL4_FaultType(sender->tcbFault));
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -948,7 +948,7 @@ exception_t handleSyscall(syscall_t syscall)
 
     return EXCEPTION_NONE;
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/c_traps.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/c_traps.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -1016,7 +1016,7 @@ void VISIBLE NORETURN restore_user_context(void)
     );
     UNREACHABLE();
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/idle.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/idle.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -1049,7 +1049,7 @@ void NORETURN NO_INLINE VISIBLE halt(void)
     idle_thread();
     UNREACHABLE();
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/thread.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/thread.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -1089,7 +1089,7 @@ void Arch_activateIdleThread(tcb_t *tcb)
 {
     /* Don't need to do anything */
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3615,7 +3615,7 @@ exception_t benchmark_arch_map_logBuffer(word_t frame_cptr)
 }
 #endif /* CONFIG_BENCHMARK_USE_KERNEL_LOG_BUFFER */
 
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/capdl.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/capdl.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3633,7 +3633,7 @@ void capDL(void)
 }
 
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/fpu.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/fpu.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3673,7 +3673,7 @@ BOOT_CODE bool_t fpsimd_HWCapTest(void)
 
     return true;
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/registerset.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/registerset.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3716,7 +3716,7 @@ word_t getNBSendRecvDest(void)
     return getRegister(NODE_STATE(ksCurThread), nbsendRecvDest);
 }
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/model/statedata.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/model/statedata.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3822,7 +3822,7 @@ UP_STATE_DEFINE(bool_t, armHSVCPUActive);
 asid_t armKSHWASIDTable[BIT(hwASIDBits)];
 hw_asid_t armKSNextASID;
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4240,7 +4240,7 @@ Arch_prepareThreadDelete(tcb_t * thread) {
     }
 #endif /* CONFIG_ARM_HYPERVISOR_SUPPORT */
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4311,7 +4311,7 @@ word_t Arch_setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffe
         fail("Invalid fault");
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/cache.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/cache.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4420,7 +4420,7 @@ void cleanInvalidate_L1D(void)
 {
     cleanInvalidate_D_by_level(0);
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4485,7 +4485,7 @@ void armv_init_user_access(void)
     check_export_pmu();
     check_export_arch_timer();
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/benchmark/benchmark.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/benchmark/benchmark.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -4524,7 +4524,7 @@ void arm_init_ccnt(void)
 #endif /* CONFIG_ARM_ENABLE_PMU_OVERFLOW_INTERRUPT */
 }
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/c_traps.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/c_traps.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4721,7 +4721,7 @@ VISIBLE NORETURN void c_handle_vcpu_fault(word_t hsr)
     UNREACHABLE();
 }
 #endif /* CONFIG_ARM_HYPERVISOR_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5321,7 +5321,7 @@ BOOT_CODE VISIBLE void init_kernel(
     activateThread();
 }
 
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/thread.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/thread.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5334,7 +5334,7 @@ void Arch_postModifyRegisters(tcb_t *tptr)
 {
     /* Nothing to do */
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/cache.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/cache.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5530,7 +5530,7 @@ void arch_clean_invalidate_L1_caches(word_t type)
         isb();
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/debug.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/debug.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6829,7 +6829,7 @@ void restore_user_debug_context(tcb_t *target_thread)
 }
 
 #endif /* ARM_BASE_CP14_SAVE_AND_RESTORE */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/errata.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/errata.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6905,7 +6905,7 @@ BOOT_CODE void VISIBLE arm_errata(void)
 #endif
 }
 
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7139,7 +7139,7 @@ volatile struct gich_vcpu_ctrl_map *gic_vcpu_ctrl =
 unsigned int gic_vcpu_num_list_regs;
 
 #endif /* End of CONFIG_ARM_HYPERVISOR_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/hardware.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/hardware.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7189,7 +7189,7 @@ BOOT_CODE void map_kernel_devices(void)
     }
 }
 
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/l2c_nop.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/l2c_nop.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7206,7 +7206,7 @@ void plat_cleanL2Range(paddr_t start, paddr_t end) {}
 void plat_invalidateL2Range(paddr_t start, paddr_t end) {}
 void plat_cleanInvalidateL2Range(paddr_t start, paddr_t end) {}
 void plat_cleanInvalidateL2Cache(void) {}
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/interrupt.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/interrupt.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7344,7 +7344,7 @@ exception_t Arch_decodeIRQControlInvocation(word_t invLabel, word_t length,
         return EXCEPTION_SYSCALL_ERROR;
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/iospace.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/iospace.c"
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -7823,7 +7823,7 @@ exception_t decodeARMIOSpaceInvocation(word_t invLabel, cap_t cap)
     return EXCEPTION_SYSCALL_ERROR;
 }
 #endif /* end of CONFIG_ARM_SMMU */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/tcb.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/tcb.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7859,7 +7859,7 @@ void Arch_migrateTCB(tcb_t *thread)
 #endif /* CONFIG_HAVE_FPU */
 }
 #endif /* ENABLE_SMP_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/vcpu.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/vcpu.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8438,7 +8438,7 @@ void handleVCPUInjectInterruptIPI(vcpu_t *vcpu, unsigned long index, virq_t virq
 #endif /* ENABLE_SMP_SUPPORT */
 
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/smp/ipi.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/smp/ipi.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8524,7 +8524,7 @@ void ipi_send_mask(irq_t ipi, word_t mask, bool_t isBlocking)
     generic_ipi_send_mask(ipi, mask, isBlocking);
 }
 #endif /* ENABLE_SMP_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/assert.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/assert.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8568,7 +8568,7 @@ void _assert_fail(
 }
 
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/benchmark/benchmark_track.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/benchmark/benchmark_track.c"
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -8603,7 +8603,7 @@ void benchmark_track_exit(void)
     }
 }
 #endif /* CONFIG_BENCHMARK_TRACK_KERNEL_ENTRIES */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/benchmark/benchmark_utilisation.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/benchmark/benchmark_utilisation.c"
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -8677,7 +8677,7 @@ void benchmark_track_reset_utilisation(void)
     tcb->benchmark.schedule_start_time = 0;
 }
 #endif /* CONFIG_BENCHMARK_TRACK_UTILISATION */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8763,7 +8763,7 @@ unsigned char getDebugChar(void)
     return *UART_REG(UART_RFIFO);
 }
 #endif /* CONFIG_DEBUG_BUILD */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/drivers/timer/generic_timer.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/drivers/timer/generic_timer.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8898,7 +8898,7 @@ static void restore_virt_timer(vcpu_t *vcpu)
 }
 
 #endif /* CONFIG_ARM_HYPERVISOR_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -9391,7 +9391,7 @@ void NORETURN fastpath_reply_recv(word_t cptr, word_t msgInfo)
 
     fastpath_restore(badge, msgInfo, NODE_STATE(ksCurThread));
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/inlines.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/inlines.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -9408,7 +9408,7 @@ syscall_error_t current_syscall_error;
 debug_syscall_error_t current_debug_error;
 #endif
 
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -10227,7 +10227,7 @@ BOOT_CODE void init_freemem(word_t n_available, const p_region_t *available,
         }
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/cspace.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/cspace.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -10424,7 +10424,7 @@ resolveAddressBits_ret_t resolveAddressBits(cap_t nodeCap, cptr_t capptr, word_t
     ret.status = EXCEPTION_NONE;
     return ret;
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -10596,7 +10596,7 @@ void handleDoubleFault(tcb_t *tptr, seL4_Fault_t ex1)
 
     setThreadState(tptr, ThreadState_Inactive);
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -10952,7 +10952,7 @@ void refill_unblock_check(sched_context_t *sc)
     }
     REFILL_SANITY_END(sc);
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/stack.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/stack.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -10963,7 +10963,7 @@ void refill_unblock_check(sched_context_t *sc)
 
 VISIBLE ALIGN(KERNEL_STACK_ALIGNMENT)
 char kernel_stack_alloc[CONFIG_MAX_NUM_NODES][BIT(CONFIG_KERNEL_STACK_BITS)];
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -11647,7 +11647,7 @@ void awaken(void)
     }
 }
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/fpu.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/machine/fpu.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -11717,7 +11717,7 @@ void fpuThreadDelete(tcb_t *thread)
     }
 }
 #endif /* CONFIG_HAVE_FPU */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/io.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/machine/io.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -12338,7 +12338,7 @@ word_t ksnprintf(char *str, word_t size, const char *format, ...)
 }
 
 #endif /* CONFIG_PRINTING */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/registerset.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/machine/registerset.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -12354,7 +12354,7 @@ const register_t fault_messages[][MAX_MSG_SIZE] = {
     [MessageID_TimeoutReply] = TIMEOUT_REPLY_MESSAGE,
 #endif
 };
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/model/preemption.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/model/preemption.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -12400,7 +12400,7 @@ exception_t preemptionPoint(void)
     return EXCEPTION_NONE;
 }
 
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/model/smp.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/model/smp.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -12426,7 +12426,7 @@ void migrateTCB(tcb_t *tcb, word_t new_core)
 }
 
 #endif /* ENABLE_SMP_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/model/statedata.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/model/statedata.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -12532,7 +12532,7 @@ kernel_entry_t ksKernelEntry;
 #ifdef CONFIG_BENCHMARK_USE_KERNEL_LOG_BUFFER
 paddr_t ksUserLogBuffer;
 #endif /* CONFIG_BENCHMARK_USE_KERNEL_LOG_BUFFER */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -13461,7 +13461,7 @@ cap_transfer_t PURE loadCapTransfer(word_t *buffer)
     const int offset = seL4_MsgMaxLength + seL4_MsgMaxExtraCaps + 2;
     return capTransferFromWords(buffer + offset);
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -13921,7 +13921,7 @@ void reorderEP(endpoint_t *epptr, tcb_t *thread)
     ep_ptr_set_queue(epptr, queue);
 }
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/interrupt.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/interrupt.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14194,7 +14194,7 @@ void setIRQState(irq_state_t irqState, irq_t irq)
 #endif
     maskInterrupt(irqState == IRQInactive, irq);
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14502,7 +14502,7 @@ void reorderNTFN(notification_t *ntfnPtr, tcb_t *thread)
     ntfn_ptr_set_queue(ntfnPtr, queue);
 }
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -15303,7 +15303,7 @@ exception_t performInvocation_Reply(tcb_t *thread, cte_t *slot, bool_t canGrant)
     return EXCEPTION_NONE;
 }
 #endif
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -15445,7 +15445,7 @@ void reply_remove_tcb(tcb_t *tcb)
     reply->replyNext = call_stack_new(0, false);
     reply_unlink(reply);
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -15824,7 +15824,7 @@ void schedContext_completeYieldTo(tcb_t *yielder)
         schedContext_cancelYieldTo(yielder);
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontrol.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontrol.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -15996,7 +15996,7 @@ exception_t decodeSchedControlInvocation(word_t label, cap_t cap, word_t length,
         return EXCEPTION_SYSCALL_ERROR;
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18077,7 +18077,7 @@ word_t setMRs_syscall_error(tcb_t *thread, word_t *receiveIPCBuffer)
         fail("Invalid syscall error");
     }
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/untyped.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/object/untyped.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18388,7 +18388,7 @@ exception_t invokeUntyped_Retype(cte_t *srcSlot,
 
     return EXCEPTION_NONE;
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/smp/ipi.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/smp/ipi.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -18527,7 +18527,7 @@ void generic_ipi_send_mask(irq_t ipi, word_t mask, bool_t isBlocking)
     }
 }
 #endif /* ENABLE_SMP_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/smp/lock.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/smp/lock.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -18553,7 +18553,7 @@ BOOT_CODE void clh_lock_init(void)
 }
 
 #endif /* ENABLE_SMP_SUPPORT */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/string.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/string.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18596,7 +18596,7 @@ word_t strlcat(char *dest, const char *src, word_t size)
     }
     return len;
 }
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/util.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/util.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18772,7 +18772,7 @@ uint32_t __ctzdi2(uint64_t x)
     return count;
 }
 #endif /* CONFIG_ARCH_RISCV */
-#line 1 "/home/chris/Desktop/SOS-V2020/kernel/src/config/default_domain.c"
+#line 1 "/home/dev/projects/SOS-V2020/kernel/src/config/default_domain.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *

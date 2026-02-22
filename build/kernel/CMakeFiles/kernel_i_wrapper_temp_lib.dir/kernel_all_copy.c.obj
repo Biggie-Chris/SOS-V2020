@@ -1,16 +1,16 @@
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/kernel_all_copy.c"
-# 1 "/home/chris/Desktop/SOS-V2020/build//"
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/kernel_all_copy.c"
+# 1 "/home/dev/projects/SOS-V2020/build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/kernel_all_copy.c"
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c"
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/kernel_all_copy.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/config.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/config.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -22,13 +22,13 @@
 /* Compile-time configuration parameters. Might be set by the build system. */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_config/kernel/gen_config.h" 1
-# 5 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 2
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/config.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_config/kernel/gen_config.h" 1
+# 5 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/config.h" 2
 
 
 /* size of the initial thread's root CNode (2^x slots, x >= 4) */
@@ -37,7 +37,7 @@
 
 
 /* number of timer ticks until a thread is preempted  */
-# 37 "/home/chris/Desktop/SOS-V2020/kernel/include/config.h"
+# 37 "/home/dev/projects/SOS-V2020/kernel/include/config.h"
 /* the number of scheduler domains */
 
 
@@ -71,7 +71,7 @@
 /* maximum number of untyped caps in bootinfo */
 /* WARNING: must match value in libsel4! */
 /* CONSTRAINT: (16 * CONFIG_MAX_NUM_BOOTINFO_DEVICE_REGIONS) + (5 * CONFIG_MAX_NUM_BOOTINFO_UNTYPED_CAPS) <= 4036 */
-# 81 "/home/chris/Desktop/SOS-V2020/kernel/include/config.h"
+# 81 "/home/dev/projects/SOS-V2020/kernel/include/config.h"
 /* maximum number of different tracepoints which can be placed in the kernel */
 
 
@@ -88,8 +88,8 @@
 
 
 /* Alias CONFIG_MAX_NUM_NODES > 1 to ENABLE_SMP_SUPPORT */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/types.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/types.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -98,7 +98,7 @@
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/basic_types.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/basic_types.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -107,7 +107,7 @@
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/stdint.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/stdint.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -116,7 +116,7 @@
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/64/mode/stdint.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/64/mode/stdint.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -124,7 +124,7 @@
  */
 
        
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/stdint.h" 2
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/stdint.h" 2
 
 typedef unsigned char uint8_t;
 typedef unsigned short uint16_t;
@@ -135,8 +135,8 @@ typedef signed char int8_t;
 typedef signed short int16_t;
 typedef signed int int32_t;
 typedef signed long long int64_t;
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/basic_types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/types.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/basic_types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/types.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -146,7 +146,7 @@ typedef signed long long int64_t;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/assert.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/assert.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -156,7 +156,7 @@ typedef signed long long int64_t;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/util.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/util.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -164,9 +164,9 @@ typedef signed long long int64_t;
  */
 
        
-# 20 "/home/chris/Desktop/SOS-V2020/kernel/include/util.h"
+# 20 "/home/dev/projects/SOS-V2020/kernel/include/util.h"
 /* time constants */
-# 55 "/home/chris/Desktop/SOS-V2020/kernel/include/util.h"
+# 55 "/home/dev/projects/SOS-V2020/kernel/include/util.h"
 /** MODIFIES: */
 void __builtin_unreachable(void);
 
@@ -286,7 +286,7 @@ __attribute__((__const__)) popcountl(unsigned long mask)
 
 
 /* Can be used to insert padding to the next L1 cache line boundary */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/assert.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/assert.h" 2
 
 
 
@@ -305,14 +305,14 @@ void _assert_fail(
     unsigned int line,
     const char *function
 ) __attribute__((__noreturn__));
-# 41 "/home/chris/Desktop/SOS-V2020/kernel/include/assert.h"
+# 41 "/home/dev/projects/SOS-V2020/kernel/include/assert.h"
 /* Create an assert that will trigger a compile error if it fails. */
 
 
 
 /* Sometimes compile asserts contain expressions that the C parser cannot
  * handle. For such expressions unverified_compile_assert should be used. */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/types.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/types.h" 2
 
 
 
@@ -354,7 +354,7 @@ typedef struct kernel_frame {
     int armExecuteNever;
     int userAvailable;
 } kernel_frame_t;
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/basic_types.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/basic_types.h" 2
 
 enum _bool {
     false = 0,
@@ -383,8 +383,8 @@ typedef struct v_region {
 /* equivalent to a word_t except that we tell the compiler that we may alias with
  * any other type (similar to a char pointer) */
 typedef word_t __attribute__((__may_alias__)) word_t_may_alias;
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/compound_types.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/compound_types.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -394,7 +394,7 @@ typedef word_t __attribute__((__may_alias__)) word_t_may_alias;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -406,7 +406,7 @@ typedef word_t __attribute__((__may_alias__)) word_t_may_alias;
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h" 1
 
 
 
@@ -500,10 +500,10 @@ seL4_MessageInfo_new(uint64_t label, uint64_t capsUnwrapped, uint64_t extraCaps,
     seL4_MessageInfo_t seL4_MessageInfo;
 
     /* fail if user has passed bits that we will override */
-    if(!((label & ~0xfffffffffffffull) == ((0 && (label & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(label & ~0xfffffffffffffull) == ((0 && (label & (1ull << 63))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 94, __FUNCTION__);
-    if(!((capsUnwrapped & ~0x7ull) == ((0 && (capsUnwrapped & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(capsUnwrapped & ~0x7ull) == ((0 && (capsUnwrapped & (1ull << 63))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 95, __FUNCTION__);
-    if(!((extraCaps & ~0x3ull) == ((0 && (extraCaps & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(extraCaps & ~0x3ull) == ((0 && (extraCaps & (1ull << 63))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 96, __FUNCTION__);
-    if(!((length & ~0x7full) == ((0 && (length & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(length & ~0x7full) == ((0 && (length & (1ull << 63))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 97, __FUNCTION__);
+    if(!((label & ~0xfffffffffffffull) == ((0 && (label & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(label & ~0xfffffffffffffull) == ((0 && (label & (1ull << 63))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 94, __FUNCTION__);
+    if(!((capsUnwrapped & ~0x7ull) == ((0 && (capsUnwrapped & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(capsUnwrapped & ~0x7ull) == ((0 && (capsUnwrapped & (1ull << 63))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 95, __FUNCTION__);
+    if(!((extraCaps & ~0x3ull) == ((0 && (extraCaps & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(extraCaps & ~0x3ull) == ((0 && (extraCaps & (1ull << 63))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 96, __FUNCTION__);
+    if(!((length & ~0x7full) == ((0 && (length & (1ull << 63))) ? 0x0 : 0))) _assert_fail("(length & ~0x7full) == ((0 && (length & (1ull << 63))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 97, __FUNCTION__);
 
     seL4_MessageInfo.words[0] = 0
         | (label & 0xfffffffffffffull) << 12
@@ -539,7 +539,7 @@ seL4_MessageInfo_get_capsUnwrapped(seL4_MessageInfo_t seL4_MessageInfo) {
 static inline seL4_MessageInfo_t __attribute__((__const__))
 seL4_MessageInfo_set_capsUnwrapped(seL4_MessageInfo_t seL4_MessageInfo, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xe00ull >> 9 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0))) _assert_fail("(((~0xe00ull >> 9 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 133, __FUNCTION__);
+    if(!((((~0xe00ull >> 9 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0))) _assert_fail("(((~0xe00ull >> 9 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 133, __FUNCTION__);
     seL4_MessageInfo.words[0] &= ~0xe00ull;
     seL4_MessageInfo.words[0] |= (v64 << 9) & 0xe00ull;
     return seL4_MessageInfo;
@@ -559,7 +559,7 @@ seL4_MessageInfo_get_extraCaps(seL4_MessageInfo_t seL4_MessageInfo) {
 static inline seL4_MessageInfo_t __attribute__((__const__))
 seL4_MessageInfo_set_extraCaps(seL4_MessageInfo_t seL4_MessageInfo, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0))) _assert_fail("(((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 153, __FUNCTION__);
+    if(!((((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0))) _assert_fail("(((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 153, __FUNCTION__);
     seL4_MessageInfo.words[0] &= ~0x180ull;
     seL4_MessageInfo.words[0] |= (v64 << 7) & 0x180ull;
     return seL4_MessageInfo;
@@ -579,13 +579,13 @@ seL4_MessageInfo_get_length(seL4_MessageInfo_t seL4_MessageInfo) {
 static inline seL4_MessageInfo_t __attribute__((__const__))
 seL4_MessageInfo_set_length(seL4_MessageInfo_t seL4_MessageInfo, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x7full >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0))) _assert_fail("(((~0x7full >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 173, __FUNCTION__);
+    if(!((((~0x7full >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0))) _assert_fail("(((~0x7full >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (63)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/sel4/shared_types_gen.h", 173, __FUNCTION__);
     seL4_MessageInfo.words[0] &= ~0x7full;
     seL4_MessageInfo.words[0] |= (v64 << 0) & 0x7full;
     return seL4_MessageInfo;
 }
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -594,7 +594,7 @@ seL4_MessageInfo_set_length(seL4_MessageInfo_t seL4_MessageInfo, uint64_t v64) {
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/objecttype.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/objecttype.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -619,8 +619,8 @@ __attribute__((deprecated("use seL4_NotificationObject"))) static const seL4_Obj
     seL4_NotificationObject;
 
 typedef seL4_Word api_object_t;
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/objecttype.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/objecttype.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -635,8 +635,8 @@ typedef enum _mode_object {
     seL4_ARM_PageGlobalDirectoryObject,
     seL4_ModeObjectTypeCount
 } seL4_ModeObjectType;
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/arch_include/arm/sel4/arch/objecttype.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/arch_include/arm/sel4/arch/objecttype.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -646,8 +646,8 @@ typedef enum _mode_object {
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/arch_include/arm/sel4/arch/objecttype.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/arch_include/arm/sel4/arch/objecttype.h" 2
 
 
 typedef enum _object {
@@ -669,7 +669,7 @@ typedef enum _object {
 } seL4_ArchObjectType;
 
 typedef seL4_Word object_t;
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/api/types.h" 2
 
 
 
@@ -680,9 +680,9 @@ enum asidConstants {
 
 
 typedef word_t asid_t;
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/macros.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/macros.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -691,16 +691,16 @@ typedef word_t asid_t;
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/macros.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/macros.h" 2
 
 /*
  * Some compilers attempt to pack enums into the smallest possible type.
  * For ABI compatibility with the kernel, we need to ensure they remain
  * the same size as a 'long'.
  */
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/constants.h" 1
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/constants.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -710,9 +710,9 @@ typedef word_t asid_t;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/constants.h" 2
-# 46 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/constants.h"
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/constants.h" 2
+# 46 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/constants.h"
 enum priorityConstants {
     seL4_InvalidPrio = -1,
     seL4_MinPrio = 0,
@@ -764,8 +764,8 @@ static inline seL4_Word seL4_MaxExtraRefills(seL4_Word size)
 {
     return ((1ul<<(size)) - (10 * sizeof(seL4_Word) + (6 * 8))) / (2 * 8);
 }
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/shared_types.h" 1
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/shared_types.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -797,8 +797,8 @@ enum {
     seL4_CapFault_GuardMismatch_BitsFound,
     _enum_pad_seL4_CapFault_Msg = (1ULL << ((sizeof(long)*8) - 1)) - 1,
 } seL4_CapFault_Msg;
-# 18 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/io.h" 1
+# 18 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/io.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -806,7 +806,7 @@ enum {
  */
 
        
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/io.h"
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/machine/io.h"
 void putDebugChar(unsigned char c);
 
 
@@ -825,7 +825,7 @@ void putchar(char c);
 word_t kprintf(const char *format, ...) __attribute__((externally_visible)) __attribute__((format(printf, 1, 2)));
 word_t ksnprintf(char *str, word_t size, const char *format, ...);
 word_t puts(const char *s) __attribute__((externally_visible));
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h" 2
+# 19 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h" 2
 
 /* seL4_CapRights_t defined in mode/api/shared_types.bf */
 
@@ -899,17 +899,17 @@ static inline word_t __attribute__((__const__)) wordFromMessageInfo(seL4_Message
 {
     return mi.words[0];
 }
-# 104 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h"
+# 104 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h"
 /*
  * thread name is only available if the kernel is built in debug mode.
  */
-# 123 "/home/chris/Desktop/SOS-V2020/kernel/include/api/types.h"
+# 123 "/home/dev/projects/SOS-V2020/kernel/include/api/types.h"
 /*
  * Print to serial a message helping userspace programmers to determine why the
  * kernel is not performing their requested operation.
  */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/compound_types.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/compound_types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -921,7 +921,7 @@ static inline word_t __attribute__((__const__)) wordFromMessageInfo(seL4_Message
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h" 1
 
 
 
@@ -939,8 +939,8 @@ call_stack_new(uint64_t callStackPtr, uint64_t isHead) {
     call_stack_t call_stack;
 
     /* fail if user has passed bits that we will override */
-    if(!((isHead & ~0x1ull) == ((1 && (isHead & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(isHead & ~0x1ull) == ((1 && (isHead & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 18, __FUNCTION__);
-    if(!((callStackPtr & ~0xffffffffffffull) == ((1 && (callStackPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(callStackPtr & ~0xffffffffffffull) == ((1 && (callStackPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 19, __FUNCTION__);
+    if(!((isHead & ~0x1ull) == ((1 && (isHead & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(isHead & ~0x1ull) == ((1 && (isHead & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 18, __FUNCTION__);
+    if(!((callStackPtr & ~0xffffffffffffull) == ((1 && (callStackPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(callStackPtr & ~0xffffffffffffull) == ((1 && (callStackPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 19, __FUNCTION__);
 
     call_stack.words[0] = 0
         | (isHead & 0x1ull) << 48
@@ -990,7 +990,7 @@ endpoint_ptr_get_epQueue_head(endpoint_t *endpoint_ptr) {
 static inline void
 endpoint_ptr_set_epQueue_head(endpoint_t *endpoint_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 69, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 69, __FUNCTION__);
     endpoint_ptr->words[1] &= ~0xffffffffffffffffull;
     endpoint_ptr->words[1] |= (v64 << 0) & 0xffffffffffffffff;
 }
@@ -1009,7 +1009,7 @@ endpoint_ptr_get_epQueue_tail(endpoint_t *endpoint_ptr) {
 static inline void
 endpoint_ptr_set_epQueue_tail(endpoint_t *endpoint_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 88, __FUNCTION__);
+    if(!((((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 88, __FUNCTION__);
     endpoint_ptr->words[0] &= ~0xfffffffffffcull;
     endpoint_ptr->words[0] |= (v64 >> 0) & 0xfffffffffffc;
 }
@@ -1028,7 +1028,7 @@ endpoint_ptr_get_state(endpoint_t *endpoint_ptr) {
 static inline void
 endpoint_ptr_set_state(endpoint_t *endpoint_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 107, __FUNCTION__);
+    if(!((((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 107, __FUNCTION__);
     endpoint_ptr->words[0] &= ~0x3ull;
     endpoint_ptr->words[0] |= (v64 << 0) & 0x3;
 }
@@ -1043,9 +1043,9 @@ mdb_node_new(uint64_t mdbNext, uint64_t mdbRevocable, uint64_t mdbFirstBadged, u
     mdb_node_t mdb_node;
 
     /* fail if user has passed bits that we will override */
-    if(!((mdbNext & ~0xfffffffffffcull) == ((1 && (mdbNext & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(mdbNext & ~0xfffffffffffcull) == ((1 && (mdbNext & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 122, __FUNCTION__);
-    if(!((mdbRevocable & ~0x1ull) == ((1 && (mdbRevocable & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(mdbRevocable & ~0x1ull) == ((1 && (mdbRevocable & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 123, __FUNCTION__);
-    if(!((mdbFirstBadged & ~0x1ull) == ((1 && (mdbFirstBadged & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(mdbFirstBadged & ~0x1ull) == ((1 && (mdbFirstBadged & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 124, __FUNCTION__);
+    if(!((mdbNext & ~0xfffffffffffcull) == ((1 && (mdbNext & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(mdbNext & ~0xfffffffffffcull) == ((1 && (mdbNext & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 122, __FUNCTION__);
+    if(!((mdbRevocable & ~0x1ull) == ((1 && (mdbRevocable & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(mdbRevocable & ~0x1ull) == ((1 && (mdbRevocable & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 123, __FUNCTION__);
+    if(!((mdbFirstBadged & ~0x1ull) == ((1 && (mdbFirstBadged & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(mdbFirstBadged & ~0x1ull) == ((1 && (mdbFirstBadged & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 124, __FUNCTION__);
 
     mdb_node.words[0] = 0
         | mdbPrev << 0;;
@@ -1071,7 +1071,7 @@ mdb_node_get_mdbNext(mdb_node_t mdb_node) {
 static inline void
 mdb_node_ptr_set_mdbNext(mdb_node_t *mdb_node_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 150, __FUNCTION__);
+    if(!((((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffffffffcull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 150, __FUNCTION__);
     mdb_node_ptr->words[1] &= ~0xfffffffffffcull;
     mdb_node_ptr->words[1] |= (v64 >> 0) & 0xfffffffffffc;
 }
@@ -1090,7 +1090,7 @@ mdb_node_get_mdbRevocable(mdb_node_t mdb_node) {
 static inline mdb_node_t __attribute__((__const__))
 mdb_node_set_mdbRevocable(mdb_node_t mdb_node, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x2ull >> 1 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x2ull >> 1 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 169, __FUNCTION__);
+    if(!((((~0x2ull >> 1 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x2ull >> 1 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 169, __FUNCTION__);
     mdb_node.words[1] &= ~0x2ull;
     mdb_node.words[1] |= (v64 << 1) & 0x2ull;
     return mdb_node;
@@ -1099,7 +1099,7 @@ mdb_node_set_mdbRevocable(mdb_node_t mdb_node, uint64_t v64) {
 static inline void
 mdb_node_ptr_set_mdbRevocable(mdb_node_t *mdb_node_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 178, __FUNCTION__);
+    if(!((((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 178, __FUNCTION__);
     mdb_node_ptr->words[1] &= ~0x2ull;
     mdb_node_ptr->words[1] |= (v64 << 1) & 0x2;
 }
@@ -1118,7 +1118,7 @@ mdb_node_get_mdbFirstBadged(mdb_node_t mdb_node) {
 static inline mdb_node_t __attribute__((__const__))
 mdb_node_set_mdbFirstBadged(mdb_node_t mdb_node, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1ull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1ull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 197, __FUNCTION__);
+    if(!((((~0x1ull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1ull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 197, __FUNCTION__);
     mdb_node.words[1] &= ~0x1ull;
     mdb_node.words[1] |= (v64 << 0) & 0x1ull;
     return mdb_node;
@@ -1127,7 +1127,7 @@ mdb_node_set_mdbFirstBadged(mdb_node_t mdb_node, uint64_t v64) {
 static inline void
 mdb_node_ptr_set_mdbFirstBadged(mdb_node_t *mdb_node_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 206, __FUNCTION__);
+    if(!((((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 206, __FUNCTION__);
     mdb_node_ptr->words[1] &= ~0x1ull;
     mdb_node_ptr->words[1] |= (v64 << 0) & 0x1;
 }
@@ -1146,7 +1146,7 @@ mdb_node_get_mdbPrev(mdb_node_t mdb_node) {
 static inline mdb_node_t __attribute__((__const__))
 mdb_node_set_mdbPrev(mdb_node_t mdb_node, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 225, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 225, __FUNCTION__);
     mdb_node.words[0] &= ~0xffffffffffffffffull;
     mdb_node.words[0] |= (v64 << 0) & 0xffffffffffffffffull;
     return mdb_node;
@@ -1155,7 +1155,7 @@ mdb_node_set_mdbPrev(mdb_node_t mdb_node, uint64_t v64) {
 static inline void
 mdb_node_ptr_set_mdbPrev(mdb_node_t *mdb_node_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 234, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 234, __FUNCTION__);
     mdb_node_ptr->words[0] &= ~0xffffffffffffffffull;
     mdb_node_ptr->words[0] |= (v64 << 0) & 0xffffffffffffffff;
 }
@@ -1179,7 +1179,7 @@ notification_ptr_get_ntfnSchedContext(notification_t *notification_ptr) {
 static inline void
 notification_ptr_set_ntfnSchedContext(notification_t *notification_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 258, __FUNCTION__);
+    if(!((((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 258, __FUNCTION__);
     notification_ptr->words[4] &= ~0xffffffffffffull;
     notification_ptr->words[4] |= (v64 >> 0) & 0xffffffffffff;
 }
@@ -1198,7 +1198,7 @@ notification_ptr_get_ntfnBoundTCB(notification_t *notification_ptr) {
 static inline void
 notification_ptr_set_ntfnBoundTCB(notification_t *notification_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 277, __FUNCTION__);
+    if(!((((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 277, __FUNCTION__);
     notification_ptr->words[3] &= ~0xffffffffffffull;
     notification_ptr->words[3] |= (v64 >> 0) & 0xffffffffffff;
 }
@@ -1217,7 +1217,7 @@ notification_ptr_get_ntfnMsgIdentifier(notification_t *notification_ptr) {
 static inline void
 notification_ptr_set_ntfnMsgIdentifier(notification_t *notification_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 296, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 296, __FUNCTION__);
     notification_ptr->words[2] &= ~0xffffffffffffffffull;
     notification_ptr->words[2] |= (v64 << 0) & 0xffffffffffffffff;
 }
@@ -1236,7 +1236,7 @@ notification_ptr_get_ntfnQueue_head(notification_t *notification_ptr) {
 static inline void
 notification_ptr_set_ntfnQueue_head(notification_t *notification_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 315, __FUNCTION__);
+    if(!((((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffffull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 315, __FUNCTION__);
     notification_ptr->words[1] &= ~0xffffffffffffull;
     notification_ptr->words[1] |= (v64 >> 0) & 0xffffffffffff;
 }
@@ -1255,7 +1255,7 @@ notification_ptr_get_ntfnQueue_tail(notification_t *notification_ptr) {
 static inline void
 notification_ptr_set_ntfnQueue_tail(notification_t *notification_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffff0000ull >> 16) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffff0000ull >> 16) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 334, __FUNCTION__);
+    if(!((((~0xffffffffffff0000ull >> 16) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffffffffff0000ull >> 16) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 334, __FUNCTION__);
     notification_ptr->words[0] &= ~0xffffffffffff0000ull;
     notification_ptr->words[0] |= (v64 << 16) & 0xffffffffffff0000;
 }
@@ -1274,7 +1274,7 @@ notification_ptr_get_state(notification_t *notification_ptr) {
 static inline void
 notification_ptr_set_state(notification_t *notification_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 353, __FUNCTION__);
+    if(!((((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x3ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 353, __FUNCTION__);
     notification_ptr->words[0] &= ~0x3ull;
     notification_ptr->words[0] |= (v64 << 0) & 0x3;
 }
@@ -1289,14 +1289,14 @@ pte_new(uint64_t UXN, uint64_t page_base_address, uint64_t nG, uint64_t AF, uint
     pte_t pte;
 
     /* fail if user has passed bits that we will override */
-    if(!((UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 368, __FUNCTION__);
-    if(!((page_base_address & ~0xfffffffff000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(page_base_address & ~0xfffffffff000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 369, __FUNCTION__);
-    if(!((nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 370, __FUNCTION__);
-    if(!((AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 371, __FUNCTION__);
-    if(!((SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 372, __FUNCTION__);
-    if(!((AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 373, __FUNCTION__);
-    if(!((AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 374, __FUNCTION__);
-    if(!((reserved & ~0x3ull) == ((0 && (reserved & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(reserved & ~0x3ull) == ((0 && (reserved & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 375, __FUNCTION__);
+    if(!((UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 368, __FUNCTION__);
+    if(!((page_base_address & ~0xfffffffff000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(page_base_address & ~0xfffffffff000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 369, __FUNCTION__);
+    if(!((nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 370, __FUNCTION__);
+    if(!((AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 371, __FUNCTION__);
+    if(!((SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 372, __FUNCTION__);
+    if(!((AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 373, __FUNCTION__);
+    if(!((AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 374, __FUNCTION__);
+    if(!((reserved & ~0x3ull) == ((0 && (reserved & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(reserved & ~0x3ull) == ((0 && (reserved & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 375, __FUNCTION__);
 
     pte.words[0] = 0
         | (UXN & 0x1ull) << 54
@@ -1352,7 +1352,7 @@ thread_state_ptr_get_blockingIPCBadge(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_blockingIPCBadge(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 431, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 431, __FUNCTION__);
     thread_state_ptr->words[2] &= ~0xffffffffffffffffull;
     thread_state_ptr->words[2] |= (v64 << 0) & 0xffffffffffffffff;
 }
@@ -1371,7 +1371,7 @@ thread_state_get_replyObject(thread_state_t thread_state) {
 static inline void
 thread_state_ptr_set_replyObject(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1ffffffffffe0ull >> 1) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x1ffffffffffe0ull >> 1) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 450, __FUNCTION__);
+    if(!((((~0x1ffffffffffe0ull >> 1) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x1ffffffffffe0ull >> 1) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 450, __FUNCTION__);
     thread_state_ptr->words[1] &= ~0x1ffffffffffe0ull;
     thread_state_ptr->words[1] |= (v64 << 1) & 0x1ffffffffffe0;
 }
@@ -1390,7 +1390,7 @@ thread_state_ptr_get_blockingIPCCanGrant(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_blockingIPCCanGrant(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x10ull >> 4) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x10ull >> 4) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 469, __FUNCTION__);
+    if(!((((~0x10ull >> 4) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x10ull >> 4) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 469, __FUNCTION__);
     thread_state_ptr->words[1] &= ~0x10ull;
     thread_state_ptr->words[1] |= (v64 << 4) & 0x10;
 }
@@ -1409,7 +1409,7 @@ thread_state_ptr_get_blockingIPCCanGrantReply(thread_state_t *thread_state_ptr) 
 static inline void
 thread_state_ptr_set_blockingIPCCanGrantReply(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x8ull >> 3) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x8ull >> 3) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 488, __FUNCTION__);
+    if(!((((~0x8ull >> 3) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x8ull >> 3) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 488, __FUNCTION__);
     thread_state_ptr->words[1] &= ~0x8ull;
     thread_state_ptr->words[1] |= (v64 << 3) & 0x8;
 }
@@ -1428,7 +1428,7 @@ thread_state_ptr_get_blockingIPCIsCall(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_blockingIPCIsCall(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x4ull >> 2) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x4ull >> 2) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 507, __FUNCTION__);
+    if(!((((~0x4ull >> 2) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x4ull >> 2) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 507, __FUNCTION__);
     thread_state_ptr->words[1] &= ~0x4ull;
     thread_state_ptr->words[1] |= (v64 << 2) & 0x4;
 }
@@ -1458,7 +1458,7 @@ thread_state_ptr_get_tcbQueued(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_tcbQueued(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 537, __FUNCTION__);
+    if(!((((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x2ull >> 1) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 537, __FUNCTION__);
     thread_state_ptr->words[1] &= ~0x2ull;
     thread_state_ptr->words[1] |= (v64 << 1) & 0x2;
 }
@@ -1488,7 +1488,7 @@ thread_state_ptr_get_tcbInReleaseQueue(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_tcbInReleaseQueue(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 567, __FUNCTION__);
+    if(!((((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1ull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 567, __FUNCTION__);
     thread_state_ptr->words[1] &= ~0x1ull;
     thread_state_ptr->words[1] |= (v64 << 0) & 0x1;
 }
@@ -1518,7 +1518,7 @@ thread_state_ptr_get_blockingObject(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_blockingObject(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xfffffffffff0ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffffffff0ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 597, __FUNCTION__);
+    if(!((((~0xfffffffffff0ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffffffff0ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 597, __FUNCTION__);
     thread_state_ptr->words[0] &= ~0xfffffffffff0ull;
     thread_state_ptr->words[0] |= (v64 >> 0) & 0xfffffffffff0;
 }
@@ -1548,7 +1548,7 @@ thread_state_ptr_get_tsType(thread_state_t *thread_state_ptr) {
 static inline void
 thread_state_ptr_set_tsType(thread_state_t *thread_state_ptr, uint64_t v64) {
     /* fail if user has passed bits that we will override */
-    if(!((((~0xfull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xfull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 627, __FUNCTION__);
+    if(!((((~0xfull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xfull >> 0) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 627, __FUNCTION__);
     thread_state_ptr->words[0] &= ~0xfull;
     thread_state_ptr->words[0] |= (v64 << 0) & 0xf;
 }
@@ -1563,8 +1563,8 @@ ttbr_new(uint64_t asid, uint64_t base_address) {
     ttbr_t ttbr;
 
     /* fail if user has passed bits that we will override */
-    if(!((asid & ~0xffffull) == ((0 && (asid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(asid & ~0xffffull) == ((0 && (asid & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 642, __FUNCTION__);
-    if(!((base_address & ~0xffffffffffffull) == ((0 && (base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(base_address & ~0xffffffffffffull) == ((0 && (base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 643, __FUNCTION__);
+    if(!((asid & ~0xffffull) == ((0 && (asid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(asid & ~0xffffull) == ((0 && (asid & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 642, __FUNCTION__);
+    if(!((base_address & ~0xffffffffffffull) == ((0 && (base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(base_address & ~0xffffffffffffull) == ((0 && (base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 643, __FUNCTION__);
 
     ttbr.words[0] = 0
         | (asid & 0xffffull) << 48
@@ -1583,9 +1583,9 @@ vm_attributes_new(uint64_t armExecuteNever, uint64_t armParityEnabled, uint64_t 
     vm_attributes_t vm_attributes;
 
     /* fail if user has passed bits that we will override */
-    if(!((armExecuteNever & ~0x1ull) == ((1 && (armExecuteNever & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(armExecuteNever & ~0x1ull) == ((1 && (armExecuteNever & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 662, __FUNCTION__);
-    if(!((armParityEnabled & ~0x1ull) == ((1 && (armParityEnabled & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(armParityEnabled & ~0x1ull) == ((1 && (armParityEnabled & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 663, __FUNCTION__);
-    if(!((armPageCacheable & ~0x1ull) == ((1 && (armPageCacheable & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(armPageCacheable & ~0x1ull) == ((1 && (armPageCacheable & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 664, __FUNCTION__);
+    if(!((armExecuteNever & ~0x1ull) == ((1 && (armExecuteNever & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(armExecuteNever & ~0x1ull) == ((1 && (armExecuteNever & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 662, __FUNCTION__);
+    if(!((armParityEnabled & ~0x1ull) == ((1 && (armParityEnabled & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(armParityEnabled & ~0x1ull) == ((1 && (armParityEnabled & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 663, __FUNCTION__);
+    if(!((armPageCacheable & ~0x1ull) == ((1 && (armPageCacheable & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(armPageCacheable & ~0x1ull) == ((1 && (armPageCacheable & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 664, __FUNCTION__);
 
     vm_attributes.words[0] = 0
         | (armExecuteNever & 0x1ull) << 2
@@ -1661,7 +1661,7 @@ cap_null_cap_new(void) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_null_cap & ~0x1full) == ((1 && ((uint64_t)cap_null_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_null_cap & ~0x1full) == ((1 && ((uint64_t)cap_null_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 740, __FUNCTION__);
+    if(!(((uint64_t)cap_null_cap & ~0x1full) == ((1 && ((uint64_t)cap_null_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_null_cap & ~0x1full) == ((1 && ((uint64_t)cap_null_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 740, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_null_cap & 0x1full) << 59;
@@ -1675,11 +1675,11 @@ cap_untyped_cap_new(uint64_t capFreeIndex, uint64_t capIsDevice, uint64_t capBlo
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capFreeIndex & ~0xffffffffffffull) == ((1 && (capFreeIndex & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFreeIndex & ~0xffffffffffffull) == ((1 && (capFreeIndex & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 754, __FUNCTION__);
-    if(!((capIsDevice & ~0x1ull) == ((1 && (capIsDevice & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capIsDevice & ~0x1ull) == ((1 && (capIsDevice & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 755, __FUNCTION__);
-    if(!((capBlockSize & ~0x3full) == ((1 && (capBlockSize & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capBlockSize & ~0x3full) == ((1 && (capBlockSize & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 756, __FUNCTION__);
-    if(!(((uint64_t)cap_untyped_cap & ~0x1full) == ((1 && ((uint64_t)cap_untyped_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_untyped_cap & ~0x1full) == ((1 && ((uint64_t)cap_untyped_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 757, __FUNCTION__);
-    if(!((capPtr & ~0xffffffffffffull) == ((1 && (capPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPtr & ~0xffffffffffffull) == ((1 && (capPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 758, __FUNCTION__);
+    if(!((capFreeIndex & ~0xffffffffffffull) == ((1 && (capFreeIndex & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFreeIndex & ~0xffffffffffffull) == ((1 && (capFreeIndex & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 754, __FUNCTION__);
+    if(!((capIsDevice & ~0x1ull) == ((1 && (capIsDevice & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capIsDevice & ~0x1ull) == ((1 && (capIsDevice & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 755, __FUNCTION__);
+    if(!((capBlockSize & ~0x3full) == ((1 && (capBlockSize & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capBlockSize & ~0x3full) == ((1 && (capBlockSize & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 756, __FUNCTION__);
+    if(!(((uint64_t)cap_untyped_cap & ~0x1full) == ((1 && ((uint64_t)cap_untyped_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_untyped_cap & ~0x1full) == ((1 && ((uint64_t)cap_untyped_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 757, __FUNCTION__);
+    if(!((capPtr & ~0xffffffffffffull) == ((1 && (capPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPtr & ~0xffffffffffffull) == ((1 && (capPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 758, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_untyped_cap & 0x1full) << 59
@@ -1695,7 +1695,7 @@ cap_untyped_cap_new(uint64_t capFreeIndex, uint64_t capIsDevice, uint64_t capBlo
 static inline uint64_t __attribute__((__const__))
 cap_untyped_cap_get_capFreeIndex(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 774, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 774, __FUNCTION__)
                            ;
 
     ret = (cap.words[1] & 0xffffffffffff0000ull) >> 16;
@@ -1708,10 +1708,10 @@ cap_untyped_cap_get_capFreeIndex(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_untyped_cap_set_capFreeIndex(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 787, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 787, __FUNCTION__)
                            ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffff0000ull >> 16 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffff0000ull >> 16 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 790, __FUNCTION__);
+    if(!((((~0xffffffffffff0000ull >> 16 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffff0000ull >> 16 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 790, __FUNCTION__);
 
     cap.words[1] &= ~0xffffffffffff0000ull;
     cap.words[1] |= (v64 << 16) & 0xffffffffffff0000ull;
@@ -1721,11 +1721,11 @@ cap_untyped_cap_set_capFreeIndex(cap_t cap, uint64_t v64) {
 static inline void
 cap_untyped_cap_ptr_set_capFreeIndex(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 800, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 800, __FUNCTION__)
                            ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffff0000ull >> 16) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffff0000ull >> 16) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 804, __FUNCTION__);
+    if(!((((~0xffffffffffff0000ull >> 16) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffff0000ull >> 16) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 804, __FUNCTION__);
 
     cap_ptr->words[1] &= ~0xffffffffffff0000ull;
     cap_ptr->words[1] |= (v64 << 16) & 0xffffffffffff0000ull;
@@ -1734,7 +1734,7 @@ cap_untyped_cap_ptr_set_capFreeIndex(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_untyped_cap_get_capIsDevice(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 813, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 813, __FUNCTION__)
                            ;
 
     ret = (cap.words[1] & 0x40ull) >> 6;
@@ -1748,7 +1748,7 @@ cap_untyped_cap_get_capIsDevice(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_untyped_cap_get_capBlockSize(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 827, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 827, __FUNCTION__)
                            ;
 
     ret = (cap.words[1] & 0x3full) >> 0;
@@ -1762,7 +1762,7 @@ cap_untyped_cap_get_capBlockSize(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_untyped_cap_get_capPtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 841, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_untyped_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 841, __FUNCTION__)
                            ;
 
     ret = (cap.words[0] & 0xffffffffffffull) << 0;
@@ -1778,12 +1778,12 @@ cap_endpoint_cap_new(uint64_t capEPBadge, uint64_t capCanGrantReply, uint64_t ca
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capCanGrantReply & ~0x1ull) == ((1 && (capCanGrantReply & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanGrantReply & ~0x1ull) == ((1 && (capCanGrantReply & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 857, __FUNCTION__);
-    if(!((capCanGrant & ~0x1ull) == ((1 && (capCanGrant & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanGrant & ~0x1ull) == ((1 && (capCanGrant & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 858, __FUNCTION__);
-    if(!((capCanSend & ~0x1ull) == ((1 && (capCanSend & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanSend & ~0x1ull) == ((1 && (capCanSend & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 859, __FUNCTION__);
-    if(!((capCanReceive & ~0x1ull) == ((1 && (capCanReceive & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanReceive & ~0x1ull) == ((1 && (capCanReceive & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 860, __FUNCTION__);
-    if(!((capEPPtr & ~0xffffffffffffull) == ((1 && (capEPPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capEPPtr & ~0xffffffffffffull) == ((1 && (capEPPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 861, __FUNCTION__);
-    if(!(((uint64_t)cap_endpoint_cap & ~0x1full) == ((1 && ((uint64_t)cap_endpoint_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_endpoint_cap & ~0x1full) == ((1 && ((uint64_t)cap_endpoint_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 862, __FUNCTION__);
+    if(!((capCanGrantReply & ~0x1ull) == ((1 && (capCanGrantReply & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanGrantReply & ~0x1ull) == ((1 && (capCanGrantReply & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 857, __FUNCTION__);
+    if(!((capCanGrant & ~0x1ull) == ((1 && (capCanGrant & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanGrant & ~0x1ull) == ((1 && (capCanGrant & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 858, __FUNCTION__);
+    if(!((capCanSend & ~0x1ull) == ((1 && (capCanSend & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanSend & ~0x1ull) == ((1 && (capCanSend & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 859, __FUNCTION__);
+    if(!((capCanReceive & ~0x1ull) == ((1 && (capCanReceive & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCanReceive & ~0x1ull) == ((1 && (capCanReceive & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 860, __FUNCTION__);
+    if(!((capEPPtr & ~0xffffffffffffull) == ((1 && (capEPPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capEPPtr & ~0xffffffffffffull) == ((1 && (capEPPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 861, __FUNCTION__);
+    if(!(((uint64_t)cap_endpoint_cap & ~0x1full) == ((1 && ((uint64_t)cap_endpoint_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_endpoint_cap & ~0x1full) == ((1 && ((uint64_t)cap_endpoint_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 862, __FUNCTION__);
 
     cap.words[0] = 0
         | (capCanGrantReply & 0x1ull) << 58
@@ -1801,7 +1801,7 @@ cap_endpoint_cap_new(uint64_t capEPBadge, uint64_t capCanGrantReply, uint64_t ca
 static inline uint64_t __attribute__((__const__))
 cap_endpoint_cap_get_capEPBadge(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 880, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 880, __FUNCTION__)
                             ;
 
     ret = (cap.words[1] & 0xffffffffffffffffull) >> 0;
@@ -1814,10 +1814,10 @@ cap_endpoint_cap_get_capEPBadge(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_endpoint_cap_set_capEPBadge(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 893, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 893, __FUNCTION__)
                             ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 896, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 896, __FUNCTION__);
 
     cap.words[1] &= ~0xffffffffffffffffull;
     cap.words[1] |= (v64 << 0) & 0xffffffffffffffffull;
@@ -1827,7 +1827,7 @@ cap_endpoint_cap_set_capEPBadge(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_endpoint_cap_get_capCanGrantReply(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 906, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 906, __FUNCTION__)
                             ;
 
     ret = (cap.words[0] & 0x400000000000000ull) >> 58;
@@ -1840,10 +1840,10 @@ cap_endpoint_cap_get_capCanGrantReply(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_endpoint_cap_set_capCanGrantReply(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 919, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 919, __FUNCTION__)
                             ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 922, __FUNCTION__);
+    if(!((((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 922, __FUNCTION__);
 
     cap.words[0] &= ~0x400000000000000ull;
     cap.words[0] |= (v64 << 58) & 0x400000000000000ull;
@@ -1853,7 +1853,7 @@ cap_endpoint_cap_set_capCanGrantReply(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_endpoint_cap_get_capCanGrant(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 932, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 932, __FUNCTION__)
                             ;
 
     ret = (cap.words[0] & 0x200000000000000ull) >> 57;
@@ -1866,10 +1866,10 @@ cap_endpoint_cap_get_capCanGrant(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_endpoint_cap_set_capCanGrant(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 945, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 945, __FUNCTION__)
                             ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 948, __FUNCTION__);
+    if(!((((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 948, __FUNCTION__);
 
     cap.words[0] &= ~0x200000000000000ull;
     cap.words[0] |= (v64 << 57) & 0x200000000000000ull;
@@ -1879,7 +1879,7 @@ cap_endpoint_cap_set_capCanGrant(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_endpoint_cap_get_capCanReceive(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 958, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 958, __FUNCTION__)
                             ;
 
     ret = (cap.words[0] & 0x100000000000000ull) >> 56;
@@ -1892,10 +1892,10 @@ cap_endpoint_cap_get_capCanReceive(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_endpoint_cap_set_capCanReceive(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 971, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 971, __FUNCTION__)
                             ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x100000000000000ull >> 56 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x100000000000000ull >> 56 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 974, __FUNCTION__);
+    if(!((((~0x100000000000000ull >> 56 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x100000000000000ull >> 56 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 974, __FUNCTION__);
 
     cap.words[0] &= ~0x100000000000000ull;
     cap.words[0] |= (v64 << 56) & 0x100000000000000ull;
@@ -1905,7 +1905,7 @@ cap_endpoint_cap_set_capCanReceive(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_endpoint_cap_get_capCanSend(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 984, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 984, __FUNCTION__)
                             ;
 
     ret = (cap.words[0] & 0x80000000000000ull) >> 55;
@@ -1918,10 +1918,10 @@ cap_endpoint_cap_get_capCanSend(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_endpoint_cap_set_capCanSend(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 997, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 997, __FUNCTION__)
                             ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x80000000000000ull >> 55 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x80000000000000ull >> 55 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1000, __FUNCTION__);
+    if(!((((~0x80000000000000ull >> 55 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x80000000000000ull >> 55 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1000, __FUNCTION__);
 
     cap.words[0] &= ~0x80000000000000ull;
     cap.words[0] |= (v64 << 55) & 0x80000000000000ull;
@@ -1931,7 +1931,7 @@ cap_endpoint_cap_set_capCanSend(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_endpoint_cap_get_capEPPtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1010, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1010, __FUNCTION__)
                             ;
 
     ret = (cap.words[0] & 0xffffffffffffull) << 0;
@@ -1947,10 +1947,10 @@ cap_notification_cap_new(uint64_t capNtfnBadge, uint64_t capNtfnCanReceive, uint
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_notification_cap & ~0x1full) == ((1 && ((uint64_t)cap_notification_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_notification_cap & ~0x1full) == ((1 && ((uint64_t)cap_notification_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1026, __FUNCTION__);
-    if(!((capNtfnCanReceive & ~0x1ull) == ((1 && (capNtfnCanReceive & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capNtfnCanReceive & ~0x1ull) == ((1 && (capNtfnCanReceive & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1027, __FUNCTION__);
-    if(!((capNtfnCanSend & ~0x1ull) == ((1 && (capNtfnCanSend & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capNtfnCanSend & ~0x1ull) == ((1 && (capNtfnCanSend & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1028, __FUNCTION__);
-    if(!((capNtfnPtr & ~0xffffffffffffull) == ((1 && (capNtfnPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capNtfnPtr & ~0xffffffffffffull) == ((1 && (capNtfnPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1029, __FUNCTION__);
+    if(!(((uint64_t)cap_notification_cap & ~0x1full) == ((1 && ((uint64_t)cap_notification_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_notification_cap & ~0x1full) == ((1 && ((uint64_t)cap_notification_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1026, __FUNCTION__);
+    if(!((capNtfnCanReceive & ~0x1ull) == ((1 && (capNtfnCanReceive & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capNtfnCanReceive & ~0x1ull) == ((1 && (capNtfnCanReceive & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1027, __FUNCTION__);
+    if(!((capNtfnCanSend & ~0x1ull) == ((1 && (capNtfnCanSend & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capNtfnCanSend & ~0x1ull) == ((1 && (capNtfnCanSend & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1028, __FUNCTION__);
+    if(!((capNtfnPtr & ~0xffffffffffffull) == ((1 && (capNtfnPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capNtfnPtr & ~0xffffffffffffull) == ((1 && (capNtfnPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1029, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_notification_cap & 0x1full) << 59
@@ -1966,7 +1966,7 @@ cap_notification_cap_new(uint64_t capNtfnBadge, uint64_t capNtfnCanReceive, uint
 static inline uint64_t __attribute__((__const__))
 cap_notification_cap_get_capNtfnBadge(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1045, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1045, __FUNCTION__)
                                 ;
 
     ret = (cap.words[1] & 0xffffffffffffffffull) >> 0;
@@ -1979,10 +1979,10 @@ cap_notification_cap_get_capNtfnBadge(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_notification_cap_set_capNtfnBadge(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1058, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1058, __FUNCTION__)
                                 ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1061, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1061, __FUNCTION__);
 
     cap.words[1] &= ~0xffffffffffffffffull;
     cap.words[1] |= (v64 << 0) & 0xffffffffffffffffull;
@@ -1992,7 +1992,7 @@ cap_notification_cap_set_capNtfnBadge(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_notification_cap_get_capNtfnCanReceive(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1071, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1071, __FUNCTION__)
                                 ;
 
     ret = (cap.words[0] & 0x400000000000000ull) >> 58;
@@ -2005,10 +2005,10 @@ cap_notification_cap_get_capNtfnCanReceive(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_notification_cap_set_capNtfnCanReceive(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1084, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1084, __FUNCTION__)
                                 ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1087, __FUNCTION__);
+    if(!((((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1087, __FUNCTION__);
 
     cap.words[0] &= ~0x400000000000000ull;
     cap.words[0] |= (v64 << 58) & 0x400000000000000ull;
@@ -2018,7 +2018,7 @@ cap_notification_cap_set_capNtfnCanReceive(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_notification_cap_get_capNtfnCanSend(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1097, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1097, __FUNCTION__)
                                 ;
 
     ret = (cap.words[0] & 0x200000000000000ull) >> 57;
@@ -2031,10 +2031,10 @@ cap_notification_cap_get_capNtfnCanSend(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_notification_cap_set_capNtfnCanSend(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1110, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1110, __FUNCTION__)
                                 ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1113, __FUNCTION__);
+    if(!((((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x200000000000000ull >> 57 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1113, __FUNCTION__);
 
     cap.words[0] &= ~0x200000000000000ull;
     cap.words[0] |= (v64 << 57) & 0x200000000000000ull;
@@ -2044,7 +2044,7 @@ cap_notification_cap_set_capNtfnCanSend(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_notification_cap_get_capNtfnPtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1123, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_notification_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_notification_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1123, __FUNCTION__)
                                 ;
 
     ret = (cap.words[0] & 0xffffffffffffull) << 0;
@@ -2060,8 +2060,8 @@ cap_reply_cap_new(uint64_t capReplyPtr, uint64_t capReplyCanGrant) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_reply_cap & ~0x1full) == ((1 && ((uint64_t)cap_reply_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_reply_cap & ~0x1full) == ((1 && ((uint64_t)cap_reply_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1139, __FUNCTION__);
-    if(!((capReplyCanGrant & ~0x1ull) == ((1 && (capReplyCanGrant & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capReplyCanGrant & ~0x1ull) == ((1 && (capReplyCanGrant & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1140, __FUNCTION__);
+    if(!(((uint64_t)cap_reply_cap & ~0x1full) == ((1 && ((uint64_t)cap_reply_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_reply_cap & ~0x1full) == ((1 && ((uint64_t)cap_reply_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1139, __FUNCTION__);
+    if(!((capReplyCanGrant & ~0x1ull) == ((1 && (capReplyCanGrant & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capReplyCanGrant & ~0x1ull) == ((1 && (capReplyCanGrant & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1140, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_reply_cap & 0x1full) << 59
@@ -2075,7 +2075,7 @@ cap_reply_cap_new(uint64_t capReplyPtr, uint64_t capReplyCanGrant) {
 static inline uint64_t __attribute__((__const__))
 cap_reply_cap_get_capReplyPtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_reply_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_reply_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1154, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_reply_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_reply_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1154, __FUNCTION__)
                          ;
 
     ret = (cap.words[1] & 0xffffffffffffffffull) >> 0;
@@ -2089,7 +2089,7 @@ cap_reply_cap_get_capReplyPtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_reply_cap_get_capReplyCanGrant(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_reply_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_reply_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1168, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_reply_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_reply_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1168, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x400000000000000ull) >> 58;
@@ -2102,10 +2102,10 @@ cap_reply_cap_get_capReplyCanGrant(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_reply_cap_set_capReplyCanGrant(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_reply_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_reply_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1181, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_reply_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_reply_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1181, __FUNCTION__)
                          ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1184, __FUNCTION__);
+    if(!((((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1184, __FUNCTION__);
 
     cap.words[0] &= ~0x400000000000000ull;
     cap.words[0] |= (v64 << 58) & 0x400000000000000ull;
@@ -2117,10 +2117,10 @@ cap_cnode_cap_new(uint64_t capCNodeRadix, uint64_t capCNodeGuardSize, uint64_t c
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capCNodeRadix & ~0x3full) == ((1 && (capCNodeRadix & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCNodeRadix & ~0x3full) == ((1 && (capCNodeRadix & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1196, __FUNCTION__);
-    if(!((capCNodeGuardSize & ~0x3full) == ((1 && (capCNodeGuardSize & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCNodeGuardSize & ~0x3full) == ((1 && (capCNodeGuardSize & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1197, __FUNCTION__);
-    if(!((capCNodePtr & ~0xfffffffffffeull) == ((1 && (capCNodePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capCNodePtr & ~0xfffffffffffeull) == ((1 && (capCNodePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1198, __FUNCTION__);
-    if(!(((uint64_t)cap_cnode_cap & ~0x1full) == ((1 && ((uint64_t)cap_cnode_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_cnode_cap & ~0x1full) == ((1 && ((uint64_t)cap_cnode_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1199, __FUNCTION__);
+    if(!((capCNodeRadix & ~0x3full) == ((1 && (capCNodeRadix & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCNodeRadix & ~0x3full) == ((1 && (capCNodeRadix & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1196, __FUNCTION__);
+    if(!((capCNodeGuardSize & ~0x3full) == ((1 && (capCNodeGuardSize & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capCNodeGuardSize & ~0x3full) == ((1 && (capCNodeGuardSize & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1197, __FUNCTION__);
+    if(!((capCNodePtr & ~0xfffffffffffeull) == ((1 && (capCNodePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capCNodePtr & ~0xfffffffffffeull) == ((1 && (capCNodePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1198, __FUNCTION__);
+    if(!(((uint64_t)cap_cnode_cap & ~0x1full) == ((1 && ((uint64_t)cap_cnode_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_cnode_cap & ~0x1full) == ((1 && ((uint64_t)cap_cnode_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1199, __FUNCTION__);
 
     cap.words[0] = 0
         | (capCNodeRadix & 0x3full) << 47
@@ -2136,7 +2136,7 @@ cap_cnode_cap_new(uint64_t capCNodeRadix, uint64_t capCNodeGuardSize, uint64_t c
 static inline uint64_t __attribute__((__const__))
 cap_cnode_cap_get_capCNodeGuard(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1215, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1215, __FUNCTION__)
                          ;
 
     ret = (cap.words[1] & 0xffffffffffffffffull) >> 0;
@@ -2149,10 +2149,10 @@ cap_cnode_cap_get_capCNodeGuard(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_cnode_cap_set_capCNodeGuard(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1228, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1228, __FUNCTION__)
                          ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1231, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1231, __FUNCTION__);
 
     cap.words[1] &= ~0xffffffffffffffffull;
     cap.words[1] |= (v64 << 0) & 0xffffffffffffffffull;
@@ -2162,7 +2162,7 @@ cap_cnode_cap_set_capCNodeGuard(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_cnode_cap_get_capCNodeGuardSize(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1241, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1241, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x7e0000000000000ull) >> 53;
@@ -2175,10 +2175,10 @@ cap_cnode_cap_get_capCNodeGuardSize(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_cnode_cap_set_capCNodeGuardSize(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1254, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1254, __FUNCTION__)
                          ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x7e0000000000000ull >> 53 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x7e0000000000000ull >> 53 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1257, __FUNCTION__);
+    if(!((((~0x7e0000000000000ull >> 53 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x7e0000000000000ull >> 53 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1257, __FUNCTION__);
 
     cap.words[0] &= ~0x7e0000000000000ull;
     cap.words[0] |= (v64 << 53) & 0x7e0000000000000ull;
@@ -2188,7 +2188,7 @@ cap_cnode_cap_set_capCNodeGuardSize(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_cnode_cap_get_capCNodeRadix(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1267, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1267, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x1f800000000000ull) >> 47;
@@ -2202,7 +2202,7 @@ cap_cnode_cap_get_capCNodeRadix(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_cnode_cap_get_capCNodePtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1281, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1281, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x7fffffffffffull) << 1;
@@ -2218,8 +2218,8 @@ cap_thread_cap_new(uint64_t capTCBPtr) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_thread_cap & ~0x1full) == ((1 && ((uint64_t)cap_thread_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_thread_cap & ~0x1full) == ((1 && ((uint64_t)cap_thread_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1297, __FUNCTION__);
-    if(!((capTCBPtr & ~0xffffffffffffull) == ((1 && (capTCBPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capTCBPtr & ~0xffffffffffffull) == ((1 && (capTCBPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1298, __FUNCTION__);
+    if(!(((uint64_t)cap_thread_cap & ~0x1full) == ((1 && ((uint64_t)cap_thread_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_thread_cap & ~0x1full) == ((1 && ((uint64_t)cap_thread_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1297, __FUNCTION__);
+    if(!((capTCBPtr & ~0xffffffffffffull) == ((1 && (capTCBPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capTCBPtr & ~0xffffffffffffull) == ((1 && (capTCBPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1298, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_thread_cap & 0x1full) << 59
@@ -2232,7 +2232,7 @@ cap_thread_cap_new(uint64_t capTCBPtr) {
 static inline uint64_t __attribute__((__const__))
 cap_thread_cap_get_capTCBPtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_thread_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_thread_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1311, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_thread_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_thread_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1311, __FUNCTION__)
                           ;
 
     ret = (cap.words[0] & 0xffffffffffffull) << 0;
@@ -2248,7 +2248,7 @@ cap_irq_control_cap_new(void) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_irq_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_control_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_irq_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_control_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1327, __FUNCTION__);
+    if(!(((uint64_t)cap_irq_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_control_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_irq_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_control_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1327, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_irq_control_cap & 0x1full) << 59;
@@ -2262,8 +2262,8 @@ cap_irq_handler_cap_new(uint64_t capIRQ) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capIRQ & ~0xfffull) == ((1 && (capIRQ & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capIRQ & ~0xfffull) == ((1 && (capIRQ & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1341, __FUNCTION__);
-    if(!(((uint64_t)cap_irq_handler_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_handler_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_irq_handler_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_handler_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1342, __FUNCTION__);
+    if(!((capIRQ & ~0xfffull) == ((1 && (capIRQ & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capIRQ & ~0xfffull) == ((1 && (capIRQ & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1341, __FUNCTION__);
+    if(!(((uint64_t)cap_irq_handler_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_handler_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_irq_handler_cap & ~0x1full) == ((1 && ((uint64_t)cap_irq_handler_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1342, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_irq_handler_cap & 0x1full) << 59;
@@ -2276,7 +2276,7 @@ cap_irq_handler_cap_new(uint64_t capIRQ) {
 static inline uint64_t __attribute__((__const__))
 cap_irq_handler_cap_get_capIRQ(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_irq_handler_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_irq_handler_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1355, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_irq_handler_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_irq_handler_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1355, __FUNCTION__)
                                ;
 
     ret = (cap.words[1] & 0xfffull) >> 0;
@@ -2292,8 +2292,8 @@ cap_zombie_cap_new(uint64_t capZombieID, uint64_t capZombieType) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_zombie_cap & ~0x1full) == ((1 && ((uint64_t)cap_zombie_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_zombie_cap & ~0x1full) == ((1 && ((uint64_t)cap_zombie_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1371, __FUNCTION__);
-    if(!((capZombieType & ~0x7full) == ((1 && (capZombieType & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capZombieType & ~0x7full) == ((1 && (capZombieType & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1372, __FUNCTION__);
+    if(!(((uint64_t)cap_zombie_cap & ~0x1full) == ((1 && ((uint64_t)cap_zombie_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_zombie_cap & ~0x1full) == ((1 && ((uint64_t)cap_zombie_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1371, __FUNCTION__);
+    if(!((capZombieType & ~0x7full) == ((1 && (capZombieType & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capZombieType & ~0x7full) == ((1 && (capZombieType & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1372, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_zombie_cap & 0x1full) << 59
@@ -2307,7 +2307,7 @@ cap_zombie_cap_new(uint64_t capZombieID, uint64_t capZombieType) {
 static inline uint64_t __attribute__((__const__))
 cap_zombie_cap_get_capZombieID(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1386, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1386, __FUNCTION__)
                           ;
 
     ret = (cap.words[1] & 0xffffffffffffffffull) >> 0;
@@ -2320,10 +2320,10 @@ cap_zombie_cap_get_capZombieID(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_zombie_cap_set_capZombieID(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1399, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1399, __FUNCTION__)
                           ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1402, __FUNCTION__);
+    if(!((((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffffffffffffffffull >> 0 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1402, __FUNCTION__);
 
     cap.words[1] &= ~0xffffffffffffffffull;
     cap.words[1] |= (v64 << 0) & 0xffffffffffffffffull;
@@ -2333,7 +2333,7 @@ cap_zombie_cap_set_capZombieID(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_zombie_cap_get_capZombieType(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1412, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_zombie_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1412, __FUNCTION__)
                           ;
 
     ret = (cap.words[0] & 0x7full) >> 0;
@@ -2349,7 +2349,7 @@ cap_domain_cap_new(void) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_domain_cap & ~0x1full) == ((1 && ((uint64_t)cap_domain_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_domain_cap & ~0x1full) == ((1 && ((uint64_t)cap_domain_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1428, __FUNCTION__);
+    if(!(((uint64_t)cap_domain_cap & ~0x1full) == ((1 && ((uint64_t)cap_domain_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_domain_cap & ~0x1full) == ((1 && ((uint64_t)cap_domain_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1428, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_domain_cap & 0x1full) << 59;
@@ -2363,9 +2363,9 @@ cap_sched_context_cap_new(uint64_t capSCPtr, uint64_t capSCSizeBits) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capSCPtr & ~0xffffffffffffull) == ((1 && (capSCPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capSCPtr & ~0xffffffffffffull) == ((1 && (capSCPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1442, __FUNCTION__);
-    if(!((capSCSizeBits & ~0x3full) == ((1 && (capSCSizeBits & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capSCSizeBits & ~0x3full) == ((1 && (capSCSizeBits & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1443, __FUNCTION__);
-    if(!(((uint64_t)cap_sched_context_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_context_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_sched_context_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_context_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1444, __FUNCTION__);
+    if(!((capSCPtr & ~0xffffffffffffull) == ((1 && (capSCPtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capSCPtr & ~0xffffffffffffull) == ((1 && (capSCPtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1442, __FUNCTION__);
+    if(!((capSCSizeBits & ~0x3full) == ((1 && (capSCSizeBits & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capSCSizeBits & ~0x3full) == ((1 && (capSCSizeBits & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1443, __FUNCTION__);
+    if(!(((uint64_t)cap_sched_context_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_context_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_sched_context_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_context_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1444, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_sched_context_cap & 0x1full) << 59;
@@ -2379,7 +2379,7 @@ cap_sched_context_cap_new(uint64_t capSCPtr, uint64_t capSCSizeBits) {
 static inline uint64_t __attribute__((__const__))
 cap_sched_context_cap_get_capSCPtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1458, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1458, __FUNCTION__)
                                  ;
 
     ret = (cap.words[1] & 0xffffffffffff0000ull) >> 16;
@@ -2393,7 +2393,7 @@ cap_sched_context_cap_get_capSCPtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_sched_context_cap_get_capSCSizeBits(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1472, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_sched_context_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1472, __FUNCTION__)
                                  ;
 
     ret = (cap.words[1] & 0xfc00ull) >> 10;
@@ -2409,7 +2409,7 @@ cap_sched_control_cap_new(uint64_t core) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_sched_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_control_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_sched_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_control_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1488, __FUNCTION__);
+    if(!(((uint64_t)cap_sched_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_control_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_sched_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_sched_control_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1488, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_sched_control_cap & 0x1full) << 59;
@@ -2422,7 +2422,7 @@ cap_sched_control_cap_new(uint64_t core) {
 static inline uint64_t __attribute__((__const__))
 cap_sched_control_cap_get_core(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_sched_control_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_sched_control_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1501, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_sched_control_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_sched_control_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1501, __FUNCTION__)
                                  ;
 
     ret = (cap.words[1] & 0xffffffffffffffffull) >> 0;
@@ -2438,13 +2438,13 @@ cap_frame_cap_new(uint64_t capFMappedASID, uint64_t capFBasePtr, uint64_t capFSi
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capFMappedASID & ~0xffffull) == ((1 && (capFMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFMappedASID & ~0xffffull) == ((1 && (capFMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1517, __FUNCTION__);
-    if(!((capFBasePtr & ~0xffffffffffffull) == ((1 && (capFBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capFBasePtr & ~0xffffffffffffull) == ((1 && (capFBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1518, __FUNCTION__);
-    if(!(((uint64_t)cap_frame_cap & ~0x1full) == ((1 && ((uint64_t)cap_frame_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_frame_cap & ~0x1full) == ((1 && ((uint64_t)cap_frame_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1519, __FUNCTION__);
-    if(!((capFSize & ~0x3ull) == ((1 && (capFSize & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFSize & ~0x3ull) == ((1 && (capFSize & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1520, __FUNCTION__);
-    if(!((capFMappedAddress & ~0xffffffffffffull) == ((1 && (capFMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capFMappedAddress & ~0xffffffffffffull) == ((1 && (capFMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1521, __FUNCTION__);
-    if(!((capFVMRights & ~0x3ull) == ((1 && (capFVMRights & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFVMRights & ~0x3ull) == ((1 && (capFVMRights & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1522, __FUNCTION__);
-    if(!((capFIsDevice & ~0x1ull) == ((1 && (capFIsDevice & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFIsDevice & ~0x1ull) == ((1 && (capFIsDevice & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1523, __FUNCTION__);
+    if(!((capFMappedASID & ~0xffffull) == ((1 && (capFMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFMappedASID & ~0xffffull) == ((1 && (capFMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1517, __FUNCTION__);
+    if(!((capFBasePtr & ~0xffffffffffffull) == ((1 && (capFBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capFBasePtr & ~0xffffffffffffull) == ((1 && (capFBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1518, __FUNCTION__);
+    if(!(((uint64_t)cap_frame_cap & ~0x1full) == ((1 && ((uint64_t)cap_frame_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_frame_cap & ~0x1full) == ((1 && ((uint64_t)cap_frame_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1519, __FUNCTION__);
+    if(!((capFSize & ~0x3ull) == ((1 && (capFSize & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFSize & ~0x3ull) == ((1 && (capFSize & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1520, __FUNCTION__);
+    if(!((capFMappedAddress & ~0xffffffffffffull) == ((1 && (capFMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capFMappedAddress & ~0xffffffffffffull) == ((1 && (capFMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1521, __FUNCTION__);
+    if(!((capFVMRights & ~0x3ull) == ((1 && (capFVMRights & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFVMRights & ~0x3ull) == ((1 && (capFVMRights & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1522, __FUNCTION__);
+    if(!((capFIsDevice & ~0x1ull) == ((1 && (capFIsDevice & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capFIsDevice & ~0x1ull) == ((1 && (capFIsDevice & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1523, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_frame_cap & 0x1full) << 59
@@ -2462,7 +2462,7 @@ cap_frame_cap_new(uint64_t capFMappedASID, uint64_t capFBasePtr, uint64_t capFSi
 static inline uint64_t __attribute__((__const__))
 cap_frame_cap_get_capFMappedASID(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1541, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1541, __FUNCTION__)
                          ;
 
     ret = (cap.words[1] & 0xffff000000000000ull) >> 48;
@@ -2475,10 +2475,10 @@ cap_frame_cap_get_capFMappedASID(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_frame_cap_set_capFMappedASID(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1554, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1554, __FUNCTION__)
                          ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffff000000000000ull >> 48 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1557, __FUNCTION__);
+    if(!((((~0xffff000000000000ull >> 48 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1557, __FUNCTION__);
 
     cap.words[1] &= ~0xffff000000000000ull;
     cap.words[1] |= (v64 << 48) & 0xffff000000000000ull;
@@ -2488,7 +2488,7 @@ cap_frame_cap_set_capFMappedASID(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__pure__))
 cap_frame_cap_ptr_get_capFMappedASID(cap_t *cap_ptr) {
     uint64_t ret;
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1567, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1567, __FUNCTION__)
                          ;
 
     ret = (cap_ptr->words[1] & 0xffff000000000000ull) >> 48;
@@ -2502,11 +2502,11 @@ cap_frame_cap_ptr_get_capFMappedASID(cap_t *cap_ptr) {
 static inline void
 cap_frame_cap_ptr_set_capFMappedASID(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1581, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1581, __FUNCTION__)
                          ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1585, __FUNCTION__);
+    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1585, __FUNCTION__);
 
     cap_ptr->words[1] &= ~0xffff000000000000ull;
     cap_ptr->words[1] |= (v64 << 48) & 0xffff000000000000ull;
@@ -2515,7 +2515,7 @@ cap_frame_cap_ptr_set_capFMappedASID(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_frame_cap_get_capFBasePtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1594, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1594, __FUNCTION__)
                          ;
 
     ret = (cap.words[1] & 0xffffffffffffull) << 0;
@@ -2529,7 +2529,7 @@ cap_frame_cap_get_capFBasePtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_frame_cap_get_capFSize(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1608, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1608, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x600000000000000ull) >> 57;
@@ -2543,7 +2543,7 @@ cap_frame_cap_get_capFSize(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_frame_cap_get_capFMappedAddress(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1622, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1622, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x1fffffffffffe00ull) >> 9;
@@ -2556,10 +2556,10 @@ cap_frame_cap_get_capFMappedAddress(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_frame_cap_set_capFMappedAddress(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1635, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1635, __FUNCTION__)
                          ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1fffffffffffe00ull >> 9 ) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x1fffffffffffe00ull >> 9 ) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1638, __FUNCTION__);
+    if(!((((~0x1fffffffffffe00ull >> 9 ) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x1fffffffffffe00ull >> 9 ) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1638, __FUNCTION__);
 
     cap.words[0] &= ~0x1fffffffffffe00ull;
     cap.words[0] |= (v64 << 9) & 0x1fffffffffffe00ull;
@@ -2569,11 +2569,11 @@ cap_frame_cap_set_capFMappedAddress(cap_t cap, uint64_t v64) {
 static inline void
 cap_frame_cap_ptr_set_capFMappedAddress(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1648, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1648, __FUNCTION__)
                          ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1fffffffffffe00ull >> 9) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x1fffffffffffe00ull >> 9) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1652, __FUNCTION__);
+    if(!((((~0x1fffffffffffe00ull >> 9) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x1fffffffffffe00ull >> 9) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1652, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0x1fffffffffffe00ull;
     cap_ptr->words[0] |= (v64 << 9) & 0x1fffffffffffe00ull;
@@ -2582,7 +2582,7 @@ cap_frame_cap_ptr_set_capFMappedAddress(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_frame_cap_get_capFVMRights(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1661, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1661, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x180ull) >> 7;
@@ -2595,10 +2595,10 @@ cap_frame_cap_get_capFVMRights(cap_t cap) {
 
 static inline cap_t __attribute__((__const__))
 cap_frame_cap_set_capFVMRights(cap_t cap, uint64_t v64) {
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1674, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1674, __FUNCTION__)
                          ;
     /* fail if user has passed bits that we will override */
-    if(!((((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1677, __FUNCTION__);
+    if(!((((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x180ull >> 7 ) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1677, __FUNCTION__);
 
     cap.words[0] &= ~0x180ull;
     cap.words[0] |= (v64 << 7) & 0x180ull;
@@ -2608,7 +2608,7 @@ cap_frame_cap_set_capFVMRights(cap_t cap, uint64_t v64) {
 static inline uint64_t __attribute__((__const__))
 cap_frame_cap_get_capFIsDevice(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1687, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_frame_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_frame_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1687, __FUNCTION__)
                          ;
 
     ret = (cap.words[0] & 0x40ull) >> 6;
@@ -2624,11 +2624,11 @@ cap_page_table_cap_new(uint64_t capPTMappedASID, uint64_t capPTBasePtr, uint64_t
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capPTMappedASID & ~0xffffull) == ((1 && (capPTMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPTMappedASID & ~0xffffull) == ((1 && (capPTMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1703, __FUNCTION__);
-    if(!((capPTBasePtr & ~0xffffffffffffull) == ((1 && (capPTBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPTBasePtr & ~0xffffffffffffull) == ((1 && (capPTBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1704, __FUNCTION__);
-    if(!(((uint64_t)cap_page_table_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_table_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_table_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_table_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1705, __FUNCTION__);
-    if(!((capPTIsMapped & ~0x1ull) == ((1 && (capPTIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPTIsMapped & ~0x1ull) == ((1 && (capPTIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1706, __FUNCTION__);
-    if(!((capPTMappedAddress & ~0xfffffff00000ull) == ((1 && (capPTMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPTMappedAddress & ~0xfffffff00000ull) == ((1 && (capPTMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1707, __FUNCTION__);
+    if(!((capPTMappedASID & ~0xffffull) == ((1 && (capPTMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPTMappedASID & ~0xffffull) == ((1 && (capPTMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1703, __FUNCTION__);
+    if(!((capPTBasePtr & ~0xffffffffffffull) == ((1 && (capPTBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPTBasePtr & ~0xffffffffffffull) == ((1 && (capPTBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1704, __FUNCTION__);
+    if(!(((uint64_t)cap_page_table_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_table_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_table_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_table_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1705, __FUNCTION__);
+    if(!((capPTIsMapped & ~0x1ull) == ((1 && (capPTIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPTIsMapped & ~0x1ull) == ((1 && (capPTIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1706, __FUNCTION__);
+    if(!((capPTMappedAddress & ~0xfffffff00000ull) == ((1 && (capPTMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPTMappedAddress & ~0xfffffff00000ull) == ((1 && (capPTMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1707, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_page_table_cap & 0x1full) << 59
@@ -2644,7 +2644,7 @@ cap_page_table_cap_new(uint64_t capPTMappedASID, uint64_t capPTBasePtr, uint64_t
 static inline uint64_t __attribute__((__const__))
 cap_page_table_cap_get_capPTMappedASID(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1723, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1723, __FUNCTION__)
                               ;
 
     ret = (cap.words[1] & 0xffff000000000000ull) >> 48;
@@ -2658,11 +2658,11 @@ cap_page_table_cap_get_capPTMappedASID(cap_t cap) {
 static inline void
 cap_page_table_cap_ptr_set_capPTMappedASID(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1737, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1737, __FUNCTION__)
                               ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1741, __FUNCTION__);
+    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1741, __FUNCTION__);
 
     cap_ptr->words[1] &= ~0xffff000000000000ull;
     cap_ptr->words[1] |= (v64 << 48) & 0xffff000000000000ull;
@@ -2671,7 +2671,7 @@ cap_page_table_cap_ptr_set_capPTMappedASID(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_table_cap_get_capPTBasePtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1750, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1750, __FUNCTION__)
                               ;
 
     ret = (cap.words[1] & 0xffffffffffffull) << 0;
@@ -2685,7 +2685,7 @@ cap_page_table_cap_get_capPTBasePtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_page_table_cap_get_capPTIsMapped(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1764, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1764, __FUNCTION__)
                               ;
 
     ret = (cap.words[0] & 0x1000000000000ull) >> 48;
@@ -2699,11 +2699,11 @@ cap_page_table_cap_get_capPTIsMapped(cap_t cap) {
 static inline void
 cap_page_table_cap_ptr_set_capPTIsMapped(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1778, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1778, __FUNCTION__)
                               ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1782, __FUNCTION__);
+    if(!((((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1782, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0x1000000000000ull;
     cap_ptr->words[0] |= (v64 << 48) & 0x1000000000000ull;
@@ -2712,7 +2712,7 @@ cap_page_table_cap_ptr_set_capPTIsMapped(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_table_cap_get_capPTMappedAddress(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1791, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1791, __FUNCTION__)
                               ;
 
     ret = (cap.words[0] & 0xfffffff00000ull) << 0;
@@ -2726,11 +2726,11 @@ cap_page_table_cap_get_capPTMappedAddress(cap_t cap) {
 static inline void
 cap_page_table_cap_ptr_set_capPTMappedAddress(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1805, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_table_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1805, __FUNCTION__)
                               ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xfffffff00000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffff00000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1809, __FUNCTION__);
+    if(!((((~0xfffffff00000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xfffffff00000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1809, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0xfffffff00000ull;
     cap_ptr->words[0] |= (v64 >> 0) & 0xfffffff00000ull;
@@ -2741,11 +2741,11 @@ cap_page_directory_cap_new(uint64_t capPDMappedASID, uint64_t capPDBasePtr, uint
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capPDMappedASID & ~0xffffull) == ((1 && (capPDMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPDMappedASID & ~0xffffull) == ((1 && (capPDMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1820, __FUNCTION__);
-    if(!((capPDBasePtr & ~0xffffffffffffull) == ((1 && (capPDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPDBasePtr & ~0xffffffffffffull) == ((1 && (capPDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1821, __FUNCTION__);
-    if(!(((uint64_t)cap_page_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_directory_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_directory_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1822, __FUNCTION__);
-    if(!((capPDIsMapped & ~0x1ull) == ((1 && (capPDIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPDIsMapped & ~0x1ull) == ((1 && (capPDIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1823, __FUNCTION__);
-    if(!((capPDMappedAddress & ~0xffffe0000000ull) == ((1 && (capPDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPDMappedAddress & ~0xffffe0000000ull) == ((1 && (capPDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1824, __FUNCTION__);
+    if(!((capPDMappedASID & ~0xffffull) == ((1 && (capPDMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPDMappedASID & ~0xffffull) == ((1 && (capPDMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1820, __FUNCTION__);
+    if(!((capPDBasePtr & ~0xffffffffffffull) == ((1 && (capPDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPDBasePtr & ~0xffffffffffffull) == ((1 && (capPDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1821, __FUNCTION__);
+    if(!(((uint64_t)cap_page_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_directory_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_directory_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1822, __FUNCTION__);
+    if(!((capPDIsMapped & ~0x1ull) == ((1 && (capPDIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPDIsMapped & ~0x1ull) == ((1 && (capPDIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1823, __FUNCTION__);
+    if(!((capPDMappedAddress & ~0xffffe0000000ull) == ((1 && (capPDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPDMappedAddress & ~0xffffe0000000ull) == ((1 && (capPDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1824, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_page_directory_cap & 0x1full) << 59
@@ -2761,7 +2761,7 @@ cap_page_directory_cap_new(uint64_t capPDMappedASID, uint64_t capPDBasePtr, uint
 static inline uint64_t __attribute__((__const__))
 cap_page_directory_cap_get_capPDMappedASID(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1840, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1840, __FUNCTION__)
                                   ;
 
     ret = (cap.words[1] & 0xffff000000000000ull) >> 48;
@@ -2775,11 +2775,11 @@ cap_page_directory_cap_get_capPDMappedASID(cap_t cap) {
 static inline void
 cap_page_directory_cap_ptr_set_capPDMappedASID(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1854, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1854, __FUNCTION__)
                                   ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1858, __FUNCTION__);
+    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1858, __FUNCTION__);
 
     cap_ptr->words[1] &= ~0xffff000000000000ull;
     cap_ptr->words[1] |= (v64 << 48) & 0xffff000000000000ull;
@@ -2788,7 +2788,7 @@ cap_page_directory_cap_ptr_set_capPDMappedASID(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_directory_cap_get_capPDBasePtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1867, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1867, __FUNCTION__)
                                   ;
 
     ret = (cap.words[1] & 0xffffffffffffull) << 0;
@@ -2802,7 +2802,7 @@ cap_page_directory_cap_get_capPDBasePtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_page_directory_cap_get_capPDIsMapped(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1881, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1881, __FUNCTION__)
                                   ;
 
     ret = (cap.words[0] & 0x1000000000000ull) >> 48;
@@ -2816,11 +2816,11 @@ cap_page_directory_cap_get_capPDIsMapped(cap_t cap) {
 static inline void
 cap_page_directory_cap_ptr_set_capPDIsMapped(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1895, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1895, __FUNCTION__)
                                   ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1899, __FUNCTION__);
+    if(!((((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x1000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1899, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0x1000000000000ull;
     cap_ptr->words[0] |= (v64 << 48) & 0x1000000000000ull;
@@ -2829,7 +2829,7 @@ cap_page_directory_cap_ptr_set_capPDIsMapped(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_directory_cap_get_capPDMappedAddress(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1908, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1908, __FUNCTION__)
                                   ;
 
     ret = (cap.words[0] & 0xffffe0000000ull) << 0;
@@ -2843,11 +2843,11 @@ cap_page_directory_cap_get_capPDMappedAddress(cap_t cap) {
 static inline void
 cap_page_directory_cap_ptr_set_capPDMappedAddress(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1922, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1922, __FUNCTION__)
                                   ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffffe0000000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffe0000000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1926, __FUNCTION__);
+    if(!((((~0xffffe0000000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0xffffe0000000ull << 0) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1926, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0xffffe0000000ull;
     cap_ptr->words[0] |= (v64 >> 0) & 0xffffe0000000ull;
@@ -2858,11 +2858,11 @@ cap_page_upper_directory_cap_new(uint64_t capPUDMappedASID, uint64_t capPUDBaseP
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capPUDMappedASID & ~0xffffull) == ((1 && (capPUDMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPUDMappedASID & ~0xffffull) == ((1 && (capPUDMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1937, __FUNCTION__);
-    if(!((capPUDBasePtr & ~0xffffffffffffull) == ((1 && (capPUDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPUDBasePtr & ~0xffffffffffffull) == ((1 && (capPUDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1938, __FUNCTION__);
-    if(!(((uint64_t)cap_page_upper_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_upper_directory_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_upper_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_upper_directory_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1939, __FUNCTION__);
-    if(!((capPUDIsMapped & ~0x1ull) == ((1 && (capPUDIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPUDIsMapped & ~0x1ull) == ((1 && (capPUDIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1940, __FUNCTION__);
-    if(!((capPUDMappedAddress & ~0xffc000000000ull) == ((1 && (capPUDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPUDMappedAddress & ~0xffc000000000ull) == ((1 && (capPUDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1941, __FUNCTION__);
+    if(!((capPUDMappedASID & ~0xffffull) == ((1 && (capPUDMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPUDMappedASID & ~0xffffull) == ((1 && (capPUDMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1937, __FUNCTION__);
+    if(!((capPUDBasePtr & ~0xffffffffffffull) == ((1 && (capPUDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPUDBasePtr & ~0xffffffffffffull) == ((1 && (capPUDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1938, __FUNCTION__);
+    if(!(((uint64_t)cap_page_upper_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_upper_directory_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_upper_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_upper_directory_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1939, __FUNCTION__);
+    if(!((capPUDIsMapped & ~0x1ull) == ((1 && (capPUDIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPUDIsMapped & ~0x1ull) == ((1 && (capPUDIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1940, __FUNCTION__);
+    if(!((capPUDMappedAddress & ~0xffc000000000ull) == ((1 && (capPUDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPUDMappedAddress & ~0xffc000000000ull) == ((1 && (capPUDMappedAddress & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1941, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_page_upper_directory_cap & 0x1full) << 59
@@ -2878,7 +2878,7 @@ cap_page_upper_directory_cap_new(uint64_t capPUDMappedASID, uint64_t capPUDBaseP
 static inline uint64_t __attribute__((__const__))
 cap_page_upper_directory_cap_get_capPUDMappedASID(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1957, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1957, __FUNCTION__)
                                         ;
 
     ret = (cap.words[1] & 0xffff000000000000ull) >> 48;
@@ -2892,11 +2892,11 @@ cap_page_upper_directory_cap_get_capPUDMappedASID(cap_t cap) {
 static inline void
 cap_page_upper_directory_cap_ptr_set_capPUDMappedASID(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1971, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1971, __FUNCTION__)
                                         ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1975, __FUNCTION__);
+    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1975, __FUNCTION__);
 
     cap_ptr->words[1] &= ~0xffff000000000000ull;
     cap_ptr->words[1] |= (v64 << 48) & 0xffff000000000000ull;
@@ -2905,7 +2905,7 @@ cap_page_upper_directory_cap_ptr_set_capPUDMappedASID(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_upper_directory_cap_get_capPUDBasePtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1984, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1984, __FUNCTION__)
                                         ;
 
     ret = (cap.words[1] & 0xffffffffffffull) << 0;
@@ -2919,7 +2919,7 @@ cap_page_upper_directory_cap_get_capPUDBasePtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_page_upper_directory_cap_get_capPUDIsMapped(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1998, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 1998, __FUNCTION__)
                                         ;
 
     ret = (cap.words[0] & 0x400000000000000ull) >> 58;
@@ -2933,11 +2933,11 @@ cap_page_upper_directory_cap_get_capPUDIsMapped(cap_t cap) {
 static inline void
 cap_page_upper_directory_cap_ptr_set_capPUDIsMapped(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2012, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2012, __FUNCTION__)
                                         ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2016, __FUNCTION__);
+    if(!((((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2016, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0x400000000000000ull;
     cap_ptr->words[0] |= (v64 << 58) & 0x400000000000000ull;
@@ -2946,7 +2946,7 @@ cap_page_upper_directory_cap_ptr_set_capPUDIsMapped(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_upper_directory_cap_get_capPUDMappedAddress(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2025, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2025, __FUNCTION__)
                                         ;
 
     ret = (cap.words[0] & 0x3ff000000000000ull) >> 10;
@@ -2960,11 +2960,11 @@ cap_page_upper_directory_cap_get_capPUDMappedAddress(cap_t cap) {
 static inline void
 cap_page_upper_directory_cap_ptr_set_capPUDMappedAddress(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2039, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_upper_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2039, __FUNCTION__)
                                         ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0x3ff000000000000ull >> 10) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x3ff000000000000ull >> 10) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2043, __FUNCTION__);
+    if(!((((~0x3ff000000000000ull >> 10) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0))) _assert_fail("(((~0x3ff000000000000ull >> 10) | 0xffff000000000000) & v64) == ((1 && (v64 & (1ull << (47)))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2043, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0x3ff000000000000ull;
     cap_ptr->words[0] |= (v64 << 10) & 0x3ff000000000000ull;
@@ -2975,10 +2975,10 @@ cap_page_global_directory_cap_new(uint64_t capPGDMappedASID, uint64_t capPGDBase
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!((capPGDMappedASID & ~0xffffull) == ((1 && (capPGDMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPGDMappedASID & ~0xffffull) == ((1 && (capPGDMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2054, __FUNCTION__);
-    if(!((capPGDBasePtr & ~0xffffffffffffull) == ((1 && (capPGDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPGDBasePtr & ~0xffffffffffffull) == ((1 && (capPGDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2055, __FUNCTION__);
-    if(!(((uint64_t)cap_page_global_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_global_directory_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_global_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_global_directory_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2056, __FUNCTION__);
-    if(!((capPGDIsMapped & ~0x1ull) == ((1 && (capPGDIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPGDIsMapped & ~0x1ull) == ((1 && (capPGDIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2057, __FUNCTION__);
+    if(!((capPGDMappedASID & ~0xffffull) == ((1 && (capPGDMappedASID & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPGDMappedASID & ~0xffffull) == ((1 && (capPGDMappedASID & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2054, __FUNCTION__);
+    if(!((capPGDBasePtr & ~0xffffffffffffull) == ((1 && (capPGDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capPGDBasePtr & ~0xffffffffffffull) == ((1 && (capPGDBasePtr & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2055, __FUNCTION__);
+    if(!(((uint64_t)cap_page_global_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_global_directory_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_page_global_directory_cap & ~0x1full) == ((1 && ((uint64_t)cap_page_global_directory_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2056, __FUNCTION__);
+    if(!((capPGDIsMapped & ~0x1ull) == ((1 && (capPGDIsMapped & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capPGDIsMapped & ~0x1ull) == ((1 && (capPGDIsMapped & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2057, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_page_global_directory_cap & 0x1full) << 59
@@ -2993,7 +2993,7 @@ cap_page_global_directory_cap_new(uint64_t capPGDMappedASID, uint64_t capPGDBase
 static inline uint64_t __attribute__((__const__))
 cap_page_global_directory_cap_get_capPGDMappedASID(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2072, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2072, __FUNCTION__)
                                          ;
 
     ret = (cap.words[1] & 0xffff000000000000ull) >> 48;
@@ -3007,11 +3007,11 @@ cap_page_global_directory_cap_get_capPGDMappedASID(cap_t cap) {
 static inline void
 cap_page_global_directory_cap_ptr_set_capPGDMappedASID(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2086, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2086, __FUNCTION__)
                                          ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2090, __FUNCTION__);
+    if(!((((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0xffff000000000000ull >> 48) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2090, __FUNCTION__);
 
     cap_ptr->words[1] &= ~0xffff000000000000ull;
     cap_ptr->words[1] |= (v64 << 48) & 0xffff000000000000ull;
@@ -3020,7 +3020,7 @@ cap_page_global_directory_cap_ptr_set_capPGDMappedASID(cap_t *cap_ptr,
 static inline uint64_t __attribute__((__const__))
 cap_page_global_directory_cap_get_capPGDBasePtr(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2099, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2099, __FUNCTION__)
                                          ;
 
     ret = (cap.words[1] & 0xffffffffffffull) << 0;
@@ -3034,7 +3034,7 @@ cap_page_global_directory_cap_get_capPGDBasePtr(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_page_global_directory_cap_get_capPGDIsMapped(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2113, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2113, __FUNCTION__)
                                          ;
 
     ret = (cap.words[0] & 0x400000000000000ull) >> 58;
@@ -3048,11 +3048,11 @@ cap_page_global_directory_cap_get_capPGDIsMapped(cap_t cap) {
 static inline void
 cap_page_global_directory_cap_ptr_set_capPGDIsMapped(cap_t *cap_ptr,
                                       uint64_t v64) {
-    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2127, __FUNCTION__)
+    if(!(((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap)) _assert_fail("((cap_ptr->words[0] >> 59) & 0x1f) == cap_page_global_directory_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2127, __FUNCTION__)
                                          ;
 
     /* fail if user has passed bits that we will override */
-    if(!((((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2131, __FUNCTION__);
+    if(!((((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0))) _assert_fail("(((~0x400000000000000ull >> 58) | 0x0) & v64) == ((0 && (v64 & (1ull << (47)))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2131, __FUNCTION__);
 
     cap_ptr->words[0] &= ~0x400000000000000ull;
     cap_ptr->words[0] |= (v64 << 58) & 0x400000000000000ull;
@@ -3063,7 +3063,7 @@ cap_asid_control_cap_new(void) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_asid_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_control_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_asid_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_control_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2142, __FUNCTION__);
+    if(!(((uint64_t)cap_asid_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_control_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_asid_control_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_control_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2142, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_asid_control_cap & 0x1full) << 59;
@@ -3077,9 +3077,9 @@ cap_asid_pool_cap_new(uint64_t capASIDBase, uint64_t capASIDPool) {
     cap_t cap;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)cap_asid_pool_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_pool_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_asid_pool_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_pool_cap & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2156, __FUNCTION__);
-    if(!((capASIDBase & ~0xffffull) == ((1 && (capASIDBase & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capASIDBase & ~0xffffull) == ((1 && (capASIDBase & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2157, __FUNCTION__);
-    if(!((capASIDPool & ~0xfffffffff800ull) == ((1 && (capASIDPool & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capASIDPool & ~0xfffffffff800ull) == ((1 && (capASIDPool & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2158, __FUNCTION__);
+    if(!(((uint64_t)cap_asid_pool_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_pool_cap & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)cap_asid_pool_cap & ~0x1full) == ((1 && ((uint64_t)cap_asid_pool_cap & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2156, __FUNCTION__);
+    if(!((capASIDBase & ~0xffffull) == ((1 && (capASIDBase & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(capASIDBase & ~0xffffull) == ((1 && (capASIDBase & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2157, __FUNCTION__);
+    if(!((capASIDPool & ~0xfffffffff800ull) == ((1 && (capASIDPool & (1ull << 47))) ? 0xffff000000000000 : 0))) _assert_fail("(capASIDPool & ~0xfffffffff800ull) == ((1 && (capASIDPool & (1ull << 47))) ? 0xffff000000000000 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2158, __FUNCTION__);
 
     cap.words[0] = 0
         | ((uint64_t)cap_asid_pool_cap & 0x1full) << 59
@@ -3093,7 +3093,7 @@ cap_asid_pool_cap_new(uint64_t capASIDBase, uint64_t capASIDPool) {
 static inline uint64_t __attribute__((__const__))
 cap_asid_pool_cap_get_capASIDBase(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2172, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2172, __FUNCTION__)
                              ;
 
     ret = (cap.words[0] & 0x7fff80000000000ull) >> 43;
@@ -3107,7 +3107,7 @@ cap_asid_pool_cap_get_capASIDBase(cap_t cap) {
 static inline uint64_t __attribute__((__const__))
 cap_asid_pool_cap_get_capASIDPool(cap_t cap) {
     uint64_t ret;
-    if(!(((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2186, __FUNCTION__)
+    if(!(((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap)) _assert_fail("((cap.words[0] >> 59) & 0x1f) == cap_asid_pool_cap", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2186, __FUNCTION__)
                              ;
 
     ret = (cap.words[0] & 0x1fffffffffull) << 11;
@@ -3141,7 +3141,7 @@ lookup_fault_invalid_root_new(void) {
     lookup_fault_t lookup_fault;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)lookup_fault_invalid_root & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_invalid_root & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_invalid_root & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_invalid_root & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2220, __FUNCTION__);
+    if(!(((uint64_t)lookup_fault_invalid_root & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_invalid_root & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_invalid_root & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_invalid_root & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2220, __FUNCTION__);
 
     lookup_fault.words[0] = 0
         | ((uint64_t)lookup_fault_invalid_root & 0x3ull) << 0;
@@ -3155,8 +3155,8 @@ lookup_fault_missing_capability_new(uint64_t bitsLeft) {
     lookup_fault_t lookup_fault;
 
     /* fail if user has passed bits that we will override */
-    if(!((bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2234, __FUNCTION__);
-    if(!(((uint64_t)lookup_fault_missing_capability & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_missing_capability & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_missing_capability & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_missing_capability & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2235, __FUNCTION__);
+    if(!((bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2234, __FUNCTION__);
+    if(!(((uint64_t)lookup_fault_missing_capability & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_missing_capability & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_missing_capability & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_missing_capability & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2235, __FUNCTION__);
 
     lookup_fault.words[0] = 0
         | (bitsLeft & 0x7full) << 2
@@ -3169,7 +3169,7 @@ lookup_fault_missing_capability_new(uint64_t bitsLeft) {
 static inline uint64_t __attribute__((__const__))
 lookup_fault_missing_capability_get_bitsLeft(lookup_fault_t lookup_fault) {
     uint64_t ret;
-    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_missing_capability)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_missing_capability", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2248, __FUNCTION__)
+    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_missing_capability)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_missing_capability", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2248, __FUNCTION__)
                                            ;
 
     ret = (lookup_fault.words[0] & 0x1fcull) >> 2;
@@ -3185,9 +3185,9 @@ lookup_fault_depth_mismatch_new(uint64_t bitsFound, uint64_t bitsLeft) {
     lookup_fault_t lookup_fault;
 
     /* fail if user has passed bits that we will override */
-    if(!((bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2264, __FUNCTION__);
-    if(!((bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2265, __FUNCTION__);
-    if(!(((uint64_t)lookup_fault_depth_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_depth_mismatch & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_depth_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_depth_mismatch & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2266, __FUNCTION__);
+    if(!((bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2264, __FUNCTION__);
+    if(!((bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2265, __FUNCTION__);
+    if(!(((uint64_t)lookup_fault_depth_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_depth_mismatch & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_depth_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_depth_mismatch & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2266, __FUNCTION__);
 
     lookup_fault.words[0] = 0
         | (bitsFound & 0x7full) << 9
@@ -3201,7 +3201,7 @@ lookup_fault_depth_mismatch_new(uint64_t bitsFound, uint64_t bitsLeft) {
 static inline uint64_t __attribute__((__const__))
 lookup_fault_depth_mismatch_get_bitsFound(lookup_fault_t lookup_fault) {
     uint64_t ret;
-    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2280, __FUNCTION__)
+    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2280, __FUNCTION__)
                                        ;
 
     ret = (lookup_fault.words[0] & 0xfe00ull) >> 9;
@@ -3215,7 +3215,7 @@ lookup_fault_depth_mismatch_get_bitsFound(lookup_fault_t lookup_fault) {
 static inline uint64_t __attribute__((__const__))
 lookup_fault_depth_mismatch_get_bitsLeft(lookup_fault_t lookup_fault) {
     uint64_t ret;
-    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2294, __FUNCTION__)
+    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_depth_mismatch", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2294, __FUNCTION__)
                                        ;
 
     ret = (lookup_fault.words[0] & 0x1fcull) >> 2;
@@ -3231,9 +3231,9 @@ lookup_fault_guard_mismatch_new(uint64_t guardFound, uint64_t bitsLeft, uint64_t
     lookup_fault_t lookup_fault;
 
     /* fail if user has passed bits that we will override */
-    if(!((bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2310, __FUNCTION__);
-    if(!((bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2311, __FUNCTION__);
-    if(!(((uint64_t)lookup_fault_guard_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_guard_mismatch & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_guard_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_guard_mismatch & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2312, __FUNCTION__);
+    if(!((bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsLeft & ~0x7full) == ((1 && (bitsLeft & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2310, __FUNCTION__);
+    if(!((bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(bitsFound & ~0x7full) == ((1 && (bitsFound & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2311, __FUNCTION__);
+    if(!(((uint64_t)lookup_fault_guard_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_guard_mismatch & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)lookup_fault_guard_mismatch & ~0x3ull) == ((1 && ((uint64_t)lookup_fault_guard_mismatch & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2312, __FUNCTION__);
 
     lookup_fault.words[0] = 0
         | (bitsLeft & 0x7full) << 9
@@ -3248,7 +3248,7 @@ lookup_fault_guard_mismatch_new(uint64_t guardFound, uint64_t bitsLeft, uint64_t
 static inline uint64_t __attribute__((__const__))
 lookup_fault_guard_mismatch_get_guardFound(lookup_fault_t lookup_fault) {
     uint64_t ret;
-    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2327, __FUNCTION__)
+    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2327, __FUNCTION__)
                                        ;
 
     ret = (lookup_fault.words[1] & 0xffffffffffffffffull) >> 0;
@@ -3262,7 +3262,7 @@ lookup_fault_guard_mismatch_get_guardFound(lookup_fault_t lookup_fault) {
 static inline uint64_t __attribute__((__const__))
 lookup_fault_guard_mismatch_get_bitsLeft(lookup_fault_t lookup_fault) {
     uint64_t ret;
-    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2341, __FUNCTION__)
+    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2341, __FUNCTION__)
                                        ;
 
     ret = (lookup_fault.words[0] & 0xfe00ull) >> 9;
@@ -3276,7 +3276,7 @@ lookup_fault_guard_mismatch_get_bitsLeft(lookup_fault_t lookup_fault) {
 static inline uint64_t __attribute__((__const__))
 lookup_fault_guard_mismatch_get_bitsFound(lookup_fault_t lookup_fault) {
     uint64_t ret;
-    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2355, __FUNCTION__)
+    if(!(((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch)) _assert_fail("((lookup_fault.words[0] >> 0) & 0x3) == lookup_fault_guard_mismatch", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2355, __FUNCTION__)
                                        ;
 
     ret = (lookup_fault.words[0] & 0x1fcull) >> 2;
@@ -3308,14 +3308,14 @@ pde_pde_large_new(uint64_t UXN, uint64_t page_base_address, uint64_t nG, uint64_
     pde_t pde;
 
     /* fail if user has passed bits that we will override */
-    if(!((UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2387, __FUNCTION__);
-    if(!((page_base_address & ~0xffffffe00000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(page_base_address & ~0xffffffe00000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2388, __FUNCTION__);
-    if(!((nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2389, __FUNCTION__);
-    if(!((AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2390, __FUNCTION__);
-    if(!((SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2391, __FUNCTION__);
-    if(!((AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2392, __FUNCTION__);
-    if(!((AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2393, __FUNCTION__);
-    if(!(((uint64_t)pde_pde_large & ~0x3ull) == ((0 && ((uint64_t)pde_pde_large & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pde_pde_large & ~0x3ull) == ((0 && ((uint64_t)pde_pde_large & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2394, __FUNCTION__);
+    if(!((UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2387, __FUNCTION__);
+    if(!((page_base_address & ~0xffffffe00000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(page_base_address & ~0xffffffe00000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2388, __FUNCTION__);
+    if(!((nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2389, __FUNCTION__);
+    if(!((AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2390, __FUNCTION__);
+    if(!((SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2391, __FUNCTION__);
+    if(!((AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2392, __FUNCTION__);
+    if(!((AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2393, __FUNCTION__);
+    if(!(((uint64_t)pde_pde_large & ~0x3ull) == ((0 && ((uint64_t)pde_pde_large & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pde_pde_large & ~0x3ull) == ((0 && ((uint64_t)pde_pde_large & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2394, __FUNCTION__);
 
     pde.words[0] = 0
         | (UXN & 0x1ull) << 54
@@ -3333,7 +3333,7 @@ pde_pde_large_new(uint64_t UXN, uint64_t page_base_address, uint64_t nG, uint64_
 static inline uint64_t __attribute__((__pure__))
 pde_pde_large_ptr_get_page_base_address(pde_t *pde_ptr) {
     uint64_t ret;
-    if(!(((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_large)) _assert_fail("((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_large", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2412, __FUNCTION__)
+    if(!(((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_large)) _assert_fail("((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_large", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2412, __FUNCTION__)
                          ;
 
     ret = (pde_ptr->words[0] & 0xffffffe00000ull) << 0;
@@ -3349,8 +3349,8 @@ pde_pde_small_new(uint64_t pt_base_address) {
     pde_t pde;
 
     /* fail if user has passed bits that we will override */
-    if(!((pt_base_address & ~0xfffffffff000ull) == ((0 && (pt_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(pt_base_address & ~0xfffffffff000ull) == ((0 && (pt_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2428, __FUNCTION__);
-    if(!(((uint64_t)pde_pde_small & ~0x3ull) == ((0 && ((uint64_t)pde_pde_small & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pde_pde_small & ~0x3ull) == ((0 && ((uint64_t)pde_pde_small & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2429, __FUNCTION__);
+    if(!((pt_base_address & ~0xfffffffff000ull) == ((0 && (pt_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(pt_base_address & ~0xfffffffff000ull) == ((0 && (pt_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2428, __FUNCTION__);
+    if(!(((uint64_t)pde_pde_small & ~0x3ull) == ((0 && ((uint64_t)pde_pde_small & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pde_pde_small & ~0x3ull) == ((0 && ((uint64_t)pde_pde_small & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2429, __FUNCTION__);
 
     pde.words[0] = 0
         | (pt_base_address & 0xfffffffff000ull) >> 0
@@ -3362,7 +3362,7 @@ pde_pde_small_new(uint64_t pt_base_address) {
 static inline uint64_t __attribute__((__pure__))
 pde_pde_small_ptr_get_pt_base_address(pde_t *pde_ptr) {
     uint64_t ret;
-    if(!(((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_small)) _assert_fail("((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_small", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2441, __FUNCTION__)
+    if(!(((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_small)) _assert_fail("((pde_ptr->words[0] >> 0) & 0x3) == pde_pde_small", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2441, __FUNCTION__)
                          ;
 
     ret = (pde_ptr->words[0] & 0xfffffffff000ull) << 0;
@@ -3394,9 +3394,9 @@ pgde_pgde_invalid_new(uint64_t stored_hw_asid, uint64_t stored_asid_valid) {
     pgde_t pgde;
 
     /* fail if user has passed bits that we will override */
-    if(!((stored_hw_asid & ~0xffull) == ((0 && (stored_hw_asid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(stored_hw_asid & ~0xffull) == ((0 && (stored_hw_asid & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2473, __FUNCTION__);
-    if(!((stored_asid_valid & ~0x1ull) == ((0 && (stored_asid_valid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(stored_asid_valid & ~0x1ull) == ((0 && (stored_asid_valid & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2474, __FUNCTION__);
-    if(!(((uint64_t)pgde_pgde_invalid & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_invalid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pgde_pgde_invalid & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_invalid & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2475, __FUNCTION__);
+    if(!((stored_hw_asid & ~0xffull) == ((0 && (stored_hw_asid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(stored_hw_asid & ~0xffull) == ((0 && (stored_hw_asid & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2473, __FUNCTION__);
+    if(!((stored_asid_valid & ~0x1ull) == ((0 && (stored_asid_valid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(stored_asid_valid & ~0x1ull) == ((0 && (stored_asid_valid & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2474, __FUNCTION__);
+    if(!(((uint64_t)pgde_pgde_invalid & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_invalid & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pgde_pgde_invalid & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_invalid & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2475, __FUNCTION__);
 
     pgde.words[0] = 0
         | (stored_hw_asid & 0xffull) << 56
@@ -3411,8 +3411,8 @@ pgde_pgde_pud_new(uint64_t pud_base_address) {
     pgde_t pgde;
 
     /* fail if user has passed bits that we will override */
-    if(!((pud_base_address & ~0xfffffffff000ull) == ((0 && (pud_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(pud_base_address & ~0xfffffffff000ull) == ((0 && (pud_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2490, __FUNCTION__);
-    if(!(((uint64_t)pgde_pgde_pud & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_pud & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pgde_pgde_pud & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_pud & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2491, __FUNCTION__);
+    if(!((pud_base_address & ~0xfffffffff000ull) == ((0 && (pud_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(pud_base_address & ~0xfffffffff000ull) == ((0 && (pud_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2490, __FUNCTION__);
+    if(!(((uint64_t)pgde_pgde_pud & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_pud & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pgde_pgde_pud & ~0x3ull) == ((0 && ((uint64_t)pgde_pgde_pud & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2491, __FUNCTION__);
 
     pgde.words[0] = 0
         | (pud_base_address & 0xfffffffff000ull) >> 0
@@ -3424,7 +3424,7 @@ pgde_pgde_pud_new(uint64_t pud_base_address) {
 static inline uint64_t __attribute__((__pure__))
 pgde_pgde_pud_ptr_get_pud_base_address(pgde_t *pgde_ptr) {
     uint64_t ret;
-    if(!(((pgde_ptr->words[0] >> 0) & 0x3) == pgde_pgde_pud)) _assert_fail("((pgde_ptr->words[0] >> 0) & 0x3) == pgde_pgde_pud", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2503, __FUNCTION__)
+    if(!(((pgde_ptr->words[0] >> 0) & 0x3) == pgde_pgde_pud)) _assert_fail("((pgde_ptr->words[0] >> 0) & 0x3) == pgde_pgde_pud", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2503, __FUNCTION__)
                          ;
 
     ret = (pgde_ptr->words[0] & 0xfffffffff000ull) << 0;
@@ -3457,14 +3457,14 @@ pude_pude_1g_new(uint64_t UXN, uint64_t page_base_address, uint64_t nG, uint64_t
     pude_t pude;
 
     /* fail if user has passed bits that we will override */
-    if(!((UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2536, __FUNCTION__);
-    if(!((page_base_address & ~0xffffc0000000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(page_base_address & ~0xffffc0000000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2537, __FUNCTION__);
-    if(!((nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2538, __FUNCTION__);
-    if(!((AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2539, __FUNCTION__);
-    if(!((SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2540, __FUNCTION__);
-    if(!((AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2541, __FUNCTION__);
-    if(!((AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2542, __FUNCTION__);
-    if(!(((uint64_t)pude_pude_1g & ~0x3ull) == ((0 && ((uint64_t)pude_pude_1g & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pude_pude_1g & ~0x3ull) == ((0 && ((uint64_t)pude_pude_1g & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2543, __FUNCTION__);
+    if(!((UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(UXN & ~0x1ull) == ((0 && (UXN & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2536, __FUNCTION__);
+    if(!((page_base_address & ~0xffffc0000000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(page_base_address & ~0xffffc0000000ull) == ((0 && (page_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2537, __FUNCTION__);
+    if(!((nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(nG & ~0x1ull) == ((0 && (nG & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2538, __FUNCTION__);
+    if(!((AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AF & ~0x1ull) == ((0 && (AF & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2539, __FUNCTION__);
+    if(!((SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(SH & ~0x3ull) == ((0 && (SH & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2540, __FUNCTION__);
+    if(!((AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AP & ~0x3ull) == ((0 && (AP & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2541, __FUNCTION__);
+    if(!((AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(AttrIndx & ~0x7ull) == ((0 && (AttrIndx & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2542, __FUNCTION__);
+    if(!(((uint64_t)pude_pude_1g & ~0x3ull) == ((0 && ((uint64_t)pude_pude_1g & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pude_pude_1g & ~0x3ull) == ((0 && ((uint64_t)pude_pude_1g & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2543, __FUNCTION__);
 
     pude.words[0] = 0
         | (UXN & 0x1ull) << 54
@@ -3482,7 +3482,7 @@ pude_pude_1g_new(uint64_t UXN, uint64_t page_base_address, uint64_t nG, uint64_t
 static inline uint64_t __attribute__((__pure__))
 pude_pude_1g_ptr_get_page_base_address(pude_t *pude_ptr) {
     uint64_t ret;
-    if(!(((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_1g)) _assert_fail("((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_1g", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2561, __FUNCTION__)
+    if(!(((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_1g)) _assert_fail("((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_1g", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2561, __FUNCTION__)
                         ;
 
     ret = (pude_ptr->words[0] & 0xffffc0000000ull) << 0;
@@ -3498,8 +3498,8 @@ pude_pude_pd_new(uint64_t pd_base_address) {
     pude_t pude;
 
     /* fail if user has passed bits that we will override */
-    if(!((pd_base_address & ~0xfffffffff000ull) == ((0 && (pd_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(pd_base_address & ~0xfffffffff000ull) == ((0 && (pd_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2577, __FUNCTION__);
-    if(!(((uint64_t)pude_pude_pd & ~0x3ull) == ((0 && ((uint64_t)pude_pude_pd & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pude_pude_pd & ~0x3ull) == ((0 && ((uint64_t)pude_pude_pd & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2578, __FUNCTION__);
+    if(!((pd_base_address & ~0xfffffffff000ull) == ((0 && (pd_base_address & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(pd_base_address & ~0xfffffffff000ull) == ((0 && (pd_base_address & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2577, __FUNCTION__);
+    if(!(((uint64_t)pude_pude_pd & ~0x3ull) == ((0 && ((uint64_t)pude_pude_pd & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)pude_pude_pd & ~0x3ull) == ((0 && ((uint64_t)pude_pude_pd & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2578, __FUNCTION__);
 
     pude.words[0] = 0
         | (pd_base_address & 0xfffffffff000ull) >> 0
@@ -3511,7 +3511,7 @@ pude_pude_pd_new(uint64_t pd_base_address) {
 static inline uint64_t __attribute__((__pure__))
 pude_pude_pd_ptr_get_pd_base_address(pude_t *pude_ptr) {
     uint64_t ret;
-    if(!(((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_pd)) _assert_fail("((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_pd", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2590, __FUNCTION__)
+    if(!(((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_pd)) _assert_fail("((pude_ptr->words[0] >> 0) & 0x3) == pude_pude_pd", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2590, __FUNCTION__)
                         ;
 
     ret = (pude_ptr->words[0] & 0xfffffffff000ull) << 0;
@@ -3552,7 +3552,7 @@ seL4_Fault_NullFault_new(void) {
     seL4_Fault_t seL4_Fault;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2631, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2631, __FUNCTION__);
 
     seL4_Fault.words[0] = 0
         | ((uint64_t)seL4_Fault_NullFault & 0xfull) << 0;
@@ -3564,7 +3564,7 @@ seL4_Fault_NullFault_new(void) {
 static inline void
 seL4_Fault_NullFault_ptr_new(seL4_Fault_t *seL4_Fault_ptr) {
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2643, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_NullFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_NullFault & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2643, __FUNCTION__);
 
     seL4_Fault_ptr->words[0] = 0
         | ((uint64_t)seL4_Fault_NullFault & 0xfull) << 0;
@@ -3576,8 +3576,8 @@ seL4_Fault_CapFault_new(uint64_t address, uint64_t inReceivePhase) {
     seL4_Fault_t seL4_Fault;
 
     /* fail if user has passed bits that we will override */
-    if(!((inReceivePhase & ~0x1ull) == ((0 && (inReceivePhase & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(inReceivePhase & ~0x1ull) == ((0 && (inReceivePhase & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2655, __FUNCTION__);
-    if(!(((uint64_t)seL4_Fault_CapFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_CapFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_CapFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_CapFault & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2656, __FUNCTION__);
+    if(!((inReceivePhase & ~0x1ull) == ((0 && (inReceivePhase & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(inReceivePhase & ~0x1ull) == ((0 && (inReceivePhase & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2655, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_CapFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_CapFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_CapFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_CapFault & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2656, __FUNCTION__);
 
     seL4_Fault.words[0] = 0
         | (inReceivePhase & 0x1ull) << 63
@@ -3591,7 +3591,7 @@ seL4_Fault_CapFault_new(uint64_t address, uint64_t inReceivePhase) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_CapFault_get_address(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2670, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2670, __FUNCTION__)
                                ;
 
     ret = (seL4_Fault.words[1] & 0xffffffffffffffffull) >> 0;
@@ -3605,7 +3605,7 @@ seL4_Fault_CapFault_get_address(seL4_Fault_t seL4_Fault) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_CapFault_get_inReceivePhase(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2684, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_CapFault", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2684, __FUNCTION__)
                                ;
 
     ret = (seL4_Fault.words[0] & 0x8000000000000000ull) >> 63;
@@ -3621,7 +3621,7 @@ seL4_Fault_UnknownSyscall_new(uint64_t syscallNumber) {
     seL4_Fault_t seL4_Fault;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)seL4_Fault_UnknownSyscall & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UnknownSyscall & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_UnknownSyscall & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UnknownSyscall & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2700, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_UnknownSyscall & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UnknownSyscall & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_UnknownSyscall & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UnknownSyscall & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2700, __FUNCTION__);
 
     seL4_Fault.words[0] = 0
         | ((uint64_t)seL4_Fault_UnknownSyscall & 0xfull) << 0;
@@ -3634,7 +3634,7 @@ seL4_Fault_UnknownSyscall_new(uint64_t syscallNumber) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_UnknownSyscall_get_syscallNumber(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UnknownSyscall)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UnknownSyscall", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2713, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UnknownSyscall)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UnknownSyscall", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2713, __FUNCTION__)
                                      ;
 
     ret = (seL4_Fault.words[1] & 0xffffffffffffffffull) >> 0;
@@ -3650,9 +3650,9 @@ seL4_Fault_UserException_new(uint64_t number, uint64_t code) {
     seL4_Fault_t seL4_Fault;
 
     /* fail if user has passed bits that we will override */
-    if(!((number & ~0xffffffffull) == ((0 && (number & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(number & ~0xffffffffull) == ((0 && (number & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2729, __FUNCTION__);
-    if(!((code & ~0xfffffffull) == ((0 && (code & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(code & ~0xfffffffull) == ((0 && (code & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2730, __FUNCTION__);
-    if(!(((uint64_t)seL4_Fault_UserException & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UserException & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_UserException & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UserException & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2731, __FUNCTION__);
+    if(!((number & ~0xffffffffull) == ((0 && (number & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(number & ~0xffffffffull) == ((0 && (number & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2729, __FUNCTION__);
+    if(!((code & ~0xfffffffull) == ((0 && (code & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(code & ~0xfffffffull) == ((0 && (code & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2730, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_UserException & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UserException & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_UserException & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_UserException & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2731, __FUNCTION__);
 
     seL4_Fault.words[0] = 0
         | (number & 0xffffffffull) << 32
@@ -3666,7 +3666,7 @@ seL4_Fault_UserException_new(uint64_t number, uint64_t code) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_UserException_get_number(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2745, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2745, __FUNCTION__)
                                     ;
 
     ret = (seL4_Fault.words[0] & 0xffffffff00000000ull) >> 32;
@@ -3680,7 +3680,7 @@ seL4_Fault_UserException_get_number(seL4_Fault_t seL4_Fault) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_UserException_get_code(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2759, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_UserException", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2759, __FUNCTION__)
                                     ;
 
     ret = (seL4_Fault.words[0] & 0xfffffff0ull) >> 4;
@@ -3696,7 +3696,7 @@ seL4_Fault_Timeout_new(uint64_t badge) {
     seL4_Fault_t seL4_Fault;
 
     /* fail if user has passed bits that we will override */
-    if(!(((uint64_t)seL4_Fault_Timeout & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_Timeout & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_Timeout & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_Timeout & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2775, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_Timeout & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_Timeout & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_Timeout & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_Timeout & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2775, __FUNCTION__);
 
     seL4_Fault.words[0] = 0
         | ((uint64_t)seL4_Fault_Timeout & 0xfull) << 0;
@@ -3709,7 +3709,7 @@ seL4_Fault_Timeout_new(uint64_t badge) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_Timeout_get_badge(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_Timeout)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_Timeout", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2788, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_Timeout)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_Timeout", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2788, __FUNCTION__)
                               ;
 
     ret = (seL4_Fault.words[1] & 0xffffffffffffffffull) >> 0;
@@ -3725,9 +3725,9 @@ seL4_Fault_VMFault_new(uint64_t address, uint64_t FSR, uint64_t instructionFault
     seL4_Fault_t seL4_Fault;
 
     /* fail if user has passed bits that we will override */
-    if(!((FSR & ~0xffffffffull) == ((0 && (FSR & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(FSR & ~0xffffffffull) == ((0 && (FSR & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2804, __FUNCTION__);
-    if(!((instructionFault & ~0x1ull) == ((0 && (instructionFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(instructionFault & ~0x1ull) == ((0 && (instructionFault & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2805, __FUNCTION__);
-    if(!(((uint64_t)seL4_Fault_VMFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_VMFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_VMFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_VMFault & (1ull << 47))) ? 0x0 : 0)", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2806, __FUNCTION__);
+    if(!((FSR & ~0xffffffffull) == ((0 && (FSR & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(FSR & ~0xffffffffull) == ((0 && (FSR & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2804, __FUNCTION__);
+    if(!((instructionFault & ~0x1ull) == ((0 && (instructionFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("(instructionFault & ~0x1ull) == ((0 && (instructionFault & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2805, __FUNCTION__);
+    if(!(((uint64_t)seL4_Fault_VMFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_VMFault & (1ull << 47))) ? 0x0 : 0))) _assert_fail("((uint64_t)seL4_Fault_VMFault & ~0xfull) == ((0 && ((uint64_t)seL4_Fault_VMFault & (1ull << 47))) ? 0x0 : 0)", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2806, __FUNCTION__);
 
     seL4_Fault.words[0] = 0
         | (FSR & 0xffffffffull) << 32
@@ -3742,7 +3742,7 @@ seL4_Fault_VMFault_new(uint64_t address, uint64_t FSR, uint64_t instructionFault
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_VMFault_get_address(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2821, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2821, __FUNCTION__)
                               ;
 
     ret = (seL4_Fault.words[1] & 0xffffffffffffffffull) >> 0;
@@ -3756,7 +3756,7 @@ seL4_Fault_VMFault_get_address(seL4_Fault_t seL4_Fault) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_VMFault_get_FSR(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2835, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2835, __FUNCTION__)
                               ;
 
     ret = (seL4_Fault.words[0] & 0xffffffff00000000ull) >> 32;
@@ -3770,7 +3770,7 @@ seL4_Fault_VMFault_get_FSR(seL4_Fault_t seL4_Fault) {
 static inline uint64_t __attribute__((__const__))
 seL4_Fault_VMFault_get_instructionFault(seL4_Fault_t seL4_Fault) {
     uint64_t ret;
-    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault", "/home/chris/Desktop/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2849, __FUNCTION__)
+    if(!(((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault)) _assert_fail("((seL4_Fault.words[0] >> 0) & 0xf) == seL4_Fault_VMFault", "/home/dev/projects/SOS-V2020/build/kernel/generated/arch/object/structures_gen.h", 2849, __FUNCTION__)
                               ;
 
     ret = (seL4_Fault.words[0] & 0x80000000ull) >> 31;
@@ -3780,8 +3780,8 @@ seL4_Fault_VMFault_get_instructionFault(seL4_Fault_t seL4_Fault) {
     }
     return ret;
 }
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/types.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/types.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3794,9 +3794,9 @@ seL4_Fault_VMFault_get_instructionFault(seL4_Fault_t seL4_Fault) {
 
 
 typedef uint64_t timestamp_t;
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/arch_include/arm/sel4/arch/constants.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/arch_include/arm/sel4/arch/constants.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3804,8 +3804,8 @@ typedef uint64_t timestamp_t;
  */
 
        
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h" 1
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3815,8 +3815,8 @@ typedef uint64_t timestamp_t;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h" 2
 
 
 
@@ -3861,7 +3861,7 @@ enum {
     seL4_VMFault_Length,
     _enum_pad_seL4_VMFault_Msg = (1ULL << ((sizeof(long)*8) - 1)) - 1,
 } seL4_VMFault_Msg;
-# 123 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
+# 123 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
 enum {
     seL4_TimeoutReply_FaultIP,
     seL4_TimeoutReply_SP,
@@ -3913,7 +3913,7 @@ enum {
 
 
 /* object sizes - 2^n */
-# 231 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
+# 231 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
 /* word size */
 
 
@@ -3927,12 +3927,12 @@ typedef int __assert_failed_seL4_PageDirEntryBitsseL4_PageDirIndexBitsseL4_PageD
 typedef int __assert_failed_seL4_WordSizeBitsseL4_ASIDPoolIndexBitsseL4_ASIDPoolBits[(3 + 9 == 12) ? 1 : -1];;
 typedef int __assert_failed_seL4_PGDEntryBitsseL4_PGDIndexBitsseL4_PGDBits[(3 + 9 == 12) ? 1 : -1];;
 typedef int __assert_failed_seL4_PUDEntryBitsseL4_PUDIndexBitsseL4_PUDBits[(3 + 9 == 12) ? 1 : -1];;
-# 259 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
+# 259 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
 /* IPC buffer is 1024 bytes, giving size bits of 10 */
-# 280 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
+# 280 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_arch_include/aarch64/sel4/sel4_arch/constants.h"
 /* First address in the virtual address space that is not accessible to user level */
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_utilisation_.h" 1
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_utilisation_.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -3940,7 +3940,7 @@ typedef int __assert_failed_seL4_PUDEntryBitsseL4_PUDIndexBitsseL4_PUDBits[(3 + 
  */
 
        
-# 18 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 2
+# 18 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 2
 
 enum irq_state {
     IRQInactive = 0,
@@ -3977,7 +3977,7 @@ enum notification_state {
     NtfnState_Active = 2
 };
 typedef word_t notification_state_t;
-# 68 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h"
+# 68 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h"
 // We would like the actual 'tcb' region (the portion that contains the tcb_t) of the tcb
 // to be as large as possible, but it still needs to be aligned. As the TCB object contains
 // two sub objects the largest we can make either sub object whilst preserving size alignment
@@ -3994,7 +3994,7 @@ typedef word_t notification_state_t;
 
 
 /* Generate a cte_t pointer from a tcb_t pointer */
-# 99 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h"
+# 99 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h"
 static inline cap_t __attribute__((__const__)) Zombie_new(word_t number, word_t type, word_t ptr)
 {
     word_t mask;
@@ -4079,12 +4079,12 @@ enum tcb_cnode_index {
 
     /* Timeout endpoint slot */
     tcbTimeoutHandler = 4,
-# 193 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h"
+# 193 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h"
     tcbCNodeEntries
 };
 typedef word_t tcb_cnode_index_t;
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/structures.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/structures.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -4093,7 +4093,7 @@ typedef word_t tcb_cnode_index_t;
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4101,8 +4101,8 @@ typedef word_t tcb_cnode_index_t;
  */
 
        
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/hardware.h" 1
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/hardware.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -4112,7 +4112,7 @@ typedef word_t tcb_cnode_index_t;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/hardware.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/hardware.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4127,7 +4127,7 @@ typedef word_t tcb_cnode_index_t;
 
 
 /* Control register fields */
-# 28 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/hardware.h"
+# 28 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/hardware.h"
 enum vm_page_size {
     ARMSmallPage,
     ARMLargePage,
@@ -4154,10 +4154,10 @@ static inline word_t __attribute__((__const__)) pageBitsForSize(vm_page_size_t p
         return ARMHugePageBits;
 
     default:
-        _fail("Invalid page size", "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/hardware.h", 54, __func__);
+        _fail("Invalid page size", "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/hardware.h", 54, __func__);
     }
 }
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/hardware.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/hardware.h" 2
 
 
 enum vm_fault_type {
@@ -4165,8 +4165,8 @@ enum vm_fault_type {
     ARMPrefetchAbort = 1
 };
 typedef word_t vm_fault_type_t;
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/registerset.h" 1
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/registerset.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -4175,7 +4175,7 @@ typedef word_t vm_fault_type_t;
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4191,7 +4191,7 @@ typedef word_t vm_fault_type_t;
 
 
 /* PSTATE register */
-# 25 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
+# 25 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
 /* DAIF register */
 
 
@@ -4200,7 +4200,7 @@ typedef word_t vm_fault_type_t;
 
 
 /* ESR register */
-# 43 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
+# 43 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
 /* ID_AA64PFR0_EL1 register */
 
 
@@ -4212,11 +4212,11 @@ typedef word_t vm_fault_type_t;
  * We cannot allow async aborts in the verified kernel, but they are useful
  * in identifying invalid memory access bugs so we enable them in debug mode.
  */
-# 68 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
+# 68 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
 /* Offsets within the user context, these need to match the order in
  * register_t below */
-# 84 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_plat_include/odroidc2/sel4/plat/api/constants.h" 1
+# 84 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_plat_include/odroidc2/sel4/plat/api/constants.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -4226,12 +4226,12 @@ typedef word_t vm_fault_type_t;
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/sel4_plat_include/odroidc2/sel4/plat/api/constants.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/sel4_plat_include/odroidc2/sel4/plat/api/constants.h" 2
 
 
 /* Cortex A53 manual, section 11.6.1 */
-# 85 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h" 2
+# 85 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h" 2
 
 /* These are the indices of the registers in the saved thread context.
  * The values are determined by the order in which they're saved in the trap handler. */
@@ -4316,7 +4316,7 @@ enum messageSizes {
     n_timeoutMessage = 34,
 
 };
-# 231 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
+# 231 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/registerset.h"
 extern const register_t msgRegisters[];
 extern const register_t frameRegisters[];
 extern const register_t gpRegisters[];
@@ -4353,8 +4353,8 @@ static inline void Arch_initContext(user_context_t *context)
 {
     context->registers[SPSR_EL1] = ((1 << 6) | 0 | 0);
 }
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/registerset.h" 2
-# 18 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h" 2
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/registerset.h" 2
+# 18 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h" 2
 
 typedef struct arch_tcb {
     user_context_t tcbContext;
@@ -4376,10 +4376,10 @@ typedef word_t vm_rights_t;
  * Yet the kernel will still use a stage-1 translation with 48 bit input addresses and a 4-level
  * translation.  Therefore, PUD and PGD size for the kernel can be different from EL1/EL0
  * so we do not use the libsel4 definitions */
-# 62 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
+# 62 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
 /* Otherwise we use a 4-level translation */
 typedef pgde_t vspace_root_t;
-# 101 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
+# 101 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
 /* Generate a vcpu_t pointer from a vcpu block reference */
 
 
@@ -4388,7 +4388,7 @@ struct asid_pool {
     vspace_root_t *array[(1ul << (asidLowBits))];
 };
 typedef struct asid_pool asid_pool_t;
-# 122 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
+# 122 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/object/structures.h"
 static inline word_t __attribute__((__const__)) cap_get_archCapSizeBits(cap_t cap)
 {
     cap_tag_t ctag;
@@ -4563,7 +4563,7 @@ static inline pte_t pte_invalid_new(void)
         }
     };
 }
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/structures.h" 2
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/structures.h" 2
 
 
 
@@ -4571,7 +4571,7 @@ static inline bool_t __attribute__((__const__)) Arch_isCapRevocable(cap_t derive
 {
     return false;
 }
-# 198 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h" 2
+# 198 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h" 2
 
 struct user_data {
     word_t words[(1ul << (12)) / sizeof(word_t)];
@@ -4641,7 +4641,7 @@ struct tcb {
 
     /* scheduling context that this tcb yielded to */
     sched_context_t *tcbYieldTo;
-# 275 "/home/chris/Desktop/SOS-V2020/kernel/include/object/structures.h"
+# 275 "/home/dev/projects/SOS-V2020/kernel/include/object/structures.h"
     /* userland virtual address of thread IPC buffer, 1 word */
     word_t tcbIPCBuffer;
 
@@ -4970,7 +4970,7 @@ static inline bool_t __attribute__((__const__)) isCapRevocable(cap_t derivedCap,
         return false;
     }
 }
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/compound_types.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/compound_types.h" 2
 
 
 struct pde_range {
@@ -4991,9 +4991,9 @@ struct extra_caps {
     cte_ptr_t excaprefs[((1ul<<(seL4_MsgExtraCapBits))-1)];
 };
 typedef struct extra_caps extra_caps_t;
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/types.h" 2
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/api/faults.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/types.h" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/api/faults.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5010,8 +5010,8 @@ word_t Arch_setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffe
 
 bool_t handleFaultReply(tcb_t *receiver, tcb_t *sender);
 bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5021,7 +5021,7 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5030,14 +5030,14 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5050,7 +5050,7 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/linker.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/linker.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5060,7 +5060,7 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/linker.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/linker.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5069,7 +5069,7 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
 
        
 /* Place-holder for ARM-related linker definitions */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/linker.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/linker.h" 2
 
 /* code that is only used during kernel bootstrapping */
 
@@ -5091,10 +5091,10 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
 
 
 /* bss data that is permitted to be used in the restricted SKIM address space */
-# 14 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 2
+# 14 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/hardware.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/hardware.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5298,7 +5298,7 @@ bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType);
 
 /* The base address in virtual memory to use for the kernel device
  * mapping region. These are mapped in the kernel page table. */
-# 17 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 2
+# 17 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 2
 
 
 
@@ -5351,7 +5351,7 @@ static const kernel_frame_t __attribute__((__section__(".boot.rodata"))) kernel_
         true, /* armExecuteNever */
         false, /* userAvailable */
     },
-# 78 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h"
+# 78 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h"
     /* /soc/bus@c1100000/watchdog@98d0 */
     {
         0xc1109000,
@@ -5368,8 +5368,8 @@ static const p_region_t __attribute__((__section__(".boot.rodata"))) avail_p_reg
     { 0x5300000, 0x10000000 }, /* /memory@0 */
     { 0x10200000, 0x80000000 }, /* /memory@0 */
 };
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5379,8 +5379,8 @@ static const p_region_t __attribute__((__section__(".boot.rodata"))) avail_p_reg
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 2
 
 
 
@@ -5393,7 +5393,7 @@ enum IRQConstants {
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5411,7 +5411,7 @@ enum IRQConstants {
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/smp/smp.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/smp/smp.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5422,7 +5422,7 @@ enum IRQConstants {
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/stack.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/stack.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5433,7 +5433,7 @@ enum IRQConstants {
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/stack.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/stack.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5441,7 +5441,7 @@ enum IRQConstants {
  */
 
        
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/stack.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/kernel/stack.h" 2
 
 /* These are the stacks used in kernel, shared between architectures/modes.
  * CONFIG_KERNEL_STACK_BITS is defined in kernel/Kconfig. The physical/offset
@@ -5449,9 +5449,9 @@ enum IRQConstants {
  * defined for each arch/mode in <mode/kernel/stack.h>
  */
 extern char kernel_stack_alloc[1][(1ul << (12))];
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/smp/smp.h" 2
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/model/statedata.h" 1
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/smp/smp.h" 2
+# 19 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/model/statedata.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5463,7 +5463,7 @@ extern char kernel_stack_alloc[1][(1ul << (12))];
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5473,7 +5473,7 @@ extern char kernel_stack_alloc[1][(1ul << (12))];
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/api/failures.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/api/failures.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5483,7 +5483,7 @@ extern char kernel_stack_alloc[1][(1ul << (12))];
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/errors.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/errors.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5511,7 +5511,7 @@ typedef enum {
      */
     seL4_NumErrors
 } seL4_Error;
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/api/failures.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/api/failures.h" 2
 
 /* These datatypes differ markedly from haskell, due to the
  * different implementation of the various fault monads */
@@ -5539,14 +5539,14 @@ struct syscall_error {
     syscall_error_type_t type;
 };
 typedef struct syscall_error syscall_error_t;
-# 47 "/home/chris/Desktop/SOS-V2020/kernel/include/api/failures.h"
+# 47 "/home/dev/projects/SOS-V2020/kernel/include/api/failures.h"
 extern lookup_fault_t current_lookup_fault;
 extern seL4_Fault_t current_fault;
 extern syscall_error_t current_syscall_error;
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/registerset.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/registerset.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5587,8 +5587,8 @@ static inline word_t __attribute__((__pure__)) getRegister(tcb_t *thread, regist
 
 
 word_t getNBSendRecvDest(void);
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/cnode.h" 1
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/cnode.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -5633,7 +5633,7 @@ bool_t __attribute__((__pure__)) isFinalCapability(cte_t *cte);
 bool_t __attribute__((__pure__)) slotCapLongRunningDelete(cte_t *slot);
 cte_t *getReceiveSlots(tcb_t *thread, word_t *buffer);
 cap_transfer_t __attribute__((__pure__)) loadCapTransfer(word_t *buffer);
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h" 2
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h" 2
 
 
 /* Maximum length of the tcb name, including null terminator */
@@ -5675,7 +5675,7 @@ void tcbDebugRemove(tcb_t *tcb);
 void tcbReleaseRemove(tcb_t *tcb);
 void tcbReleaseEnqueue(tcb_t *tcb);
 tcb_t *tcbReleaseDequeue(void);
-# 81 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h"
+# 81 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h"
 /* Add TCB into the priority ordered endpoint queue */
 static inline tcb_queue_t tcbEPAppend(tcb_t *tcb, tcb_queue_t queue)
 {
@@ -5710,7 +5710,7 @@ static inline tcb_queue_t tcbEPAppend(tcb_t *tcb, tcb_queue_t queue)
 }
 
 tcb_queue_t tcbEPDequeue(tcb_t *tcb, tcb_queue_t queue);
-# 124 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h"
+# 124 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h"
 word_t copyMRs(tcb_t *sender, word_t *sendBuf, tcb_t *receiver,
                word_t *recvBuf, word_t n);
 exception_t decodeTCBInvocation(word_t invLabel, word_t length, cap_t cap,
@@ -5757,7 +5757,7 @@ enum thread_control_sched_flag {
     thread_control_sched_update_sc = 0x4,
     thread_control_sched_update_fault = 0x8,
 };
-# 184 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h"
+# 184 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h"
 typedef word_t thread_control_flag_t;
 
 exception_t invokeTCB_Suspend(tcb_t *thread);
@@ -5776,7 +5776,7 @@ exception_t invokeTCB_ThreadControlSched(tcb_t *target, cte_t *slot,
                                          prio_t mcp, prio_t priority,
                                          sched_context_t *sc,
                                          thread_control_flag_t updateFlags);
-# 210 "/home/chris/Desktop/SOS-V2020/kernel/include/object/tcb.h"
+# 210 "/home/dev/projects/SOS-V2020/kernel/include/object/tcb.h"
 exception_t invokeTCB_CopyRegisters(tcb_t *dest, tcb_t *src,
                                     bool_t suspendSource, bool_t resumeTarget,
                                     bool_t transferFrame, bool_t transferInteger,
@@ -5802,10 +5802,10 @@ exception_t __attribute__((__const__)) Arch_performTransfer(word_t arch, tcb_t *
 
 
 void setThreadName(tcb_t *thread, const char *name);
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/model/statedata.h" 2
-# 38 "/home/chris/Desktop/SOS-V2020/kernel/include/model/statedata.h"
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/model/statedata.h" 2
+# 38 "/home/dev/projects/SOS-V2020/kernel/include/model/statedata.h"
 /* UP states are declared as VISIBLE so that they are accessible in assembly */
-# 58 "/home/chris/Desktop/SOS-V2020/kernel/include/model/statedata.h"
+# 58 "/home/dev/projects/SOS-V2020/kernel/include/model/statedata.h"
 
 extern tcb_queue_t ksReadyQueues[(1 * 256)] __attribute__((externally_visible));
 extern word_t ksReadyQueuesL1Bitmap[1] __attribute__((externally_visible));
@@ -5860,9 +5860,9 @@ extern char ksIdleThreadTCB[1][(1ul << (11))];
 
 
 extern char ksIdleThreadSC[1][(1ul << (8))];
-# 20 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 2
+# 20 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5871,10 +5871,10 @@ extern char ksIdleThreadSC[1][(1ul << (8))];
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/interrupt.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/interrupt.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -5992,7 +5992,7 @@ static inline void handleSpuriousIRQ(void);
  * @param[in]  irq   The irq
  */
 static inline void handleReservedIRQ(irq_t irq);
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h" 2
 
 /* Shift positions for GICD_SGIR register */
 
@@ -6008,7 +6008,7 @@ static inline void handleReservedIRQ(irq_t irq);
 
 
 /* Shared Peripheral Interrupts */
-# 58 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h"
+# 58 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_common.h"
 irq_t irqInvalid = (uint16_t) -1;
 
 
@@ -6031,12 +6031,12 @@ static inline void handleSpuriousIRQ(void)
 }
 
 void initIRQController(void);
-# 22 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 2
+# 22 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h" 2
 
 
 
 /* Helpers for VGIC */
-# 47 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h"
+# 47 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h"
 /* Memory map for GIC distributor */
 struct gic_dist_map {
     uint32_t enable; /* 0x000 */
@@ -6188,7 +6188,7 @@ static inline void maskInterrupt(bool_t disable, irq_t irq)
 
 static inline void ackInterrupt(irq_t irq)
 {
-    if(!((((active_irq[0]) & ((1ul << (10u))-1ul)) < 1020u) && (active_irq[0] & ((1ul << (10u))-1ul)) == (irq))) _assert_fail("IS_IRQ_VALID(active_irq[CURRENT_CPU_INDEX()]) && (active_irq[CURRENT_CPU_INDEX()] & IRQ_MASK) == IRQT_TO_IRQ(irq)", "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h", 198, __FUNCTION__)
+    if(!((((active_irq[0]) & ((1ul << (10u))-1ul)) < 1020u) && (active_irq[0] & ((1ul << (10u))-1ul)) == (irq))) _assert_fail("IS_IRQ_VALID(active_irq[CURRENT_CPU_INDEX()]) && (active_irq[CURRENT_CPU_INDEX()] & IRQ_MASK) == IRQT_TO_IRQ(irq)", "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/gic_v2.h", 198, __FUNCTION__)
                                                                                ;
     if (is_irq_edge_triggered((irq))) {
         dist_pending_clr((irq));
@@ -6197,8 +6197,8 @@ static inline void ackInterrupt(irq_t irq)
     active_irq[0] = 1023u;
 
 }
-# 24 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/drivers/timer/arm_generic.h" 1
+# 24 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/drivers/timer/arm_generic.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6208,7 +6208,7 @@ static inline void ackInterrupt(irq_t irq)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6222,7 +6222,7 @@ static inline void ackInterrupt(irq_t irq)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine/hardware.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine/hardware.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6230,8 +6230,8 @@ static inline void ackInterrupt(irq_t irq)
  */
 
        
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/armv/armv8-a/64/armv/machine.h" 1
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/armv/armv8-a/64/armv/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6259,8 +6259,8 @@ static inline void isb(void)
 {
     __asm__ volatile("isb sy" ::: "memory");
 }
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/model/smp.h" 1
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/model/smp.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6271,7 +6271,7 @@ static inline void isb(void)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/model/smp.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/model/smp.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6282,7 +6282,7 @@ static inline void isb(void)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/model/statedata.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/model/statedata.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6292,7 +6292,7 @@ static inline void isb(void)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/vcpu.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/vcpu.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6300,14 +6300,14 @@ static inline void isb(void)
  */
 
        
-# 200 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/vcpu.h"
+# 200 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/vcpu.h"
 /* used in boot.c with a guard, use a marco to avoid exposing vcpu_t */
 
 
 static inline void VGICMaintenance(void) {}
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/model/statedata.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/model/statedata.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/debug_conf.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/debug_conf.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6323,7 +6323,7 @@ static inline void VGICMaintenance(void) {}
  * CONFIG_ARM_HYP_ENABLE_VCPU_CP14_SAVE_AND_RESTORE and
  * CONFIG_HARDWARE_DEBUG_API.
  */
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/model/statedata.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/model/statedata.h" 2
 
 
 
@@ -6338,12 +6338,12 @@ extern word_t ipiReschedulePending __attribute__((externally_visible));
 
 
 ;
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/model/smp.h" 2
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/model/smp.h" 2
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/model/smp.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/model/smp.h" 2
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine_pl2.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine_pl2.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6351,7 +6351,7 @@ extern word_t ipiReschedulePending __attribute__((externally_visible));
  */
 
        
-# 25 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine_pl2.h"
+# 25 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine_pl2.h"
 static inline void writeTPIDR_EL2(word_t reg) {}
 static inline word_t readTPIDR_EL2(void)
 {
@@ -6369,8 +6369,8 @@ static inline paddr_t addressTranslateS1CPR(vptr_t vaddr)
 {
     return vaddr;
 }
-# 20 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
-# 45 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h"
+# 20 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h" 2
+# 45 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h"
 word_t __attribute__((__pure__)) getRestartPC(tcb_t *thread);
 void setNextPC(tcb_t *thread, word_t v);
 
@@ -6452,7 +6452,7 @@ static void arm_load_thread_id(tcb_t *thread)
     writeTPIDR_EL0(getRegister(thread, TPIDR_EL0));
     writeTPIDRRO_EL0(getRegister(thread, TPIDRRO_EL0));
 }
-# 154 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h"
+# 154 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h"
 /* Check if the elfloader set up the TCR_EL2 correctly. */
 static inline bool_t checkTCR_EL2(void)
 {
@@ -6541,7 +6541,7 @@ static inline void invalidateLocalTLB(void)
 
 static inline void invalidateLocalTLB_ASID(asid_t asid)
 {
-    if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h", 242, __FUNCTION__);
+    if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine.h", 242, __FUNCTION__);
 
     dsb();
     __asm__ volatile("tlbi aside1, %0" : : "r"(asid << 48));
@@ -6671,7 +6671,7 @@ static inline word_t ats2e0r(word_t va)
 
 void arch_clean_invalidate_caches(void);
 void arch_clean_invalidate_L1_caches(word_t type);
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/drivers/timer/arm_generic.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/drivers/timer/arm_generic.h" 2
 
 /* ARM generic timer implementation */
 
@@ -6688,7 +6688,7 @@ static inline ticks_t getCurrentTime(void)
 /** DONT_TRANSLATE **/
 static inline void setDeadline(ticks_t deadline)
 {
-    if(!(deadline >= ksCurTime)) _assert_fail("deadline >= NODE_STATE(ksCurTime)", "/home/chris/Desktop/SOS-V2020/kernel/include/drivers/timer/arm_generic.h", 27, __FUNCTION__);
+    if(!(deadline >= ksCurTime)) _assert_fail("deadline >= NODE_STATE(ksCurTime)", "/home/dev/projects/SOS-V2020/kernel/include/drivers/timer/arm_generic.h", 27, __FUNCTION__);
     do { word_t _v = deadline; __asm__ volatile("msr " "cntv_cval_el0" ",%x0" :: "r" (_v)); }while(0);
 }
 
@@ -6697,9 +6697,9 @@ static inline void ackDeadlineIRQ(void)
     ticks_t deadline = (0xFFFFFFFFFFFFFFFF);
     setDeadline(deadline);
 }
-# 45 "/home/chris/Desktop/SOS-V2020/kernel/include/drivers/timer/arm_generic.h"
+# 45 "/home/dev/projects/SOS-V2020/kernel/include/drivers/timer/arm_generic.h"
 __attribute__((__section__(".boot.text"))) void initGenericTimer(void);
-# 25 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 2
+# 25 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 2
 
 /* #undef CONFIGURE_SMMU */
 
@@ -6711,10 +6711,10 @@ static inline __attribute__((__const__)) time_t getKernelWcetUs(void)
 {
     return 10u;
 }
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/machine.h" 2
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/machine.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/hardware.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/hardware.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6764,7 +6764,7 @@ static inline __attribute__((__const__)) time_t getKernelWcetUs(void)
 /* This symbol is generated by the linker and marks the last valid
  * address in the kernel's virtual region */
 extern char ki_end[];
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/machine.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/machine.h" 2
 
 /* When translating a physical address into an address accessible to the
  * kernel via virtual addressing we always use the mapping of the memory
@@ -6795,10 +6795,10 @@ static inline p_region_t __attribute__((__const__)) pptr_to_paddr_reg(region_t r
         reg.start - (0xffffff8000000000ul - 0x0ul), reg.end - (0xffffff8000000000ul - 0x0ul)
     };
 }
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/vspace.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/vspace.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6807,7 +6807,7 @@ static inline p_region_t __attribute__((__const__)) pptr_to_paddr_reg(region_t r
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/vspace.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/vspace.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6820,7 +6820,7 @@ static inline p_region_t __attribute__((__const__)) pptr_to_paddr_reg(region_t r
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/vspace.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/vspace.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6828,7 +6828,7 @@ static inline p_region_t __attribute__((__const__)) pptr_to_paddr_reg(region_t r
  */
 
        
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/vspace.h"
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/vspace.h"
 /* ==================== BOOT CODE FINISHES HERE ==================== */
 
 bool_t __attribute__((__const__)) isVTableRoot(cap_t cap);
@@ -6852,7 +6852,7 @@ void deleteASID(asid_t asid, vspace_root_t *vspace);
 
 
 static const region_t __attribute__((__section__(".boot.rodata"))) *mode_reserved_region = ((void *)0);
-# 82 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/vspace.h"
+# 82 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/vspace.h"
 static inline exception_t performASIDPoolInvocation(asid_t asid, asid_pool_t *poolPtr, cte_t *cte)
 {
     cap_page_global_directory_cap_ptr_set_capPGDMappedASID(&cte->cap, asid);
@@ -6862,7 +6862,7 @@ static inline exception_t performASIDPoolInvocation(asid_t asid, asid_pool_t *po
 
     return EXCEPTION_NONE;
 }
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/vspace.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/vspace.h" 2
 
 
 
@@ -6901,9 +6901,9 @@ exception_t decodeARMMMUInvocation(word_t invLabel, word_t length, cptr_t cptr,
 
 
 void Arch_userStackTrace(tcb_t *tptr);
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/vspace.h" 2
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h" 1
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/kernel/vspace.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -6916,7 +6916,7 @@ void Arch_userStackTrace(tcb_t *tptr);
  * To add a system call number, edit kernel/include/api/syscall.xml
  *
  */
-# 38 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h"
+# 38 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h"
 enum syscall {
     SysCall = -1,
     SysReplyRecv = -2,
@@ -6938,7 +6938,7 @@ enum syscall {
     SysDebugCapIdentify = -15,
     SysDebugSnapshot = -16,
     SysDebugNameThread = -17,
-# 87 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h"
+# 87 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h"
 };
 typedef word_t syscall_t;
 
@@ -6957,8 +6957,8 @@ static char *syscall_names[] __attribute__((unused)) = {
          [10] = "NBWait",
          [11] = "Yield",
 };
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/api/debug.h" 1
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/api/debug.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6970,7 +6970,7 @@ static char *syscall_names[] __attribute__((unused)) = {
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 1
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -6980,7 +6980,7 @@ static char *syscall_names[] __attribute__((unused)) = {
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/benchmark.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/benchmark.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -6988,8 +6988,8 @@ static char *syscall_names[] __attribute__((unused)) = {
  */
 
        
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/benchmark_track_types.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/benchmark_track_types.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7001,8 +7001,8 @@ static char *syscall_names[] __attribute__((unused)) = {
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/benchmark_track_types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/benchmark_track_types.h" 2
 
 
 
@@ -7046,10 +7046,10 @@ typedef struct __attribute__((packed)) kernel_entry {
         };
     };
 } kernel_entry_t;
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/cspace.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/cspace.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7110,14 +7110,14 @@ lookupSlot_ret_t lookupPivotSlot(cap_t root, cptr_t capptr,
 resolveAddressBits_ret_t resolveAddressBits(cap_t nodeCap,
                                             cptr_t capptr,
                                             word_t n_bits);
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 2
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_track.h" 2
 
 
 
 
 
 extern kernel_entry_t ksKernelEntry;
-# 50 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_track.h"
+# 50 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_track.h"
 static inline void benchmark_debug_syscall_start(word_t cptr, word_t msgInfo, word_t syscall)
 {
     seL4_MessageInfo_t info = messageInfoFromWord_raw(msgInfo);
@@ -7127,8 +7127,8 @@ static inline void benchmark_debug_syscall_start(word_t cptr, word_t msgInfo, wo
     ksKernelEntry.cap_type = cap_get_capType(lu_ret.cap);
     ksKernelEntry.invocation_tag = seL4_MessageInfo_get_label(info);
 }
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/api/debug.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/api/debug.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/syscall.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7141,10 +7141,10 @@ static inline void benchmark_debug_syscall_start(word_t cptr, word_t msgInfo, wo
  * To add a system call number, edit kernel/include/api/syscall.xml
  *
  */
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/api/debug.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/api/debug.h" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7156,7 +7156,7 @@ static inline void benchmark_debug_syscall_start(word_t cptr, word_t msgInfo, wo
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7164,7 +7164,7 @@ static inline void benchmark_debug_syscall_start(word_t cptr, word_t msgInfo, wo
  */
 
        
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine.h"
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine.h"
 int get_num_avail_p_regs(void);
 const p_region_t *get_avail_p_regs(void);
 int get_num_dev_p_regs(void);
@@ -7212,7 +7212,7 @@ static inline void clearMemoryRAM(word_t *ptr, word_t bits)
     cleanCacheRange_RAM((word_t)ptr, (word_t)ptr + (1ul << (bits)) - 1,
                         addrFromPPtr(ptr));
 }
-# 71 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine.h"
+# 71 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine.h"
 static inline void Arch_finaliseInterrupt(void)
 {
 }
@@ -7225,9 +7225,9 @@ static inline exception_t Arch_setTLSRegister(word_t tls_base)
     setRegister(ksCurThread, TLS_BASE, tls_base);
     return EXCEPTION_NONE;
 }
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/sporadic.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/sporadic.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7256,7 +7256,7 @@ static inline exception_t Arch_setTLSRegister(word_t tls_base)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/timer.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/timer.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7266,7 +7266,7 @@ static inline exception_t Arch_setTLSRegister(word_t tls_base)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7284,7 +7284,7 @@ static inline exception_t Arch_setTLSRegister(word_t tls_base)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/64/mode/util.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/64/mode/util.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7301,20 +7301,20 @@ static inline __attribute__((__const__)) uint64_t div64(uint64_t numerator, uint
 {
     return numerator / denominator;
 }
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 2
+# 19 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 2
 
 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 25 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/timer.h" 1
+# 25 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/timer.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7346,7 +7346,7 @@ static inline __attribute__((__const__)) time_t ticksToUs(ticks_t ticks)
     return ticks / (24000000llu / 1000000llu);
 
 }
-# 26 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 2
+# 26 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/timer.h" 2
 
 void initTimer(void);
 
@@ -7376,7 +7376,7 @@ static inline __attribute__((__const__)) ticks_t getTimerPrecision(void)
 {
     return usToTicks(0);
 }
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/timer.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/machine/timer.h" 2
 
 
 
@@ -7397,7 +7397,7 @@ static __attribute__((__pure__)) inline ticks_t getKernelWcetTicks(void)
 {
     return usToTicks(getKernelWcetUs());
 }
-# 30 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/sporadic.h" 2
+# 30 "/home/dev/projects/SOS-V2020/kernel/include/kernel/sporadic.h" 2
 
 
 /* To do an operation in the kernel, the thread must have
@@ -7513,7 +7513,7 @@ void refill_split_check(ticks_t used);
  * refills that overlap.
  */
 void refill_unblock_check(sched_context_t *sc);
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h" 2
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h" 2
 
 
 
@@ -7523,7 +7523,7 @@ static inline __attribute__((__const__)) word_t ready_queues_index(word_t dom, w
     if (1 > 1) {
         return dom * 256 + prio;
     } else {
-        if(!(dom == 0)) _assert_fail("dom == 0", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 24, __FUNCTION__);
+        if(!(dom == 0)) _assert_fail("dom == 0", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 24, __FUNCTION__);
         return prio;
     }
 }
@@ -7556,7 +7556,7 @@ static inline bool_t __attribute__((__pure__)) isRunnable(const tcb_t *thread)
 static inline __attribute__((__const__)) word_t invert_l1index(word_t l1index)
 {
     word_t inverted = (((256 + (1 << 6) - 1) / (1 << 6)) - 1 - l1index);
-    if(!(inverted < ((256 + (1 << 6) - 1) / (1 << 6)))) _assert_fail("inverted < L2_BITMAP_SIZE", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 57, __FUNCTION__);
+    if(!(inverted < ((256 + (1 << 6) - 1) / (1 << 6)))) _assert_fail("inverted < L2_BITMAP_SIZE", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 57, __FUNCTION__);
     return inverted;
 }
 
@@ -7567,11 +7567,11 @@ static inline prio_t getHighestPrio(word_t dom)
     word_t l1index_inverted;
 
     /* it's undefined to call clzl on 0 */
-    if(!(ksReadyQueuesL1Bitmap[dom] != 0)) _assert_fail("NODE_STATE(ksReadyQueuesL1Bitmap)[dom] != 0", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 68, __FUNCTION__);
+    if(!(ksReadyQueuesL1Bitmap[dom] != 0)) _assert_fail("NODE_STATE(ksReadyQueuesL1Bitmap)[dom] != 0", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 68, __FUNCTION__);
 
     l1index = (1 << 6) - 1 - clzl(ksReadyQueuesL1Bitmap[dom]);
     l1index_inverted = invert_l1index(l1index);
-    if(!(ksReadyQueuesL2Bitmap[dom][l1index_inverted] != 0)) _assert_fail("NODE_STATE(ksReadyQueuesL2Bitmap)[dom][l1index_inverted] != 0", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 72, __FUNCTION__);
+    if(!(ksReadyQueuesL2Bitmap[dom][l1index_inverted] != 0)) _assert_fail("NODE_STATE(ksReadyQueuesL2Bitmap)[dom][l1index_inverted] != 0", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 72, __FUNCTION__);
     l2index = (1 << 6) - 1 - clzl(ksReadyQueuesL2Bitmap[dom][l1index_inverted]);
     return (l1index_to_prio(l1index) | l2index);
 }
@@ -7629,27 +7629,27 @@ static inline void commitTime(void)
         if (__builtin_expect(!!(ksConsumed > 0), 1)) {
             /* if this function is called the head refil must be sufficient to
              * charge ksConsumed */
-            if(!(refill_sufficient(ksCurSC, ksConsumed))) _assert_fail("refill_sufficient(NODE_STATE(ksCurSC), NODE_STATE(ksConsumed))", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 130, __FUNCTION__);
+            if(!(refill_sufficient(ksCurSC, ksConsumed))) _assert_fail("refill_sufficient(NODE_STATE(ksCurSC), NODE_STATE(ksConsumed))", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 130, __FUNCTION__);
             /* and it must be ready to use */
-            if(!(refill_ready(ksCurSC))) _assert_fail("refill_ready(NODE_STATE(ksCurSC))", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 132, __FUNCTION__);
+            if(!(refill_ready(ksCurSC))) _assert_fail("refill_ready(NODE_STATE(ksCurSC))", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 132, __FUNCTION__);
 
             if (isRoundRobin(ksCurSC)) {
                 /* for round robin threads, there are only two refills: the HEAD, which is what
                  * we are consuming, and the tail, which is what we have consumed */
-                if(!(refill_size(ksCurSC) == 2u)) _assert_fail("refill_size(NODE_STATE(ksCurSC)) == MIN_REFILLS", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 137, __FUNCTION__);
+                if(!(refill_size(ksCurSC) == 2u)) _assert_fail("refill_size(NODE_STATE(ksCurSC)) == MIN_REFILLS", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 137, __FUNCTION__);
                 (((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillHead]).rAmount -= ksConsumed;
                 (((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillTail]).rAmount += ksConsumed;
             } else {
                 refill_split_check(ksConsumed);
             }
-            if(!(refill_sufficient(ksCurSC, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksCurSC), 0)", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 143, __FUNCTION__);
-            if(!(refill_ready(ksCurSC))) _assert_fail("refill_ready(NODE_STATE(ksCurSC))", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 144, __FUNCTION__);
+            if(!(refill_sufficient(ksCurSC, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksCurSC), 0)", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 143, __FUNCTION__);
+            if(!(refill_ready(ksCurSC))) _assert_fail("refill_ready(NODE_STATE(ksCurSC))", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 144, __FUNCTION__);
         }
         ksCurSC->scConsumed += ksConsumed;
     }
     if (1 > 1) {
-        if(!(ksDomainTime > ksConsumed)) _assert_fail("ksDomainTime > NODE_STATE(ksConsumed)", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 149, __FUNCTION__);
-        if(!(ksDomainTime - ksConsumed >= (2u * getKernelWcetTicks() * 1))) _assert_fail("ksDomainTime - NODE_STATE(ksConsumed) >= MIN_BUDGET", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 150, __FUNCTION__);
+        if(!(ksDomainTime > ksConsumed)) _assert_fail("ksDomainTime > NODE_STATE(ksConsumed)", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 149, __FUNCTION__);
+        if(!(ksDomainTime - ksConsumed >= (2u * getKernelWcetTicks() * 1))) _assert_fail("ksDomainTime - NODE_STATE(ksConsumed) >= MIN_BUDGET", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 150, __FUNCTION__);
         ksDomainTime -= ksConsumed;
     }
 
@@ -7745,7 +7745,7 @@ static inline void updateTimestamp(void)
 static inline bool_t checkBudget(void)
 {
     /* currently running thread must have available capacity */
-    if(!(refill_ready(ksCurSC))) _assert_fail("refill_ready(NODE_STATE(ksCurSC))", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 246, __FUNCTION__);
+    if(!(refill_ready(ksCurSC))) _assert_fail("refill_ready(NODE_STATE(ksCurSC))", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 246, __FUNCTION__);
 
     ticks_t capacity = refill_capacity(ksCurSC, ksConsumed);
     /* if the budget isn't enough, the timeslice for this SC is over. For
@@ -7774,7 +7774,7 @@ static inline bool_t checkBudget(void)
 
 static inline bool_t checkBudgetRestart(void)
 {
-    if(!(isRunnable(ksCurThread))) _assert_fail("isRunnable(NODE_STATE(ksCurThread))", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/thread.h", 275, __FUNCTION__);
+    if(!(isRunnable(ksCurThread))) _assert_fail("isRunnable(NODE_STATE(ksCurThread))", "/home/dev/projects/SOS-V2020/kernel/include/kernel/thread.h", 275, __FUNCTION__);
     bool_t result = checkBudget();
     if (!result && isRunnable(ksCurThread)) {
         setThreadState(ksCurThread, ThreadState_Restart);
@@ -7793,7 +7793,7 @@ void awaken(void);
 /* Place the thread bound to this scheduling context in the release queue
  * of periodic threads waiting for budget recharge */
 void postpone(sched_context_t *sc);
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/api/debug.h" 2
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/api/debug.h" 2
 
 
 
@@ -7890,7 +7890,7 @@ static inline void debug_printTCB(tcb_t *tcb)
         state = "idle";
         break;
     default:
-        _fail("Unknown thread state", "/home/chris/Desktop/SOS-V2020/kernel/include/api/debug.h", 113, __func__);
+        _fail("Unknown thread state", "/home/dev/projects/SOS-V2020/kernel/include/api/debug.h", 113, __func__);
     }
 
     word_t core = 0;
@@ -7911,8 +7911,8 @@ static inline void debug_dumpScheduler(void)
         debug_printTCB(curr);
     }
 }
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h" 2
-# 32 "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h"
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h" 2
+# 32 "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h"
 exception_t handleSyscall(syscall_t syscall);
 exception_t handleInterruptEntry(void);
 exception_t handleUnknownSyscall(word_t w);
@@ -7925,14 +7925,14 @@ static inline word_t __attribute__((__pure__)) getSyscallArg(word_t i, word_t *i
         return getRegister(ksCurThread, msgRegisters[i]);
     }
 
-    if(!(ipc_buffer != ((void *)0))) _assert_fail("ipc_buffer != NULL", "/home/chris/Desktop/SOS-V2020/kernel/include/api/syscall.h", 44, __FUNCTION__);
+    if(!(ipc_buffer != ((void *)0))) _assert_fail("ipc_buffer != NULL", "/home/dev/projects/SOS-V2020/kernel/include/api/syscall.h", 44, __FUNCTION__);
     return ipc_buffer[i + 1];
 }
 
 extern extra_caps_t current_extra_caps;
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/thread.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/thread.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7941,17 +7941,7 @@ extern extra_caps_t current_extra_caps;
 
        
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object.h" 1
-/*
- * Copyright 2014, General Dynamics C4 Systems
- *
- * SPDX-License-Identifier: GPL-2.0-only
- */
-
-       
-
-
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/objecttype.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -7961,11 +7951,21 @@ extern extra_caps_t current_extra_caps;
        
 
 
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/objecttype.h" 1
+/*
+ * Copyright 2014, General Dynamics C4 Systems
+ *
+ * SPDX-License-Identifier: GPL-2.0-only
+ */
+
+       
 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/cap.h" 1
+
+
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/cap.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -7987,8 +7987,8 @@ struct finaliseCap_ret {
     cap_t cleanupInfo;
 };
 typedef struct finaliseCap_ret finaliseCap_ret_t;
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/object/objecttype.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/objecttype.h" 1
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/object/objecttype.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/objecttype.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8020,8 +8020,8 @@ word_t Arch_getObjectSize(word_t t);
 static inline void Arch_postCapDeletion(cap_t cap)
 {
 }
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/object/objecttype.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/interrupt.h" 1
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/object/objecttype.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/interrupt.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8033,7 +8033,7 @@ static inline void Arch_postCapDeletion(cap_t cap)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/interrupt.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/interrupt.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8046,14 +8046,14 @@ static inline void Arch_postCapDeletion(cap_t cap)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8063,15 +8063,15 @@ static inline void Arch_postCapDeletion(cap_t cap)
 /*
  * This file is autogenerated by kernel/tools/hardware_gen.py.
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/interrupt.h" 2
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/interrupt.h" 2
 
 exception_t Arch_decodeIRQControlInvocation(word_t invLabel, word_t length,
                                             cte_t *srcSlot, extra_caps_t excaps,
@@ -8084,7 +8084,7 @@ static inline void handleReservedIRQ(irq_t irq)
     if ((irq) != 225) {
         kprintf("Received reserved IRQ: %d\n", (int)(irq));
     }
-# 55 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/interrupt.h"
+# 55 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/interrupt.h"
     kprintf("Received unhandled reserved IRQ: 0x%lx\n", (irq));
 
 
@@ -8106,15 +8106,15 @@ static inline exception_t Arch_checkIRQ(word_t irq_w)
     }
     return EXCEPTION_NONE;
 }
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/object/interrupt.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/object/interrupt.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8124,15 +8124,15 @@ static inline exception_t Arch_checkIRQ(word_t irq_w)
 /*
  * This file is autogenerated by kernel/tools/hardware_gen.py.
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/object/interrupt.h" 2
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/object/interrupt.h" 2
 
 exception_t decodeIRQControlInvocation(word_t invLabel, word_t length,
                                        cte_t *srcSlot, extra_caps_t excaps,
@@ -8148,7 +8148,7 @@ void deletedIRQHandler(irq_t irq);
 void handleInterrupt(irq_t irq);
 bool_t isIRQActive(irq_t irq);
 void setIRQState(irq_state_t irqState, irq_t irq);
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/include/object/objecttype.h" 2
+# 17 "/home/dev/projects/SOS-V2020/kernel/include/object/objecttype.h" 2
 
 deriveCap_ret_t deriveCap(cte_t *slot, cap_t cap);
 finaliseCap_ret_t finaliseCap(cap_t cap, bool_t final, bool_t exposed);
@@ -8171,7 +8171,7 @@ exception_t performInvocation_Endpoint(endpoint_t *ep, word_t badge,
 exception_t performInvocation_Notification(notification_t *ntfn,
                                            word_t badge);
 exception_t performInvocation_Reply(tcb_t *thread, reply_t *reply, bool_t canGrant);
-# 51 "/home/chris/Desktop/SOS-V2020/kernel/include/object/objecttype.h"
+# 51 "/home/dev/projects/SOS-V2020/kernel/include/object/objecttype.h"
 word_t getObjectSize(word_t t, word_t userObjSize);
 
 static inline void postCapDeletion(cap_t cap)
@@ -8183,8 +8183,8 @@ static inline void postCapDeletion(cap_t cap)
         Arch_postCapDeletion(cap);
     }
 }
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/object.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/notification.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/object.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/notification.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8206,9 +8206,9 @@ void unbindNotification(tcb_t *tcb);
 void bindNotification(tcb_t *tcb, notification_t *ntfnPtr);
 
 void reorderNTFN(notification_t *notification, tcb_t *thread);
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/object.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/object.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/endpoint.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/endpoint.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8247,12 +8247,12 @@ void cancelAllIPC(endpoint_t *epptr);
 void cancelBadgedSends(endpoint_t *epptr, word_t badge);
 void replyFromKernel_error(tcb_t *thread);
 void replyFromKernel_success_empty(tcb_t *thread);
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/object.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/object.h" 2
 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/untyped.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/untyped.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8260,7 +8260,7 @@ void replyFromKernel_success_empty(tcb_t *thread);
  */
 
        
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/object/untyped.h"
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/object/untyped.h"
 /* It is assumed that every untyped is within seL4_MinUntypedBits and seL4_MaxUntypedBits
  * (inclusive). This means that every untyped stored as seL4_MinUntypedBits
  * subtracted from its size before it is stored in capBlockSize, and
@@ -8283,9 +8283,9 @@ exception_t invokeUntyped_Retype(cte_t *srcSlot, bool_t reset,
                                  void *retypeBase, object_t newType,
                                  word_t userSize, slot_range_t destSlots,
                                  bool_t deviceMemory);
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/include/object.h" 2
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/thread.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/thread.h" 1
+# 19 "/home/dev/projects/SOS-V2020/kernel/include/object.h" 2
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/thread.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/kernel/thread.h" 1
 /*
  * Copyright 2017, General Dynamics C4 Systems
  *
@@ -8321,14 +8321,14 @@ static inline bool_t __attribute__((__const__)) Arch_getSanitiseRegisterInfo(tcb
     return 0;
 
 }
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/thread.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/thread.h" 2
 
 void Arch_switchToThread(tcb_t *tcb);
 void Arch_switchToIdleThread(void);
 void Arch_configureIdleThread(tcb_t *tcb);
 void Arch_activateIdleThread(tcb_t *tcb);
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/debug.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/debug.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8336,9 +8336,9 @@ void Arch_activateIdleThread(tcb_t *tcb);
  */
 
        
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/64/mode/api/ipc_buffer.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/64/mode/api/ipc_buffer.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8359,8 +8359,8 @@ static inline word_t mode_setTimeArg(word_t i, time_t time, word_t *buffer, tcb_
 {
     return setMR(thread, buffer, i, time);
 }
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/schedcontext.h" 1
+# 16 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/schedcontext.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8432,7 +8432,7 @@ void schedContext_unbindNtfn(sched_context_t *sc);
 time_t schedContext_updateConsumed(sched_context_t *sc);
 void schedContext_completeYieldTo(tcb_t *yielder);
 void schedContext_cancelYieldTo(tcb_t *yielder);
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c" 2
+# 17 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c" 2
 
 
 /* consistency with libsel4 */
@@ -8455,12 +8455,12 @@ setMRs_lookup_failure(tcb_t *receiver, word_t *receiveIPCBuffer,
 
     /* check constants match libsel4 */
     if (offset == seL4_CapFault_LookupFailureType) {
-        if(!(offset + 1 == seL4_CapFault_BitsLeft)) _assert_fail("offset + 1 == seL4_CapFault_BitsLeft", "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c", 39, __FUNCTION__);
-        if(!(offset + 2 == seL4_CapFault_DepthMismatch_BitsFound)) _assert_fail("offset + 2 == seL4_CapFault_DepthMismatch_BitsFound", "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c", 40, __FUNCTION__);
-        if(!(offset + 2 == seL4_CapFault_GuardMismatch_GuardFound)) _assert_fail("offset + 2 == seL4_CapFault_GuardMismatch_GuardFound", "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c", 41, __FUNCTION__);
-        if(!(offset + 3 == seL4_CapFault_GuardMismatch_BitsFound)) _assert_fail("offset + 3 == seL4_CapFault_GuardMismatch_BitsFound", "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c", 42, __FUNCTION__);
+        if(!(offset + 1 == seL4_CapFault_BitsLeft)) _assert_fail("offset + 1 == seL4_CapFault_BitsLeft", "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c", 39, __FUNCTION__);
+        if(!(offset + 2 == seL4_CapFault_DepthMismatch_BitsFound)) _assert_fail("offset + 2 == seL4_CapFault_DepthMismatch_BitsFound", "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c", 40, __FUNCTION__);
+        if(!(offset + 2 == seL4_CapFault_GuardMismatch_GuardFound)) _assert_fail("offset + 2 == seL4_CapFault_GuardMismatch_GuardFound", "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c", 41, __FUNCTION__);
+        if(!(offset + 3 == seL4_CapFault_GuardMismatch_BitsFound)) _assert_fail("offset + 3 == seL4_CapFault_GuardMismatch_BitsFound", "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c", 42, __FUNCTION__);
     } else {
-        if(!(offset == 1)) _assert_fail("offset == 1", "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c", 44, __FUNCTION__);
+        if(!(offset == 1)) _assert_fail("offset == 1", "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c", 44, __FUNCTION__);
     }
 
     switch (lufType) {
@@ -8486,7 +8486,7 @@ setMRs_lookup_failure(tcb_t *receiver, word_t *receiveIPCBuffer,
                      lookup_fault_guard_mismatch_get_bitsFound(luf));
 
     default:
-        _fail("Invalid lookup failure", "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c", 70, __func__);
+        _fail("Invalid lookup failure", "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c", 70, __func__);
     }
 }
 
@@ -8554,7 +8554,7 @@ bool_t handleFaultReply(tcb_t *receiver, tcb_t *sender)
     case seL4_Fault_Timeout:
         copyMRsFaultReply(sender, receiver, MessageID_TimeoutReply, (((length)<(n_timeoutMessage))?(length):(n_timeoutMessage)));
         return (label == 0);
-# 186 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c"
+# 186 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c"
     default:
         return Arch_handleFaultReply(receiver, sender, seL4_Fault_get_seL4_FaultType(fault));
     }
@@ -8601,13 +8601,13 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
             return len;
         }
     }
-# 256 "/home/chris/Desktop/SOS-V2020/kernel/src/api/faults.c"
+# 256 "/home/dev/projects/SOS-V2020/kernel/src/api/faults.c"
     default:
         return Arch_setMRs_fault(sender, receiver, receiveIPCBuffer,
                                  seL4_Fault_get_seL4_FaultType(sender->tcbFault));
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8615,7 +8615,7 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8628,7 +8628,7 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/benchmark_tracepoints_types.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/benchmark_tracepoints_types.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8638,13 +8638,13 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/benchmark_tracepoints_types.h" 2
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark.h" 2
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/benchmark_tracepoints_types.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark.h" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c" 2
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_utilisation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_utilisation.h" 1
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -8655,7 +8655,7 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/benchmark_utilisation_types.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/benchmark_utilisation_types.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8665,15 +8665,15 @@ word_t setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffer)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/benchmark_utilisation_types.h" 2
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/benchmark/benchmark_utilisation.h" 2
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/benchmark_utilisation_types.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/benchmark/benchmark_utilisation.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c" 2
 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/faulthandler.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/faulthandler.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8698,14 +8698,14 @@ bool_t sendFaultIPC(tcb_t *tptr, cap_t handlerCap, bool_t can_donate);
 
 
 void handleFault(tcb_t *tptr);
-# 17 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c" 2
+# 17 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c" 2
 
 
 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/string.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/string.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8719,8 +8719,8 @@ void handleFault(tcb_t *tptr);
 word_t strnlen(const char *s, word_t maxlen);
 word_t strlcpy(char *dest, const char *src, word_t size);
 word_t strlcat(char *dest, const char *src, word_t size);
-# 24 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/traps.h" 1
+# 24 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/traps.h" 1
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -8731,7 +8731,7 @@ word_t strlcat(char *dest, const char *src, word_t size);
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/traps.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/traps.h" 1
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -8791,8 +8791,8 @@ __attribute__((externally_visible)) __attribute__((__section__(".vectors.text"))
 
 void c_handle_enfp(void)
 __attribute__((externally_visible)) __attribute__((__section__(".vectors.text")));
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/traps.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/smp/lock.h" 1
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/kernel/traps.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/smp/lock.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8806,7 +8806,7 @@ __attribute__((externally_visible)) __attribute__((__section__(".vectors.text"))
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/smp/ipi.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/smp/ipi.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8817,14 +8817,14 @@ __attribute__((externally_visible)) __attribute__((__section__(".vectors.text"))
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8834,16 +8834,16 @@ __attribute__((externally_visible)) __attribute__((__section__(".vectors.text"))
 /*
  * This file is autogenerated by kernel/tools/hardware_gen.py.
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/smp/ipi.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/smp/ipi.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/smp/ipi.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/smp/ipi.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -8851,9 +8851,9 @@ __attribute__((externally_visible)) __attribute__((__section__(".vectors.text"))
  */
 
        
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/smp/ipi.h" 2
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/smp/lock.h" 2
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/traps.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/smp/ipi.h" 2
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/smp/lock.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/kernel/traps.h" 2
 
 /* This C function should be the first thing called from C after entry from
  * assembly. It provides a single place to do any entry work that is not
@@ -8877,11 +8877,11 @@ static inline void c_exit_hook(void)
 
     arch_c_exit_hook();
 }
-# 25 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c" 2
+# 25 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c" 2
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/capdl.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/capdl.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -8891,7 +8891,7 @@ static inline void c_exit_hook(void)
        
 
 void capDL(void);
-# 29 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c" 2
+# 29 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c" 2
 
 
 /* The haskell function 'handleEvent' is split into 'handleXXX' variants
@@ -8993,9 +8993,9 @@ exception_t handleUnknownSyscall(word_t w)
         setThreadName(((tcb_t *)(cap_thread_cap_get_capTCBPtr(lu_ret.cap))), name);
         return EXCEPTION_NONE;
     }
-# 257 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+# 257 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
     updateTimestamp(); if (__builtin_expect(!!(checkBudgetRestart()), 1)) { { current_fault = seL4_Fault_UnknownSyscall_new(w); handleFault(ksCurThread); } }
-# 274 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+# 274 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
     schedule();
     activateThread();
 
@@ -9017,7 +9017,7 @@ exception_t handleUserLevelFault(word_t w_a, word_t w_b)
 exception_t handleVMFaultEvent(vm_fault_type_t vm_faultType)
 {
     updateTimestamp(); if (__builtin_expect(!!(checkBudgetRestart()), 1)) { { exception_t status = handleVMFault(ksCurThread, vm_faultType); if (status != EXCEPTION_NONE) { handleFault(ksCurThread); } } }
-# 303 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+# 303 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
     schedule();
     activateThread();
 
@@ -9131,7 +9131,7 @@ static inline lookupCap_ret_t lookupReply(void)
 
     return lu_ret;
 }
-# 454 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+# 454 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
 static void handleRecv(bool_t isBlocking, bool_t canReply)
 
 
@@ -9248,14 +9248,14 @@ exception_t handleSyscall(syscall_t syscall)
 {
     exception_t ret;
     irq_t irq;
-    updateTimestamp(); if (__builtin_expect(!!(checkBudgetRestart()), 1)) { { switch (syscall) { case SysSend: ret = handleInvocation(false, true, false, false, getRegister(ksCurThread, capRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } } break; case SysNBSend: ret = handleInvocation(false, false, false, false, getRegister(ksCurThread, capRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } } break; case SysCall: ret = handleInvocation(true, true, true, false, getRegister(ksCurThread, capRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } } break; case SysRecv: handleRecv(true, true); break; case SysWait: handleRecv(true, false); break; case SysNBWait: handleRecv(false, false); break; case SysReplyRecv: { cptr_t reply = getRegister(ksCurThread, replyRegister); ret = handleInvocation(false, false, true, true, reply); /* reply cannot error and is not preemptible */ if(!(ret == EXCEPTION_NONE)) _assert_fail("ret == EXCEPTION_NONE", "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c", 635, __FUNCTION__); handleRecv(true, true); break; } case SysNBSendRecv: { cptr_t dest = getNBSendRecvDest(); ret = handleInvocation(false, false, true, true, dest); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } break; } handleRecv(true, true); break; } case SysNBSendWait: ret = handleInvocation(false, false, true, true, getRegister(ksCurThread, replyRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } break; } handleRecv(true, false); break; case SysNBRecv: handleRecv(false, true); break; case SysYield: handleYield(); break; default: _fail("Invalid syscall", "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c", 679, __func__); } } }
-# 684 "/home/chris/Desktop/SOS-V2020/kernel/src/api/syscall.c"
+    updateTimestamp(); if (__builtin_expect(!!(checkBudgetRestart()), 1)) { { switch (syscall) { case SysSend: ret = handleInvocation(false, true, false, false, getRegister(ksCurThread, capRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } } break; case SysNBSend: ret = handleInvocation(false, false, false, false, getRegister(ksCurThread, capRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } } break; case SysCall: ret = handleInvocation(true, true, true, false, getRegister(ksCurThread, capRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } } break; case SysRecv: handleRecv(true, true); break; case SysWait: handleRecv(true, false); break; case SysNBWait: handleRecv(false, false); break; case SysReplyRecv: { cptr_t reply = getRegister(ksCurThread, replyRegister); ret = handleInvocation(false, false, true, true, reply); /* reply cannot error and is not preemptible */ if(!(ret == EXCEPTION_NONE)) _assert_fail("ret == EXCEPTION_NONE", "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c", 635, __FUNCTION__); handleRecv(true, true); break; } case SysNBSendRecv: { cptr_t dest = getNBSendRecvDest(); ret = handleInvocation(false, false, true, true, dest); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } break; } handleRecv(true, true); break; } case SysNBSendWait: ret = handleInvocation(false, false, true, true, getRegister(ksCurThread, replyRegister)); if (__builtin_expect(!!(ret != EXCEPTION_NONE), 0)) { irq = getActiveIRQ(); if ((irq) != (irqInvalid)) { mcsIRQ(irq); handleInterrupt(irq); Arch_finaliseInterrupt(); } break; } handleRecv(true, false); break; case SysNBRecv: handleRecv(false, true); break; case SysYield: handleYield(); break; default: _fail("Invalid syscall", "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c", 679, __func__); } } }
+# 684 "/home/dev/projects/SOS-V2020/kernel/src/api/syscall.c"
     schedule();
     activateThread();
 
     return EXCEPTION_NONE;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/c_traps.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/c_traps.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9264,7 +9264,7 @@ exception_t handleSyscall(syscall_t syscall)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/fastpath/fastpath.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/fastpath/fastpath.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -9274,7 +9274,7 @@ exception_t handleSyscall(syscall_t syscall)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9288,7 +9288,7 @@ exception_t handleSyscall(syscall_t syscall)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/armv/armv8-a/64/armv/context_switch.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/armv/armv8-a/64/armv/context_switch.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9311,8 +9311,8 @@ static inline void armv_contextSwitch(vspace_root_t *vspace, asid_t asid)
 
     setCurrentUserVSpaceRoot(ttbr_new(asid, addrFromPPtr(vspace)));
 }
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/model/statedata.h" 1
+# 15 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/model/statedata.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9338,9 +9338,9 @@ extern pgde_t armKSGlobalKernelPGD[(1ul << (9))] __attribute__((externally_visib
 extern pude_t armKSGlobalKernelPUD[(1ul << (9))] __attribute__((externally_visible));
 extern pde_t armKSGlobalKernelPDs[(1ul << (9))][(1ul << (9))] __attribute__((externally_visible));
 extern pte_t armKSGlobalKernelPT[(1ul << (9))] __attribute__((externally_visible));
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 2
+# 16 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/fpu.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/fpu.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9352,7 +9352,7 @@ extern pte_t armKSGlobalKernelPT[(1ul << (9))] __attribute__((externally_visible
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/fpu.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/fpu.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9360,7 +9360,7 @@ extern pte_t armKSGlobalKernelPT[(1ul << (9))] __attribute__((externally_visible
  */
 
        
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/fpu.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/machine/fpu.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9509,11 +9509,11 @@ static inline void disableFpu(void)
     }
     isFPUEnabledCached[0] = false;
 }
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/fpu.h" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/fpu.h" 2
 
 bool_t fpsimd_HWCapTest(void);
 bool_t fpsimd_init(void);
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/fpu.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/machine/fpu.h" 2
 
 
 
@@ -9559,7 +9559,7 @@ static inline void __attribute__((always_inline)) lazyFPURestore(tcb_t *thread)
          * is currently disabled */
     }
 }
-# 18 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 2
+# 18 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h" 2
 
 
 /* When building the fastpath the assembler in traps.S makes these
@@ -9632,7 +9632,7 @@ static inline void fastpath_copy_mrs(word_t length, tcb_t *src, tcb_t *dest)
         setRegister(dest, reg, getRegister(src, reg));
     }
 }
-# 98 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h"
+# 98 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/fastpath/fastpath.h"
 /** DONT_TRANSLATE */
 static inline void __attribute__((__noreturn__)) __attribute__((always_inline)) fastpath_restore(word_t badge, word_t msgInfo, tcb_t *cur_thread)
 {
@@ -9688,9 +9688,9 @@ static inline void __attribute__((__noreturn__)) __attribute__((always_inline)) 
 
     __builtin_unreachable();
 }
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/fastpath/fastpath.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/fastpath/fastpath.h" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/debug.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/debug.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9703,7 +9703,7 @@ static inline void __attribute__((__noreturn__)) __attribute__((always_inline)) 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/armv/armv8-a/64/armv/debug.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/armv/armv8-a/64/armv/debug.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9711,8 +9711,8 @@ static inline void __attribute__((__noreturn__)) __attribute__((always_inline)) 
  */
 
        
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/debug.h" 2
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/fastpath/fastpath.h" 2
+# 14 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/debug.h" 2
+# 13 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/fastpath/fastpath.h" 2
 
 void slowpath(syscall_t syscall)
 __attribute__((__noreturn__));
@@ -9728,8 +9728,8 @@ void fastpath_reply_recv(word_t cptr, word_t r_msgInfo, word_t reply)
 
 
 __attribute__((__noreturn__));
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/c_traps.c" 2
-# 18 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/c_traps.c"
+# 10 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/c_traps.c" 2
+# 18 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/c_traps.c"
 /** DONT_TRANSLATE */
 void __attribute__((externally_visible)) __attribute__((__noreturn__)) restore_user_context(void)
 {
@@ -9780,7 +9780,7 @@ void __attribute__((externally_visible)) __attribute__((__noreturn__)) restore_u
     );
     __builtin_unreachable();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/idle.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/idle.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9813,13 +9813,13 @@ void __attribute__((__noreturn__)) __attribute__((noinline)) __attribute__((exte
     idle_thread();
     __builtin_unreachable();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/thread.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/thread.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/thread.c"
+# 14 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/thread.c"
 void Arch_switchToThread(tcb_t *tcb)
 {
     if (0) {
@@ -9846,7 +9846,7 @@ void Arch_activateIdleThread(tcb_t *tcb)
 {
     /* Don't need to do anything */
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9858,7 +9858,7 @@ void Arch_activateIdleThread(tcb_t *tcb)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/boot.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/kernel/boot.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -9866,7 +9866,7 @@ void Arch_activateIdleThread(tcb_t *tcb)
  */
 
        
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/bootinfo.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/bootinfo.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -9877,7 +9877,7 @@ void Arch_activateIdleThread(tcb_t *tcb)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/bootinfo_types.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/bootinfo_types.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9887,8 +9887,8 @@ void Arch_activateIdleThread(tcb_t *tcb)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/libsel4/include/sel4/bootinfo_types.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/autoconf/autoconf.h" 1
+# 11 "/home/dev/projects/SOS-V2020/kernel/libsel4/include/sel4/bootinfo_types.h" 2
 
 
 /* caps with fixed slot positions in the root CNode */
@@ -9968,7 +9968,7 @@ typedef struct seL4_BootInfoHeader {
 
 /* Bootinfo identifiers share a global namespace, even if they are arch or platform specific
  * and are enumerated here */
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/include/bootinfo.h" 2
+# 12 "/home/dev/projects/SOS-V2020/kernel/include/bootinfo.h" 2
 
 
 
@@ -9977,8 +9977,8 @@ typedef struct seL4_BootInfoHeader {
 
 /* adjust constants in config.h if this assert fails */
 typedef int __assert_failed_bi_size[(sizeof(seL4_BootInfo) <= (1ul << (12))) ? 1 : -1];
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/boot.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/bootinfo.h" 1
+# 9 "/home/dev/projects/SOS-V2020/kernel/include/kernel/boot.h" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/bootinfo.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -9999,7 +9999,7 @@ typedef int __assert_failed_bi_size[(sizeof(seL4_BootInfo) <= (1ul << (12))) ? 1
  * - 1 for each mode-reserved region. (MODE_RESERVED)
  * - 1 each for kernel, dtb, and user image. (3)
  */
-# 10 "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/boot.h" 2
+# 10 "/home/dev/projects/SOS-V2020/kernel/include/kernel/boot.h" 2
 
 
 
@@ -10134,7 +10134,7 @@ static inline __attribute__((__section__(".boot.text"))) pptr_t it_alloc_paging(
 {
     pptr_t allocated = rootserver.paging.start;
     rootserver.paging.start += (1ul << (12));
-    if(!(rootserver.paging.start <= rootserver.paging.end)) _assert_fail("rootserver.paging.start <= rootserver.paging.end", "/home/chris/Desktop/SOS-V2020/kernel/include/kernel/boot.h", 144, __FUNCTION__);
+    if(!(rootserver.paging.start <= rootserver.paging.end)) _assert_fail("rootserver.paging.start <= rootserver.paging.end", "/home/dev/projects/SOS-V2020/kernel/include/kernel/boot.h", 144, __FUNCTION__);
     return allocated;
 }
 
@@ -10144,9 +10144,9 @@ word_t arch_get_n_paging(v_region_t it_veg);
 /* Create pptrs for all root server objects, starting at pptr, to cover the
  * virtual memory region v_reg, and any extra boot info. */
 void create_rootserver_objects(pptr_t start, v_region_t v_reg, word_t extra_bi_size_bits);
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
-# 21 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/invocation.h" 1
+# 13 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
+# 21 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -10160,7 +10160,7 @@ void create_rootserver_objects(pptr_t start, v_region_t v_reg, word_t extra_bi_s
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/sel4_invocation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/sel4_invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -10174,7 +10174,7 @@ void create_rootserver_objects(pptr_t start, v_region_t v_reg, word_t extra_bi_s
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -10223,7 +10223,7 @@ enum invocation_label {
     TCBResume,
     TCBBindNotification,
     TCBUnbindNotification,
-# 64 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/api/invocation.h"
+# 64 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/api/invocation.h"
     TCBSetTLSBase,
     CNodeRevoke,
     CNodeDelete,
@@ -10261,7 +10261,7 @@ enum invocation_label {
 
     nInvocationLabels
 };
-# 15 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/sel4_invocation.h" 2
+# 15 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/sel4_invocation.h" 2
 enum sel4_arch_invocation_label {
     ARMVSpaceClean_Data = nInvocationLabels,
     ARMVSpaceInvalidate_Data,
@@ -10277,7 +10277,7 @@ enum sel4_arch_invocation_label {
     ARMPageDirectoryUnmap,
     nSeL4ArchInvocationLabels
 };
-# 15 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/invocation.h" 2
+# 15 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/invocation.h" 2
 enum arch_invocation_label {
     ARMPageTableMap = nSeL4ArchInvocationLabels,
     ARMPageTableUnmap,
@@ -10299,19 +10299,19 @@ enum arch_invocation_label {
     ARMPageGetAddress,
     ARMASIDControlMakePool,
     ARMASIDPoolAssign,
-# 51 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/arch/api/invocation.h"
+# 51 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/arch/api/invocation.h"
     ARMIRQIssueIRQHandlerTrigger,
 
 
 
     nArchInvocationLabels
 };
-# 22 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
+# 22 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
 
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/iospace.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/iospace.h" 1
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
@@ -10319,7 +10319,7 @@ enum arch_invocation_label {
  */
 
        
-# 28 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/object/iospace.h"
+# 28 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/object/iospace.h"
 /* define dummy functions */
 static inline seL4_SlotRegion create_iospace_caps(cap_t root_cnode_cap)
 {
@@ -10359,9 +10359,9 @@ static inline void deleteIOPageTable(cap_t cap)
 static inline void clearIOPageDirectory(cap_t cap)
 {
 }
-# 27 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
+# 27 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/tlb.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/tlb.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -10371,7 +10371,7 @@ static inline void clearIOPageDirectory(cap_t cap)
        
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/smp/ipi_inline.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/smp/ipi_inline.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -10379,7 +10379,7 @@ static inline void clearIOPageDirectory(cap_t cap)
  */
 
        
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/tlb.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/tlb.h" 2
 
 
 
@@ -10424,7 +10424,7 @@ static inline void invalidateTranslationAll(void)
     invalidateTranslationAllLocal();
     ;
 }
-# 29 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
+# 29 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c" 2
 /* VSpace root slot is reserved for storing the VSpace root's allocated hardware VMID.
  * This is only necessary when running EL2 and when we only have
  * 8-bit VMID. Note that this assumes that the IPA size for S2
@@ -10568,7 +10568,7 @@ static word_t __attribute__((__const__)) APFromVMRights(vm_rights_t vm_rights)
         }
 
     default:
-        _fail("Invalid VM rights", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 172, __func__);
+        _fail("Invalid VM rights", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 172, __func__);
     }
 }
 
@@ -10613,7 +10613,7 @@ vm_rights_t __attribute__((__const__)) maskVMRights(vm_rights_t vm_rights, seL4_
  */
 __attribute__((__section__(".boot.text"))) void map_kernel_frame(paddr_t paddr, pptr_t vaddr, vm_rights_t vm_rights, vm_attributes_t attributes)
 {
-    if(!(vaddr >= 0xffffffffc0000000ul)) _assert_fail("vaddr >= PPTR_TOP", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 217, __FUNCTION__);
+    if(!(vaddr >= 0xffffffffc0000000ul)) _assert_fail("vaddr >= PPTR_TOP", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 217, __FUNCTION__);
 
 
 
@@ -10646,11 +10646,11 @@ __attribute__((__section__(".boot.text"))) void map_kernel_window(void)
     word_t idx;
 
     /* verify that the kernel window as at the last entry of the PGD */
-    if(!((((0xffffff8000000000ul) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul)) == (1ul << (9)) - 1)) _assert_fail("GET_PGD_INDEX(PPTR_BASE) == BIT(PGD_INDEX_BITS) - 1", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 250, __FUNCTION__);
-    if(!((!((0xffffff8000000000ul) & ((1ul << (21))-1ul))))) _assert_fail("IS_ALIGNED(PPTR_BASE, seL4_LargePageBits)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 251, __FUNCTION__);
+    if(!((((0xffffff8000000000ul) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul)) == (1ul << (9)) - 1)) _assert_fail("GET_PGD_INDEX(PPTR_BASE) == BIT(PGD_INDEX_BITS) - 1", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 250, __FUNCTION__);
+    if(!((!((0xffffff8000000000ul) & ((1ul << (21))-1ul))))) _assert_fail("IS_ALIGNED(PPTR_BASE, seL4_LargePageBits)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 251, __FUNCTION__);
     /* verify that the kernel device window is 1gb aligned and 1gb in size */
-    if(!((((0xffffffffc0000000ul) >> ((((12) + 9) + 9))) & ((1ul << (9))-1ul)) == (1ul << (9)) - 1)) _assert_fail("GET_PUD_INDEX(PPTR_TOP) == BIT(PUD_INDEX_BITS) - 1", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 253, __FUNCTION__);
-    if(!((!((0xffffffffc0000000ul) & ((1ul << (30))-1ul))))) _assert_fail("IS_ALIGNED(PPTR_TOP, seL4_HugePageBits)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 254, __FUNCTION__);
+    if(!((((0xffffffffc0000000ul) >> ((((12) + 9) + 9))) & ((1ul << (9))-1ul)) == (1ul << (9)) - 1)) _assert_fail("GET_PUD_INDEX(PPTR_TOP) == BIT(PUD_INDEX_BITS) - 1", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 253, __FUNCTION__);
+    if(!((!((0xffffffffc0000000ul) & ((1ul << (30))-1ul))))) _assert_fail("IS_ALIGNED(PPTR_TOP, seL4_HugePageBits)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 254, __FUNCTION__);
 
     /* place the PUD into the PGD */
     armKSGlobalKernelPGD[(((0xffffff8000000000ul) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul))] = pgde_pgde_pud_new(
@@ -10710,20 +10710,20 @@ static __attribute__((__section__(".boot.text"))) void map_it_frame_cap(cap_t vs
     vptr_t vptr = cap_frame_cap_get_capFMappedAddress(frame_cap);
     void *pptr = (void *)cap_frame_cap_get_capFBasePtr(frame_cap);
 
-    if(!(cap_frame_cap_get_capFMappedASID(frame_cap) != 0)) _assert_fail("cap_frame_cap_get_capFMappedASID(frame_cap) != 0", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 314, __FUNCTION__);
+    if(!(cap_frame_cap_get_capFMappedASID(frame_cap) != 0)) _assert_fail("cap_frame_cap_get_capFMappedASID(frame_cap) != 0", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 314, __FUNCTION__);
 
 
 
 
     vspaceRoot += (((vptr) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul));
-    if(!(pgde_pgde_pud_ptr_get_present(vspaceRoot))) _assert_fail("pgde_pgde_pud_ptr_get_present(vspaceRoot)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 320, __FUNCTION__);
+    if(!(pgde_pgde_pud_ptr_get_present(vspaceRoot))) _assert_fail("pgde_pgde_pud_ptr_get_present(vspaceRoot)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 320, __FUNCTION__);
     pud = ptrFromPAddr(pgde_pgde_pud_ptr_get_pud_base_address(vspaceRoot));
 
     pud += (((vptr) >> ((((12) + 9) + 9))) & ((1ul << (9))-1ul));
-    if(!(pude_pude_pd_ptr_get_present(pud))) _assert_fail("pude_pude_pd_ptr_get_present(pud)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 324, __FUNCTION__);
+    if(!(pude_pude_pd_ptr_get_present(pud))) _assert_fail("pude_pude_pd_ptr_get_present(pud)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 324, __FUNCTION__);
     pd = ptrFromPAddr(pude_pude_pd_ptr_get_pd_base_address(pud));
     pd += (((vptr) >> (((12) + 9))) & ((1ul << (9))-1ul));
-    if(!(pde_pde_small_ptr_get_present(pd))) _assert_fail("pde_pde_small_ptr_get_present(pd)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 327, __FUNCTION__);
+    if(!(pde_pde_small_ptr_get_present(pd))) _assert_fail("pde_pde_small_ptr_get_present(pd)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 327, __FUNCTION__);
     pt = ptrFromPAddr(pde_pde_small_ptr_get_pt_base_address(pd));
     *(pt + (((vptr) >> ((12))) & ((1ul << (9))-1ul))) = pte_new(
                                      !executable, /* unprivileged execute never */
@@ -10772,17 +10772,17 @@ static __attribute__((__section__(".boot.text"))) void map_it_pt_cap(cap_t vspac
     pte_t *pt = ((pte_t *)(cap_page_table_cap_get_capPTBasePtr(pt_cap)));
     vptr_t vptr = cap_page_table_cap_get_capPTMappedAddress(pt_cap);
 
-    if(!(cap_page_table_cap_get_capPTIsMapped(pt_cap))) _assert_fail("cap_page_table_cap_get_capPTIsMapped(pt_cap)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 376, __FUNCTION__);
+    if(!(cap_page_table_cap_get_capPTIsMapped(pt_cap))) _assert_fail("cap_page_table_cap_get_capPTIsMapped(pt_cap)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 376, __FUNCTION__);
 
 
 
 
     vspaceRoot += (((vptr) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul));
-    if(!(pgde_pgde_pud_ptr_get_present(vspaceRoot))) _assert_fail("pgde_pgde_pud_ptr_get_present(vspaceRoot)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 382, __FUNCTION__);
+    if(!(pgde_pgde_pud_ptr_get_present(vspaceRoot))) _assert_fail("pgde_pgde_pud_ptr_get_present(vspaceRoot)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 382, __FUNCTION__);
     pud = ptrFromPAddr(pgde_pgde_pud_ptr_get_pud_base_address(vspaceRoot));
 
     pud += (((vptr) >> ((((12) + 9) + 9))) & ((1ul << (9))-1ul));
-    if(!(pude_pude_pd_ptr_get_present(pud))) _assert_fail("pude_pude_pd_ptr_get_present(pud)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 386, __FUNCTION__);
+    if(!(pude_pude_pd_ptr_get_present(pud))) _assert_fail("pude_pude_pd_ptr_get_present(pud)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 386, __FUNCTION__);
     pd = ptrFromPAddr(pude_pude_pd_ptr_get_pd_base_address(pud));
     *(pd + (((vptr) >> (((12) + 9))) & ((1ul << (9))-1ul))) = pde_pde_small_new(
                                      addrFromPPtr(pt)
@@ -10809,13 +10809,13 @@ static __attribute__((__section__(".boot.text"))) void map_it_pd_cap(cap_t vspac
     pde_t *pd = ((pde_t *)(cap_page_directory_cap_get_capPDBasePtr(pd_cap)));
     vptr_t vptr = cap_page_directory_cap_get_capPDMappedAddress(pd_cap);
 
-    if(!(cap_page_directory_cap_get_capPDIsMapped(pd_cap))) _assert_fail("cap_page_directory_cap_get_capPDIsMapped(pd_cap)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 413, __FUNCTION__);
+    if(!(cap_page_directory_cap_get_capPDIsMapped(pd_cap))) _assert_fail("cap_page_directory_cap_get_capPDIsMapped(pd_cap)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 413, __FUNCTION__);
 
 
 
 
     vspaceRoot += (((vptr) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul));
-    if(!(pgde_pgde_pud_ptr_get_present(vspaceRoot))) _assert_fail("pgde_pgde_pud_ptr_get_present(vspaceRoot)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 419, __FUNCTION__);
+    if(!(pgde_pgde_pud_ptr_get_present(vspaceRoot))) _assert_fail("pgde_pgde_pud_ptr_get_present(vspaceRoot)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 419, __FUNCTION__);
     pud = ptrFromPAddr(pgde_pgde_pud_ptr_get_pud_base_address(vspaceRoot));
 
     *(pud + (((vptr) >> ((((12) + 9) + 9))) & ((1ul << (9))-1ul))) = pude_pude_pd_new(
@@ -10843,7 +10843,7 @@ static __attribute__((__section__(".boot.text"))) void map_it_pud_cap(cap_t vspa
     pude_t *pud = ((pude_t *)(cap_page_upper_directory_cap_get_capPUDBasePtr(pud_cap)));
     vptr_t vptr = cap_page_upper_directory_cap_get_capPUDMappedAddress(pud_cap);
 
-    if(!(cap_page_upper_directory_cap_get_capPUDIsMapped(pud_cap))) _assert_fail("cap_page_upper_directory_cap_get_capPUDIsMapped(pud_cap)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 447, __FUNCTION__);
+    if(!(cap_page_upper_directory_cap_get_capPUDIsMapped(pud_cap))) _assert_fail("cap_page_upper_directory_cap_get_capPUDIsMapped(pud_cap)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 447, __FUNCTION__);
 
     *(pgd + (((vptr) >> (((((12) + 9) + 9) + 9))) & ((1ul << (9))-1ul))) = pgde_pgde_pud_new(
                                        addrFromPPtr(pud));
@@ -11053,7 +11053,7 @@ static lookupPGDSlot_ret_t lookupPGDSlot(vspace_root_t *vspace, vptr_t vptr)
 static lookupPUDSlot_ret_t lookupPUDSlot(vspace_root_t *vspace, vptr_t vptr)
 {
     lookupPUDSlot_ret_t ret;
-# 665 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 665 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
     lookupPGDSlot_ret_t pgdSlot = lookupPGDSlot(vspace, vptr);
 
     if (!pgde_pgde_pud_ptr_get_present(pgdSlot.pgdSlot)) {
@@ -11355,7 +11355,7 @@ exception_t handleVMFault(tcb_t *thread, vm_fault_type_t vm_faultType)
     }
 
     default:
-        _fail("Invalid VM fault type", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 966, __func__);
+        _fail("Invalid VM fault type", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 966, __func__);
     }
 }
 
@@ -11457,17 +11457,17 @@ pude_t *pageDirectoryMapped(asid_t asid, vptr_t vaddr, pde_t *pd)
 
     return ((void *)0);
 }
-# 1174 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 1174 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
 static inline void invalidateTLBByASID(asid_t asid)
 {
-# 1185 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 1185 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
     invalidateTranslationASID(asid);
 
 }
 
 static inline void invalidateTLBByASIDVA(asid_t asid, vptr_t vaddr)
 {
-# 1201 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 1201 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
     invalidateTranslationSingle((asid << 48) | vaddr >> 12);
 
 }
@@ -11598,10 +11598,10 @@ void unmapPage(vm_page_size_t page_size, asid_t asid, vptr_t vptr, pptr_t pptr)
     }
 
     default:
-        _fail("Invalid ARM page type", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1331, __func__);
+        _fail("Invalid ARM page type", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1331, __func__);
     }
 
-    if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1334, __FUNCTION__);
+    if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1334, __FUNCTION__);
     invalidateTLBByASIDVA(asid, vptr);
 }
 
@@ -11625,7 +11625,7 @@ void deleteASIDPool(asid_t asid_base, asid_pool_t *pool)
 {
     word_t offset;
 
-    if(!((asid_base & ((1ul << (asidLowBits))-1ul)) == 0)) _assert_fail("(asid_base & MASK(asidLowBits)) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1358, __FUNCTION__);
+    if(!((asid_base & ((1ul << (asidLowBits))-1ul)) == 0)) _assert_fail("(asid_base & MASK(asidLowBits)) == 0", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1358, __FUNCTION__);
 
     if (armKSASIDTable[asid_base >> asidLowBits] == pool) {
         for (offset = 0; offset < (1ul << (asidLowBits)); offset++) {
@@ -11672,7 +11672,7 @@ static void doFlush(int invLabel, vptr_t start, vptr_t end, paddr_t pstart)
         isb();
         break;
     default:
-        _fail("Invalid operation, shouldn't get here.\n", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1405, __func__);
+        _fail("Invalid operation, shouldn't get here.\n", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1405, __func__);
     }
 }
 
@@ -11782,7 +11782,7 @@ static exception_t performHugePageInvocationMap(asid_t asid, cap_t cap, cte_t *c
 
     cleanByVA_PoU((vptr_t)pudSlot, addrFromPPtr(pudSlot));
     if (__builtin_expect(!!(tlbflush_required), 0)) {
-        if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1515, __FUNCTION__);
+        if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1515, __FUNCTION__);
         invalidateTLBByASIDVA(asid, cap_frame_cap_get_capFMappedAddress(cap));
     }
 
@@ -11799,7 +11799,7 @@ static exception_t performLargePageInvocationMap(asid_t asid, cap_t cap, cte_t *
 
     cleanByVA_PoU((vptr_t)pdSlot, addrFromPPtr(pdSlot));
     if (__builtin_expect(!!(tlbflush_required), 0)) {
-        if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1532, __FUNCTION__);
+        if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1532, __FUNCTION__);
         invalidateTLBByASIDVA(asid, cap_frame_cap_get_capFMappedAddress(cap));
     }
 
@@ -11816,7 +11816,7 @@ static exception_t performSmallPageInvocationMap(asid_t asid, cap_t cap, cte_t *
 
     cleanByVA_PoU((vptr_t)ptSlot, addrFromPPtr(ptSlot));
     if (__builtin_expect(!!(tlbflush_required), 0)) {
-        if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1549, __FUNCTION__);
+        if(!(asid < (1ul << (16)))) _assert_fail("asid < BIT(16)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1549, __FUNCTION__);
         invalidateTLBByASIDVA(asid, cap_frame_cap_get_capFMappedAddress(cap));
     }
 
@@ -11891,7 +11891,7 @@ static exception_t performASIDControlInvocation(void *frame, cte_t *slot,
             ((word_t)(frame)) /* capASIDPool  */
         ), parent, slot);
 
-    if(!((asid_base & ((1ul << (asidLowBits))-1ul)) == 0)) _assert_fail("(asid_base & MASK(asidLowBits)) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1624, __FUNCTION__);
+    if(!((asid_base & ((1ul << (asidLowBits))-1ul)) == 0)) _assert_fail("(asid_base & MASK(asidLowBits)) == 0", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 1624, __FUNCTION__);
     armKSASIDTable[asid_base >> asidLowBits] = (asid_pool_t *)frame;
 
     return EXCEPTION_NONE;
@@ -12454,7 +12454,7 @@ static exception_t decodeARMFrameInvocation(word_t invLabel, unsigned int length
         }
 
         word_t pstart = addrFromPPtr((void *)cap_frame_cap_get_capFBasePtr(cap)) + start;
-# 2196 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
+# 2196 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c"
         setThreadState(ksCurThread, ThreadState_Restart);
         return performPageFlush(invLabel, find_ret.vspace_root, asid, vaddr + start, vaddr + end - 1,
                                 pstart);
@@ -12629,7 +12629,7 @@ exception_t decodeARMMMUInvocation(word_t invLabel, word_t length, cptr_t cptr,
     }
 
     default:
-        _fail("Invalid ARM arch cap type", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 2370, __func__);
+        _fail("Invalid ARM arch cap type", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/kernel/vspace.c", 2370, __func__);
     }
 }
 
@@ -12727,7 +12727,7 @@ void Arch_userStackTrace(tcb_t *tptr)
         }
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/capdl.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/capdl.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -12735,7 +12735,7 @@ void Arch_userStackTrace(tcb_t *tptr)
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/machine/capdl.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/machine/capdl.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -12743,7 +12743,7 @@ void Arch_userStackTrace(tcb_t *tptr)
  */
 
        
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/capdl.c" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/capdl.c" 2
 
 
 
@@ -12751,7 +12751,7 @@ void capDL(void)
 {
 
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/fpu.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/fpu.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -12791,7 +12791,7 @@ __attribute__((__section__(".boot.text"))) bool_t fpsimd_HWCapTest(void)
 
     return true;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/machine/registerset.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/machine/registerset.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -12833,13 +12833,13 @@ word_t getNBSendRecvDest(void)
 {
     return getRegister(ksCurThread, nbsendRecvDest);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/model/statedata.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/model/statedata.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/model/statedata.c"
+# 16 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/model/statedata.c"
 asid_pool_t *armKSASIDTable[(1ul << (asidHighBits))];
 
 /* AArch64 Memory map explanation:
@@ -12910,13 +12910,13 @@ pgde_t armKSGlobalKernelPGD[(1ul << (9))] __attribute__((__aligned__((1ul << (12
 pude_t armKSGlobalKernelPUD[(1ul << (9))] __attribute__((__aligned__((1ul << (12))))) __attribute__((__section__(".bss.aligned")));
 pde_t armKSGlobalKernelPDs[(1ul << (9))][(1ul << (9))] __attribute__((__aligned__((1ul << (12))))) __attribute__((__section__(".bss.aligned")));
 pte_t armKSGlobalKernelPT[(1ul << (9))] __attribute__((__aligned__((1ul << (12))))) __attribute__((__section__(".bss.aligned")));
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 16 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
+# 16 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
 bool_t Arch_isFrameType(word_t type)
 {
     switch (type) {
@@ -13004,7 +13004,7 @@ deriveCap_ret_t Arch_deriveCap(cte_t *slot, cap_t cap)
     default:
         /* This assert has no equivalent in haskell,
          * as the options are restricted by type */
-        _fail("Invalid arch cap", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c", 103, __func__);
+        _fail("Invalid arch cap", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c", 103, __func__);
     }
 }
 
@@ -13155,7 +13155,7 @@ bool_t __attribute__((__const__)) Arch_sameRegionAs(cap_t cap_a, cap_t cap_b)
                    cap_asid_pool_cap_get_capASIDPool(cap_b);
         }
         break;
-# 262 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
+# 262 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
     }
 
     return false;
@@ -13200,7 +13200,7 @@ word_t Arch_getObjectSize(word_t t)
 
 
     default:
-        _fail("Invalid object type", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c", 306, __func__);
+        _fail("Invalid object type", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c", 306, __func__);
         return 0;
     }
 }
@@ -13268,9 +13268,9 @@ cap_t Arch_createObject(object_t t, void *regionBase, word_t userSize, bool_t de
                    0, /* capPTIsMapped      */
                    0 /* capPTMappedAddress */
                );
-# 383 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
+# 383 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
     default:
-        _fail("Arch_createObject got an API type or invalid object type", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c", 384, __func__);
+        _fail("Arch_createObject got an API type or invalid object type", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c", 384, __func__);
     }
 }
 
@@ -13282,7 +13282,7 @@ exception_t Arch_decodeInvocation(word_t label, word_t length, cptr_t cptr,
     /* The C parser cannot handle a switch statement with only a default
      * case. So we need to do some gymnastics to remove the switch if
      * there are no other cases */
-# 404 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
+# 404 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/64/object/objecttype.c"
 {
 
     return decodeARMMMUInvocation(label, length, cptr, slot, cap, extraCaps, buffer);
@@ -13297,21 +13297,21 @@ Arch_prepareThreadDelete(tcb_t * thread) {
 
 
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c"
+# 14 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c"
 bool_t Arch_handleFaultReply(tcb_t *receiver, tcb_t *sender, word_t faultType)
 {
     switch (faultType) {
     case seL4_Fault_VMFault:
         return true;
-# 28 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c"
+# 28 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c"
     default:
-        _fail("Invalid fault", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c", 29, __func__);
+        _fail("Invalid fault", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c", 29, __func__);
     }
 }
 
@@ -13334,12 +13334,12 @@ word_t Arch_setMRs_fault(tcb_t *sender, tcb_t *receiver, word_t *receiveIPCBuffe
         return setMR(receiver, receiveIPCBuffer, seL4_VMFault_FSR,
                      seL4_Fault_VMFault_get_FSR(sender->tcbFault));
     }
-# 67 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c"
+# 67 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c"
     default:
-        _fail("Invalid fault", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/api/faults.c", 68, __func__);
+        _fail("Invalid fault", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/api/faults.c", 68, __func__);
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/cache.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/cache.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -13448,7 +13448,7 @@ void cleanInvalidate_L1D(void)
 {
     cleanInvalidate_D_by_level(0);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -13456,7 +13456,7 @@ void cleanInvalidate_L1D(void)
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/user_access.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/user_access.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -13465,7 +13465,7 @@ void cleanInvalidate_L1D(void)
        
 
 void armv_init_user_access(void);
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c" 2
 
 /* bits in the CNTKCTL_EL1 */
 
@@ -13504,7 +13504,7 @@ static void check_export_arch_timer(void)
 
 
     do { word_t _v = val; __asm__ volatile("msr " "CNTKCTL_EL1" ",%x0" :: "r" (_v)); }while(0);
-# 58 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c"
+# 58 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/armv/armv8-a/64/user_access.c"
 }
 
 void armv_init_user_access(void)
@@ -13512,19 +13512,19 @@ void armv_init_user_access(void)
     check_export_pmu();
     check_export_arch_timer();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/benchmark/benchmark.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/benchmark/benchmark.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/c_traps.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/c_traps.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/c_traps.c"
+# 19 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/c_traps.c"
 void __attribute__((externally_visible)) __attribute__((__noreturn__)) c_handle_undefined_instruction(void)
 {
     do {} while (0);
@@ -13533,7 +13533,7 @@ void __attribute__((externally_visible)) __attribute__((__noreturn__)) c_handle_
 
     ksKernelEntry.path = Entry_UserLevelFault;
     ksKernelEntry.word = getRegister(ksCurThread, NextIP);
-# 44 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/c_traps.c"
+# 44 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/c_traps.c"
     /* There's only one user-level fault on ARM, and the code is (0,0) */
 
 
@@ -13668,14 +13668,14 @@ void __attribute__((externally_visible)) c_handle_fastpath_reply_recv(word_t cpt
 
     __builtin_unreachable();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/kernel/boot.h" 1
+# 14 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/kernel/boot.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -13698,14 +13698,14 @@ void init_kernel(
     paddr_t dtb_addr_p,
     uint32_t dtb_size
 );
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c" 2
-# 26 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 15 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c" 2
+# 26 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
 /* pointer to the end of boot code/data in kernel image */
 /* need a fake array to get the pointer from the linker script */
 extern char ki_boot_end[1];
 /* pointer to end of kernel image */
 extern char ki_end[1];
-# 40 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 40 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
 __attribute__((__section__(".boot.data"))) static region_t reserved[(3 /* kernel + user image + dtb*/ + 0)];
 
 __attribute__((__section__(".boot.text"))) static void arch_init_freemem(p_region_t ui_p_reg, p_region_t dtb_p_reg, v_region_t it_v_reg,
@@ -13772,7 +13772,7 @@ __attribute__((__section__(".boot.text"))) static void init_irqs(cap_t root_cnod
 
     setIRQTrigger((225), 1);
     setIRQState(IRQReserved, (225));
-# 124 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 124 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
     /* provide the IRQ control cap */
     write_slot((((slot_ptr_t)((pptr_t)cap_get_capPtr(root_cnode_cap))) + (seL4_CapIRQControl)), cap_irq_control_cap_new());
 }
@@ -13815,7 +13815,7 @@ __attribute__((__section__(".boot.text"))) static bool_t init_cpu(void)
     if (0) {
         do {} while(0);
     }
-# 175 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 175 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
     /* Setup kernel stack pointer.
      * On ARM SMP, the array index here is the CPU ID
      */
@@ -13872,7 +13872,7 @@ __attribute__((__section__(".boot.text"))) static void init_plat(void)
     initIRQController();
     initL2Cache();
 }
-# 291 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 291 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
 /* Main kernel initialisation function. */
 
 static __attribute__((__section__(".boot.text"))) bool_t try_init_kernel(
@@ -14146,7 +14146,7 @@ __attribute__((__section__(".boot.text"))) __attribute__((externally_visible)) v
     if (dtb_addr_p) {
         dtb_end_p = dtb_addr_p + dtb_size;
     }
-# 578 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
+# 578 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c"
     result = try_init_kernel(ui_p_reg_start,
                              ui_p_reg_end,
                              pv_offset,
@@ -14156,7 +14156,7 @@ __attribute__((__section__(".boot.text"))) __attribute__((externally_visible)) v
 
 
     if (!result) {
-        _fail("Kernel init failed for some reason :(", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/boot.c", 587, __func__);
+        _fail("Kernel init failed for some reason :(", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/boot.c", 587, __func__);
     }
 
 
@@ -14168,7 +14168,7 @@ __attribute__((__section__(".boot.text"))) __attribute__((externally_visible)) v
     schedule();
     activateThread();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/kernel/thread.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/kernel/thread.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14181,7 +14181,7 @@ void Arch_postModifyRegisters(tcb_t *tptr)
 {
     /* Nothing to do */
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/cache.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/cache.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14191,7 +14191,7 @@ void Arch_postModifyRegisters(tcb_t *tptr)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/machine/l2c_310.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/machine/l2c_310.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14214,7 +14214,7 @@ void plat_cleanCache(void);
 void plat_cleanL2Range(paddr_t start, paddr_t end);
 void plat_invalidateL2Range(paddr_t start, paddr_t end);
 void plat_cleanInvalidateL2Range(paddr_t start, paddr_t end);
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/cache.c" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/cache.c" 2
 
 
 
@@ -14400,13 +14400,13 @@ void arch_clean_invalidate_L1_caches(word_t type)
         isb();
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/debug.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/debug.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/errata.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/errata.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14421,7 +14421,7 @@ void arch_clean_invalidate_L1_caches(word_t type)
 
 /* Prototyped here as this is referenced from assembly */
 void arm_errata(void);
-# 66 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/errata.c"
+# 66 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/errata.c"
 __attribute__((__section__(".boot.text"))) void __attribute__((externally_visible)) arm_errata(void)
 {
 
@@ -14431,13 +14431,13 @@ __attribute__((__section__(".boot.text"))) void __attribute__((externally_visibl
 
 
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 18 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c"
+# 18 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c"
 /* Use this to forward interrupts to all CPUs when debugging */
 
 
@@ -14588,7 +14588,7 @@ void setIRQTrigger(irq_t irq, bool_t trigger)
 __attribute__((__section__(".boot.text"))) void initIRQController(void)
 {
     /* irqInvalid cannot correspond to a valid IRQ index into the irq state array */
-    if(!((maxIRQ + 1) < (irqInvalid))) _assert_fail("INT_STATE_ARRAY_SIZE < IRQT_TO_IRQ(irqInvalid)", "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c", 168, __FUNCTION__);
+    if(!((maxIRQ + 1) < (irqInvalid))) _assert_fail("INT_STATE_ARRAY_SIZE < IRQT_TO_IRQ(irqInvalid)", "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/gic_v2.c", 168, __FUNCTION__);
     dist_init();
 }
 
@@ -14596,7 +14596,7 @@ __attribute__((__section__(".boot.text"))) void cpu_initLocalIRQController(void)
 {
     cpu_iface_init();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/hardware.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/hardware.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14645,7 +14645,7 @@ __attribute__((__section__(".boot.text"))) void map_kernel_devices(void)
         }
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/machine/l2c_nop.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/machine/l2c_nop.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14662,7 +14662,7 @@ void plat_cleanL2Range(paddr_t start, paddr_t end) {}
 void plat_invalidateL2Range(paddr_t start, paddr_t end) {}
 void plat_cleanInvalidateL2Range(paddr_t start, paddr_t end) {}
 void plat_cleanInvalidateL2Cache(void) {}
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/interrupt.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/interrupt.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14742,25 +14742,25 @@ exception_t Arch_decodeIRQControlInvocation(word_t invLabel, word_t length,
 
         setThreadState(ksCurThread, ThreadState_Restart);
         return Arch_invokeIRQControl(irq, destSlot, srcSlot, trigger);
-# 133 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/interrupt.c"
+# 133 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/interrupt.c"
     } else {
         current_syscall_error.type = seL4_IllegalOperation;
         return EXCEPTION_SYSCALL_ERROR;
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/iospace.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/iospace.c"
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/tcb.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/tcb.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/tcb.c"
+# 15 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/tcb.c"
 word_t __attribute__((__const__)) Arch_decodeTransfer(word_t flags)
 {
     return 0;
@@ -14770,13 +14770,13 @@ exception_t __attribute__((__const__)) Arch_performTransfer(word_t arch, tcb_t *
 {
     return EXCEPTION_NONE;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/object/vcpu.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/object/vcpu.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/smp/ipi.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/smp/ipi.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14784,7 +14784,7 @@ exception_t __attribute__((__const__)) Arch_performTransfer(word_t arch, tcb_t *
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/arch/arm/arch/64/mode/smp/ipi.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/arch/arm/arch/64/mode/smp/ipi.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14792,8 +14792,8 @@ exception_t __attribute__((__const__)) Arch_performTransfer(word_t arch, tcb_t *
  */
 
        
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/arch/arm/smp/ipi.c" 2
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/assert.c"
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/arch/arm/smp/ipi.c" 2
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/assert.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14835,19 +14835,19 @@ void _assert_fail(
            ;
     halt();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/benchmark/benchmark_track.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/benchmark/benchmark_track.c"
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/benchmark/benchmark_utilisation.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/benchmark/benchmark_utilisation.c"
 /*
  * Copyright 2016, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14859,7 +14859,7 @@ void _assert_fail(
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14869,8 +14869,8 @@ void _assert_fail(
 /*
  * This file is autogenerated by kernel/tools/hardware_gen.py.
  */
-# 13 "/home/chris/Desktop/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c" 2
-# 35 "/home/chris/Desktop/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c"
+# 13 "/home/dev/projects/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c" 2
+# 35 "/home/dev/projects/SOS-V2020/kernel/src/drivers/serial/meson-gx-uart.c"
 static const char *reset = "reset";
 static int index = 0;
 
@@ -14921,7 +14921,7 @@ unsigned char getDebugChar(void)
     while ((*((volatile uint32_t *)((0xffffffffffe00000ul + 0x4c0) + (0xC))) & (1ul << (20))));
     return *((volatile uint32_t *)((0xffffffffffe00000ul + 0x4c0) + (0x4)));
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/drivers/timer/generic_timer.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/drivers/timer/generic_timer.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -14965,7 +14965,7 @@ __attribute__((__section__(".boot.text"))) void initTimer(void)
 {
     initGenericTimer();
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -14973,7 +14973,7 @@ __attribute__((__section__(".boot.text"))) void initTimer(void)
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/fastpath/fastpath.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/fastpath/fastpath.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -15039,7 +15039,7 @@ static inline void thread_state_ptr_mset_blockingObject_tsType(thread_state_t *t
 {
     ts_ptr->words[0] = ep_ref | tsType;
 }
-# 82 "/home/chris/Desktop/SOS-V2020/kernel/include/fastpath/fastpath.h"
+# 82 "/home/dev/projects/SOS-V2020/kernel/include/fastpath/fastpath.h"
 static inline void endpoint_ptr_mset_epQueue_tail_state(endpoint_t *ep_ptr, word_t epQueue_tail,
                                                         word_t state)
 {
@@ -15054,8 +15054,8 @@ static inline void endpoint_ptr_set_epQueue_head_np(endpoint_t *ep_ptr, word_t e
 
 static inline void thread_state_ptr_set_replyObject_np(thread_state_t *ts_ptr, word_t reply)
 {
-    if(!(!thread_state_ptr_get_tcbQueued(ts_ptr))) _assert_fail("!thread_state_ptr_get_tcbQueued(ts_ptr)", "/home/chris/Desktop/SOS-V2020/kernel/include/fastpath/fastpath.h", 96, __FUNCTION__);
-    if(!(!thread_state_ptr_get_tcbInReleaseQueue(ts_ptr))) _assert_fail("!thread_state_ptr_get_tcbInReleaseQueue(ts_ptr)", "/home/chris/Desktop/SOS-V2020/kernel/include/fastpath/fastpath.h", 97, __FUNCTION__);
+    if(!(!thread_state_ptr_get_tcbQueued(ts_ptr))) _assert_fail("!thread_state_ptr_get_tcbQueued(ts_ptr)", "/home/dev/projects/SOS-V2020/kernel/include/fastpath/fastpath.h", 96, __FUNCTION__);
+    if(!(!thread_state_ptr_get_tcbInReleaseQueue(ts_ptr))) _assert_fail("!thread_state_ptr_get_tcbInReleaseQueue(ts_ptr)", "/home/dev/projects/SOS-V2020/kernel/include/fastpath/fastpath.h", 97, __FUNCTION__);
 
     thread_state_ptr_set_replyObject(ts_ptr, ((word_t) (reply)));
 
@@ -15065,17 +15065,17 @@ static inline void thread_state_ptr_set_replyObject_np(thread_state_t *ts_ptr, w
 
 static inline reply_t *thread_state_get_replyObject_np(thread_state_t ts)
 {
-    if(!(!thread_state_get_tcbQueued(ts))) _assert_fail("!thread_state_get_tcbQueued(ts)", "/home/chris/Desktop/SOS-V2020/kernel/include/fastpath/fastpath.h", 107, __FUNCTION__);
-    if(!(!thread_state_get_tcbInReleaseQueue(ts))) _assert_fail("!thread_state_get_tcbInReleaseQueue(ts)", "/home/chris/Desktop/SOS-V2020/kernel/include/fastpath/fastpath.h", 108, __FUNCTION__);
+    if(!(!thread_state_get_tcbQueued(ts))) _assert_fail("!thread_state_get_tcbQueued(ts)", "/home/dev/projects/SOS-V2020/kernel/include/fastpath/fastpath.h", 107, __FUNCTION__);
+    if(!(!thread_state_get_tcbInReleaseQueue(ts))) _assert_fail("!thread_state_get_tcbInReleaseQueue(ts)", "/home/dev/projects/SOS-V2020/kernel/include/fastpath/fastpath.h", 108, __FUNCTION__);
 
     return ((reply_t *) (thread_state_get_replyObject(ts)));
 
 
 
 }
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c" 2
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/reply.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/reply.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -15092,7 +15092,7 @@ static inline reply_t *thread_state_get_replyObject_np(thread_state_t ts)
 static inline void reply_unlink(reply_t *reply)
 {
     /* check the tcb and reply are linked correctly */
-    if(!(thread_state_get_replyObject(reply->replyTCB->tcbState) == ((word_t) (reply)))) _assert_fail("thread_state_get_replyObject(reply->replyTCB->tcbState) == REPLY_REF(reply)", "/home/chris/Desktop/SOS-V2020/kernel/include/object/reply.h", 17, __FUNCTION__);
+    if(!(thread_state_get_replyObject(reply->replyTCB->tcbState) == ((word_t) (reply)))) _assert_fail("thread_state_get_replyObject(reply->replyTCB->tcbState) == REPLY_REF(reply)", "/home/dev/projects/SOS-V2020/kernel/include/object/reply.h", 17, __FUNCTION__);
 
     tcb_t *tcb = reply->replyTCB;
     thread_state_ptr_set_replyObject(&tcb->tcbState, ((word_t) (0)));
@@ -15108,8 +15108,8 @@ void reply_pop(reply_t *reply);
 void reply_remove(reply_t *reply);
 /* Remove a specific tcb, and the reply it is blocking on, from the call stack */
 void reply_remove_tcb(tcb_t *tcb);
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c" 2
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c" 2
+# 19 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
 static inline
 
 __attribute__((always_inline))
@@ -15179,7 +15179,7 @@ void __attribute__((__noreturn__)) fastpath_call(word_t cptr, word_t msgInfo)
     if (__builtin_expect(!!(! isValidVTableRoot_fp(newVTable)), 0)) {
         slowpath(SysCall);
     }
-# 104 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 104 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     stored_hw_asid.words[0] = cap_page_global_directory_cap_get_capPGDMappedASID(newVTable);
 
 
@@ -15223,7 +15223,7 @@ void __attribute__((__noreturn__)) fastpath_call(word_t cptr, word_t msgInfo)
     if (__builtin_expect(!!(reply == ((void *)0)), 0)) {
         slowpath(SysCall);
     }
-# 156 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 156 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     /*
      * --- POINT OF NO RETURN ---
      *
@@ -15264,7 +15264,7 @@ void __attribute__((__noreturn__)) fastpath_call(word_t cptr, word_t msgInfo)
     }
     reply->replyNext = call_stack_new(((word_t) (sc)), true);
     sc->scReply = reply;
-# 212 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 212 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     fastpath_copy_mrs(length, ksCurThread, dest);
 
     /* Dest thread is set Running, but not queued. */
@@ -15360,7 +15360,7 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
 
     /* Determine who the caller is. */
     caller = reply_ptr->replyTCB;
-# 319 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 319 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     /* ensure we are not single stepping the caller in ia32 */
 
 
@@ -15385,7 +15385,7 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
     if (__builtin_expect(!!(! isValidVTableRoot_fp(newVTable)), 0)) {
         slowpath(SysReplyRecv);
     }
-# 357 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 357 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     stored_hw_asid.words[0] = cap_page_global_directory_cap_get_capPGDMappedASID(newVTable);
 
 
@@ -15398,7 +15398,7 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
     if (__builtin_expect(!!(!isHighestPrio(dom, caller->tcbPriority)), 0)) {
         slowpath(SysReplyRecv);
     }
-# 377 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 377 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     /* Ensure the original caller is in the current domain and can be scheduled directly. */
     if (__builtin_expect(!!(caller->tcbDomain != ksCurDomain && maxDom), 0)) {
         slowpath(SysReplyRecv);
@@ -15408,9 +15408,9 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
     if (__builtin_expect(!!(caller->tcbSchedContext != ((void *)0)), 0)) {
         slowpath(SysReplyRecv);
     }
-# 396 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 396 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     /* not possible to set reply object and not be blocked */
-    if(!(thread_state_get_replyObject(ksCurThread->tcbState) == 0)) _assert_fail("thread_state_get_replyObject(NODE_STATE(ksCurThread)->tcbState) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c", 397, __FUNCTION__);
+    if(!(thread_state_get_replyObject(ksCurThread->tcbState) == 0)) _assert_fail("thread_state_get_replyObject(NODE_STATE(ksCurThread)->tcbState) == 0", "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c", 397, __FUNCTION__);
 
 
     /*
@@ -15453,7 +15453,7 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
         tcb_queue_t queue = tcbEPAppend(ksCurThread, ep_ptr_get_queue(ep_ptr));
         endpoint_ptr_set_epQueue_head_np(ep_ptr, ((word_t)(queue.head)));
         endpoint_ptr_mset_epQueue_tail_state(ep_ptr, ((word_t)(queue.end)), EPState_Recv);
-# 450 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 450 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     }
 
 
@@ -15472,7 +15472,7 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
     /* TODO neccessary? */
     reply_ptr->replyPrev.words[0] = 0;
     reply_ptr->replyNext.words[0] = 0;
-# 477 "/home/chris/Desktop/SOS-V2020/kernel/src/fastpath/fastpath.c"
+# 477 "/home/dev/projects/SOS-V2020/kernel/src/fastpath/fastpath.c"
     /* I know there's no fault, so straight to the transfer. */
 
     /* Replies don't have a badge. */
@@ -15489,7 +15489,7 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
 
     fastpath_restore(badge, msgInfo, ksCurThread);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/inlines.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/inlines.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -15502,13 +15502,13 @@ void __attribute__((__noreturn__)) fastpath_reply_recv(word_t cptr, word_t msgIn
 lookup_fault_t current_lookup_fault;
 seL4_Fault_t current_fault;
 syscall_error_t current_syscall_error;
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 20 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c"
+# 20 "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c"
 /* (node-local) state accessed only during bootstrapping */
 ndks_boot_t ndks_boot __attribute__((__section__(".boot.data")));
 
@@ -15538,7 +15538,7 @@ __attribute__((__section__(".boot.text"))) static void merge_regions(void)
 __attribute__((__section__(".boot.text"))) bool_t reserve_region(p_region_t reg)
 {
     word_t i;
-    if(!(reg.start <= reg.end)) _assert_fail("reg.start <= reg.end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 49, __FUNCTION__);
+    if(!(reg.start <= reg.end)) _assert_fail("reg.start <= reg.end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 49, __FUNCTION__);
     if (reg.start == reg.end) {
         return true;
     }
@@ -15590,7 +15590,7 @@ __attribute__((__section__(".boot.text"))) bool_t insert_region(region_t reg)
 {
     word_t i;
 
-    if(!(reg.start <= reg.end)) _assert_fail("reg.start <= reg.end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 101, __FUNCTION__);
+    if(!(reg.start <= reg.end)) _assert_fail("reg.start <= reg.end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 101, __FUNCTION__);
     if (is_reg_empty(reg)) {
         return true;
     }
@@ -15609,7 +15609,7 @@ __attribute__((__section__(".boot.text"))) bool_t insert_region(region_t reg)
      * capDL applications from being loaded! */
     kprintf("Can't fit memory region 0x%lx-0x%lx, try increasing MAX_NUM_FREEMEM_REG (currently %d)\n", reg.start, reg.end, (int)((sizeof(avail_p_regs) / sizeof(avail_p_regs[0])) + 0 + 1 + 1))
                                                         ;
-    if(!(!"Ran out of freemem slots")) _assert_fail("!\"Ran out of freemem slots\"", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 120, __FUNCTION__);
+    if(!(!"Ran out of freemem slots")) _assert_fail("!\"Ran out of freemem slots\"", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 120, __FUNCTION__);
 
 
 
@@ -15621,10 +15621,10 @@ __attribute__((__section__(".boot.text"))) static pptr_t alloc_rootserver_obj(wo
 {
     pptr_t allocated = rootserver_mem.start;
     /* allocated memory must be aligned */
-    if(!(allocated % (1ul << (size_bits)) == 0)) _assert_fail("allocated % BIT(size_bits) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 132, __FUNCTION__);
+    if(!(allocated % (1ul << (size_bits)) == 0)) _assert_fail("allocated % BIT(size_bits) == 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 132, __FUNCTION__);
     rootserver_mem.start += (n * (1ul << (size_bits)));
     /* we must not have run out of memory */
-    if(!(rootserver_mem.start <= rootserver_mem.end)) _assert_fail("rootserver_mem.start <= rootserver_mem.end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 135, __FUNCTION__);
+    if(!(rootserver_mem.start <= rootserver_mem.end)) _assert_fail("rootserver_mem.start <= rootserver_mem.end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 135, __FUNCTION__);
     memzero((void *) allocated, n * (1ul << (size_bits)));
     return allocated;
 }
@@ -15708,7 +15708,7 @@ __attribute__((__section__(".boot.text"))) void create_rootserver_objects(pptr_t
     rootserver.sc = alloc_rootserver_obj(8, 1);
 
     /* we should have allocated all our memory */
-    if(!(rootserver_mem.start == rootserver_mem.end)) _assert_fail("rootserver_mem.start == rootserver_mem.end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 219, __FUNCTION__);
+    if(!(rootserver_mem.start == rootserver_mem.end)) _assert_fail("rootserver_mem.start == rootserver_mem.end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 219, __FUNCTION__);
 }
 
 __attribute__((__section__(".boot.text"))) void write_slot(slot_ptr_t slot_ptr, cap_t cap)
@@ -15758,10 +15758,10 @@ __attribute__((__section__(".boot.text"))) void
 create_domain_cap(cap_t root_cnode_cap)
 {
     /* Check domain scheduler assumptions. */
-    if(!(ksDomScheduleLength > 0)) _assert_fail("ksDomScheduleLength > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 269, __FUNCTION__);
+    if(!(ksDomScheduleLength > 0)) _assert_fail("ksDomScheduleLength > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 269, __FUNCTION__);
     for (word_t i = 0; i < ksDomScheduleLength; i++) {
-        if(!(ksDomSchedule[i].domain < 1)) _assert_fail("ksDomSchedule[i].domain < CONFIG_NUM_DOMAINS", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 271, __FUNCTION__);
-        if(!(ksDomSchedule[i].length > 0)) _assert_fail("ksDomSchedule[i].length > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 272, __FUNCTION__);
+        if(!(ksDomSchedule[i].domain < 1)) _assert_fail("ksDomSchedule[i].domain < CONFIG_NUM_DOMAINS", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 271, __FUNCTION__);
+        if(!(ksDomSchedule[i].length > 0)) _assert_fail("ksDomSchedule[i].length > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 272, __FUNCTION__);
     }
 
     cap_t cap = cap_domain_cap_new();
@@ -16001,7 +16001,7 @@ __attribute__((__section__(".boot.text"))) tcb_t *create_initial_thread(cap_t ro
 
 
 
-    if(!(ksCurDomain < 1 && ksDomainTime > 0)) _assert_fail("ksCurDomain < CONFIG_NUM_DOMAINS && ksDomainTime > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 512, __FUNCTION__);
+    if(!(ksCurDomain < 1 && ksDomainTime > 0)) _assert_fail("ksCurDomain < CONFIG_NUM_DOMAINS && ksDomainTime > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 512, __FUNCTION__);
 
 
 
@@ -16200,15 +16200,15 @@ __attribute__((__section__(".boot.text"))) void init_freemem(word_t n_available,
 {
     /* Force ordering and exclusivity of reserved regions */
     for (word_t i = 0; n_reserved > 0 && i < n_reserved - 1; i++) {
-        if(!(reserved[i].start <= reserved[i].end)) _assert_fail("reserved[i].start <= reserved[i].end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 711, __FUNCTION__);
-        if(!(reserved[i].end <= reserved[i + 1].start)) _assert_fail("reserved[i].end <= reserved[i + 1].start", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 712, __FUNCTION__);
+        if(!(reserved[i].start <= reserved[i].end)) _assert_fail("reserved[i].start <= reserved[i].end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 711, __FUNCTION__);
+        if(!(reserved[i].end <= reserved[i + 1].start)) _assert_fail("reserved[i].end <= reserved[i + 1].start", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 712, __FUNCTION__);
     }
 
     /* Force ordering and exclusivity of available regions */
-    if(!(n_available > 0)) _assert_fail("n_available > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 716, __FUNCTION__);
+    if(!(n_available > 0)) _assert_fail("n_available > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 716, __FUNCTION__);
     for (word_t i = 0; i < n_available - 1; i++) {
-        if(!(available[i].start < available[i].end)) _assert_fail("available[i].start < available[i].end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 718, __FUNCTION__);
-        if(!(available[i].end <= available[i + 1].start)) _assert_fail("available[i].end <= available[i + 1].start", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 719, __FUNCTION__);
+        if(!(available[i].start < available[i].end)) _assert_fail("available[i].start < available[i].end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 718, __FUNCTION__);
+        if(!(available[i].end <= available[i + 1].start)) _assert_fail("available[i].end <= available[i + 1].start", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 719, __FUNCTION__);
     }
 
     for (word_t i = 0; i < ((sizeof(avail_p_regs) / sizeof(avail_p_regs[0])) + 0 + 1 + 1); i++) {
@@ -16249,7 +16249,7 @@ __attribute__((__section__(".boot.text"))) void init_freemem(word_t n_available,
                 reserve_region(pptr_to_paddr_reg(reserved[r]));
                 r++;
             } else {
-                if(!(reserved[r].start < avail_reg[a].end)) _assert_fail("reserved[r].start < avail_reg[a].end", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/boot.c", 760, __FUNCTION__);
+                if(!(reserved[r].start < avail_reg[a].end)) _assert_fail("reserved[r].start < avail_reg[a].end", "/home/dev/projects/SOS-V2020/kernel/src/kernel/boot.c", 760, __FUNCTION__);
                 /* take the first chunk of the available region and move
                  * the start to the end of the reserved region */
                 region_t m = avail_reg[a];
@@ -16308,13 +16308,13 @@ __attribute__((__section__(".boot.text"))) void init_freemem(word_t n_available,
         }
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/cspace.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/cspace.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/cspace.c"
+# 15 "/home/dev/projects/SOS-V2020/kernel/src/kernel/cspace.c"
 lookupCap_ret_t lookupCap(tcb_t *thread, cptr_t cPtr)
 {
     lookupSlot_raw_ret_t lu_ret;
@@ -16448,7 +16448,7 @@ resolveAddressBits_ret_t resolveAddressBits(cap_t nodeCap, cptr_t capptr, word_t
         levelBits = radixBits + guardBits;
 
         /* Haskell error: "All CNodes must resolve bits" */
-        if(!(levelBits != 0)) _assert_fail("levelBits != 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/cspace.c", 148, __FUNCTION__);
+        if(!(levelBits != 0)) _assert_fail("levelBits != 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/cspace.c", 148, __FUNCTION__);
 
         capGuard = cap_cnode_cap_get_capCNodeGuard(nodeCap);
 
@@ -16497,13 +16497,13 @@ resolveAddressBits_ret_t resolveAddressBits(cap_t nodeCap, cptr_t capptr, word_t
     ret.status = EXCEPTION_NONE;
     return ret;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 15 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c"
+# 15 "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c"
 void handleFault(tcb_t *tptr)
 {
     bool_t hasFaultHandler = sendFaultIPC(tptr, (((cte_t *)((word_t)(tptr)&~((1ul << (11))-1ul)))+(tcbFaultHandler))->cap,
@@ -16515,15 +16515,15 @@ void handleFault(tcb_t *tptr)
 
 void handleTimeout(tcb_t *tptr)
 {
-    if(!(validTimeoutHandler(tptr))) _assert_fail("validTimeoutHandler(tptr)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c", 26, __FUNCTION__);
+    if(!(validTimeoutHandler(tptr))) _assert_fail("validTimeoutHandler(tptr)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c", 26, __FUNCTION__);
     sendFaultIPC(tptr, (((cte_t *)((word_t)(tptr)&~((1ul << (11))-1ul)))+(tcbTimeoutHandler))->cap, false);
 }
 
 bool_t sendFaultIPC(tcb_t *tptr, cap_t handlerCap, bool_t can_donate)
 {
     if (cap_get_capType(handlerCap) == cap_endpoint_cap) {
-        if(!(cap_endpoint_cap_get_capCanSend(handlerCap))) _assert_fail("cap_endpoint_cap_get_capCanSend(handlerCap)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c", 33, __FUNCTION__);
-        if(!(cap_endpoint_cap_get_capCanGrant(handlerCap) || cap_endpoint_cap_get_capCanGrantReply(handlerCap))) _assert_fail("cap_endpoint_cap_get_capCanGrant(handlerCap) || cap_endpoint_cap_get_capCanGrantReply(handlerCap)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c", 34, __FUNCTION__)
+        if(!(cap_endpoint_cap_get_capCanSend(handlerCap))) _assert_fail("cap_endpoint_cap_get_capCanSend(handlerCap)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c", 33, __FUNCTION__);
+        if(!(cap_endpoint_cap_get_capCanGrant(handlerCap) || cap_endpoint_cap_get_capCanGrantReply(handlerCap))) _assert_fail("cap_endpoint_cap_get_capCanGrant(handlerCap) || cap_endpoint_cap_get_capCanGrantReply(handlerCap)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c", 34, __FUNCTION__)
                                                                  ;
 
         tptr->tcbFault = current_fault;
@@ -16536,11 +16536,11 @@ bool_t sendFaultIPC(tcb_t *tptr, cap_t handlerCap, bool_t can_donate)
 
         return true;
     } else {
-        if(!(cap_get_capType(handlerCap) == cap_null_cap)) _assert_fail("cap_get_capType(handlerCap) == cap_null_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c", 47, __FUNCTION__);
+        if(!(cap_get_capType(handlerCap) == cap_null_cap)) _assert_fail("cap_get_capType(handlerCap) == cap_null_cap", "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c", 47, __FUNCTION__);
         return false;
     }
 }
-# 105 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c"
+# 105 "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c"
 static void print_fault(seL4_Fault_t f)
 {
     switch (seL4_Fault_get_seL4_FaultType(f)) {
@@ -16590,7 +16590,7 @@ void handleNoFaultHandler(tcb_t *tptr)
 
     kprintf("Found thread has no fault handler while trying to handle:\n");
     print_fault(current_fault);
-# 162 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/faulthandler.c"
+# 162 "/home/dev/projects/SOS-V2020/kernel/src/kernel/faulthandler.c"
     kprintf("\nin thread %p \"%s\" ", tptr, tptr->tcbName);
 
 
@@ -16601,7 +16601,7 @@ void handleNoFaultHandler(tcb_t *tptr)
 
     setThreadState(tptr, ThreadState_Inactive);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -16682,7 +16682,7 @@ static __attribute__((unused)) bool_t refill_ordered(sched_context_t *sc)
 
     return true;
 }
-# 98 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c"
+# 98 "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c"
 /* compute the sum of a refill queue */
 static __attribute__((unused)) ticks_t refill_sum(sched_context_t *sc)
 {
@@ -16701,15 +16701,15 @@ static __attribute__((unused)) ticks_t refill_sum(sched_context_t *sc)
 static inline refill_t refill_pop_head(sched_context_t *sc)
 {
     /* queues cannot be smaller than 1 */
-    if(!(!refill_single(sc))) _assert_fail("!refill_single(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 116, __FUNCTION__);
+    if(!(!refill_single(sc))) _assert_fail("!refill_single(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 116, __FUNCTION__);
 
     __attribute__((unused)) word_t prev_size = refill_size(sc);
     refill_t refill = (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]);
     sc->scRefillHead = refill_next(sc, sc->scRefillHead);
 
     /* sanity */
-    if(!(prev_size == (refill_size(sc) + 1))) _assert_fail("prev_size == (refill_size(sc) + 1)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 123, __FUNCTION__);
-    if(!(sc->scRefillHead < sc->scRefillMax)) _assert_fail("sc->scRefillHead < sc->scRefillMax", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 124, __FUNCTION__);
+    if(!(prev_size == (refill_size(sc) + 1))) _assert_fail("prev_size == (refill_size(sc) + 1)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 123, __FUNCTION__);
+    if(!(sc->scRefillHead < sc->scRefillMax)) _assert_fail("sc->scRefillHead < sc->scRefillMax", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 124, __FUNCTION__);
     return refill;
 }
 
@@ -16717,14 +16717,14 @@ static inline refill_t refill_pop_head(sched_context_t *sc)
 static inline void refill_add_tail(sched_context_t *sc, refill_t refill)
 {
     /* cannot add beyond queue size */
-    if(!(refill_size(sc) < sc->scRefillMax)) _assert_fail("refill_size(sc) < sc->scRefillMax", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 132, __FUNCTION__);
+    if(!(refill_size(sc) < sc->scRefillMax)) _assert_fail("refill_size(sc) < sc->scRefillMax", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 132, __FUNCTION__);
 
     word_t new_tail = refill_next(sc, sc->scRefillTail);
     sc->scRefillTail = new_tail;
     (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillTail]) = refill;
 
     /* sanity */
-    if(!(new_tail < sc->scRefillMax)) _assert_fail("new_tail < sc->scRefillMax", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 139, __FUNCTION__);
+    if(!(new_tail < sc->scRefillMax)) _assert_fail("new_tail < sc->scRefillMax", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 139, __FUNCTION__);
 }
 
 static inline void maybe_add_empty_tail(sched_context_t *sc)
@@ -16733,7 +16733,7 @@ static inline void maybe_add_empty_tail(sched_context_t *sc)
         /* add an empty refill - we track the used up time here */
         refill_t empty_tail = { .rTime = ksCurTime};
         refill_add_tail(sc, empty_tail);
-        if(!(refill_size(sc) == 2u)) _assert_fail("refill_size(sc) == MIN_REFILLS", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 148, __FUNCTION__);
+        if(!(refill_size(sc) == 2u)) _assert_fail("refill_size(sc) == MIN_REFILLS", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 148, __FUNCTION__);
     }
 }
 
@@ -16747,20 +16747,20 @@ void refill_new(sched_context_t *sc, word_t max_refills, ticks_t budget, ticks_t
     sc->scRefillHead = 0;
     sc->scRefillTail = 0;
     sc->scRefillMax = max_refills;
-    if(!(budget > (2u * getKernelWcetTicks() * 1))) _assert_fail("budget > MIN_BUDGET", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 162, __FUNCTION__);
+    if(!(budget > (2u * getKernelWcetTicks() * 1))) _assert_fail("budget > MIN_BUDGET", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 162, __FUNCTION__);
     /* full budget available */
     (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount = budget;
     /* budget can be used from now */
     (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rTime = ksCurTime;
     maybe_add_empty_tail(sc);
-    do { if(!(refill_sum(sc) == budget)) _assert_fail("refill_sum(sc) == budget", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 168, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 168, __FUNCTION__); } while (0);
+    do { if(!(refill_sum(sc) == budget)) _assert_fail("refill_sum(sc) == budget", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 168, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 168, __FUNCTION__); } while (0);
 }
 
 void refill_update(sched_context_t *sc, ticks_t new_period, ticks_t new_budget, word_t new_max_refills)
 {
 
     /* refill must be initialised in order to be updated - otherwise refill_new should be used */
-    if(!(sc->scRefillMax > 0)) _assert_fail("sc->scRefillMax > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 175, __FUNCTION__);
+    if(!(sc->scRefillMax > 0)) _assert_fail("sc->scRefillMax > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 175, __FUNCTION__);
 
     /* this is called on an active thread. We want to preserve the sliding window constraint -
      * so over new_period, new_budget should not be exceeded even temporarily */
@@ -16793,7 +16793,7 @@ void refill_update(sched_context_t *sc, ticks_t new_period, ticks_t new_budget, 
         refill_add_tail(sc, new);
     }
 
-    do { if(!(refill_sum(sc) == new_budget)) _assert_fail("refill_sum(sc) == new_budget", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 208, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 208, __FUNCTION__); } while (0);
+    do { if(!(refill_sum(sc) == new_budget)) _assert_fail("refill_sum(sc) == new_budget", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 208, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 208, __FUNCTION__); } while (0);
 }
 
 static inline void schedule_used(sched_context_t *sc, refill_t new)
@@ -16814,9 +16814,9 @@ void refill_budget_check(ticks_t usage, ticks_t capacity)
 {
     sched_context_t *sc = ksCurSC;
     /* this function should only be called when the sc is out of budget */
-    if(!(capacity < (2u * getKernelWcetTicks() * 1) || refill_full(sc))) _assert_fail("capacity < MIN_BUDGET || refill_full(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 229, __FUNCTION__);
-    if(!(sc->scPeriod > 0)) _assert_fail("sc->scPeriod > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 230, __FUNCTION__);
-    ticks_t _sum = refill_sum(sc); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 231, __FUNCTION__);;
+    if(!(capacity < (2u * getKernelWcetTicks() * 1) || refill_full(sc))) _assert_fail("capacity < MIN_BUDGET || refill_full(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 229, __FUNCTION__);
+    if(!(sc->scPeriod > 0)) _assert_fail("sc->scPeriod > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 230, __FUNCTION__);
+    ticks_t _sum = refill_sum(sc); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 231, __FUNCTION__);;
 
     if (capacity == 0) {
         while ((((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount <= usage) {
@@ -16863,21 +16863,21 @@ void refill_budget_check(ticks_t usage, ticks_t capacity)
          * rAmount in a refill must be >= MIN_BUDGET */
     }
 
-    do { do { if(!(refill_sum(sc) == _sum)) _assert_fail("refill_sum(sc) == _sum", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 278, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 278, __FUNCTION__); } while (0); } while (0);
+    do { do { if(!(refill_sum(sc) == _sum)) _assert_fail("refill_sum(sc) == _sum", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 278, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 278, __FUNCTION__); } while (0); } while (0);
 }
 
 void refill_split_check(ticks_t usage)
 {
     sched_context_t *sc = ksCurSC;
     /* invalid to call this on a NULL sc */
-    if(!(sc != ((void *)0))) _assert_fail("sc != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 285, __FUNCTION__);
+    if(!(sc != ((void *)0))) _assert_fail("sc != NULL", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 285, __FUNCTION__);
     /* something is seriously wrong if this is called and no
      * time has been used */
-    if(!(usage > 0)) _assert_fail("usage > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 288, __FUNCTION__);
-    if(!(usage <= (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount)) _assert_fail("usage <= REFILL_HEAD(sc).rAmount", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 289, __FUNCTION__);
-    if(!(sc->scPeriod > 0)) _assert_fail("sc->scPeriod > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 290, __FUNCTION__);
+    if(!(usage > 0)) _assert_fail("usage > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 288, __FUNCTION__);
+    if(!(usage <= (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount)) _assert_fail("usage <= REFILL_HEAD(sc).rAmount", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 289, __FUNCTION__);
+    if(!(sc->scPeriod > 0)) _assert_fail("sc->scPeriod > 0", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 290, __FUNCTION__);
 
-    ticks_t _sum = refill_sum(sc); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 292, __FUNCTION__);;
+    ticks_t _sum = refill_sum(sc); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 292, __FUNCTION__);;
 
     /* first deal with the remaining budget of the current replenishment */
     ticks_t remnant = (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount - usage;
@@ -16899,16 +16899,16 @@ void refill_split_check(ticks_t usage)
             (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount += remnant;
             schedule_used(sc, new);
         }
-        if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 314, __FUNCTION__);
+        if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 314, __FUNCTION__);
     } else {
         /* leave remnant as reduced replenishment */
-        if(!(remnant >= (2u * getKernelWcetTicks() * 1))) _assert_fail("remnant >= MIN_BUDGET", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 317, __FUNCTION__);
+        if(!(remnant >= (2u * getKernelWcetTicks() * 1))) _assert_fail("remnant >= MIN_BUDGET", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 317, __FUNCTION__);
         /* split the head refill  */
         (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rAmount = remnant;
         schedule_used(sc, new);
     }
 
-    do { do { if(!(refill_sum(sc) == _sum)) _assert_fail("refill_sum(sc) == _sum", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 323, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 323, __FUNCTION__); } while (0); } while (0);
+    do { do { if(!(refill_sum(sc) == _sum)) _assert_fail("refill_sum(sc) == _sum", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 323, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 323, __FUNCTION__); } while (0); } while (0);
 }
 
 void refill_unblock_check(sched_context_t *sc)
@@ -16920,7 +16920,7 @@ void refill_unblock_check(sched_context_t *sc)
     }
 
     /* advance earliest activation time to now */
-    ticks_t _sum = refill_sum(sc); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 335, __FUNCTION__);;
+    ticks_t _sum = refill_sum(sc); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 335, __FUNCTION__);;
     if (refill_ready(sc)) {
         (((refill_t *) (((word_t) ((sc))) + sizeof(sched_context_t)))[(sc)->scRefillHead]).rTime = ksCurTime;
         ksReprogram = true;
@@ -16937,11 +16937,11 @@ void refill_unblock_check(sched_context_t *sc)
             }
         }
 
-        if(!(refill_sufficient(sc, 0))) _assert_fail("refill_sufficient(sc, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 352, __FUNCTION__);
+        if(!(refill_sufficient(sc, 0))) _assert_fail("refill_sufficient(sc, 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 352, __FUNCTION__);
     }
-    do { do { if(!(refill_sum(sc) == _sum)) _assert_fail("refill_sum(sc) == _sum", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 354, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/sporadic.c", 354, __FUNCTION__); } while (0); } while (0);
+    do { do { if(!(refill_sum(sc) == _sum)) _assert_fail("refill_sum(sc) == _sum", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 354, __FUNCTION__); if(!(refill_ordered(sc))) _assert_fail("refill_ordered(sc)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/sporadic.c", 354, __FUNCTION__); } while (0); } while (0);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/stack.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/stack.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -16952,13 +16952,13 @@ void refill_unblock_check(sched_context_t *sc)
 
 __attribute__((externally_visible)) __attribute__((__aligned__(4096)))
 char kernel_stack_alloc[1][(1ul << (12))];
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 24 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c"
+# 24 "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c"
 static seL4_MessageInfo_t
 transferCaps(seL4_MessageInfo_t info, extra_caps_t caps,
              endpoint_t *endpoint, tcb_t *receiver,
@@ -16975,7 +16975,7 @@ void activateThread(void)
 
     if (__builtin_expect(!!(ksCurThread->tcbYieldTo), 0)) {
         schedContext_completeYieldTo(ksCurThread);
-        if(!(thread_state_get_tsType(ksCurThread->tcbState) == ThreadState_Running)) _assert_fail("thread_state_get_tsType(NODE_STATE(ksCurThread)->tcbState) == ThreadState_Running", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 40, __FUNCTION__);
+        if(!(thread_state_get_tsType(ksCurThread->tcbState) == ThreadState_Running)) _assert_fail("thread_state_get_tsType(NODE_STATE(ksCurThread)->tcbState) == ThreadState_Running", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 40, __FUNCTION__);
     }
 
 
@@ -17000,7 +17000,7 @@ void activateThread(void)
         break;
 
     default:
-        _fail("Current thread is blocked", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 65, __func__);
+        _fail("Current thread is blocked", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 65, __func__);
     }
 }
 
@@ -17073,8 +17073,8 @@ void doReplyTransfer(tcb_t *sender, reply_t *reply, bool_t grant)
 
     tcb_t *receiver = reply->replyTCB;
     reply_remove(reply);
-    if(!(thread_state_get_replyObject(receiver->tcbState) == ((word_t) (0)))) _assert_fail("thread_state_get_replyObject(receiver->tcbState) == REPLY_REF(0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 138, __FUNCTION__);
-    if(!(reply->replyTCB == ((void *)0))) _assert_fail("reply->replyTCB == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 139, __FUNCTION__);
+    if(!(thread_state_get_replyObject(receiver->tcbState) == ((word_t) (0)))) _assert_fail("thread_state_get_replyObject(receiver->tcbState) == REPLY_REF(0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 138, __FUNCTION__);
+    if(!(reply->replyTCB == ((void *)0))) _assert_fail("reply->replyTCB == NULL", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 139, __FUNCTION__);
 
 
 
@@ -17256,8 +17256,8 @@ static void switchSchedContext(void)
         ksReprogram = true;
         refill_unblock_check(ksCurThread->tcbSchedContext);
 
-        if(!(refill_ready(ksCurThread->tcbSchedContext))) _assert_fail("refill_ready(NODE_STATE(ksCurThread->tcbSchedContext))", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 321, __FUNCTION__);
-        if(!(refill_sufficient(ksCurThread->tcbSchedContext, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksCurThread->tcbSchedContext), 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 322, __FUNCTION__);
+        if(!(refill_ready(ksCurThread->tcbSchedContext))) _assert_fail("refill_ready(NODE_STATE(ksCurThread->tcbSchedContext))", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 321, __FUNCTION__);
+        if(!(refill_sufficient(ksCurThread->tcbSchedContext, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksCurThread->tcbSchedContext), 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 322, __FUNCTION__);
     }
 
     if (ksReprogram) {
@@ -17297,7 +17297,7 @@ void schedule(void)
             scheduleChooseNewThread();
         } else {
             tcb_t *candidate = ksSchedulerAction;
-            if(!(isSchedulable(candidate))) _assert_fail("isSchedulable(candidate)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 362, __FUNCTION__);
+            if(!(isSchedulable(candidate))) _assert_fail("isSchedulable(candidate)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 362, __FUNCTION__);
             /* Avoid checking bitmap when ksCurThread is higher prio, to
              * match fast path.
              * Don't look at ksCurThread prio when it's idle, to respect
@@ -17319,7 +17319,7 @@ void schedule(void)
                 ksSchedulerAction = ((tcb_t*) 1);
                 scheduleChooseNewThread();
             } else {
-                if(!(candidate != ksCurThread)) _assert_fail("candidate != NODE_STATE(ksCurThread)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 384, __FUNCTION__);
+                if(!(candidate != ksCurThread)) _assert_fail("candidate != NODE_STATE(ksCurThread)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 384, __FUNCTION__);
                 switchToThread(candidate);
             }
         }
@@ -17355,11 +17355,11 @@ void chooseThread(void)
     if (__builtin_expect(!!(ksReadyQueuesL1Bitmap[dom]), 1)) {
         prio = getHighestPrio(dom);
         thread = ksReadyQueues[ready_queues_index(dom, prio)].head;
-        if(!(thread)) _assert_fail("thread", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 420, __FUNCTION__);
-        if(!(isSchedulable(thread))) _assert_fail("isSchedulable(thread)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 421, __FUNCTION__);
+        if(!(thread)) _assert_fail("thread", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 420, __FUNCTION__);
+        if(!(isSchedulable(thread))) _assert_fail("isSchedulable(thread)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 421, __FUNCTION__);
 
-        if(!(refill_sufficient(thread->tcbSchedContext, 0))) _assert_fail("refill_sufficient(thread->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 423, __FUNCTION__);
-        if(!(refill_ready(thread->tcbSchedContext))) _assert_fail("refill_ready(thread->tcbSchedContext)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 424, __FUNCTION__);
+        if(!(refill_sufficient(thread->tcbSchedContext, 0))) _assert_fail("refill_sufficient(thread->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 423, __FUNCTION__);
+        if(!(refill_ready(thread->tcbSchedContext))) _assert_fail("refill_ready(thread->tcbSchedContext)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 424, __FUNCTION__);
 
         switchToThread(thread);
     } else {
@@ -17370,10 +17370,10 @@ void chooseThread(void)
 void switchToThread(tcb_t *thread)
 {
 
-    if(!(thread->tcbSchedContext != ((void *)0))) _assert_fail("thread->tcbSchedContext != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 435, __FUNCTION__);
-    if(!(!thread_state_get_tcbInReleaseQueue(thread->tcbState))) _assert_fail("!thread_state_get_tcbInReleaseQueue(thread->tcbState)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 436, __FUNCTION__);
-    if(!(refill_sufficient(thread->tcbSchedContext, 0))) _assert_fail("refill_sufficient(thread->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 437, __FUNCTION__);
-    if(!(refill_ready(thread->tcbSchedContext))) _assert_fail("refill_ready(thread->tcbSchedContext)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 438, __FUNCTION__);
+    if(!(thread->tcbSchedContext != ((void *)0))) _assert_fail("thread->tcbSchedContext != NULL", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 435, __FUNCTION__);
+    if(!(!thread_state_get_tcbInReleaseQueue(thread->tcbState))) _assert_fail("!thread_state_get_tcbInReleaseQueue(thread->tcbState)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 436, __FUNCTION__);
+    if(!(refill_sufficient(thread->tcbSchedContext, 0))) _assert_fail("refill_sufficient(thread->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 437, __FUNCTION__);
+    if(!(refill_ready(thread->tcbSchedContext))) _assert_fail("refill_ready(thread->tcbSchedContext)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 438, __FUNCTION__);
 
 
 
@@ -17438,7 +17438,7 @@ void setPriority(tcb_t *tptr, prio_t prio)
         break;
     }
 }
-# 518 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c"
+# 518 "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c"
 /* Note that this thread will possibly continue at the end of this kernel
  * entry. Do not queue it yet, since a queue+unqueue operation is wasteful
  * if it will be picked. Instead, it waits in the 'ksSchedulerAction' site
@@ -17507,18 +17507,18 @@ void chargeBudget(ticks_t capacity, ticks_t consumed, bool_t canTimeoutFault, wo
 {
 
     if (isRoundRobin(ksCurSC)) {
-        if(!(refill_size(ksCurSC) == 2u)) _assert_fail("refill_size(NODE_STATE_ON_CORE(ksCurSC, core)) == MIN_REFILLS", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 586, __FUNCTION__);
+        if(!(refill_size(ksCurSC) == 2u)) _assert_fail("refill_size(NODE_STATE_ON_CORE(ksCurSC, core)) == MIN_REFILLS", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 586, __FUNCTION__);
         (((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillHead]).rAmount += (((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillTail]).rAmount;
         (((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillTail]).rAmount = 0;
     } else {
         refill_budget_check(consumed, capacity);
     }
 
-    if(!((((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillHead]).rAmount >= (2u * getKernelWcetTicks() * 1))) _assert_fail("REFILL_HEAD(NODE_STATE_ON_CORE(ksCurSC, core)).rAmount >= MIN_BUDGET", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 593, __FUNCTION__);
+    if(!((((refill_t *) (((word_t) ((ksCurSC))) + sizeof(sched_context_t)))[(ksCurSC)->scRefillHead]).rAmount >= (2u * getKernelWcetTicks() * 1))) _assert_fail("REFILL_HEAD(NODE_STATE_ON_CORE(ksCurSC, core)).rAmount >= MIN_BUDGET", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 593, __FUNCTION__);
     ksCurSC->scConsumed += consumed;
     ksConsumed = 0;
     if (isCurCPU && __builtin_expect(!!(isSchedulable(ksCurThread)), 1)) {
-        if(!(ksCurThread->tcbSchedContext == ksCurSC)) _assert_fail("NODE_STATE(ksCurThread)->tcbSchedContext == NODE_STATE(ksCurSC)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 597, __FUNCTION__);
+        if(!(ksCurThread->tcbSchedContext == ksCurSC)) _assert_fail("NODE_STATE(ksCurThread)->tcbSchedContext == NODE_STATE(ksCurSC)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 597, __FUNCTION__);
         endTimeslice(canTimeoutFault);
         rescheduleRequired();
         ksReprogram = true;
@@ -17532,15 +17532,15 @@ void endTimeslice(bool_t can_timeout_fault)
         handleTimeout(ksCurThread);
     } else if (refill_ready(ksCurSC) && refill_sufficient(ksCurSC, 0)) {
         /* apply round robin */
-        if(!(refill_sufficient(ksCurSC, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksCurSC), 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 611, __FUNCTION__);
-        if(!(!thread_state_get_tcbQueued(ksCurThread->tcbState))) _assert_fail("!thread_state_get_tcbQueued(NODE_STATE(ksCurThread)->tcbState)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 612, __FUNCTION__);
+        if(!(refill_sufficient(ksCurSC, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksCurSC), 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 611, __FUNCTION__);
+        if(!(!thread_state_get_tcbQueued(ksCurThread->tcbState))) _assert_fail("!thread_state_get_tcbQueued(NODE_STATE(ksCurThread)->tcbState)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 612, __FUNCTION__);
         tcbSchedAppend(ksCurThread);
     } else {
         /* postpone until ready */
         postpone(ksCurSC);
     }
 }
-# 648 "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c"
+# 648 "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c"
 void rescheduleRequired(void)
 {
     if (ksSchedulerAction != ((tcb_t*)0)
@@ -17550,8 +17550,8 @@ void rescheduleRequired(void)
 
        ) {
 
-        if(!(refill_sufficient(ksSchedulerAction->tcbSchedContext, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksSchedulerAction)->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 657, __FUNCTION__);
-        if(!(refill_ready(ksSchedulerAction->tcbSchedContext))) _assert_fail("refill_ready(NODE_STATE(ksSchedulerAction)->tcbSchedContext)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 658, __FUNCTION__);
+        if(!(refill_sufficient(ksSchedulerAction->tcbSchedContext, 0))) _assert_fail("refill_sufficient(NODE_STATE(ksSchedulerAction)->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 657, __FUNCTION__);
+        if(!(refill_ready(ksSchedulerAction->tcbSchedContext))) _assert_fail("refill_ready(NODE_STATE(ksSchedulerAction)->tcbSchedContext)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 658, __FUNCTION__);
 
         tcbSchedEnqueue(ksSchedulerAction);
     }
@@ -17564,25 +17564,25 @@ void awaken(void)
     while (__builtin_expect(!!(ksReleaseHead != ((void *)0) && refill_ready(ksReleaseHead->tcbSchedContext)), 0)) {
         tcb_t *awakened = tcbReleaseDequeue();
         /* the currently running thread cannot have just woken up */
-        if(!(awakened != ksCurThread)) _assert_fail("awakened != NODE_STATE(ksCurThread)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 671, __FUNCTION__);
+        if(!(awakened != ksCurThread)) _assert_fail("awakened != NODE_STATE(ksCurThread)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 671, __FUNCTION__);
         /* round robin threads should not be in the release queue */
-        if(!(!isRoundRobin(awakened->tcbSchedContext))) _assert_fail("!isRoundRobin(awakened->tcbSchedContext)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 673, __FUNCTION__);
+        if(!(!isRoundRobin(awakened->tcbSchedContext))) _assert_fail("!isRoundRobin(awakened->tcbSchedContext)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 673, __FUNCTION__);
         /* threads should wake up on the correct core */
         ;
         /* threads HEAD refill should always be > MIN_BUDGET */
-        if(!(refill_sufficient(awakened->tcbSchedContext, 0))) _assert_fail("refill_sufficient(awakened->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/kernel/thread.c", 677, __FUNCTION__);
+        if(!(refill_sufficient(awakened->tcbSchedContext, 0))) _assert_fail("refill_sufficient(awakened->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/kernel/thread.c", 677, __FUNCTION__);
         possibleSwitchTo(awakened);
         /* changed head of release queue -> need to reprogram */
         ksReprogram = true;
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/fpu.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/machine/fpu.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 14 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/fpu.c"
+# 14 "/home/dev/projects/SOS-V2020/kernel/src/machine/fpu.c"
 /* Switch the owner of the FPU to the given thread on local core. */
 void switchLocalFpuOwner(user_fpu_state_t *new_owner)
 {
@@ -17621,7 +17621,7 @@ exception_t handleFPUFault(void)
     /* If we have already given the FPU to the user, we should not reach here.
      * This should only be able to occur on CPUs without an FPU at all, which
      * we presumably are happy to assume will not be running seL4. */
-    if(!(!nativeThreadUsingFPU(ksCurThread))) _assert_fail("!nativeThreadUsingFPU(NODE_STATE(ksCurThread))", "/home/chris/Desktop/SOS-V2020/kernel/src/machine/fpu.c", 52, __FUNCTION__);
+    if(!(!nativeThreadUsingFPU(ksCurThread))) _assert_fail("!nativeThreadUsingFPU(NODE_STATE(ksCurThread))", "/home/dev/projects/SOS-V2020/kernel/src/machine/fpu.c", 52, __FUNCTION__);
 
     /* Otherwise, lazily switch over the FPU. */
     switchLocalFpuOwner(&ksCurThread->tcbArch.tcbContext.fpuState);
@@ -17638,7 +17638,7 @@ void fpuThreadDelete(tcb_t *thread)
         switchFpuOwner(((void *)0), 0);
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/io.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/machine/io.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -17656,7 +17656,7 @@ void fpuThreadDelete(tcb_t *thread)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/stdarg.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/stdarg.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -17670,7 +17670,7 @@ void fpuThreadDelete(tcb_t *thread)
 
 
 typedef __builtin_va_list va_list;
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/io.c" 2
+# 19 "/home/dev/projects/SOS-V2020/kernel/src/machine/io.c" 2
 
 
 /*
@@ -17718,7 +17718,7 @@ static inline bool_t isdigit(char c)
 
 /* Convenient bit representation for modifier flags, which all fall
  * within 31 codepoints of the space character. */
-# 83 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/io.c"
+# 83 "/home/dev/projects/SOS-V2020/kernel/src/machine/io.c"
 /* State machine to accept length modifiers + conversion specifiers.
  * Result is 0 on failure, or an argument type to pop on success. */
 
@@ -18255,7 +18255,7 @@ word_t ksnprintf(char *str, word_t size, const char *format, ...)
 
     return i;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/machine/registerset.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/machine/registerset.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -18271,7 +18271,7 @@ const register_t fault_messages[][(((n_syscallMessage)>((((n_timeoutMessage)>(n_
     [MessageID_TimeoutReply] = { [seL4_TimeoutReply_FaultIP] = FaultIP, [seL4_TimeoutReply_SP] = SP_EL0, [seL4_TimeoutReply_SPSR_EL1] = SPSR_EL1, [seL4_TimeoutReply_X0] = X0, [seL4_TimeoutReply_X1] = X1, [seL4_TimeoutReply_X2] = X2, [seL4_TimeoutReply_X3] = X3, [seL4_TimeoutReply_X4] = X4, [seL4_TimeoutReply_X5] = X5, [seL4_TimeoutReply_X6] = X6, [seL4_TimeoutReply_X7] = X7, [seL4_TimeoutReply_X8] = X8, [seL4_TimeoutReply_X16] = X16, [seL4_TimeoutReply_X17] = X17, [seL4_TimeoutReply_X18] = X18, [seL4_TimeoutReply_X29] = X29, [seL4_TimeoutReply_X30] = X30, [seL4_TimeoutReply_X9] = X9, [seL4_TimeoutReply_X10] = X10, [seL4_TimeoutReply_X11] = X11, [seL4_TimeoutReply_X12] = X12, [seL4_TimeoutReply_X13] = X13, [seL4_TimeoutReply_X14] = X14, [seL4_TimeoutReply_X15] = X15, [seL4_TimeoutReply_X19] = X19, [seL4_TimeoutReply_X20] = X20, [seL4_TimeoutReply_X21] = X21, [seL4_TimeoutReply_X22] = X22, [seL4_TimeoutReply_X23] = X23, [seL4_TimeoutReply_X24] = X24, [seL4_TimeoutReply_X25] = X25, [seL4_TimeoutReply_X26] = X26, [seL4_TimeoutReply_X27] = X27, [seL4_TimeoutReply_X28] = X28,},
 
 };
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/model/preemption.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/model/preemption.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18279,7 +18279,7 @@ const register_t fault_messages[][(((n_syscallMessage)>((((n_timeoutMessage)>(n_
  */
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/model/preemption.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/model/preemption.h" 1
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18291,7 +18291,7 @@ const register_t fault_messages[][(((n_syscallMessage)>((((n_timeoutMessage)>(n_
 
 
 exception_t preemptionPoint(void);
-# 9 "/home/chris/Desktop/SOS-V2020/kernel/src/model/preemption.c" 2
+# 9 "/home/dev/projects/SOS-V2020/kernel/src/model/preemption.c" 2
 
 
 
@@ -18328,13 +18328,13 @@ exception_t preemptionPoint(void)
 
     return EXCEPTION_NONE;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/model/smp.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/model/smp.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/model/statedata.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/model/statedata.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18344,14 +18344,14 @@ exception_t preemptionPoint(void)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/machine/devices_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -18361,15 +18361,15 @@ exception_t preemptionPoint(void)
 /*
  * This file is autogenerated by kernel/tools/hardware_gen.py.
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/plat/platform_gen.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 8 "/home/chris/Desktop/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/model/statedata.c" 2
+# 8 "/home/dev/projects/SOS-V2020/kernel/include/plat/default/plat/machine.h" 2
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/model/statedata.c" 2
 
 
 
@@ -18460,7 +18460,7 @@ char ksIdleThreadSC[1][(1ul << (8))] __attribute__((__aligned__((1ul << (8)))));
 
 
 kernel_entry_t ksKernelEntry;
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -18470,7 +18470,7 @@ kernel_entry_t ksKernelEntry;
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -18482,8 +18482,8 @@ kernel_entry_t ksKernelEntry;
  * To add an invocation call number, edit libsel4/include/interfaces/sel4.xml.
  *
  */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c" 2
-# 25 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c"
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c" 2
+# 25 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c"
 struct finaliseSlot_ret {
     exception_t status;
     bool_t success;
@@ -18510,7 +18510,7 @@ exception_t decodeCNodeInvocation(word_t invLabel, word_t length, cap_t cap,
     exception_t status;
 
     /* Haskell error: "decodeCNodeInvocation: invalid cap" */
-    if(!(cap_get_capType(cap) == cap_cnode_cap)) _assert_fail("cap_get_capType(cap) == cap_cnode_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 51, __FUNCTION__);
+    if(!(cap_get_capType(cap) == cap_cnode_cap)) _assert_fail("cap_get_capType(cap) == cap_cnode_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 51, __FUNCTION__);
 
     if (invLabel < CNodeRevoke || invLabel > CNodeRotate) {
         do { kprintf("\033[0m" "\033[30;1m" "<<" "\033[0m" "\033[32m" "seL4(CPU %lu)" "\033[0m" "\033[30;1m" " [%s/%d T%p \"%s\" @%lx]: " "CNodeCap: Illegal Operation attempted." ">>" "\033[0m" "\n", 0lu, __func__, 54, ksCurThread, ksCurThread->tcbName, (word_t)getRestartPC(ksCurThread)); } while (0);
@@ -18636,7 +18636,7 @@ exception_t decodeCNodeInvocation(word_t invLabel, word_t length, cap_t cap,
             break;
 
         default:
-            if(!(0)) _assert_fail("0", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 177, __FUNCTION__);
+            if(!(0)) _assert_fail("0", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 177, __FUNCTION__);
             return EXCEPTION_NONE;
         }
 
@@ -18663,7 +18663,7 @@ exception_t decodeCNodeInvocation(word_t invLabel, word_t length, cap_t cap,
         setThreadState(ksCurThread, ThreadState_Restart);
         return invokeCNodeDelete(destSlot);
     }
-# 218 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c"
+# 218 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c"
     if (invLabel == CNodeCancelBadgedSends) {
         cap_t destCap;
 
@@ -18808,7 +18808,7 @@ exception_t invokeCNodeRotate(cap_t cap1, cap_t cap2, cte_t *slot1,
 
     return EXCEPTION_NONE;
 }
-# 392 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c"
+# 392 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c"
 /*
  * If creating a child UntypedCap, don't allow new objects to be created in the
  * parent.
@@ -18843,9 +18843,9 @@ void cteInsert(cap_t newCap, cte_t *srcSlot, cte_t *destSlot)
     newMDB = mdb_node_set_mdbFirstBadged(newMDB, newCapIsRevocable);
 
     /* Haskell error: "cteInsert to non-empty destination" */
-    if(!(cap_get_capType(destSlot->cap) == cap_null_cap)) _assert_fail("cap_get_capType(destSlot->cap) == cap_null_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 426, __FUNCTION__);
+    if(!(cap_get_capType(destSlot->cap) == cap_null_cap)) _assert_fail("cap_get_capType(destSlot->cap) == cap_null_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 426, __FUNCTION__);
     /* Haskell error: "cteInsert: mdb entry must be empty" */
-    if(!((cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == ((void *)0) && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == ((void *)0))) _assert_fail("(cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == NULL && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 428, __FUNCTION__)
+    if(!((cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == ((void *)0) && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == ((void *)0))) _assert_fail("(cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == NULL && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 428, __FUNCTION__)
                                                                        ;
 
     /* Prevent parent untyped cap from being used again if creating a child
@@ -18868,9 +18868,9 @@ void cteMove(cap_t newCap, cte_t *srcSlot, cte_t *destSlot)
     word_t prev_ptr, next_ptr;
 
     /* Haskell error: "cteMove to non-empty destination" */
-    if(!(cap_get_capType(destSlot->cap) == cap_null_cap)) _assert_fail("cap_get_capType(destSlot->cap) == cap_null_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 451, __FUNCTION__);
+    if(!(cap_get_capType(destSlot->cap) == cap_null_cap)) _assert_fail("cap_get_capType(destSlot->cap) == cap_null_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 451, __FUNCTION__);
     /* Haskell error: "cteMove: mdb entry must be empty" */
-    if(!((cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == ((void *)0) && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == ((void *)0))) _assert_fail("(cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == NULL && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 453, __FUNCTION__)
+    if(!((cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == ((void *)0) && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == ((void *)0))) _assert_fail("(cte_t *)mdb_node_get_mdbNext(destSlot->cteMDBNode) == NULL && (cte_t *)mdb_node_get_mdbPrev(destSlot->cteMDBNode) == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 453, __FUNCTION__)
                                                                        ;
 
     mdb = srcSlot->cteMDBNode;
@@ -19022,7 +19022,7 @@ static inline bool_t __attribute__((__const__)) capRemovable(cap_t cap, cte_t *s
         return (n == 0 || (n == 1 && slot == z_slot));
     }
     default:
-        _fail("finaliseCap should only return Zombie or NullCap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 605, __func__);
+        _fail("finaliseCap should only return Zombie or NullCap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 605, __func__);
     }
 }
 
@@ -19087,13 +19087,13 @@ static exception_t reduceZombie(cte_t *slot, bool_t immediate)
     word_t n, type;
     exception_t status;
 
-    if(!(cap_get_capType(slot->cap) == cap_zombie_cap)) _assert_fail("cap_get_capType(slot->cap) == cap_zombie_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 670, __FUNCTION__);
+    if(!(cap_get_capType(slot->cap) == cap_zombie_cap)) _assert_fail("cap_get_capType(slot->cap) == cap_zombie_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 670, __FUNCTION__);
     ptr = (cte_t *)cap_zombie_cap_get_capZombiePtr(slot->cap);
     n = cap_zombie_cap_get_capZombieNumber(slot->cap);
     type = cap_zombie_cap_get_capZombieType(slot->cap);
 
     /* Haskell error: "reduceZombie: expected unremovable zombie" */
-    if(!(n > 0)) _assert_fail("n > 0", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 676, __FUNCTION__);
+    if(!(n > 0)) _assert_fail("n > 0", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 676, __FUNCTION__);
 
     if (immediate) {
         cte_t *endSlot = &ptr[n - 1];
@@ -19114,28 +19114,28 @@ static exception_t reduceZombie(cte_t *slot, bool_t immediate)
             if (ptr == ptr2 &&
                 cap_zombie_cap_get_capZombieNumber(slot->cap) == n &&
                 cap_zombie_cap_get_capZombieType(slot->cap) == type) {
-                if(!(cap_get_capType(endSlot->cap) == cap_null_cap)) _assert_fail("cap_get_capType(endSlot->cap) == cap_null_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 697, __FUNCTION__);
+                if(!(cap_get_capType(endSlot->cap) == cap_null_cap)) _assert_fail("cap_get_capType(endSlot->cap) == cap_null_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 697, __FUNCTION__);
                 slot->cap =
                     cap_zombie_cap_set_capZombieNumber(slot->cap, n - 1);
             } else {
                 /* Haskell error:
                  * "Expected new Zombie to be self-referential."
                  */
-                if(!(ptr2 == slot && ptr != slot)) _assert_fail("ptr2 == slot && ptr != slot", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 704, __FUNCTION__);
+                if(!(ptr2 == slot && ptr != slot)) _assert_fail("ptr2 == slot && ptr != slot", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 704, __FUNCTION__);
             }
             break;
         }
 
         default:
-            _fail("Expected recursion to result in Zombie.", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 710, __func__);
+            _fail("Expected recursion to result in Zombie.", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 710, __func__);
         }
     } else {
         /* Haskell error: "Cyclic zombie passed to unexposed reduceZombie" */
-        if(!(ptr != slot)) _assert_fail("ptr != slot", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 714, __FUNCTION__);
+        if(!(ptr != slot)) _assert_fail("ptr != slot", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 714, __FUNCTION__);
 
         if (cap_get_capType(ptr->cap) == cap_zombie_cap) {
             /* Haskell error: "Moving self-referential Zombie aside." */
-            if(!(ptr != ((cte_t *)(cap_zombie_cap_get_capZombiePtr(ptr->cap))))) _assert_fail("ptr != CTE_PTR(cap_zombie_cap_get_capZombiePtr(ptr->cap))", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 718, __FUNCTION__);
+            if(!(ptr != ((cte_t *)(cap_zombie_cap_get_capZombiePtr(ptr->cap))))) _assert_fail("ptr != CTE_PTR(cap_zombie_cap_get_capZombiePtr(ptr->cap))", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 718, __FUNCTION__);
         }
 
         capSwapForDelete(ptr, slot);
@@ -19156,7 +19156,7 @@ void cteDeleteOne(cte_t *slot)
         final = isFinalCapability(slot);
         fc_ret = finaliseCap(slot->cap, final, true);
         /* Haskell error: "cteDeleteOne: cap should be removable" */
-        if(!(capRemovable(fc_ret.remainder, slot) && cap_get_capType(fc_ret.cleanupInfo) == cap_null_cap)) _assert_fail("capRemovable(fc_ret.remainder, slot) && cap_get_capType(fc_ret.cleanupInfo) == cap_null_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c", 739, __FUNCTION__)
+        if(!(capRemovable(fc_ret.remainder, slot) && cap_get_capType(fc_ret.cleanupInfo) == cap_null_cap)) _assert_fail("capRemovable(fc_ret.remainder, slot) && cap_get_capType(fc_ret.cleanupInfo) == cap_null_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c", 739, __FUNCTION__)
                                                                    ;
         emptySlot(slot, cap_null_cap_new());
     }
@@ -19174,7 +19174,7 @@ void insertNewCap(cte_t *parent, cte_t *slot, cap_t cap)
     }
     mdb_node_ptr_set_mdbNext(&parent->cteMDBNode, ((word_t)(slot)));
 }
-# 775 "/home/chris/Desktop/SOS-V2020/kernel/src/object/cnode.c"
+# 775 "/home/dev/projects/SOS-V2020/kernel/src/object/cnode.c"
 bool_t __attribute__((__pure__)) isMDBParentOf(cte_t *cte_a, cte_t *cte_b)
 {
     if (!mdb_node_get_mdbRevocable(cte_a->cteMDBNode)) {
@@ -19329,13 +19329,13 @@ cap_transfer_t __attribute__((__pure__)) loadCapTransfer(word_t *buffer)
     const int offset = seL4_MsgMaxLength + ((1ul<<(seL4_MsgExtraCapBits))-1) + 2;
     return capTransferFromWords(buffer + offset);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+# 19 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
 static inline void ep_ptr_set_queue(endpoint_t *epptr, tcb_queue_t queue)
 {
     endpoint_ptr_set_epQueue_head(epptr, (word_t)queue.head);
@@ -19389,7 +19389,7 @@ void sendIPC(bool_t blocking, bool_t do_call, word_t badge,
         dest = queue.head;
 
         /* Haskell error "Receive endpoint queue must not be empty" */
-        if(!(dest)) _assert_fail("dest", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 72, __FUNCTION__);
+        if(!(dest)) _assert_fail("dest", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 72, __FUNCTION__);
 
         /* Dequeue the first TCB */
         queue = tcbEPDequeue(dest, queue);
@@ -19420,11 +19420,11 @@ void sendIPC(bool_t blocking, bool_t do_call, word_t badge,
         }
 
         /* blocked threads should have enough budget to get out of the kernel */
-        if(!(dest->tcbSchedContext == ((void *)0) || refill_sufficient(dest->tcbSchedContext, 0))) _assert_fail("dest->tcbSchedContext == NULL || refill_sufficient(dest->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 103, __FUNCTION__);
-        if(!(dest->tcbSchedContext == ((void *)0) || refill_ready(dest->tcbSchedContext))) _assert_fail("dest->tcbSchedContext == NULL || refill_ready(dest->tcbSchedContext)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 104, __FUNCTION__);
+        if(!(dest->tcbSchedContext == ((void *)0) || refill_sufficient(dest->tcbSchedContext, 0))) _assert_fail("dest->tcbSchedContext == NULL || refill_sufficient(dest->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 103, __FUNCTION__);
+        if(!(dest->tcbSchedContext == ((void *)0) || refill_ready(dest->tcbSchedContext))) _assert_fail("dest->tcbSchedContext == NULL || refill_ready(dest->tcbSchedContext)", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 104, __FUNCTION__);
         setThreadState(dest, ThreadState_Running);
         possibleSwitchTo(dest);
-# 121 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+# 121 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
         break;
     }
     }
@@ -19440,7 +19440,7 @@ void receiveIPC(tcb_t *thread, cap_t cap, bool_t isBlocking, cap_t replyCap)
     notification_t *ntfnPtr;
 
     /* Haskell error "receiveIPC: invalid cap" */
-    if(!(cap_get_capType(cap) == cap_endpoint_cap)) _assert_fail("cap_get_capType(cap) == cap_endpoint_cap", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 136, __FUNCTION__);
+    if(!(cap_get_capType(cap) == cap_endpoint_cap)) _assert_fail("cap_get_capType(cap) == cap_endpoint_cap", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 136, __FUNCTION__);
 
     epptr = ((endpoint_t *)(cap_endpoint_cap_get_capEPPtr(cap)));
 
@@ -19506,7 +19506,7 @@ void receiveIPC(tcb_t *thread, cap_t cap, bool_t isBlocking, cap_t replyCap)
             sender = queue.head;
 
             /* Haskell error "Send endpoint queue must not be empty" */
-            if(!(sender)) _assert_fail("sender", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 202, __FUNCTION__);
+            if(!(sender)) _assert_fail("sender", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 202, __FUNCTION__);
 
             /* Dequeue the first TCB */
             queue = tcbEPDequeue(sender, queue);
@@ -19540,9 +19540,9 @@ void receiveIPC(tcb_t *thread, cap_t cap, bool_t isBlocking, cap_t replyCap)
             } else {
                 setThreadState(sender, ThreadState_Running);
                 possibleSwitchTo(sender);
-                if(!(sender->tcbSchedContext == ((void *)0) || refill_sufficient(sender->tcbSchedContext, 0))) _assert_fail("sender->tcbSchedContext == NULL || refill_sufficient(sender->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 236, __FUNCTION__);
+                if(!(sender->tcbSchedContext == ((void *)0) || refill_sufficient(sender->tcbSchedContext, 0))) _assert_fail("sender->tcbSchedContext == NULL || refill_sufficient(sender->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 236, __FUNCTION__);
             }
-# 250 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+# 250 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
             break;
         }
         }
@@ -19557,7 +19557,7 @@ void replyFromKernel_error(tcb_t *thread)
     ipcBuffer = lookupIPCBuffer(true, thread);
     setRegister(thread, badgeRegister, 0);
     len = setMRs_syscall_error(thread, ipcBuffer);
-# 273 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+# 273 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
     setRegister(thread, msgInfoRegister, wordFromMessageInfo(
                     seL4_MessageInfo_new(current_syscall_error.type, 0, 0, len)));
 }
@@ -19588,7 +19588,7 @@ void cancelIPC(tcb_t *tptr)
         epptr = ((endpoint_t *)(thread_state_ptr_get_blockingObject(state)));
 
         /* Haskell error "blockedIPCCancel: endpoint must not be idle" */
-        if(!(endpoint_ptr_get_state(epptr) != EPState_Idle)) _assert_fail("endpoint_ptr_get_state(epptr) != EPState_Idle", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 303, __FUNCTION__);
+        if(!(endpoint_ptr_get_state(epptr) != EPState_Idle)) _assert_fail("endpoint_ptr_get_state(epptr) != EPState_Idle", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 303, __FUNCTION__);
 
         /* Dequeue TCB */
         queue = ep_ptr_get_queue(epptr);
@@ -19617,7 +19617,7 @@ void cancelIPC(tcb_t *tptr)
     case ThreadState_BlockedOnReply: {
 
         reply_remove_tcb(tptr);
-# 348 "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c"
+# 348 "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c"
         break;
     }
     }
@@ -19686,7 +19686,7 @@ void cancelBadgedSends(endpoint_t *epptr, word_t badge)
             next = thread->tcbEPNext;
 
             /* senders do not have reply objects in their state, and we are only cancelling sends */
-            if(!(((reply_t *) (thread_state_get_replyObject(thread->tcbState))) == ((void *)0))) _assert_fail("REPLY_PTR(thread_state_get_replyObject(thread->tcbState)) == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 416, __FUNCTION__);
+            if(!(((reply_t *) (thread_state_get_replyObject(thread->tcbState))) == ((void *)0))) _assert_fail("REPLY_PTR(thread_state_get_replyObject(thread->tcbState)) == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 416, __FUNCTION__);
             if (b == badge) {
                 if (seL4_Fault_get_seL4_FaultType(thread->tcbFault) ==
                     seL4_Fault_NullFault) {
@@ -19717,7 +19717,7 @@ void cancelBadgedSends(endpoint_t *epptr, word_t badge)
     }
 
     default:
-        _fail("invalid EP state", "/home/chris/Desktop/SOS-V2020/kernel/src/object/endpoint.c", 447, __func__);
+        _fail("invalid EP state", "/home/dev/projects/SOS-V2020/kernel/src/object/endpoint.c", 447, __func__);
     }
 }
 
@@ -19729,7 +19729,7 @@ void reorderEP(endpoint_t *epptr, tcb_t *thread)
     queue = tcbEPAppend(thread, queue);
     ep_ptr_set_queue(epptr, queue);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/interrupt.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/interrupt.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -19739,7 +19739,7 @@ void reorderEP(endpoint_t *epptr, tcb_t *thread)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -19751,8 +19751,8 @@ void reorderEP(endpoint_t *epptr, tcb_t *thread)
  * To add an invocation call number, edit libsel4/include/interfaces/sel4.xml.
  *
  */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/object/interrupt.c" 2
-# 23 "/home/chris/Desktop/SOS-V2020/kernel/src/object/interrupt.c"
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/object/interrupt.c" 2
+# 23 "/home/dev/projects/SOS-V2020/kernel/src/object/interrupt.c"
 exception_t decodeIRQControlInvocation(word_t invLabel, word_t length,
                                        cte_t *srcSlot, extra_caps_t excaps,
                                        word_t *buffer)
@@ -19868,7 +19868,7 @@ exception_t decodeIRQHandlerInvocation(word_t invLabel, irq_t irq,
 
 void invokeIRQHandler_AckIRQ(irq_t irq)
 {
-# 147 "/home/chris/Desktop/SOS-V2020/kernel/src/object/interrupt.c"
+# 147 "/home/dev/projects/SOS-V2020/kernel/src/object/interrupt.c"
     maskInterrupt(false, irq);
 
 }
@@ -19973,7 +19973,7 @@ void handleInterrupt(irq_t irq)
 
     default:
         /* No corresponding haskell error */
-        _fail("Invalid IRQ state", "/home/chris/Desktop/SOS-V2020/kernel/src/object/interrupt.c", 251, __func__);
+        _fail("Invalid IRQ state", "/home/dev/projects/SOS-V2020/kernel/src/object/interrupt.c", 251, __func__);
     }
 
     ackInterrupt(irq);
@@ -19995,13 +19995,13 @@ void setIRQState(irq_state_t irqState, irq_t irq)
 
     maskInterrupt(irqState == IRQInactive, irq);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 19 "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c"
+# 19 "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c"
 static inline tcb_queue_t __attribute__((__pure__)) ntfn_ptr_get_queue(notification_t *ntfnPtr)
 {
     tcb_queue_t ntfn_queue;
@@ -20046,7 +20046,7 @@ static inline void maybeReturnSchedContext(notification_t *ntfnPtr, tcb_t *tcb)
         sc->scTcb = ((void *)0);
     }
 }
-# 78 "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c"
+# 78 "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c"
 void sendSignal(notification_t *ntfnPtr, word_t badge)
 {
     switch (notification_ptr_get_state(ntfnPtr)) {
@@ -20060,7 +20060,7 @@ void sendSignal(notification_t *ntfnPtr, word_t badge)
                 setThreadState(tcb, ThreadState_Running);
                 setRegister(tcb, badgeRegister, badge);
                 maybeDonateSchedContext(tcb, ntfnPtr); if (isSchedulable(tcb)) { { possibleSwitchTo(tcb); } }
-# 110 "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c"
+# 110 "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c"
             } else {
                 /* In particular, this path is taken when a thread
                  * is waiting on a reply cap since BlockedOnReply
@@ -20084,7 +20084,7 @@ void sendSignal(notification_t *ntfnPtr, word_t badge)
         dest = ntfn_queue.head;
 
         /* Haskell error "WaitingNtfn Notification must have non-empty queue" */
-        if(!(dest)) _assert_fail("dest", "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c", 133, __FUNCTION__);
+        if(!(dest)) _assert_fail("dest", "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c", 133, __FUNCTION__);
 
         /* Dequeue TCB */
         ntfn_queue = tcbEPDequeue(dest, ntfn_queue);
@@ -20189,7 +20189,7 @@ void cancelSignal(tcb_t *threadPtr, notification_t *ntfnPtr)
     tcb_queue_t ntfn_queue;
 
     /* Haskell error "cancelSignal: notification object must be in a waiting" state */
-    if(!(notification_ptr_get_state(ntfnPtr) == NtfnState_Waiting)) _assert_fail("notification_ptr_get_state(ntfnPtr) == NtfnState_Waiting", "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c", 238, __FUNCTION__);
+    if(!(notification_ptr_get_state(ntfnPtr) == NtfnState_Waiting)) _assert_fail("notification_ptr_get_state(ntfnPtr) == NtfnState_Waiting", "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c", 238, __FUNCTION__);
 
     /* Dequeue TCB */
     ntfn_queue = ntfn_ptr_get_queue(ntfnPtr);
@@ -20214,7 +20214,7 @@ void completeSignal(notification_t *ntfnPtr, tcb_t *tcb)
         setRegister(tcb, badgeRegister, badge);
         notification_ptr_set_state(ntfnPtr, NtfnState_Idle);
     } else {
-        _fail("tried to complete signal with inactive notification object", "/home/chris/Desktop/SOS-V2020/kernel/src/object/notification.c", 263, __func__);
+        _fail("tried to complete signal with inactive notification object", "/home/dev/projects/SOS-V2020/kernel/src/object/notification.c", 263, __func__);
     }
 }
 
@@ -20258,14 +20258,14 @@ void reorderNTFN(notification_t *ntfnPtr, tcb_t *thread)
     queue = tcbEPAppend(thread, queue);
     ntfn_ptr_set_queue(ntfnPtr, queue);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 22 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/include/object/schedcontrol.h" 1
+# 22 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/include/object/schedcontrol.h" 1
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -20280,8 +20280,8 @@ void reorderNTFN(notification_t *ntfnPtr, tcb_t *thread)
 
 exception_t decodeSchedControlInvocation(word_t label, cap_t cap, word_t length, extra_caps_t extra_caps,
                                          word_t *buffer);
-# 23 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c" 2
-# 33 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
+# 23 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c" 2
+# 33 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
 word_t getObjectSize(word_t t, word_t userObjSize)
 {
     if (t >= seL4_NonArchObjectTypeCount) {
@@ -20305,7 +20305,7 @@ word_t getObjectSize(word_t t, word_t userObjSize)
             return 5;
 
         default:
-            _fail("Invalid object type", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 56, __func__);
+            _fail("Invalid object type", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 56, __func__);
             return 0;
         }
     }
@@ -20397,7 +20397,7 @@ finaliseCap_ret_t finaliseCap(cap_t cap, bool_t final, bool_t exposed)
                     reply_unlink(reply);
                     break;
                 default:
-                    _fail("Invalid tcb state", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 148, __func__);
+                    _fail("Invalid tcb state", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 148, __func__);
                 }
             }
         }
@@ -20413,7 +20413,7 @@ finaliseCap_ret_t finaliseCap(cap_t cap, bool_t final, bool_t exposed)
     }
 
     if (exposed) {
-        _fail("finaliseCap: failed to finalise immediately.", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 164, __func__);
+        _fail("finaliseCap: failed to finalise immediately.", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 164, __func__);
     }
 
     switch (cap_get_capType(cap)) {
@@ -20470,7 +20470,7 @@ finaliseCap_ret_t finaliseCap(cap_t cap, bool_t final, bool_t exposed)
             schedContext_unbindAllTCBs(sc);
             schedContext_unbindNtfn(sc);
             if (sc->scReply) {
-                if(!(call_stack_get_isHead(sc->scReply->replyNext))) _assert_fail("call_stack_get_isHead(sc->scReply->replyNext)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 221, __FUNCTION__);
+                if(!(call_stack_get_isHead(sc->scReply->replyNext))) _assert_fail("call_stack_get_isHead(sc->scReply->replyNext)", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 221, __FUNCTION__);
                 sc->scReply->replyNext = call_stack_new(0, false);
                 sc->scReply = ((void *)0);
             }
@@ -20750,7 +20750,7 @@ cap_t __attribute__((__const__)) maskCapRights(seL4_CapRights_t cap_rights, cap_
 
 
     default:
-        _fail("Invalid cap type", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 501, __func__); /* Sentinel for invalid enums */
+        _fail("Invalid cap type", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 501, __func__); /* Sentinel for invalid enums */
     }
 }
 
@@ -20829,7 +20829,7 @@ cap_t createObject(object_t t, void *regionBase, word_t userSize, bool_t deviceM
 
 
     default:
-        _fail("Invalid object type", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 580, __func__);
+        _fail("Invalid object type", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 580, __func__);
     }
 }
 
@@ -20907,7 +20907,7 @@ exception_t decodeInvocation(word_t invLabel, word_t length,
                    cap_endpoint_cap_get_capEPBadge(cap),
                    cap_endpoint_cap_get_capCanGrant(cap),
                    cap_endpoint_cap_get_capCanGrantReply(cap), block, call, canDonate);
-# 666 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
+# 666 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
     case cap_notification_cap: {
         if (__builtin_expect(!!(!cap_notification_cap_get_capNtfnCanSend(cap)), 0)) {
             do { kprintf("\033[0m" "\033[30;1m" "<<" "\033[0m" "\033[32m" "seL4(CPU %lu)" "\033[0m" "\033[30;1m" " [%s/%d T%p \"%s\" @%lx]: " "Attempted to invoke a read-only notification cap #%lu." ">>" "\033[0m" "\n", 0lu, __func__, 668, ksCurThread, ksCurThread->tcbName, (word_t)getRestartPC(ksCurThread), capIndex); } while (0)
@@ -20930,7 +20930,7 @@ exception_t decodeInvocation(word_t invLabel, word_t length,
                    ksCurThread,
                    ((reply_t *) (cap_reply_cap_get_capReplyPtr(cap))),
                    cap_reply_cap_get_capReplyCanGrant(cap));
-# 705 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
+# 705 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
     case cap_thread_cap:
 
         if (__builtin_expect(!!(firstPhase), 0)) {
@@ -20983,7 +20983,7 @@ exception_t decodeInvocation(word_t invLabel, word_t length,
         return decodeSchedContextInvocation(invLabel, cap, excaps, buffer);
 
     default:
-        _fail("Invalid cap type", "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c", 757, __func__);
+        _fail("Invalid cap type", "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c", 757, __func__);
     }
 }
 
@@ -20996,7 +20996,7 @@ exception_t performInvocation_Endpoint(endpoint_t *ep, word_t badge,
 
     return EXCEPTION_NONE;
 }
-# 781 "/home/chris/Desktop/SOS-V2020/kernel/src/object/objecttype.c"
+# 781 "/home/dev/projects/SOS-V2020/kernel/src/object/objecttype.c"
 exception_t performInvocation_Notification(notification_t *ntfn, word_t badge)
 {
     sendSignal(ntfn, badge);
@@ -21010,7 +21010,7 @@ exception_t performInvocation_Reply(tcb_t *thread, reply_t *reply, bool_t canGra
     doReplyTransfer(thread, reply, canGrant);
     return EXCEPTION_NONE;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -21023,15 +21023,15 @@ void reply_push(tcb_t *tcb_caller, tcb_t *tcb_callee, reply_t *reply, bool_t can
 {
     sched_context_t *sc_donated = tcb_caller->tcbSchedContext;
 
-    if(!(tcb_caller != ((void *)0))) _assert_fail("tcb_caller != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 13, __FUNCTION__);
-    if(!(reply != ((void *)0))) _assert_fail("reply != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 14, __FUNCTION__);
-    if(!(reply->replyTCB == ((void *)0))) _assert_fail("reply->replyTCB == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 15, __FUNCTION__);
+    if(!(tcb_caller != ((void *)0))) _assert_fail("tcb_caller != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 13, __FUNCTION__);
+    if(!(reply != ((void *)0))) _assert_fail("reply != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 14, __FUNCTION__);
+    if(!(reply->replyTCB == ((void *)0))) _assert_fail("reply->replyTCB == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 15, __FUNCTION__);
 
-    if(!(call_stack_get_callStackPtr(reply->replyPrev) == 0)) _assert_fail("call_stack_get_callStackPtr(reply->replyPrev) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 17, __FUNCTION__);
-    if(!(call_stack_get_callStackPtr(reply->replyNext) == 0)) _assert_fail("call_stack_get_callStackPtr(reply->replyNext) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 18, __FUNCTION__);
+    if(!(call_stack_get_callStackPtr(reply->replyPrev) == 0)) _assert_fail("call_stack_get_callStackPtr(reply->replyPrev) == 0", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 17, __FUNCTION__);
+    if(!(call_stack_get_callStackPtr(reply->replyNext) == 0)) _assert_fail("call_stack_get_callStackPtr(reply->replyNext) == 0", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 18, __FUNCTION__);
 
     /* tcb caller should not be in a existing call stack */
-    if(!(thread_state_get_replyObject(tcb_caller->tcbState) == 0)) _assert_fail("thread_state_get_replyObject(tcb_caller->tcbState) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 21, __FUNCTION__);
+    if(!(thread_state_get_replyObject(tcb_caller->tcbState) == 0)) _assert_fail("thread_state_get_replyObject(tcb_caller->tcbState) == 0", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 21, __FUNCTION__);
 
     /* unlink callee and reply - they may not have been linked already,
      * if this rendesvous is occuring when seL4_Recv is called,
@@ -21047,7 +21047,7 @@ void reply_push(tcb_t *tcb_caller, tcb_t *tcb_callee, reply_t *reply, bool_t can
         reply_t *old_caller = sc_donated->scReply;
 
         /* check stack integrity */
-        if(!(old_caller == ((void *)0) || ((sched_context_t *) (call_stack_get_callStackPtr(old_caller->replyNext))) == sc_donated)) _assert_fail("old_caller == NULL || SC_PTR(call_stack_get_callStackPtr(old_caller->replyNext)) == sc_donated", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 37, __FUNCTION__)
+        if(!(old_caller == ((void *)0) || ((sched_context_t *) (call_stack_get_callStackPtr(old_caller->replyNext))) == sc_donated)) _assert_fail("old_caller == NULL || SC_PTR(call_stack_get_callStackPtr(old_caller->replyNext)) == sc_donated", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 37, __FUNCTION__)
                                                                                         ;
 
         /* push on to stack */
@@ -21066,9 +21066,9 @@ void reply_push(tcb_t *tcb_caller, tcb_t *tcb_callee, reply_t *reply, bool_t can
 /* Pop the head reply from the call stack */
 void reply_pop(reply_t *reply)
 {
-    if(!(reply != ((void *)0))) _assert_fail("reply != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 56, __FUNCTION__);
-    if(!(reply->replyTCB != ((void *)0))) _assert_fail("reply->replyTCB != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 57, __FUNCTION__);
-    if(!(thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply)) _assert_fail("thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 58, __FUNCTION__);
+    if(!(reply != ((void *)0))) _assert_fail("reply != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 56, __FUNCTION__);
+    if(!(reply->replyTCB != ((void *)0))) _assert_fail("reply->replyTCB != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 57, __FUNCTION__);
+    if(!(thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply)) _assert_fail("thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 58, __FUNCTION__);
     /* unlink tcb and reply */
     tcb_t *tcb = reply->replyTCB;
     reply_unlink(reply);
@@ -21077,7 +21077,7 @@ void reply_pop(reply_t *reply)
     word_t prev_ptr = call_stack_get_callStackPtr(reply->replyPrev);
 
     if (__builtin_expect(!!(next_ptr != 0), 1)) {
-        if(!(call_stack_get_isHead(reply->replyNext))) _assert_fail("call_stack_get_isHead(reply->replyNext)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 67, __FUNCTION__);
+        if(!(call_stack_get_isHead(reply->replyNext))) _assert_fail("call_stack_get_isHead(reply->replyNext)", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 67, __FUNCTION__);
 
         /* give it back */
         if (tcb->tcbSchedContext == ((void *)0)) {
@@ -21091,7 +21091,7 @@ void reply_pop(reply_t *reply)
         ((sched_context_t *) (next_ptr))->scReply = ((reply_t *) (prev_ptr));
         if (prev_ptr != 0) {
             ((reply_t *) (prev_ptr))->replyNext = reply->replyNext;
-            if(!(call_stack_get_isHead(((reply_t *) (prev_ptr))->replyNext))) _assert_fail("call_stack_get_isHead(REPLY_PTR(prev_ptr)->replyNext)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 81, __FUNCTION__);
+            if(!(call_stack_get_isHead(((reply_t *) (prev_ptr))->replyNext))) _assert_fail("call_stack_get_isHead(REPLY_PTR(prev_ptr)->replyNext)", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 81, __FUNCTION__);
         }
 
         reply->replyPrev = call_stack_new(0, false);
@@ -21102,7 +21102,7 @@ void reply_pop(reply_t *reply)
 /* Remove a reply from the middle of the call stack */
 void reply_remove(reply_t *reply)
 {
-    if(!(thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply)) _assert_fail("thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 92, __FUNCTION__);
+    if(!(thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply)) _assert_fail("thread_state_get_tsType(reply->replyTCB->tcbState) == ThreadState_BlockedOnReply", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 92, __FUNCTION__);
 
     word_t next_ptr = call_stack_get_callStackPtr(reply->replyNext);
     word_t prev_ptr = call_stack_get_callStackPtr(reply->replyPrev);
@@ -21131,7 +21131,7 @@ void reply_remove(reply_t *reply)
 
 void reply_remove_tcb(tcb_t *tcb)
 {
-    if(!(thread_state_get_tsType(tcb->tcbState) == ThreadState_BlockedOnReply)) _assert_fail("thread_state_get_tsType(tcb->tcbState) == ThreadState_BlockedOnReply", "/home/chris/Desktop/SOS-V2020/kernel/src/object/reply.c", 121, __FUNCTION__);
+    if(!(thread_state_get_tsType(tcb->tcbState) == ThreadState_BlockedOnReply)) _assert_fail("thread_state_get_tsType(tcb->tcbState) == ThreadState_BlockedOnReply", "/home/dev/projects/SOS-V2020/kernel/src/object/reply.c", 121, __FUNCTION__);
     reply_t *reply = ((reply_t *) (thread_state_get_replyObject(tcb->tcbState)));
     word_t next_ptr = call_stack_get_callStackPtr(reply->replyNext);
     word_t prev_ptr = call_stack_get_callStackPtr(reply->replyPrev);
@@ -21152,7 +21152,7 @@ void reply_remove_tcb(tcb_t *tcb)
     reply->replyNext = call_stack_new(0, false);
     reply_unlink(reply);
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -21172,7 +21172,7 @@ static exception_t invokeSchedContext_UnbindObject(sched_context_t *sc, cap_t ca
         schedContext_unbindNtfn(sc);
         break;
     default:
-        _fail("invalid cap type", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 20, __func__);
+        _fail("invalid cap type", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 20, __func__);
     }
 
     return EXCEPTION_NONE;
@@ -21230,7 +21230,7 @@ static exception_t invokeSchedContext_Bind(sched_context_t *sc, cap_t cap)
         schedContext_bindNtfn(sc, ((notification_t *)(cap_notification_cap_get_capNtfnPtr(cap))));
         break;
     default:
-        _fail("invalid cap type", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 78, __func__);
+        _fail("invalid cap type", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 78, __func__);
     }
 
     return EXCEPTION_NONE;
@@ -21289,7 +21289,7 @@ static exception_t invokeSchedContext_Unbind(sched_context_t *sc)
     }
     return EXCEPTION_NONE;
 }
-# 147 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c"
+# 147 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c"
 static inline void setConsumed(sched_context_t *sc, word_t *buffer)
 {
     time_t consumed = schedContext_updateConsumed(sc);
@@ -21307,7 +21307,7 @@ static exception_t invokeSchedContext_YieldTo(sched_context_t *sc, word_t *buffe
 {
     if (sc->scYieldFrom) {
         schedContext_completeYieldTo(sc->scYieldFrom);
-        if(!(sc->scYieldFrom == ((void *)0))) _assert_fail("sc->scYieldFrom == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 164, __FUNCTION__);
+        if(!(sc->scYieldFrom == ((void *)0))) _assert_fail("sc->scYieldFrom == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 164, __FUNCTION__);
     }
 
     /* if the tcb is in the scheduler, it's ready and sufficient.
@@ -21405,10 +21405,10 @@ exception_t decodeSchedContextInvocation(word_t label, cap_t cap, extra_caps_t e
 
 void schedContext_resume(sched_context_t *sc)
 {
-    if(!(!sc || sc->scTcb != ((void *)0))) _assert_fail("!sc || sc->scTcb != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 262, __FUNCTION__);
+    if(!(!sc || sc->scTcb != ((void *)0))) _assert_fail("!sc || sc->scTcb != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 262, __FUNCTION__);
     if (__builtin_expect(!!(sc), 1) && isSchedulable(sc->scTcb)) {
         if (!(refill_ready(sc) && refill_sufficient(sc, 0))) {
-            if(!(!thread_state_get_tcbQueued(sc->scTcb->tcbState))) _assert_fail("!thread_state_get_tcbQueued(sc->scTcb->tcbState)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 265, __FUNCTION__);
+            if(!(!thread_state_get_tcbQueued(sc->scTcb->tcbState))) _assert_fail("!thread_state_get_tcbQueued(sc->scTcb->tcbState)", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 265, __FUNCTION__);
             postpone(sc);
         }
     }
@@ -21416,8 +21416,8 @@ void schedContext_resume(sched_context_t *sc)
 
 void schedContext_bindTCB(sched_context_t *sc, tcb_t *tcb)
 {
-    if(!(sc->scTcb == ((void *)0))) _assert_fail("sc->scTcb == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 273, __FUNCTION__);
-    if(!(tcb->tcbSchedContext == ((void *)0))) _assert_fail("tcb->tcbSchedContext == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 274, __FUNCTION__);
+    if(!(sc->scTcb == ((void *)0))) _assert_fail("sc->scTcb == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 273, __FUNCTION__);
+    if(!(tcb->tcbSchedContext == ((void *)0))) _assert_fail("tcb->tcbSchedContext == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 274, __FUNCTION__);
 
     tcb->tcbSchedContext = sc;
     sc->scTcb = tcb;
@@ -21438,7 +21438,7 @@ void schedContext_bindTCB(sched_context_t *sc, tcb_t *tcb)
 
 void schedContext_unbindTCB(sched_context_t *sc, tcb_t *tcb)
 {
-    if(!(sc->scTcb == tcb)) _assert_fail("sc->scTcb == tcb", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 295, __FUNCTION__);
+    if(!(sc->scTcb == tcb)) _assert_fail("sc->scTcb == tcb", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 295, __FUNCTION__);
 
     /* tcb must already be stalled at this point */
     if (tcb == ksCurThread) {
@@ -21462,9 +21462,9 @@ void schedContext_unbindAllTCBs(sched_context_t *sc)
 
 void schedContext_donate(sched_context_t *sc, tcb_t *to)
 {
-    if(!(sc != ((void *)0))) _assert_fail("sc != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 319, __FUNCTION__);
-    if(!(to != ((void *)0))) _assert_fail("to != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 320, __FUNCTION__);
-    if(!(to->tcbSchedContext == ((void *)0))) _assert_fail("to->tcbSchedContext == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontext.c", 321, __FUNCTION__);
+    if(!(sc != ((void *)0))) _assert_fail("sc != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 319, __FUNCTION__);
+    if(!(to != ((void *)0))) _assert_fail("to != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 320, __FUNCTION__);
+    if(!(to->tcbSchedContext == ((void *)0))) _assert_fail("to->tcbSchedContext == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontext.c", 321, __FUNCTION__);
 
     tcb_t *from = sc->scTcb;
     if (from) {
@@ -21522,7 +21522,7 @@ void schedContext_completeYieldTo(tcb_t *yielder)
         schedContext_cancelYieldTo(yielder);
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontrol.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontrol.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
@@ -21556,7 +21556,7 @@ static exception_t invokeSchedControl_Configure(sched_context_t *target, word_t 
                 if (checkBudget()) {
                     commitTime();
                 }
-# 43 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontrol.c"
+# 43 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontrol.c"
         }
     }
 
@@ -21579,7 +21579,7 @@ static exception_t invokeSchedControl_Configure(sched_context_t *target, word_t 
          * we can just populate the parameters from now */
         refill_new(target, max_refills, budget, period);
     }
-# 73 "/home/chris/Desktop/SOS-V2020/kernel/src/object/schedcontrol.c"
+# 73 "/home/dev/projects/SOS-V2020/kernel/src/object/schedcontrol.c"
     if (target->scTcb && target->scRefillMax > 0) {
         schedContext_resume(target);
         if (true) {
@@ -21679,7 +21679,7 @@ exception_t decodeSchedControlInvocation(word_t label, cap_t cap, word_t length,
         return EXCEPTION_SYSCALL_ERROR;
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -21689,7 +21689,7 @@ exception_t decodeSchedControlInvocation(word_t label, cap_t cap, word_t length,
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -21701,8 +21701,8 @@ exception_t decodeSchedControlInvocation(word_t label, cap_t cap, word_t length,
  * To add an invocation call number, edit libsel4/include/interfaces/sel4.xml.
  *
  */
-# 11 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c" 2
-# 32 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 11 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c" 2
+# 32 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 static exception_t checkPrio(prio_t prio, tcb_t *auth)
 {
     prio_t mcp;
@@ -21710,7 +21710,7 @@ static exception_t checkPrio(prio_t prio, tcb_t *auth)
     mcp = auth->tcbMCP;
 
     /* system invariant: existing MCPs are bounded */
-    if(!(mcp <= seL4_MaxPrio)) _assert_fail("mcp <= seL4_MaxPrio", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 39, __FUNCTION__);
+    if(!(mcp <= seL4_MaxPrio)) _assert_fail("mcp <= seL4_MaxPrio", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 39, __FUNCTION__);
 
     /* can't assign a priority greater than our own mcp */
     if (prio > mcp) {
@@ -21756,8 +21756,8 @@ static inline void removeFromBitmap(word_t cpu, word_t dom, word_t prio)
 void tcbSchedEnqueue(tcb_t *tcb)
 {
 
-    if(!(isSchedulable(tcb))) _assert_fail("isSchedulable(tcb)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 85, __FUNCTION__);
-    if(!(refill_sufficient(tcb->tcbSchedContext, 0))) _assert_fail("refill_sufficient(tcb->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 86, __FUNCTION__);
+    if(!(isSchedulable(tcb))) _assert_fail("isSchedulable(tcb)", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 85, __FUNCTION__);
+    if(!(refill_sufficient(tcb->tcbSchedContext, 0))) _assert_fail("refill_sufficient(tcb->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 86, __FUNCTION__);
 
 
     if (!thread_state_get_tcbQueued(tcb->tcbState)) {
@@ -21791,9 +21791,9 @@ void tcbSchedEnqueue(tcb_t *tcb)
 void tcbSchedAppend(tcb_t *tcb)
 {
 
-    if(!(isSchedulable(tcb))) _assert_fail("isSchedulable(tcb)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 120, __FUNCTION__);
-    if(!(refill_sufficient(tcb->tcbSchedContext, 0))) _assert_fail("refill_sufficient(tcb->tcbSchedContext, 0)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 121, __FUNCTION__);
-    if(!(refill_ready(tcb->tcbSchedContext))) _assert_fail("refill_ready(tcb->tcbSchedContext)", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 122, __FUNCTION__);
+    if(!(isSchedulable(tcb))) _assert_fail("isSchedulable(tcb)", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 120, __FUNCTION__);
+    if(!(refill_sufficient(tcb->tcbSchedContext, 0))) _assert_fail("refill_sufficient(tcb->tcbSchedContext, 0)", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 121, __FUNCTION__);
+    if(!(refill_ready(tcb->tcbSchedContext))) _assert_fail("refill_ready(tcb->tcbSchedContext)", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 122, __FUNCTION__);
 
     if (!thread_state_get_tcbQueued(tcb->tcbState)) {
         tcb_queue_t queue;
@@ -21874,11 +21874,11 @@ void tcbDebugAppend(tcb_t *tcb)
 
 void tcbDebugRemove(tcb_t *tcb)
 {
-    if(!(ksDebugTCBs != ((void *)0))) _assert_fail("NODE_STATE_ON_CORE(ksDebugTCBs, tcb->tcbAffinity) != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 203, __FUNCTION__);
+    if(!(ksDebugTCBs != ((void *)0))) _assert_fail("NODE_STATE_ON_CORE(ksDebugTCBs, tcb->tcbAffinity) != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 203, __FUNCTION__);
     if (tcb == ksDebugTCBs) {
         ksDebugTCBs = ksDebugTCBs->tcbDebugNext;
     } else {
-        if(!(tcb->tcbDebugPrev)) _assert_fail("tcb->tcbDebugPrev", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 207, __FUNCTION__);
+        if(!(tcb->tcbDebugPrev)) _assert_fail("tcb->tcbDebugPrev", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 207, __FUNCTION__);
         tcb->tcbDebugPrev->tcbDebugNext = tcb->tcbDebugNext;
     }
 
@@ -21889,7 +21889,7 @@ void tcbDebugRemove(tcb_t *tcb)
     tcb->tcbDebugPrev = ((void *)0);
     tcb->tcbDebugNext = ((void *)0);
 }
-# 237 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 237 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 /* Remove TCB from an endpoint queue */
 tcb_queue_t tcbEPDequeue(tcb_t *tcb, tcb_queue_t queue)
 {
@@ -21932,8 +21932,8 @@ void tcbReleaseRemove(tcb_t *tcb)
 
 void tcbReleaseEnqueue(tcb_t *tcb)
 {
-    if(!(thread_state_get_tcbInReleaseQueue(tcb->tcbState) == false)) _assert_fail("thread_state_get_tcbInReleaseQueue(tcb->tcbState) == false", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 279, __FUNCTION__);
-    if(!(thread_state_get_tcbQueued(tcb->tcbState) == false)) _assert_fail("thread_state_get_tcbQueued(tcb->tcbState) == false", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 280, __FUNCTION__);
+    if(!(thread_state_get_tcbInReleaseQueue(tcb->tcbState) == false)) _assert_fail("thread_state_get_tcbInReleaseQueue(tcb->tcbState) == false", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 279, __FUNCTION__);
+    if(!(thread_state_get_tcbQueued(tcb->tcbState) == false)) _assert_fail("thread_state_get_tcbQueued(tcb->tcbState) == false", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 280, __FUNCTION__);
 
     tcb_t *before = ((void *)0);
     tcb_t *after = ksReleaseHead;
@@ -21965,8 +21965,8 @@ void tcbReleaseEnqueue(tcb_t *tcb)
 
 tcb_t *tcbReleaseDequeue(void)
 {
-    if(!(ksReleaseHead != ((void *)0))) _assert_fail("NODE_STATE(ksReleaseHead) != NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 312, __FUNCTION__);
-    if(!(ksReleaseHead->tcbSchedPrev == ((void *)0))) _assert_fail("NODE_STATE(ksReleaseHead)->tcbSchedPrev == NULL", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 313, __FUNCTION__);
+    if(!(ksReleaseHead != ((void *)0))) _assert_fail("NODE_STATE(ksReleaseHead) != NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 312, __FUNCTION__);
+    if(!(ksReleaseHead->tcbSchedPrev == ((void *)0))) _assert_fail("NODE_STATE(ksReleaseHead)->tcbSchedPrev == NULL", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 313, __FUNCTION__);
     ;
 
     tcb_t *detached_head = ksReleaseHead;
@@ -21998,7 +21998,7 @@ void setExtraBadge(word_t *bufferPtr, word_t badge,
 {
     bufferPtr[seL4_MsgMaxLength + 2 + i] = badge;
 }
-# 378 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 378 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 extra_caps_t current_extra_caps;
 
 exception_t lookupExtraCaps(tcb_t *thread, word_t *bufferPtr, seL4_MessageInfo_t info)
@@ -22055,7 +22055,7 @@ word_t copyMRs(tcb_t *sender, word_t *sendBuf, tcb_t *receiver,
 
     return i;
 }
-# 742 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 742 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 static exception_t invokeSetTLSBase(tcb_t *thread, word_t tls_base)
 {
     setRegister(thread, TLS_BASE, tls_base);
@@ -22156,7 +22156,7 @@ exception_t decodeTCBInvocation(word_t invLabel, word_t length, cap_t cap,
 
 
         /* There is no notion of arch specific TCB invocations so this needs to go here */
-# 861 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 861 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
     case TCBSetTLSBase:
         return decodeSetTLSBase(cap, length, buffer);
 
@@ -22430,7 +22430,7 @@ exception_t decodeTCBConfigure(cap_t cap, word_t length, cte_t *slot,
                bufferAddr, bufferCap,
                bufferSlot, thread_control_caps_update_space |
                thread_control_caps_update_ipc_buffer);
-# 1144 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1144 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 }
 
 exception_t decodeSetPriority(cap_t cap, word_t length, extra_caps_t excaps, word_t *buffer)
@@ -22466,7 +22466,7 @@ exception_t decodeSetPriority(cap_t cap, word_t length, extra_caps_t excaps, wor
                cap_null_cap_new(), ((void *)0),
                0, newPrio,
                ((void *)0), thread_control_sched_update_priority);
-# 1188 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1188 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 }
 
 exception_t decodeSetMCPriority(cap_t cap, word_t length, extra_caps_t excaps, word_t *buffer)
@@ -22502,7 +22502,7 @@ exception_t decodeSetMCPriority(cap_t cap, word_t length, extra_caps_t excaps, w
                cap_null_cap_new(), ((void *)0),
                newMcp, 0,
                ((void *)0), thread_control_sched_update_mcp);
-# 1232 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1232 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 }
 
 
@@ -22631,7 +22631,7 @@ exception_t decodeSetSchedParams(cap_t cap, word_t length, cte_t *slot, extra_ca
                thread_control_sched_update_priority |
                thread_control_sched_update_sc |
                thread_control_sched_update_fault);
-# 1370 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1370 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 }
 
 
@@ -22679,7 +22679,7 @@ exception_t decodeSetIPCBuffer(cap_t cap, word_t length, cte_t *slot,
                cap_null_cap_new(), ((void *)0),
                cptr_bufferPtr, bufferCap,
                bufferSlot, thread_control_caps_update_ipc_buffer);
-# 1427 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1427 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 }
 
 
@@ -22716,7 +22716,7 @@ exception_t decodeSetSpace(cap_t cap, word_t length, cte_t *slot,
     cRootCap = excaps.excaprefs[1]->cap;
     vRootSlot = excaps.excaprefs[2];
     vRootCap = excaps.excaprefs[2]->cap;
-# 1474 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1474 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
     if (slotCapLongRunningDelete(
             (((cte_t *)((word_t)(cap_thread_cap_get_capTCBPtr(cap))&~((1ul << (11))-1ul)))+(tcbCTable))) ||
         slotCapLongRunningDelete(
@@ -22776,7 +22776,7 @@ exception_t decodeSetSpace(cap_t cap, word_t length, cte_t *slot,
                cRootCap, cRootSlot,
                vRootCap, vRootSlot,
                0, cap_null_cap_new(), ((void *)0), thread_control_caps_update_space | thread_control_caps_update_fault);
-# 1542 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1542 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 }
 
 exception_t decodeDomainInvocation(word_t invLabel, word_t length, extra_caps_t excaps, word_t *buffer)
@@ -22982,7 +22982,7 @@ exception_t invokeTCB_ThreadControlCaps(tcb_t *target, cte_t *slot,
 
     return EXCEPTION_NONE;
 }
-# 1824 "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c"
+# 1824 "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c"
 exception_t invokeTCB_ThreadControlSched(tcb_t *target, cte_t *slot,
                                          cap_t fh_newCap, cte_t *fh_srcSlot,
                                          prio_t mcp, prio_t priority,
@@ -23237,10 +23237,10 @@ word_t setMRs_syscall_error(tcb_t *thread, word_t *receiveIPCBuffer)
         return setMR(thread, receiveIPCBuffer, 0,
                      current_syscall_error.memoryLeft);
     default:
-        _fail("Invalid syscall error", "/home/chris/Desktop/SOS-V2020/kernel/src/object/tcb.c", 2078, __func__);
+        _fail("Invalid syscall error", "/home/dev/projects/SOS-V2020/kernel/src/object/tcb.c", 2078, __func__);
     }
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/object/untyped.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/object/untyped.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -23251,7 +23251,7 @@ word_t setMRs_syscall_error(tcb_t *thread, word_t *receiveIPCBuffer)
 
 
 
-# 1 "/home/chris/Desktop/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
+# 1 "/home/dev/projects/SOS-V2020/build/kernel/gen_headers/api/invocation.h" 1
 
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
@@ -23263,8 +23263,8 @@ word_t setMRs_syscall_error(tcb_t *thread, word_t *receiveIPCBuffer)
  * To add an invocation call number, edit libsel4/include/interfaces/sel4.xml.
  *
  */
-# 12 "/home/chris/Desktop/SOS-V2020/kernel/src/object/untyped.c" 2
-# 21 "/home/chris/Desktop/SOS-V2020/kernel/src/object/untyped.c"
+# 12 "/home/dev/projects/SOS-V2020/kernel/src/object/untyped.c" 2
+# 21 "/home/dev/projects/SOS-V2020/kernel/src/object/untyped.c"
 static word_t alignUp(word_t baseValue, word_t alignment)
 {
     return (baseValue + ((1ul << (alignment)) - 1)) & ~((1ul << (alignment))-1ul);
@@ -23555,19 +23555,19 @@ exception_t invokeUntyped_Retype(cte_t *srcSlot,
 
     return EXCEPTION_NONE;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/smp/ipi.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/smp/ipi.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/smp/lock.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/smp/lock.c"
 /*
  * Copyright 2020, Data61, CSIRO (ABN 41 687 119 230)
  *
  * SPDX-License-Identifier: GPL-2.0-only
  */
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/string.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/string.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -23610,7 +23610,7 @@ word_t strlcat(char *dest, const char *src, word_t size)
     }
     return len;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/util.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/util.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *
@@ -23637,8 +23637,8 @@ void memzero(void *s, unsigned long n)
     uint8_t *p = s;
 
     /* Ensure alignment constraints are met. */
-    if(!((unsigned long)s % sizeof(unsigned long) == 0)) _assert_fail("(unsigned long)s % sizeof(unsigned long) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/util.c", 27, __FUNCTION__);
-    if(!(n % sizeof(unsigned long) == 0)) _assert_fail("n % sizeof(unsigned long) == 0", "/home/chris/Desktop/SOS-V2020/kernel/src/util.c", 28, __FUNCTION__);
+    if(!((unsigned long)s % sizeof(unsigned long) == 0)) _assert_fail("(unsigned long)s % sizeof(unsigned long) == 0", "/home/dev/projects/SOS-V2020/kernel/src/util.c", 27, __FUNCTION__);
+    if(!(n % sizeof(unsigned long) == 0)) _assert_fail("n % sizeof(unsigned long) == 0", "/home/dev/projects/SOS-V2020/kernel/src/util.c", 28, __FUNCTION__);
 
     /* We will never memzero an area larger than the largest current
        live object */
@@ -23744,7 +23744,7 @@ long __attribute__((__pure__)) str_to_long(const char *str)
 
     return val;
 }
-# 1 "/home/chris/Desktop/SOS-V2020/kernel/src/config/default_domain.c"
+# 1 "/home/dev/projects/SOS-V2020/kernel/src/config/default_domain.c"
 /*
  * Copyright 2014, General Dynamics C4 Systems
  *

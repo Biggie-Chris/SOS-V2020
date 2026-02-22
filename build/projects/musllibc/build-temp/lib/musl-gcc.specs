@@ -1,22 +1,22 @@
 %rename cpp_options old_cpp_options
 
 *cpp_options:
--nostdinc -isystem /home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage/include -isystem include%s %(old_cpp_options)
+-nostdinc -isystem /home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage/include -isystem include%s %(old_cpp_options)
 
 *cc1:
-%(cc1_cpu) -nostdinc -isystem /home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage/include -isystem include%s
+%(cc1_cpu) -nostdinc -isystem /home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage/include -isystem include%s
 
 *link_libgcc:
--L/home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage/lib -L .%s
+-L/home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage/lib -L .%s
 
 *libgcc:
 libgcc.a%s %:if-exists(libgcc_eh.a%s)
 
 *startfile:
-%{!shared: /home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/%{pie:S}crt1.o} /home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/crti.o %{shared|pie:crtbeginS.o%s;:crtbegin.o%s}
+%{!shared: /home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/%{pie:S}crt1.o} /home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/crti.o %{shared|pie:crtbeginS.o%s;:crtbegin.o%s}
 
 *endfile:
-%{shared|pie:crtendS.o%s;:crtend.o%s} /home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/crtn.o
+%{shared|pie:crtendS.o%s;:crtend.o%s} /home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage/lib/crtn.o
 
 *link:
 -dynamic-linker /lib/ld-musl-aarch64_sel4.so.1 -nostdlib %{shared:-shared} %{static:-static} %{rdynamic:-export-dynamic}

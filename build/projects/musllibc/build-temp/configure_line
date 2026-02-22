@@ -1,1 +1,1 @@
---srcdir=/home/chris/Desktop/SOS-V2020/projects/musllibc --prefix=/home/chris/Desktop/SOS-V2020/build/projects/musllibc/build-temp/stage  --target=aarch64 --enable-warnings --disable-shared --enable-static
+--srcdir=/home/dev/projects/SOS-V2020/projects/musllibc --prefix=/home/dev/projects/SOS-V2020/build/projects/musllibc/build-temp/stage  --target=aarch64 --enable-warnings --disable-shared --enable-static

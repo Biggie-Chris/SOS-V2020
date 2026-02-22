@@ -13,10 +13,19 @@ from jinja2 import Environment, BaseLoader
 import argparse
 import sys
 import xml.dom.minidom
-import pkg_resources
 # We require jinja2 to be at least version 2.10 as we use the 'namespace' feature from
 # that version
-pkg_resources.require("jinja2>=2.10")
+try:
+    from importlib.metadata import version as _version, PackageNotFoundError
+    jinja2_version = _version("jinja2")
+    version_parts = jinja2_version.split('.')
+    major = int(version_parts[0])
+    minor = int(version_parts[1]) if len(version_parts) > 1 else 0
+    if major < 2 or (major == 2 and minor < 10):
+        raise ImportError(f"jinja2>=2.10 required, found {jinja2_version}")
+except Exception as e:
+    print(f"Error: {e}", file=sys.stderr)
+    sys.exit(1)
 
 
 COMMON_HEADER = """

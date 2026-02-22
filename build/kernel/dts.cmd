@@ -1,1 +1,1 @@
-regen /home/chris/Desktop/SOS-V2020/build/kernel/kernel.dtb /home/chris/Desktop/SOS-V2020/kernel/tools/dts/odroidc2.dts;/home/chris/Desktop/SOS-V2020/kernel/src/plat/odroidc2/overlay-odroidc2.dts
+regen /home/dev/projects/SOS-V2020/build/kernel/kernel.dtb /home/dev/projects/SOS-V2020/kernel/tools/dts/odroidc2.dts;/home/dev/projects/SOS-V2020/kernel/src/plat/odroidc2/overlay-odroidc2.dts
