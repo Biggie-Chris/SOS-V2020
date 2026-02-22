@@ -1,1 +1,0 @@
-/home/dev/projects/SOS-V2020/projects/musllibc/Makefile
